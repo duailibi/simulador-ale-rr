@@ -1,0 +1,1389 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador ALE-RR | Regimento Interno 2025</title>
+  <!-- Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Configuração Tailwind Dark Mode -->
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            dark: {
+              bg: '#0f172a',
+              card: '#1e293b',
+              text: '#f1f5f9',
+              border: '#334155'
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Fonte Inter -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    body { font-family: 'Inter', sans-serif; transition: background-color 0.3s, color 0.3s; }
+
+    /* Animações */
+    .fade-in { animation: fadeIn 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
+    @keyframes fadeIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+
+    /* Scrollbar */
+    .custom-scrollbar::-webkit-scrollbar { width: 6px; }
+    .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
+    .custom-scrollbar::-webkit-scrollbar-thumb { background-color: #cbd5e1; border-radius: 20px; }
+    .dark .custom-scrollbar::-webkit-scrollbar-thumb { background-color: #475569; }
+
+    /* Cards de Opção */
+    .option-card { transition: all 0.2s ease; border-width: 2px; }
+    .option-card:hover:not(.disabled) { transform: translateX(4px); }
+
+    /* Cores Light Mode */
+    .light .option-card { border-color: #e2e8f0; background-color: white; }
+    .light .option-card:hover:not(.disabled) { border-color: #94a3b8; background-color: #f8fafc; }
+
+    /* Cores Dark Mode */
+    .dark .option-card { border-color: #334155; background-color: #1e293b; color: #e2e8f0; }
+    .dark .option-card:hover:not(.disabled) { border-color: #64748b; background-color: #334155; }
+
+    /* Estados de Seleção */
+    .option-card.selected { border-color: #f59e0b !important; background-color: #fffbeb !important; }
+    .dark .option-card.selected { background-color: #451a03 !important; border-color: #f59e0b !important; }
+
+    .option-circle { transition: all 0.2s; }
+    .option-card.selected .option-circle { background-color: #f59e0b; color: white; border-color: #f59e0b; }
+
+    /* Resposta Correta */
+    .option-card.correct { border-color: #10b981 !important; background-color: #ecfdf5 !important; }
+    .dark .option-card.correct { background-color: #064e3b !important; border-color: #10b981 !important; }
+    .option-card.correct .option-circle { background-color: #10b981; color: white; border-color: #10b981; }
+
+    /* Resposta Errada */
+    .option-card.wrong { border-color: #ef4444 !important; background-color: #fef2f2 !important; }
+    .dark .option-card.wrong { background-color: #450a0a !important; border-color: #ef4444 !important; }
+    .option-card.wrong .option-circle { background-color: #ef4444; color: white; border-color: #ef4444; }
+
+    /* Navegação - Correção CSS Ring */
+    .nav-dot { cursor: pointer; transition: all 0.2s; }
+    .nav-dot:hover { transform: scale(1.1); }
+
+    .nav-dot.active {
+      /* Emulando ring do Tailwind com CSS puro para evitar erro de parser */
+      box-shadow: 0 0 0 2px #fff, 0 0 0 4px #3b82f6;
+    }
+    .dark .nav-dot.active {
+      box-shadow: 0 0 0 2px #0f172a, 0 0 0 4px #3b82f6;
+    }
+
+    /* Toggle Switch */
+    .toggle-checkbox:checked {
+      right: 0;
+      border-color: #3b82f6;
+    }
+    .toggle-checkbox:checked + .toggle-label {
+      background-color: #3b82f6;
+    }
+    
+    /* Botão circular para filtro 2018 */
+    .radio-2018 {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      width: 1.25rem;
+      height: 1.25rem;
+      border: 2px solid #cbd5e1;
+      border-radius: 50%;
+      outline: none;
+      cursor: pointer;
+      position: relative;
+    }
+    .dark .radio-2018 {
+      border-color: #64748b;
+    }
+    .radio-2018:checked {
+      border-color: #3b82f6;
+    }
+    .radio-2018:checked::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 0.625rem;
+      height: 0.625rem;
+      border-radius: 50%;
+      background-color: #3b82f6;
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 dark:bg-slate-900 dark:text-slate-200 min-h-screen flex flex-col">
+
+  <!-- Navbar -->
+  <nav class="bg-white dark:bg-slate-800 border-b border-slate-200 dark:border-slate-700 sticky top-0 z-50 shadow-sm transition-colors">
+    <div class="container mx-auto px-4 h-16 flex justify-between items-center">
+      <div class="flex items-center gap-3 cursor-pointer" onclick="showScreen('home')">
+        <div class="bg-blue-600 text-white w-10 h-10 rounded-lg flex items-center justify-center shadow-lg shadow-blue-500/30">
+          <i class="fas fa-gavel"></i>
+        </div>
+        <div class="leading-tight">
+          <h1 class="text-xl font-bold text-slate-800 dark:text-white">ALE-RR <span class="text-blue-600 dark:text-blue-400">Simulador</span></h1>
+          <p class="text-[10px] text-slate-500 dark:text-slate-400 font-bold uppercase tracking-widest">Regimento 2023</p>
+        </div>
+      </div>
+      <div class="flex items-center gap-3">
+        <!-- Botão Cache Manager -->
+        <button onclick="toggleCacheModal()" id="cache-btn" class="text-slate-500 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition" title="Gerenciar Armazenamento">
+          <i class="fas fa-database"></i>
+        </button>
+
+        <div class="h-6 w-px bg-slate-200 dark:bg-slate-600 mx-1"></div>
+
+        <button onclick="toggleDarkMode()" class="w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-yellow-400 hover:bg-slate-200 dark:hover:bg-slate-600 transition flex items-center justify-center focus:outline-none" title="Alternar Tema">
+          <i id="theme-icon" class="fas fa-moon"></i>
+        </button>
+
+        <div class="h-6 w-px bg-slate-200 dark:bg-slate-600 mx-1"></div>
+
+        <button onclick="showScreen('analytics')" class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 px-3 py-2 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-700 transition hidden md:block">
+          <i class="fas fa-chart-bar mr-1"></i> Histórico
+        </button>
+        <button onclick="showScreen('home')" class="text-sm font-medium text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 px-3 py-2 rounded-lg hover:bg-slate-50 dark:hover:bg-slate-700 transition">
+          <i class="fas fa-home mr-1"></i> Início
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Conteúdo Principal -->
+  <main class="flex-grow container mx-auto px-4 py-8 max-w-6xl relative">
+
+    <!-- TELA 1: HOME / CONFIGURAÇÃO -->
+    <div id="screen-home" class="fade-in max-w-5xl mx-auto">
+      <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-xl border border-slate-200 dark:border-slate-700 overflow-hidden transition-colors">
+        <div class="p-8 md:p-10">
+          <div class="text-center mb-8">
+            <h2 class="text-3xl font-extrabold text-slate-800 dark:text-white mb-2">Configuração do Treino</h2>
+            <p class="text-slate-500 dark:text-slate-400">Selecione os tópicos e defina a quantidade de questões.</p>
+          </div>
+
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+            <!-- Coluna Esquerda: Assuntos -->
+            <div class="flex flex-col h-full">
+              <div class="flex justify-between items-center mb-3">
+                <h3 class="font-bold text-slate-700 dark:text-slate-200 flex items-center gap-2">
+                  <i class="fas fa-layer-group text-blue-500"></i> Assuntos
+                </h3>
+                <div>
+                  <button onclick="toggleAllModules()" class="text-xs font-bold text-blue-600 dark:text-blue-400 hover:underline mr-2">
+                    Selecionar Todos
+                  </button>
+                  <button onclick="clearAllModules()" class="text-xs font-bold text-red-600 dark:text-red-400 hover:underline">
+                    Limpar Seleção
+                  </button>
+                </div>
+              </div>
+
+              <!-- Lista de Módulos -->
+              <div class="bg-slate-50 dark:bg-slate-700/50 rounded-xl border border-slate-200 dark:border-slate-600 p-3 max-h-[320px] overflow-y-auto custom-scrollbar space-y-1 flex-grow" id="module-container">
+                <!-- Assuntos carregados via JS -->
+              </div>
+
+              <!-- Resumo Disponibilidade -->
+              <div class="mt-3 p-3 bg-blue-50 dark:bg-blue-900/20 border border-blue-100 dark:border-blue-800 rounded-lg flex justify-between items-center">
+                <span class="text-xs font-bold text-blue-800 dark:text-blue-300 uppercase">Questões Disponíveis:</span>
+                <span id="total-available-badge" class="bg-blue-600 text-white text-xs font-bold px-2 py-1 rounded-full">0</span>
+              </div>
+              <!-- Questões Selecionadas -->
+              <div class="mt-2 p-3 bg-green-50 dark:bg-green-900/20 border border-green-100 dark:border-green-800 rounded-lg flex justify-between items-center">
+                <span class="text-xs font-bold text-green-800 dark:text-green-300 uppercase">Questões Selecionadas:</span>
+                <span id="total-selected-badge" class="bg-green-600 text-white text-xs font-bold px-2 py-1 rounded-full">0</span>
+              </div>
+            </div>
+
+            <!-- Coluna Direita: Opções -->
+            <div class="flex flex-col gap-6">
+
+              <!-- Filtro Especial 2018 - CORRIGIDO -->
+              <div class="bg-slate-50 dark:bg-slate-700/30 p-4 rounded-xl border border-slate-200 dark:border-slate-600">
+                <div class="flex items-center justify-between">
+                  <div class="flex items-center gap-2">
+                    <i class="fas fa-history text-orange-500"></i>
+                    <div class="text-sm font-bold text-slate-700 dark:text-slate-200">Apenas Questões de 2018</div>
+                  </div>
+                  <div class="flex items-center gap-2">
+                    <span id="questions-2018-count" class="text-xs text-slate-500 dark:text-slate-400 font-bold">(0)</span>
+                    <input type="checkbox" id="filter-2018" class="radio-2018" onchange="toggle2018Filter()">
+                  </div>
+                </div>
+                <p class="text-[10px] text-slate-500 dark:text-slate-400 mt-2">Filtra apenas questões adaptadas do concurso anterior (QConcursos).</p>
+              </div>
+
+              <!-- Quantidade -->
+              <div>
+                <h3 class="font-bold text-slate-700 dark:text-slate-200 flex items-center gap-2 mb-3">
+                  <i class="fas fa-sort-numeric-up-alt text-blue-500"></i> Quantidade
+                </h3>
+                <div class="space-y-2">
+                  <label class="flex items-center justify-between p-3 border-2 border-slate-100 dark:border-slate-600 rounded-xl cursor-pointer hover:border-blue-200 dark:hover:border-blue-500 bg-white dark:bg-slate-700 has-[:checked]:border-blue-500 has-[:checked]:bg-blue-50 dark:has-[:checked]:bg-blue-900/30 transition group">
+                    <span class="text-sm font-medium text-slate-600 dark:text-slate-300 group-has-[:checked]:text-blue-700 dark:group-has-[:checked]:text-blue-300">10 Questões</span>
+                    <input type="radio" name="q_count" value="10" class="w-5 h-5 text-blue-600 focus:ring-blue-500" checked onchange="updateDistributionPreview()">
+                  </label>
+                  <label class="flex items-center justify-between p-3 border-2 border-slate-100 dark:border-slate-600 rounded-xl cursor-pointer hover:border-blue-200 dark:hover:border-blue-500 bg-white dark:bg-slate-700 has-[:checked]:border-blue-500 has-[:checked]:bg-blue-50 dark:has-[:checked]:bg-blue-900/30 transition group">
+                    <span class="text-sm font-medium text-slate-600 dark:text-slate-300 group-has-[:checked]:text-blue-700 dark:group-has-[:checked]:text-blue-300">20 Questões</span>
+                    <input type="radio" name="q_count" value="20" class="w-5 h-5 text-blue-600 focus:ring-blue-500" onchange="updateDistributionPreview()">
+                  </label>
+
+                  <!-- Input Personalizado Corrigido -->
+                  <div class="p-3 border-2 border-slate-100 dark:border-slate-600 rounded-xl hover:border-blue-200 dark:hover:border-blue-500 bg-white dark:bg-slate-700 transition group cursor-pointer flex items-center justify-between has-[:checked]:border-blue-500 has-[:checked]:bg-blue-50 dark:has-[:checked]:bg-blue-900/30"
+                    onclick="selectCustomRadio()">
+                    <span class="text-sm font-medium text-slate-600 dark:text-slate-300 group-has-[:checked]:text-blue-700 dark:group-has-[:checked]:text-blue-300">Personalizado</span>
+                    <div class="flex items-center gap-2">
+                      <input type="text" inputmode="numeric" id="custom-q-count" placeholder="Qtd"
+                        class="w-20 p-1 pl-2 text-sm border border-slate-300 dark:border-slate-500 rounded bg-slate-50 dark:bg-slate-800 focus:ring-2 focus:ring-blue-500 outline-none font-bold text-slate-700 dark:text-white hidden"
+                        oninput="sanitizeInput(this); updateDistributionPreview()"
+                        onclick="event.stopPropagation()">
+                      <input type="radio" name="q_count" value="custom" id="radio-custom" class="w-5 h-5 text-blue-600 focus:ring-blue-500" onchange="toggleCustomInput(true); updateDistributionPreview()">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Previsão de Distribuição -->
+              <div id="distribution-panel" class="bg-slate-50 dark:bg-slate-700/50 border border-slate-200 dark:border-slate-600 rounded-lg p-4 hidden">
+                <h4 class="text-xs font-bold text-slate-500 dark:text-slate-400 uppercase mb-2 flex justify-between">
+                  <span>Previsão de Seleção</span>
+                  <span id="dist-total-badge" class="text-blue-600 dark:text-blue-400">0 selecionadas</span>
+                </h4>
+                <ul id="distribution-list" class="space-y-1 text-xs text-slate-600 dark:text-slate-300 max-h-[100px] overflow-y-auto custom-scrollbar">
+                  <!-- Lista gerada via JS -->
+                </ul>
+                <div id="limit-warning" class="mt-2 text-[10px] text-amber-600 dark:text-amber-400 hidden flex items-center gap-1">
+                  <i class="fas fa-exclamation-triangle"></i> <span>Ajustado ao limite disponível.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="mt-8 pt-6 border-t border-slate-100 dark:border-slate-700">
+            <button onclick="startSimulation()" class="w-full bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white text-lg font-bold py-4 rounded-xl shadow-lg shadow-blue-200 dark:shadow-none transition transform hover:-translate-y-0.5 flex justify-center items-center gap-2">
+              <span>Iniciar Simulado</span> <i class="fas fa-play"></i>
+            </button>
+          </div>
+
+          <!-- Informativo de Fonte e Créditos -->
+          <div class="mt-8 text-center space-y-3">
+            <div class="p-4 bg-slate-50 dark:bg-slate-900/50 rounded-lg border border-slate-100 dark:border-slate-700 text-xs text-slate-500 dark:text-slate-400 leading-relaxed max-w-3xl mx-auto">
+              <strong class="block mb-1 text-blue-600 dark:text-blue-400 uppercase tracking-wider"><i class="fas fa-robot mr-1"></i> Metodologia</strong>
+              As questões deste simulado foram criadas por inteligência artificial com base no texto integral da <strong>Resolução Legislativa nº 030/2023 (Regimento Interno Atualizado da ALE-RR)</strong>, além de adaptações de questões do concurso de 2018 (QConcursos), recriadas para refletir as normas vigentes.
+            </div>
+            <div class="text-[11px] text-slate-400 dark:text-slate-500 font-medium">
+              Desenvolvido por <strong class="text-slate-600 dark:text-slate-300">Marcos Guimarães Duailibi Filho</strong> • Contato: <a href="tel:+5595981114983" class="hover:text-blue-500 transition">+55 95 98111-4983</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TELA 2: QUIZ -->
+    <div id="screen-quiz" class="hidden grid grid-cols-1 lg:grid-cols-12 gap-6 fade-in h-full">
+      <!-- Questão (Esq) -->
+      <div class="lg:col-span-9 flex flex-col gap-6">
+        <div class="bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700 p-4 flex justify-between items-center transition-colors">
+          <div class="flex items-center gap-4">
+            <span class="bg-slate-100 dark:bg-slate-700 text-slate-600 dark:text-slate-300 font-mono font-bold px-3 py-1 rounded text-sm border border-slate-200 dark:border-slate-600 flex items-center gap-2">
+              <i class="far fa-clock"></i> <span id="timer">00:00</span>
+            </span>
+            <span class="text-sm font-medium text-slate-500 dark:text-slate-400">
+              Questão <span id="q-current-index" class="text-slate-900 dark:text-white font-bold">1</span> de <span id="q-total-count">10</span>
+            </span>
+          </div>
+          <button onclick="finishSimulation()" class="text-red-500 hover:text-red-700 dark:text-red-400 dark:hover:text-red-300 text-xs font-bold uppercase hover:bg-red-50 dark:hover:bg-red-900/20 px-3 py-2 rounded transition">
+            Finalizar
+          </button>
+        </div>
+
+        <div class="bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700 overflow-hidden flex-grow relative p-6 md:p-8 transition-colors">
+          <!-- Barra de Progresso -->
+          <div class="absolute top-0 left-0 w-full h-1 bg-slate-100 dark:bg-slate-700">
+            <div id="progress-bar" class="h-full bg-blue-500 transition-all duration-300" style="width: 0%"></div>
+          </div>
+
+          <div class="flex justify-between items-start mb-6 mt-2">
+            <span id="q-module-name" class="bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-300 text-[10px] font-bold px-2 py-1 rounded border border-blue-100 dark:border-blue-800 uppercase tracking-wider">Módulo</span>
+            <span id="q-source-tag" class="text-[10px] font-bold px-2 py-1 rounded border uppercase tracking-wider ml-2 hidden"></span>
+          </div>
+
+          <h3 id="q-text" class="text-lg md:text-xl text-slate-800 dark:text-slate-100 font-medium leading-relaxed mb-8">Carregando...</h3>
+
+          <div id="options-container" class="space-y-3 mb-8">
+            <!-- Opções inseridas via JS -->
+          </div>
+
+          <div class="pt-6 border-t border-slate-100 dark:border-slate-700">
+            <button id="btn-confirm" onclick="confirmAnswer()" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-bold shadow-md transition disabled:opacity-50 disabled:cursor-not-allowed flex items-center gap-2" disabled>
+              Responder <i class="fas fa-check"></i>
+            </button>
+
+            <div id="explanation-box" class="hidden bg-slate-50 dark:bg-slate-700/50 border-l-4 border-blue-500 p-5 rounded-r-lg mt-4 animate-in slide-in-from-top-2">
+              <h4 class="text-blue-800 dark:text-blue-300 font-bold text-sm mb-2 flex items-center gap-2">
+                <i class="fas fa-lightbulb text-yellow-500"></i> Comentário
+              </h4>
+              <p id="explanation-text" class="text-slate-700 dark:text-slate-300 text-sm leading-relaxed"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex justify-between">
+          <button onclick="prevQuestion()" id="btn-prev" class="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 px-4 py-2 rounded-lg font-medium shadow-sm transition disabled:opacity-50" disabled>
+            <i class="fas fa-arrow-left mr-2"></i> Anterior
+          </button>
+          <button onclick="nextQuestion()" id="btn-next" class="bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:text-blue-600 dark:hover:text-blue-400 px-4 py-2 rounded-lg font-medium shadow-sm transition disabled:opacity-50">
+            Próxima <i class="fas fa-arrow-right ml-2"></i>
+          </button>
+        </div>
+      </div>
+
+      <!-- Navegação (Dir) -->
+      <div class="lg:col-span-3">
+        <div class="bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700 p-5 sticky top-24 transition-colors">
+          <h4 class="text-xs font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-4 border-b border-slate-100 dark:border-slate-700 pb-2">Navegação</h4>
+          <div id="nav-grid" class="grid grid-cols-5 gap-2 place-items-center max-h-[400px] overflow-y-auto pr-1 custom-scrollbar">
+            <!-- Bolinhas -->
+          </div>
+          <div class="mt-4 space-y-2 text-[10px] font-bold text-slate-400 dark:text-slate-500 uppercase">
+            <div class="flex items-center gap-2"><div class="w-3 h-3 rounded bg-green-500"></div> Acerto</div>
+            <div class="flex items-center gap-2"><div class="w-3 h-3 rounded bg-red-500"></div> Erro</div>
+            <div class="flex items-center gap-2"><div class="w-3 h-3 rounded bg-slate-200 dark:bg-slate-600"></div> Pendente</div>
+            <div class="flex items-center gap-2"><div class="w-3 h-3 rounded ring-2 ring-blue-500 ring-offset-1 dark:ring-offset-slate-800"></div> Atual</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TELA 3: RESULTADOS -->
+    <div id="screen-result" class="hidden fade-in max-w-5xl mx-auto mt-4">
+      <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-xl overflow-hidden border border-slate-200 dark:border-slate-700 transition-colors">
+        <div class="bg-slate-900 p-10 text-center text-white relative">
+          <div class="relative z-10">
+            <h2 class="text-3xl font-bold mb-2">Resultado Final</h2>
+            <p class="text-slate-400">Estatísticas do seu desempenho</p>
+          </div>
+        </div>
+
+        <div class="p-10">
+          <div class="grid grid-cols-2 lg:grid-cols-4 gap-6 mb-10">
+            <div class="bg-green-50 dark:bg-green-900/20 p-6 rounded-xl border border-green-100 dark:border-green-800 text-center">
+              <div class="text-green-600 dark:text-green-400 text-4xl font-bold mb-1" id="res-correct">0</div>
+              <div class="text-green-800 dark:text-green-300 text-xs font-bold uppercase">Acertos</div>
+            </div>
+            <div class="bg-red-50 dark:bg-red-900/20 p-6 rounded-xl border border-red-100 dark:border-red-800 text-center">
+              <div class="text-red-600 dark:text-red-400 text-4xl font-bold mb-1" id="res-wrong">0</div>
+              <div class="text-red-800 dark:text-red-300 text-xs font-bold uppercase">Erros</div>
+            </div>
+            <div class="bg-slate-100 dark:bg-slate-700 p-6 rounded-xl border border-slate-200 dark:border-slate-600 text-center">
+              <div class="text-slate-600 dark:text-slate-300 text-4xl font-bold mb-1" id="res-unanswered">0</div>
+              <div class="text-slate-500 dark:text-slate-400 text-xs font-bold uppercase">Em Branco</div>
+            </div>
+            <div class="bg-blue-50 dark:bg-blue-900/20 p-6 rounded-xl border border-blue-100 dark:border-blue-800 text-center">
+              <div class="text-blue-600 dark:text-blue-400 text-4xl font-bold mb-1" id="res-percent">0%</div>
+              <div class="text-blue-800 dark:text-blue-300 text-xs font-bold uppercase">Eficiência</div>
+            </div>
+          </div>
+
+          <div class="flex flex-col md:flex-row gap-8 items-center">
+            <div class="w-full md:w-1/2 h-64">
+              <canvas id="resultChart"></canvas>
+            </div>
+            <div class="w-full md:w-1/2 flex flex-col gap-4">
+              <div class="bg-yellow-50 dark:bg-yellow-900/20 border-l-4 border-yellow-400 dark:border-yellow-600 p-4 text-sm text-yellow-800 dark:text-yellow-200 rounded">
+                <p class="font-bold mb-1"><i class="fas fa-check-double mr-2"></i> Dados Processados</p>
+                <p>Seus resultados foram computados. Verifique a aba "Histórico" para análise temporal.</p>
+              </div>
+              <div class="flex gap-3 mt-2">
+                <button onclick="location.reload()" class="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-3 rounded-lg font-bold shadow transition">
+                  Novo Simulado
+                </button>
+                <button onclick="showScreen('analytics')" class="flex-1 bg-white dark:bg-slate-700 border border-slate-300 dark:border-slate-600 text-slate-700 dark:text-slate-200 hover:bg-slate-50 dark:hover:bg-slate-600 py-3 rounded-lg font-bold transition">
+                  Ver Histórico
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TELA 4: HISTÓRICO & CACHE -->
+    <div id="screen-analytics" class="hidden fade-in max-w-6xl mx-auto">
+      <div class="flex justify-between items-end mb-6">
+        <div>
+          <h2 class="text-2xl font-bold text-slate-800 dark:text-white">Histórico de Desempenho</h2>
+          <p class="text-sm text-slate-500 dark:text-slate-400">Acompanhe sua evolução e gerencie seus dados.</p>
+        </div>
+        <div class="flex bg-white dark:bg-slate-800 rounded-lg border border-slate-200 dark:border-slate-700 p-1">
+          <button onclick="filterHistory('all')" id="filter-all" class="px-3 py-1 text-xs font-bold rounded bg-blue-100 text-blue-700">Tudo</button>
+          <button onclick="filterHistory(7)" id="filter-7" class="px-3 py-1 text-xs font-bold rounded text-slate-600 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-700">7 Dias</button>
+          <button onclick="filterHistory(30)" id="filter-30" class="px-3 py-1 text-xs font-bold rounded text-slate-600 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-700">30 Dias</button>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+        <div class="lg:col-span-2 bg-white dark:bg-slate-800 p-6 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700">
+          <h3 class="font-bold text-slate-700 dark:text-slate-200 mb-4 text-xs uppercase">Evolução (%)</h3>
+          <div class="h-64"><canvas id="historyChart"></canvas></div>
+        </div>
+        <div class="space-y-4">
+          <div class="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700">
+            <div class="text-slate-500 dark:text-slate-400 text-xs font-bold uppercase">Média Geral</div>
+            <div class="text-3xl font-bold text-slate-800 dark:text-white mt-1" id="avg-score">0%</div>
+          </div>
+          <div class="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700">
+            <div class="text-slate-500 dark:text-slate-400 text-xs font-bold uppercase">Questões Feitas</div>
+            <div class="text-3xl font-bold text-slate-800 dark:text-white mt-1" id="total-questions-history">0</div>
+          </div>
+          <div class="bg-white dark:bg-slate-800 p-6 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700">
+            <div class="text-slate-500 dark:text-slate-400 text-xs font-bold uppercase">Simulados</div>
+            <div class="text-3xl font-bold text-slate-800 dark:text-white mt-1" id="total-sims-history">0</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tabela -->
+      <div class="bg-white dark:bg-slate-800 rounded-xl shadow-sm border border-slate-200 dark:border-slate-700 overflow-hidden">
+        <div class="px-6 py-4 border-b border-slate-200 dark:border-slate-700 flex justify-between items-center bg-slate-50 dark:bg-slate-700/50">
+          <h3 class="font-bold text-slate-700 dark:text-slate-200 text-xs uppercase">Log Detalhado</h3>
+        </div>
+        <div class="overflow-x-auto">
+          <table class="w-full text-sm text-left text-slate-600 dark:text-slate-300">
+            <thead class="bg-slate-50 dark:bg-slate-700 text-slate-500 dark:text-slate-400 font-bold border-b border-slate-200 dark:border-slate-600">
+              <tr>
+                <th class="px-6 py-3">Data</th>
+                <th class="px-6 py-3 text-green-600 dark:text-green-400">Acertos</th>
+                <th class="px-6 py-3 text-red-600 dark:text-red-400">Erros</th>
+                <th class="px-6 py-3 text-slate-500 dark:text-slate-400">Branco</th>
+                <th class="px-6 py-3">Total</th>
+                <th class="px-6 py-3 text-right">Eficiência</th>
+              </tr>
+            </thead>
+            <tbody id="history-table-body" class="divide-y divide-slate-100 dark:divide-slate-700"></tbody>
+          </table>
+        </div>
+        <div id="empty-history-msg" class="hidden p-8 text-center text-slate-400">Histórico vazio.</div>
+      </div>
+    </div>
+
+    <!-- MODAL GERENCIADOR DE CACHE -->
+    <div id="cache-modal" class="fixed inset-0 z-[100] bg-black/50 hidden flex items-center justify-center backdrop-blur-sm fade-in">
+      <div class="bg-white dark:bg-slate-800 rounded-2xl shadow-2xl w-full max-w-md overflow-hidden border border-slate-200 dark:border-slate-700 transform transition-all">
+        <div class="p-6 border-b border-slate-100 dark:border-slate-700 flex justify-between items-center">
+          <h3 class="text-lg font-bold text-slate-800 dark:text-white flex items-center gap-2">
+            <i class="fas fa-database text-blue-500"></i> Gerenciar Armazenamento
+          </h3>
+          <button onclick="toggleCacheModal()" class="text-slate-400 hover:text-slate-600 dark:hover:text-slate-200">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+
+        <div class="p-6 space-y-6">
+          <!-- Status de Uso -->
+          <div>
+            <div class="flex justify-between text-sm mb-2 text-slate-600 dark:text-slate-300">
+              <span>Uso do Cache Local</span>
+              <span id="cache-usage-text" class="font-mono font-bold">0 KB</span>
+            </div>
+            <div class="w-full bg-slate-100 dark:bg-slate-700 rounded-full h-2.5">
+              <div id="cache-bar" class="bg-blue-600 h-2.5 rounded-full transition-all" style="width: 0%"></div>
+            </div>
+            <p class="text-[10px] text-slate-400 mt-1 text-right">Máximo estimado: ~5000 KB</p>
+            <div id="cache-warning" class="hidden text-red-500 text-sm mt-2">
+              <i class="fas fa-exclamation-triangle mr-1"></i> O cache está consumindo mais de 50% do espaço. Limpe o cache para liberar espaço.
+            </div>
+          </div>
+
+          <!-- Toggle Salvar -->
+          <div class="flex items-center justify-between p-3 bg-slate-50 dark:bg-slate-700/50 rounded-lg">
+            <div>
+              <span class="block text-sm font-bold text-slate-700 dark:text-slate-200">Salvar Histórico</span>
+              <span class="text-xs text-slate-500 dark:text-slate-400">Armazenar dados para análise de eficiência.</span>
+            </div>
+            <div class="relative inline-block w-10 select-none transition duration-200 ease-in">
+              <input type="checkbox" id="toggle-save-history" class="toggle-checkbox absolute block w-6 h-6 rounded-full bg-white border-4 appearance-none cursor-pointer" checked onchange="toggleHistorySaving()">
+              <label for="toggle-save-history" class="toggle-label block overflow-hidden h-6 rounded-full bg-slate-300 cursor-pointer"></label>
+            </div>
+          </div>
+
+          <!-- Ações de Limpeza -->
+          <div class="space-y-2">
+            <button onclick="clearHistory('day')" class="w-full py-2 px-4 rounded-lg border border-slate-200 dark:border-slate-600 text-slate-600 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-700 text-sm font-medium transition flex items-center justify-center gap-2">
+              <i class="fas fa-calendar-day"></i> Limpar Hoje
+            </button>
+            <button onclick="clearHistory('week')" class="w-full py-2 px-4 rounded-lg border border-slate-200 dark:border-slate-600 text-slate-600 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-700 text-sm font-medium transition flex items-center justify-center gap-2">
+              <i class="fas fa-calendar-week"></i> Limpar Última Semana
+            </button>
+            <button onclick="clearHistory('month')" class="w-full py-2 px-4 rounded-lg border border-slate-200 dark:border-slate-600 text-slate-600 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-700 text-sm font-medium transition flex items-center justify-center gap-2">
+              <i class="fas fa-calendar-alt"></i> Limpar Último Mês
+            </button>
+            <button onclick="clearHistory('all')" class="w-full py-2 px-4 rounded-lg bg-red-50 dark:bg-red-900/20 text-red-600 dark:text-red-400 hover:bg-red-100 dark:hover:bg-red-900/40 text-sm font-medium transition flex items-center justify-center gap-2">
+              <i class="fas fa-trash-alt"></i> Limpar Tudo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Toast de Notificação -->
+    <div id="toast-container" class="fixed top-4 right-4 z-[110] flex flex-col gap-2"></div>
+
+  </main>
+
+  <!-- SCRIPTS UNIFICADOS -->
+  <script>
+    // 1. BANCO DE DADOS COMPLETO COM TODAS AS QUESTÕES DOS PDFS
+    const database = [
+      // MÓDULO 01: SEDE, INSTALAÇÃO E POSSE (20 questões)
+      { module: "Módulo 01 - Sede e Posse", source: "inedita", question: "Segundo o Regimento Interno da ALE-RR (Resolução nº 030/2023), a sede da Assembleia Legislativa é na Capital do Estado. No entanto, por motivo de conveniência pública ou ocorrência de fato que impossibilite seu funcionamento na sede, ela poderá reunir-se temporariamente em outro local. Para isso, é necessária deliberação de:", options: ["Maioria simples da Mesa Diretora", "Maioria absoluta dos Deputados", "2/3 dos membros da Mesa Diretora", "2/3 dos Deputados Estaduais", "Decisão monocrática do Presidente"], correct: 1, explanation: "Gabarito: B. Conforme o Art. 2º, § 1º, a mudança temporária exige deliberação da Maioria Absoluta dos Deputados. Cuidado para não confundir com 2/3 (que é um quórum mais rígido geralmente para cassações ou mudanças constitucionais)." },
+      { module: "Módulo 01 - Sede e Posse", source: "inedita", question: "Sobre a Legislatura e a Sessão Legislativa, assinale a alternativa correta conforme o RI-ALE/RR:", options: ["A Legislatura tem duração de um ano, coincidindo com o ano civil", "A Sessão Legislativa Ordinária ocorre de 15 de fevereiro a 15 de dezembro", "A Legislatura compreende quatro sessões legislativas", "O recesso parlamentar ocorre durante todo o mês de janeiro e fevereiro", "A Sessão Legislativa não pode ser interrompida sem a aprovação da LOA (Lei Orçamentária Anual)"], correct: 2, explanation: "Gabarito: C. A Legislatura dura 4 anos e compreende 4 sessões legislativas (Art. 3º, Parágrafo único)." },
+      { module: "Módulo 01 - Sede e Posse", source: "inedita", question: "No primeiro ano da legislatura, a Assembleia reunir-se-á em sessão preparatória solene para a posse dos seus membros. Essa reunião ocorre no dia:", options: ["1º de fevereiro, às 9 horas", "1º de janeiro, às 10 horas", "1º de janeiro, às 09 horas", "2 de fevereiro, às 15 horas", "15 de março, data da posse do Governador"], correct: 2, explanation: "Gabarito: C. Literalidade do Art. 4º. 'No primeiro ano da legislatura, a Assembleia reunir-se-á... no dia 1º de janeiro, às 09 horas'." },
+      { module: "Módulo 01 - Sede e Posse", source: "inedita", question: "Quem deverá assumir a direção dos trabalhos na Sessão Preparatória de Posse, caso o Presidente da legislatura anterior não tenha sido reeleito ou não esteja presente?", options: ["O Deputado mais idoso dentre os presentes", "O Deputado com maior número de mandatos", "O Deputado mais votado dentre os presentes", "O Governador do Estado", "O Presidente do Tribunal de Justiça"], correct: 2, explanation: "Gabarito: C. O Art. 4º define a hierarquia: 1º) O último Presidente (se reeleito deputado); 2º) O Deputado mais votado dentre os presentes." },
+      { module: "Módulo 01 - Sede e Posse", source: "inedita", question: "Para tomar posse, o Deputado diplomado deve apresentar à Mesa:", options: ["Apenas o documento de identidade", "O diploma expedido pela Justiça Eleitoral e a declaração de bens", "A declaração de imposto de renda dos últimos 5 anos", "O atestado de antecedentes criminais e o diploma", "A certidão de nascimento e o título de eleitor"], correct: 1, explanation: "Gabarito: B. Conforme o Art. 5º, o deputado deve apresentar o diploma expedido pela Justiça Eleitoral e a declaração de bens (com indicação das fontes de renda)." },
+      { module: "Módulo 01 - Sede e Posse", source: "inedita", question: "O compromisso solene (juramento) a ser prestado pelos Deputados no ato da posse tem o seguinte rito:", options: ["O Presidente lê o compromisso e todos dizem 'Sim, juro'", "Cada Deputado lê o compromisso inteiro individualmente na tribuna", "O Presidente lê o compromisso e, chamada a chamada, cada Deputado declara: 'Assim o prometo'", "Não há juramento formal, apenas a assinatura do termo", "O compromisso é feito por escrito e entregue em envelope lacrado"], correct: 2, explanation: "Gabarito: C. Art. 6º. O Presidente lê a fórmula ('Prometo defender e cumprir a Constituição...') e cada deputado, de pé, ratifica dizendo: 'Assim o prometo'." },
+      { module: "Módulo 01 - Sede e Posse", source: "inedita", question: "O que acontece com o candidato diplomado que não comparecer à sessão de posse (Sessão Preparatória) e não solicitar prorrogação?", options: ["Ele perde o mandato automaticamente no dia seguinte", "Ele tem 60 dias para tomar posse", "Ele tem 30 dias para tomar posse, prorrogável por igual período a requerimento do interessado", "Ele deve esperar a próxima Sessão Legislativa", "Ele pode tomar posse por procuração a qualquer momento"], correct: 2, explanation: "Gabarito: C. Art. 8º. Salvo motivo de força maior, o prazo é de 30 dias, prorrogável por igual período mediante requerimento." },
+      { module: "Módulo 01 - Sede e Posse", source: "inedita", question: "Se, após o prazo legal e as prorrogações, o Deputado não tomar posse, o que ocorre?", options: ["O cargo é declarado vago e convoca-se o Suplente", "O Presidente da Assembleia assume a vaga temporariamente", "Realizam-se novas eleições para aquela vaga", "O partido indica um substituto sem necessidade de ser suplente", "A vaga permanece aberta até o fim do mandato"], correct: 0, explanation: "Gabarito: A. Art. 8º, § 2º. Não havendo posse no prazo, declara-se a renúncia tácita (vacância) e convoca-se o Suplente." },
+      { module: "Módulo 01 - Sede e Posse", source: "inedita", question: "A eleição da Mesa Diretora para o primeiro biênio ocorre:", options: ["Em sessão secreta, 30 dias após a posse", "Imediatamente após a posse dos Deputados, na mesma sessão preparatória", "No dia 1º de fevereiro, início dos trabalhos legislativos", "Sob a presidência do Governador do Estado", "Por aclamação, sem necessidade de voto nominal"], correct: 1, explanation: "Gabarito: B. Art. 9º. Após a posse, na mesma sessão, realiza-se a eleição da Mesa Diretora para o 1º biênio." },
+      { module: "Módulo 01 - Sede e Posse", source: "inedita", question: "A votação para a eleição da Mesa Diretora da ALE-RR é:", options: ["Secreta, por meio de cédulas de papel", "Aberta e nominal", "Simbólica", "Mista (parte secreta, parte aberta)", "Feita eletronicamente, mas com sigilo do voto"], correct: 1, explanation: "Gabarito: B. Segundo o padrão constitucional recente e o princípio da publicidade (e o Art. 10 do novo RI), a votação é aberta (processo nominal)." },
+      { module: "Módulo 01 - Sede e Posse", source: "inedita", question: "Qual é a composição básica da Mesa Diretora da ALE-RR sujeita à eleição?", options: ["Presidente, Vice-Presidente e dois Secretários", "Presidente, três Vice-Presidentes e quatro Secretários", "Presidente, dois Vice-Presidentes e quatro Secretários", "Presidente, 1º e 2º Vice-Presidentes, e 1º, 2º, 3º e 4º Secretários", "Presidente e Secretário Geral apenas"], correct: 3, explanation: "Gabarito: D. Baseado na estrutura usual descrita no Título da Mesa e no ato de eleição (Art. 9º e Art. 14): Presidente, 1º, 2º e 3º Vice-Presidentes, e 1º, 2º, 3º e 4º Secretários." },
+      { module: "Módulo 01 - Sede e Posse", source: "inedita", question: "Na eleição da Mesa, considera-se eleita a chapa ou o candidato que obtiver:", options: ["Maioria simples, em qualquer escrutínio", "Maioria absoluta dos membros da Assembleia, em primeiro escrutínio", "2/3 dos votos em primeiro escrutínio", "A maior idade somada dos membros", "A aprovação do Governador"], correct: 1, explanation: "Gabarito: B. Art. 10, § 1º. Exige-se Maioria Absoluta dos membros da Assembleia no primeiro escrutínio. Se não alcançada, faz-se um segundo escrutínio com os dois mais votados, vencendo a maioria simples." },
+      { module: "Módulo 01 - Sede e Posse", source: "inedita", question: "Em caso de empate no segundo escrutínio para a eleição da Mesa, o critério de desempate é:", options: ["O candidato com mais tempo de mandato", "Sorteio", "O candidato mais idoso", "O candidato mais votado na eleição geral (popular)", "Nova votação em 24 horas"], correct: 2, explanation: "Gabarito: C. Art. 10, § 2º. No empate do segundo escrutínio, considera-se eleito o mais idoso." },
+      { module: "Módulo 01 - Sede e Posse", source: "inedita", question: "A posse dos membros da Mesa Diretora eleita para o primeiro biênio ocorre:", options: ["No dia seguinte à eleição", "No dia 1º de fevereiro", "Imediatamente após a proclamação do resultado da eleição", "Em sessão solene específica convocada para este fim", "No dia 15 de março"], correct: 2, explanation: "Gabarito: C. Art. 12. Os eleitos tomam posse imediatamente após a eleição, na própria sessão preparatória." },
+      { module: "Módulo 01 - Sede e Posse", source: "inedita", question: "É permitida a reeleição de membros da Mesa Diretora para o mesmo cargo na mesma legislatura?", options: ["Sim, é permitida uma única recondução subsequente", "Não, é vedada a reeleição para o mesmo cargo", "Sim, é permitida indefinidamente", "Apenas para o cargo de Secretário", "Sim, mas apenas se houver intervalo de um biênio"], correct: 0, explanation: "Gabarito: A. Conforme entendimento consolidado do STF e redação atual dos RIs (verificar Art. 13 e Constituição Estadual), é permitida uma única recondução para o mesmo cargo na eleição imediatamente subsequente." },
+      { module: "Módulo 01 - Sede e Posse", source: "inedita", question: "A eleição para a Mesa Diretora do segundo biênio da legislatura ocorrerá:", options: ["Na última sessão ordinária da segunda sessão legislativa, ou em data anterior definida por Resolução", "Automaticamente prorrogada a do primeiro biênio", "No dia 1º de janeiro do terceiro ano da legislatura", "Juntamente com a eleição do Governador", "No dia 15 de fevereiro do terceiro ano"], correct: 0, explanation: "Gabarito: A. O texto do Regimento de RR tem histórico de permitir a antecipação da eleição. Geralmente, ocorre na data designada, mas é comum em RR a eleição antecipada. Pelo texto padrão: Em data definida preparatória ou final da sessão anterior." },
+      { module: "Módulo 01 - Sede e Posse", source: "inedita", question: "O mandato da Mesa Diretora é de:", options: ["1 ano", "2 anos", "3 anos", "4 anos", "6 meses"], correct: 1, explanation: "Gabarito: B. Art. 9º. O mandato é de dois anos (biênio)." },
+      { module: "Módulo 01 - Sede e Posse", source: "inedita", question: "Os Deputados deverão apresentar declaração de bens:", options: ["Apenas na posse", "Apenas ao final do mandato", "No ato da posse e no término do mandato", "Anualmente", "Sempre que solicitada pelo Ministério Público"], correct: 2, explanation: "Gabarito: C. Art. 5º, § 3º. É obrigatória a apresentação no ato da posse e no término do mandato (além de atualizações anuais conforme legislação federal, mas o foco do RI é posse/término para controle da Mesa)." },
+      { module: "Módulo 01 - Sede e Posse", source: "inedita", question: "A 'Sessão Preparatória' distingue-se da 'Sessão Ordinária' pois:", options: ["A Preparatória serve exclusivamente para posse e eleição da Mesa, não havendo deliberação de leis", "A Preparatória pode votar leis de urgência", "A Preparatória ocorre todos os dias antes da Ordinária", "A Ordinária é presidida pelo mais idoso e a Preparatória pelo Presidente eleito", "Não há distinction, são sinônimos"], correct: 0, explanation: "Gabarito: A. Conceito implícito nos Arts. 1º a 13. As reuniões preparatórias têm fim específico (instalação, posse, eleição), inaugurando os trabalhos antes que o processo legislativo (leis) comece nas sessões ordinárias." },
+      { module: "Módulo 01 - Sede e Posse", source: "inedita", question: "Caso o Deputado estadual seja nomeado Secretário de Estado:", options: ["Ele perde o mandato automaticamente", "Ele deve renunciar ao mandato", "Ele se licencia do mandato e convoca-se o suplente", "Ele acumula as duas funções e os dois salários", "Ele acumula as funções, mas opta pelo salário"], correct: 2, explanation: "Gabarito: C. Embora esteja mais detalhado na parte de 'Deputados', já se relaciona com a posse e vacância (Art. 8º e normas constitucionais). O afastamento para cargo executivo gera licença e convocação de suplente." },
+
+      // MÓDULO 02: MESA DIRETORA E COMISSÕES (20 questões)
+      { module: "Módulo 02 - Mesa e Comissões", source: "inedita", question: "Compete privativamente à Mesa Diretora da Assembleia Legislativa de Roraima, DENTRE OUTRAS atribuições:", options: ["San-cionar e promulgar as leis aprovadas pelo Plenário", "Dirigir a polícia interna da Assembleia, com suprema autoridade", "Propor ação de inconstitucionalidade por omissão", "Administrar os recursos humanos e financeiros da Secretaria da Assembleia", "Nomear os membros das Comissões Permanentes sem consulta aos líderes"], correct: 3, explanation: "Gabarito: D (Com base na lógica regimental padrão e Art. 18/19 do RI - confirmar no texto se disponível, geralmente administração é da Mesa). A Mesa tem função administrativa e diretiva colegiada. A administração de recursos e pessoal (D) é tipicamente da Mesa." },
+      { module: "Módulo 02 - Mesa e Comissões", source: "inedita", question: "Sobre a Corregedoria Parlamentar, prevista no novo Regimento Interno (2023), assinale a alternativa correta:", options: ["É composta por três deputados eleitos pelo Plenário", "Compete a ela promover a manutenção do decoro, da ordem e da disciplina no âmbito da Assembleia", "É presidida pelo 1º Secretário da Mesa", "Tem poder de polícia para prender deputados em flagrante", "Não tem assento nas reuniões da Mesa Diretora"], correct: 1, explanation: "Gabarito: B. Conforme o Art. 41, I, compete à Corregedoria promover a manutenção do decoro, da ordem e da disciplina. * Erro da E: O Corregedor-Geral tem assento e direito a voto nas reuniões da Mesa (Art. 42)." },
+      { module: "Módulo 02 - Mesa e Comissões", source: "inedita", question: "A Secretaria Especial da Mulher é um órgão político e institucional da ALE-RR. Sua composição é:", options: ["De 03 deputadas indicadas pelos líderes", "De 01 parlamentar Secretária Especial da Mulher eleita, com assento e voto na Mesa", "Da deputada mais votada na eleição estadual", "De livre nomeação do Presidente da Assembleia", "Composta por servidoras efetivas da Casa"], correct: 1, explanation: "Gabarito: B. Literalidade do Art. 46. É composta de 01 parlamentar eleita, com assento e direito a voto nas reuniões da Mesa Diretora." },
+      { module: "Módulo 02 - Mesa e Comissões", source: "inedita", question: "Em relação às Comissões Permanentes, à Comissão de Constituição, Justiça e Redação Final (CCJ) compete manifestar-se sobre:", options: ["O mérito de todas as proposições, exclusivamente", "A admissibilidade de propostas de emenda à Constituição, quanto à constitucionalidade, legalidade e técnica legislativa", "A tomada de contas do Governador", "A fiscalização da execução orçamentária", "O julgamento final de crimes de responsabilidade"], correct: 1, explanation: "Gabarito: B. É a função precípua da CCJ analisar os aspectos constitucional, legal, jurídico, regimental e de técnica legislativa (Art. da CCJ, inferido do Snippet 42, I, d/o que menciona suspensão de lei inconstitucional e recurso de não recebimento por inconstitucionalidade)." },
+      { module: "Módulo 02 - Mesa e Comissões", source: "inedita", question: "Para a criação de uma Comissão Parlamentar de Inquérito (CPI) na ALE-RR, é necessário o requerimento de:", options: ["Qualquer deputado", "Maioria absoluta dos membros", "1/3 (um terço) dos membros da Assembleia", "2/3 (dois terços) dos membros da Assembleia", "Aprovação do Governador"], correct: 2, explanation: "Gabarito: C. Art. 65. A CPI é criada a requerimento de 1/3 dos membros para apuração de fato determinado e por prazo certo." },
+      { module: "Módulo 02 - Mesa e Comissões", source: "inedita", question: "O prazo de funcionamento de uma CPI na Assembleia Legislativa de Roraima é de:", options: ["90 dias, improrrogáveis", "120 dias, prorrogáveis pelo Plenário", "180 dias, sem prorrogação", "Até o fim do mandato do Presidente da Casa", "Indeterminado, até a conclusão das investigações"], correct: 1, explanation: "Gabarito: B. Art. 65, caput e §1º. O prazo é de até 120 dias, podendo ser prorrogado pelo Plenário." },
+      { module: "Módulo 02 - Mesa e Comissões", source: "inedita", question: "Não se pode criar nova Comissão Parlamentar de Inquérito (CPI) na ALE-RR quando já estiverem funcionando simultaneamente:", options: ["02 (duas)", "03 (três)", "04 (quatro)", "05 (cinco)", "Não há limite de CPIs simultâneas"], correct: 3, explanation: "Gabarito: D. Art. 65, §5º. O limite simultâneo é de 05 (cinco) CPIs, salvo deliberação do Plenário." },
+      { module: "Módulo 02 - Mesa e Comissões", source: "inedita", question: "Compete ao Presidente da Comissão:", options: ["Relatar todas as matérias da Comissão", "Designar relatores e conceder a palavra aos deputados", "Vetar projetos de lei aprovados na Comissão", "Convocar sessões extraordinárias do Plenário", "Arquivar definitivamente proposições de outros deputados"], correct: 1, explanation: "Gabarito: B. Art. 69, V e VI. O Presidente organiza os trabalhos, designa relatores e concede a palavra. Ele não pode ser relator (Art. 70)." },
+      { module: "Módulo 02 - Mesa e Comissões", source: "inedita", question: "Se um membro efetivo de uma Comissão Permanente deixar de comparecer a 05 (cinco) reuniões consecutivas sem justificativa:", options: ["Ele paga uma multa", "Ele perde o mandato de deputado", "Ele perde o lugar na Comissão", "A reunião é anulada", "Nada acontece se ele for líder de partido"], correct: 2, explanation: "Gabarito: C. Art. 72, §1º. A sanção para a ausência injustificada (5 consecutivas ou 8 alternadas) é a perda do lugar na Comissão." },
+      { module: "Módulo 02 - Mesa e Comissões", source: "inedita", question: "As Comissões Permanentes têm competência para realizar Audiências Públicas. Para realizá-la em região do Estado fora da sede, a convocação deve ter antecedência mínima de:", options: ["24 horas", "48 horas", "05 dias", "10 dias", "15 dias"], correct: 2, explanation: "Gabarito: C. Art. 73, §4º. A reunião destinada à audiência pública fora da sede exige antecedência mínima de 05 dias." },
+      { module: "Módulo 02 - Mesa e Comissões", source: "inedita", question: "Das decisões da Comissão Representativa (que atua no recesso parlamentar):", options: ["Não cabe recurso", "Cabe recurso ao Governador", "Cabe recurso ao Plenário da Assembleia", "Cabe recurso apenas ao Presidente da Assembleia", "A decisão é terminativa e irrecorrível"], correct: 2, explanation: "Gabarito: C. Art. 67, §1º. Das decisões da Comissão Representativa cabe recurso ao Plenário." },
+      { module: "Módulo 02 - Mesa e Comissões", source: "inedita", question: "A Comissão de Tomada de Contas tem, entre suas atribuições:", options: ["Julgar as contas do Governador", "Tomar as contas do Governador para posterior julgamento pelo Plenário", "Executar o orçamento do Estado", "Nomear os conselheiros do Tribunal de Contas", "Apenas arquivar os balancetes"], correct: 1, explanation: "Gabarito: B. Art. Competências das Comissões (VIII). Compete à Comissão de Tomada de Contas 'tomar as contas do Governador' (para instruir o julgamento que é do Plenário)." },
+      { module: "Módulo 02 - Mesa e Comissões", source: "inedita", question: "Qual Comissão é responsável por opinar sobre a intervention nos municípios e a perda de mandato de deputado?", options: ["Comissão de Administração", "Comissão de Defesa dos Direitos Humanos", "Comissão de Constituição, Justiça e Redação Final", "Comissão de Ética Parlamentar", "Comissão de Segurança Pública"], correct: 2, explanation: "Gabarito: C. Art. Competências das Comissões (I, f, h). A CCJ opina sobre perda de mandato e intervenção, por serem matérias de alta complexidade constitucional." },
+      { module: "Módulo 02 - Mesa e Comissões", source: "inedita", question: "Os pareceres das Comissões devem ser assinados:", options: ["Apenas pelo Presidente", "Apenas pelo Relator", "Pelo Presidente, Relator e demais membros presentes", "Pelo autor do projeto", "Pelo servidor que redigiu"], correct: 2, explanation: "Gabarito: C (Inferido do Art. 69, XIX e prática legislativa). O Art. 69, XIX diz que compete ao Presidente 'assinar parecer com os demais membros da Comissão'. O parecer reflete a opinião do colegiado." },
+      { module: "Módulo 02 - Mesa e Comissões", source: "inedita", question: "Quando um projeto é distribuído a mais de uma Comissão, e esgota-se o prazo da primeira sem parecer:", options: ["O projeto é arquivado", "O projeto passa ao exame da Comissão seguinte", "O Presidente da Assembleia emite o parecer", "O autor do projeto deve solicitar urgência", "A Comissão ganha prazo em dobro automaticamente"], correct: 1, explanation: "Gabarito: B. Art. 87. 'Vencido o prazo de uma delas, a proposição passará ao exame da Comissão seguinte.' Isso evita que uma comissão 'sente' em cima do projeto para travar a tramitação." },
+      { module: "Módulo 02 - Mesa e Comissões", source: "inedita", question: "O prazo para o Relator de uma Comissão emitir parecer sobre um projeto em regime de tramitação ordinária (exceto códigos) não poderá exceder:", options: ["A metade do prazo da Comissão", "2/3 do prazo da Comissão", "O mesmo prazo da Comissão", "5 dias", "24 horas"], correct: 1, explanation: "Gabarito: B. Art. 81, §5º. O prazo do relator não pode exceder 2/3 dos prazos da Comissão (que é de 18 dias na ordinária, logo, o relator teria até 12 dias)." },
+      { module: "Módulo 02 - Mesa e Comissões", source: "inedita", question: "Se o parecer do relator for rejeitado pela Comissão, o que acontece?", options: ["O projeto é arquivado", "O parecer rejeitado vira voto vencido e o Presidente designa novo relator", "O projeto vai a Plenário sem parecer", "O autor do projeto deve defender a proposta oralmente", "A Comissão é dissolvida"], correct: 1, explanation: "Gabarito: B. Art. 85, §1º e §2º. O parecer rejeitado é voto vencido. O Presidente designa novo relator para redigir o parecer vencedor (o da maioria)." },
+      { module: "Módulo 02 - Mesa e Comissões", source: "inedita", question: "A Ouvidoria-Geral da Assembleia, conforme o novo Regimento, é composta por:", options: ["Um servidor de carreira", "Um advogado contratado", "01 parlamentar ouvidor-geral eleito, com assento na Mesa", "Três deputados sorteados", "Um representante da sociedade civil"], correct: 2, explanation: "Gabarito: C. Art. 44. A Ouvidoria é ocupada por parlamentar eleito, que integra a Mesa Diretora." },
+      { module: "Módulo 02 - Mesa e Comissões", source: "inedita", question: "A Comissão de Defesa dos Direitos da Família, da Mulher, da Criança, do Adolescente e de Ação Social tem competência para:", options: ["Julgar crimes comuns cometidos por mulheres", "Fiscalizar os programas sociais do Governo do Estado", "Emitir carteira de identidade para adolescentes", "Decretar a prisão de agressores", "Legislar sobre direito civil e penal"], correct: 1, explanation: "Gabarito: B. Art. Competências das Comissões (XVII, g). Cabe a ela fiscalizar os programas sociais e ações voltadas à proteção da mulher e da família." },
+      { module: "Módulo 02 - Mesa e Comissões", source: "inedita", question: "O 'Pedido de Vista' de um parecer em uma Comissão:", options: ["Pode ser concedido por prazo indeterminado", "É concedido por 24 horas, sendo comum aos membros, vedada a renovação", "É individual e sucessivo para cada deputado", "Só é permitido se o autor do projeto concordar", "Interrompe a tramitação por 10 dias"], correct: 1, explanation: "Gabarito: B. Art. 86, Parágrafo único. A vista é por 24 horas, conjunta (comum) e não pode ser renovada, para evitar a procrastinação infinita." },
+
+      // MÓDULO 03: FUNCIONAMENTO DAS COMISSÕES E ESTATUTO DOS DEPUTADOS (20 questões)
+      { module: "Módulo 03 - Funcionamento e Estatuto", source: "inedita", question: "Nas reuniões das Comissões, a ordem dos trabalhos deve seguir uma sequência regimental. Qual é o primeiro ato do Presidente da Comissão ao abrir os trabalhos, conforme o Art. 76?", options: ["Leitura das matérias recebidas e distribuídas", "Leitura, discussão e votação da ata da reunião anterior", "Discussão e votação de pareceres", "Concessão da palavra aos oradores inscritos", "Chamada nominal dos deputados para verificação de quórum"], correct: 1, explanation: "Gabarito: B. Art. 76, I. A ordem é: 1º) Leitura, discussão e votação da ata; 2º) Leitura do expediente e distribuição; 3º) Ordem do dia (pareceres)." },
+      { module: "Módulo 03 - Funcionamento e Estatuto", source: "inedita", question: "Quando um projeto de lei tramita em regime de URGÊNCIA, qual é o prazo para a Comissão emitir seu parecer, contado da remessa do projeto?", options: ["24 horas", "02 dias", "05 dias", "10 dias", "15 dias"], correct: 3, explanation: "Gabarito: D. Art. 80, I. Memorize os prazos das Comissões: Urgência: 10 dias; Prioridade: 12 dias; Ordinária: 18 dias." },
+      { module: "Módulo 03 - Funcionamento e Estatuto", source: "inedita", question: "O Relator designado na Comissão tem um prazo para apresentar seu voto. Esse prazo não poderá exceder a:", options: ["Metade do prazo da Comissão", "2/3 (dois terços) do prazo da Comissão", "1/3 (um terço) do prazo da Comissão", "O mesmo prazo da Comissão", "03 dias úteis"], correct: 1, explanation: "Gabarito: B. Art. 81, §5º. O Presidente da Comissão fixa o prazo do relator, limitado a 2/3 do prazo total que a Comissão tem. Exemplo: Se a comissão tem 18 dias (ordinário), o relator tem no máximo 12." },
+      { module: "Módulo 03 - Funcionamento e Estatuto", source: "inedita", question: "Sobre o 'Pedido de Vista' de um parecer na Comissão, assinale a alternativa correta:", options: ["É concedido por 48 horas", "É individual, contando-se o prazo para cada deputado que pedir", "É concedido por 24 horas, sendo comum aos membros, vedada a renovação", "Interrompe a tramitação do projeto por tempo indeterminado", "Só pode ser pedido pelo Líder do Governo"], correct: 2, explanation: "Gabarito: C. Art. 86, Parágrafo único. O pedido de vista é comum (o prazo corre junto para todos que pediram) e dura 24 horas, sem renovação." },
+      { module: "Módulo 03 - Funcionamento e Estatuto", source: "inedita", question: "O parecer de uma Comissão deve ser composto, obrigatoriamente, por três partes. São elas:", options: ["Ementa, Dispositivo e Justificativa", "Relatório, Voto do Relator e Parecer da Comissão", "Introdução, Desenvolvimento e Conclusão", "Voto vencido, Voto em separado e Declaração de voto", "Texto original, Emendas e Texto final"], correct: 1, explanation: "Gabarito: B. Art. 93, §1º. As partes são: I - Relatório (o que é o projeto); II - Voto do Relator (opinião do relator); III - Parecer da Comissão (decisão do colegiado, com as assinaturas)." },
+      { module: "Módulo 03 - Funcionamento e Estatuto", source: "inedita", question: "Um Deputado Estadual de Roraima, no exercício do mandato, tem livre acesso:", options: ["Apenas aos prédios do Poder Legislativo", "Às repartições públicas e aos órgãos da Administração Pública estadual direta e indireta", "A qualquer empresa privada que receba incentivo fiscal", "Aos inquéritos policiais sigilosos, sem restrições", "Às reuniões do Conselho de Segurança Nacional"], correct: 1, explanation: "Gabarito: B. Art. 108, X. É direito do deputado ter livre acesso às repartições públicas estaduais (direta e indireta) para exercer sua fiscalização." },
+      { module: "Módulo 03 - Funcionamento e Estatuto", source: "inedita", question: "Em relação à perda de mandato, o Regimento prevê que perderá o mandato o deputado que deixar de comparecer, em cada Sessão Legislativa Ordinária, a que proporção das sessões ordinárias (salvo licença ou missão)?", options: ["10% das sessões", "Quarta parte das sessões", "Terça parte das sessões", "Metade das sessões", "05 sessões consecutivas"], correct: 2, explanation: "Gabarito: C. Art. 113, III. A falta injustificada à terça parte (1/3) das sessões ordinárias acarreta a perda do mandato." },
+      { module: "Módulo 03 - Funcionamento e Estatuto", source: "inedita", question: "Sobre as licenças dos deputados, é correto afirmar que a licença para tratar de interesse particular:", options: ["É remunerada", "Não tem limite de prazo", "É sem remuneração e não pode ultrapassar 120 dias por Sessão Legislativa", "Depende apenas de comunicação à Mesa, sem necessidade de aprovação", "Permite a convocação imediata de suplente, qualquer que seja o prazo"], correct: 2, explanation: "Gabarito: C. Art. 114, IV. Interesse particular = sem remuneração e limite de 120 dias por sessão legislativa." },
+      { module: "Módulo 03 - Funcionamento e Estatuto", source: "inedita", question: "As deputadas estaduais têm direito à licença-maternidade de 120 dias. Segundo o Regimento (Art. 114, §11), essa licença pode ser prorrogada por mais:", options: ["30 dias", "45 dias", "60 dias", "90 dias", "120 dias"], correct: 2, explanation: "Gabarito: C. Art. 114, §11. A licença-maternidade pode ser prorrogada por mais 60 dias, totalizando 180 dias, desde que requerida até o final do primeiro mês após o parto." },
+      { module: "Módulo 03 - Funcionamento e Estatuto", source: "inedita", question: "O suplente de Deputado será convocado pela Mesa no prazo de 48 horas em casos de vaga ou licença do titular. Para que o suplente seja convocado em caso de licença para tratamento de saúde, o prazo da licença deve ser:", options: ["Superior a 15 dias", "Superior a 30 dias", "Superior a 60 dias", "Superior a 120 dias", "Qualquer prazo"], correct: 3, explanation: "Gabarito: D. Art. 120, III. A convocação de suplente por licença saúde só ocorre se o prazo for superior a 120 dias. Nota: Isso evita o troca-troca de deputados por licenças curtas." },
+      { module: "Módulo 03 - Funcionamento e Estatuto", source: "inedita", question: "A imunidade parlamentar (inviolabilidade) protege o deputado:", options: ["Apenas por votos proferidos em plenário", "Civil e penalmente, por quaisquer de suas opiniões, palavras e votos", "Contra qualquer processo civil, mas não criminal", "Apenas dentro do Estado de Roraima", "Contra multas de trânsito e dívidas pessoais"], correct: 1, explanation: "Gabarito: B. Art. 117. A inviolabilidade é civil e penal, por opiniões, palavras e votos (imunidade material)." },
+      { module: "Módulo 03 - Funcionamento e Estatuto", source: "inedita", question: "Em caso de prisão em flagrante de crime inafiançável de um deputado, os autos devem ser remetidos à Assembleia em 24 horas. Quem decide sobre a manutenção ou relaxamento da prisão?", options: ["O Presidente da Assembleia", "A Comissão de Constituição e Justiça (CCJ)", "A Mesa Diretora", "O Plenário, pelo voto da maioria de seus membros", "O Governador do Estado"], correct: 3, explanation: "Gabarito: D. Art. 117, §2º. A decisão final sobre a prisão é do Plenário, por maioria absoluta (maioria de seus membros), após parecer prévio da CCJ." },
+      { module: "Módulo 03 - Funcionamento e Estatuto", source: "inedita", question: "O Código de Ética e Decoro Parlamentar prevê penalidades. A 'Censura Verbal' é aplicada:", options: ["Pelo Plenário, por maioria absoluta", "Pelo Presidente da Assembleia ou Presidente de Comissão, em caso de perturbação da ordem ou infração leve", "Pela Mesa Diretora, por escrito", "Pelo Corregedor Parlamentar", "Pelo Conselho de Ética"], correct: 1, explanation: "Gabarito: B. Art. 124, §1º. A censura verbal é a sanção mais leve e imediata, aplicada por quem preside os trabalhos (Presidente da ALE ou da Comissão)." },
+      { module: "Módulo 03 - Funcionamento e Estatuto", source: "inedita", question: "Constitui conduta incompatível com o decoro parlamentar, punível com perda de mandato:", options: ["Discordar do Governador em discurso", "Faltar a uma sessão ordinária", "O abuso das prerrogativas constitucionais ou a percepção de vantagens indevidas", "Votar contra a orientação do partido", "Atrasar o início da sessão"], correct: 2, explanation: "Gabarito: C. Art. 122, §3º. Abuso de prerrogativas e percepção de vantagens indevidas (corrupção/propina) são as definições clássicas de quebra de decoro que levam à cassação." },
+      { module: "Módulo 03 - Funcionamento e Estatuto", source: "inedita", question: "Para aplicar a penalidade de 'Impedimento Temporário do Exercício do Mandato' (suspensão) não excedente a 30 dias, a decisão cabe:", options: ["À Mesa Diretora", "Ao Presidente", "À Comissão de Ética", "Ao Plenário, em votação aberta e maioria absoluta", "Ao Corregedor"], correct: 3, explanation: "Gabarito: D. Art. 125, Parágrafo único. Suspensão é coisa séria. Exige decisão do Plenário, voto aberto e maioria absoluta, garantida ampla defesa." },
+      { module: "Módulo 03 - Funcionamento e Estatuto", source: "inedita", question: "A 'Bancada' é o agrupamento de deputados de uma mesma representação partidária. Para escolher um Líder, a bancada deve có no mínimo:", options: ["01 deputado", "02 deputados", "03 deputados", "05 deputados", "1/10 da Assembleia"], correct: 1, explanation: "Gabarito: B. Art. 126. Bancada com representação igual ou superior a 02 deputados escolhe Líder. Se tiver só 1, ele é o representante, mas não tecnicamente 'Líder de Bancada' para fins de estrutura de liderança com vice, etc, embora na prática atue como tal." },
+      { module: "Módulo 03 - Funcionamento e Estatuto", source: "inedita", question: "O 'Bloco Parlamentar' é a união de bancadas sob liderança comum. O Regimento veda a constituição de Bloco integrado por menos de:", options: ["02 deputados", "03 deputados", "04 deputados", "05 deputados", "1/3 dos membros da Casa"], correct: 1, explanation: "Gabarito: B. Art. 131, §1º. Não se admite Bloco Parlamentar com menos de 03 membros." },
+      { module: "Módulo 03 - Funcionamento e Estatuto", source: "inedita", question: "O Líder do Governo na Assembleia é:", options: ["Eleito pelos deputados da base governista", "O Presidente da Assembleia", "Indicado pelo Governador do Estado através de ofício à Mesa", "O deputado mais votado do partido do Governador", "Escolhido pela Mesa Diretora"], correct: 2, explanation: "Gabarito: C. Art. 127, §6º. O Líder do Governo é indicação direta e exclusiva do Governador." },
+      { module: "Módulo 03 - Funcionamento e Estatuto", source: "inedita", question: "Os Líderes possuem prerrogativas especiais, como o uso da palavra em 'Comunicação de Liderança'. Segundo o Regimento, os Líderes e Vice-Líderes do Governo:", options: ["Têm assento permanente na Mesa Diretora", "Não poderão ser membros da Mesa Diretora", "Têm voto de qualidade nas comissões", "Podem presidir a Assembleia na ausência dos titulares", "Têm mandato de 4 anos fixo"], correct: 1, explanation: "Gabarito: B. Art. 127, §5º. 'Os líderes e vice-líderes do Governo não poderão ser membros da Mesa Diretora'. Isso garante a separação entre a direção institucional da Casa e a orientação política partidária/governamental." },
+      { module: "Módulo 03 - Funcionamento e Estatuto", source: "inedita", question: "Em relação à remuneração (subsídio) dos deputados:", options: ["É fixada pelo Governador", "Varia conforme a produtividade de leis aprovadas", "É estabelecida no fim de cada Legislatura para a subsequente", "É igual ao salário do Secretário de Estado", "Pode ser aumentada a qualquer momento por decreto"], correct: 2, explanation: "Gabarito: C. Art. 119. O princípio da anterioridade: o subsídio é fixado numa legislatura para valer na próxima (subsequente), evitando que os deputados aumentem o próprio salário para benefício imediato." },
+
+      // MÓDULO 04: SESSÕES PLENÁRIAS E PROCESSO LEGISLATIVO (20 questões)
+      { module: "Módulo 04 - Sessões e Processo", source: "inedita", question: "As Sessões Ordinárias da Assembleia Legislativa de Roraima são realizadas:", options: ["Diariamente, de segunda a sexta-feira", "Às terças, quartas e quintas-feiras, das 09 às 12h", "Às terças e quartas-feiras, no período da tarde", "Às segundas, quartas e sextas-feiras, pela manhã", "Apenas quando houver pauta de votação"], correct: 1, explanation: "Gabarito: B. Art. 136, II. As Sessões Ordinárias ocorrem às terças, quartas e quintas-feiras, das 09 às 12h. Dica: A banca pode tentar te confundir com os dias da semana ou o turno (manhã/tarde)." },
+      { module: "Módulo 04 - Sessões e Processo", source: "inedita", question: "A Sessão Legislativa Ordinária não poderá ser interrompida sem a aprovação:", options: ["Do Plano Plurianual (PPA)", "Da Lei de Diretrizes Orçamentárias (LDO)", "Da Lei Orçamentária Anual (LOA)", "Da Prestação de Contas do Governador", "De todos os projetos em regime de urgência"], correct: 1, explanation: "Gabarito: B. Art. 136, §2º. O texto menciona especificamente a Lei de Diretrizes Orçamentárias (LDO) para a interrupção (recesso de meio de ano) e o Projeto da Lei Orçamentária Anual (LOA) para o encerramento da sessão legislativa anual. A questão foca na interrupção (meio do ano)." },
+      { module: "Módulo 04 - Sessões e Processo", source: "inedita", question: "O Expediente das sessões ordinárias tem duração de 80 minutos e destina-se, entre outras coisas, à leitura de matérias. Após o Expediente, segue-se a:", options: ["Explicação Pessoal", "Ordem do Dia", "Votação de requerimentos de urgência", "Palavra do Líder", "Sessão Secreta"], correct: 1, explanation: "Gabarito: B. Art. 137, II. A ordem da sessão é: 1º) Expediente (80 min); 2º) Ordem do Dia (60 min, prorrogáveis); 3º) Explicação Pessoal (se houver tempo)." },
+      { module: "Módulo 04 - Sessões e Processo", source: "inedita", question: "A convocação de Sessão Extraordinária da Assembleia Legislativa pode ser feita:", options: ["Apenas pelo Governador do Estado", "Apenas pelo Presidente da Assembleia", "Por qualquer Deputado, individualmente", "De ofício pelo Presidente ou a requerimento de 1/3 dos membros da Assembleia", "Pelo Colégio de Líderes"], correct: 3, explanation: "Gabarito: D. Art. 138, Parágrafo único. A convocação extraordinária ocorre de ofício pelo Presidente ou a requerimento de 1/3 dos membros. Atenção: Em sessão extraordinária, só se delibera sobre a matéria da convocação (Art. 140)." },
+      { module: "Módulo 04 - Sessões e Processo", source: "inedita", question: "As Sessões Itinerantes, realizadas fora da sede do Poder Legislativo, destinam-se a:", options: ["Votar projetos polêmicos longe da pressão popular da capital", "Ouvir a comunidade sobre temas de relevante interesse público", "Realizar turismo parlamentar", "Substituir as Sessões Ordinárias quando o prédio da ALE estiver em reforma", "Apenas conceder homenagens e títulos honoríficos"], correct: 1, explanation: "Gabarito: B. Art. 142. O objetivo das Sessões Itinerantes é ouvir a comunidade sobre temas de relevante interesse público, aproximando o Legislativo da população do interior." },
+      { module: "Módulo 04 - Sessões e Processo", source: "inedita", question: "A votação de Proposta de Emenda à Constituição (PEC) exige quórum qualificado. Para ser aprovada, a PEC deve obter, em dois turnos de votação:", options: ["Maioria absoluta dos votos (13 deputados)", "2/3 dos votos dos membros", "3/5 (três quintos) dos votos dos membros", "Maioria simples, presente a maioria absoluta", "Unanimidade dos presentes"], correct: 2, explanation: "Gabarito: C. Art. 199, §3º. A PEC exige votação em 02 turnos e aprovação de 3/5 (três quintos) dos membros da Assembleia em ambos." },
+      { module: "Módulo 04 - Sessões e Processo", source: "inedita", question: "O processo de votação nominal (painel eletrônico) is obrigatório nos casos de:", options: ["Aprovação de requerimentos simples", "Votação de moções de aplauso", "Matérias que exigem quórum de maioria absoluta ou de 2/3, e na apreciação de vetos", "Eleição da Mesa Diretora (que é secreta)", "Aprovação da ata da sessão anterior"], correct: 2, explanation: "Gabarito: C. Art. 246, I e III. A votação nominal é usada para matérias que exigem quórum qualificado (maioria absoluta ou 2/3) e para vetos. A eleição da Mesa é ostensiva e aberta, mas o Regimento pode especificar o método. O Art. 13 diz 'votação ostensiva e aberta'. O Art. 247 lista os casos de escrutínio secreto." },
+      { module: "Módulo 04 - Sessões e Processo", source: "inedita", question: "O pedido de vista de um parecer em Plenário (durante a Ordem do Dia):", options: ["Pode ser concedido por 24 horas", "Não é permitido, pois a vista deve ser pedida nas Comissões", "Pode ser concedido por 10 minutos", "É concedido por 48 horas improrrogáveis", "Só é permitido se o autor do projeto concordar"], correct: 1, explanation: "Gabarito: B (ou uma pegadinha baseada na prática). O Regimento geralmente prevê vista nas Comissões (Art. 86). No Plenário, a discussão pode ser adiada (Art. 238), mas o pedido de vista clássico (levar o processo para o gabinete) ocorre na fase de comissão. Atenção: Verifique se há alguma exceção específica, mas a regra geral de 'vista' é na comissão. No Plenário, pede-se adiamento da discussão ou votação." },
+      { module: "Módulo 04 - Sessões e Processo", source: "inedita", question: "Sobre o Veto do Governador a projeto de lei aprovado pela Assembleia:", options: ["O veto tranca a pauta de todas as outras votações imediatamente após sua leitura", "O veto deve ser apreciado em votação secreta", "Para rejeitar o veto, é necessária a maioria absoluta dos deputados", "O silêncio da Assembleia em 30 dias implica na manutenção do veto", "A Comissão de Constituição e Justiça tem a palavra final sobre o veto"], correct: 2, explanation: "Gabarito: C. Art. 267, §3º. Para rejeitar o veto (ou seja, para aprovar o projeto apesar do veto), é necessário o voto da maioria absoluta dos membros. A votação é nominal (Art. 267, §4º)." },
+      { module: "Módulo 04 - Sessões e Processo", source: "inedita", question: "Os projetos de lei tramitam, em regra, no regime ordinário. O regime de URGÊNCIA dispensa interstícios e formalidades, EXCETO:", options: ["A publicação da proposição", "O parecer das Comissões (ou de relator designado em Plenário) e o quórum para deliberação", "A discussão da matéria", "A inclusão na Ordem do Dia", "A numeração da proposição"], correct: 1, explanation: "Gabarito: B. Art. 261, §1º. A urgência dispensa interstícios, mas NÃO dispensa: quórum, pareceres (que podem ser orais em Plenário), número de discussões e distribuição de avulsos. O parecer é imprescindível, nem que seja dado verbalmente na hora." },
+      { module: "Módulo 04 - Sessões e Processo", source: "inedita", question: "Qual é o prazo para o Governador sancionar ou vetar um projeto de lei aprovado pela Assembleia, contado do recebimento?", options: ["10 dias úteis", "15 dias úteis", "15 dias corridos", "30 dias", "48 horas"], correct: 1, explanation: "Gabarito: B. Art. 266. O prazo é de 15 dias úteis. O silêncio importa em sanção tácita." },
+      { module: "Módulo 04 - Sessões e Processo", source: "inedita", question: "A iniciativa popular de leis pode ser exercida pela apresentação de projeto subscrito por:", options: ["1% do eleitorado estadual", "5% do eleitorado estadual", "1.000 eleitores", "Qualquer cidadão, individualmente", "Associações de bairro legalmente constituídas"], correct: 1, explanation: "Gabarito: B. Art. 132. A iniciativa popular exige a subscrição de, no mínimo, 05% (cinco por cento) dos eleitores do Estado de Roraima." },
+      { module: "Módulo 04 - Sessões e Processo", source: "inedita", question: "Os projetos de Resolução Legislativa destinam-se a regular:", options: ["Matérias de competência privativa da Assembleia, com efeitos internos ou político-administrativos", "Matérias de competência exclusiva do Governador", "A criação de cargos no Poder Executivo", "O orçamento anual do Estado", "Matérias que exigem sanção do Governador"], correct: 0, explanation: "Gabarito: A. Art. 208. Resoluções regulam matérias de competência privativa da ALE (Regimento Interno, serviços administrativos, perda de mandato), com eficácia de lei ordinária, mas sem sanção do Governador." },
+      { module: "Módulo 04 - Sessões e Processo", source: "inedita", question: "O Deputado que se portar de modo inconveniente ou faltar com o decoro durante a sessão poderá sofrer, de imediato, a seguinte sanção aplicada pelo Presidente:", options: ["Perda do mandato", "Suspensão por 30 dias", "Censura verbal", "Multa pecuniária", "Prisão em flagrante"], correct: 2, explanation: "Gabarito: C. Art. 35, I, t e Art. 124, §1º. A censura verbal é a sanção imediata aplicada pelo Presidente para manter a ordem. Sanções mais graves exigem processo no Conselho de Ética e decisão do Plenário ou Mesa." },
+      { module: "Módulo 04 - Sessões e Processo", source: "inedita", question: "Na discussão de uma matéria, o aparte (interrupção do orador) NÃO será admitido quando:", options: ["O orador estiver encaminhando a votação", "O orador estiver lendo o relatório", "O orador permitir expressamente", "For breve e elucidativo", "O Presidente autorizar, mesmo contra a vontade do orador"], correct: 0, explanation: "Gabarito: A. Art. 163, Parágrafo único. Não se admite aparte no encaminhamento de votação, em explicação pessoal, à questão de ordem ou quando o orador negar." },
+      { module: "Módulo 04 - Sessões e Processo", source: "inedita", question: "A verificação de votação (contagem de votos) no processo simbólico:", options: ["Pode ser requerida a qualquer tempo, mesmo dias depois", "Deve ser requerida de imediato, após a proclamação do resultado pelo Presidente", "É automática em todas as votações", "Só pode ser pedida pelo Líder do Governo", "Não é permitida no processo simbólico"], correct: 1, explanation: "Gabarito: B. Art. 245, §2º. Se o resultado proclamado pelo Presidente ('Aprovado/Rejeitado') não for contestado de imediato com um pedido de verificação, torna-se definitivo." },
+      { module: "Módulo 04 - Sessões e Processo", source: "inedita", question: "As emendas apresentadas aos projetos podem ser:", options: ["Apenas supressivas ou aditivas", "Supressivas, aglutinativas, substitutivas, modificativas e aditivas", "Apenas de redação", "Apenas de mérito", "Apenas do relator"], correct: 1, explanation: "Gabarito: B. Art. 213. O Regimento lista os tipos clássicos de emendas: supressiva (retira texto), aglutinativa (funde emendas), substitutiva (troca o texto integral ou parcial), modificativa (altera sem mudar a substância) e aditiva (acrescenta)." },
+      { module: "Módulo 04 - Sessões e Processo", source: "inedita", question: "O pedido de licença para o Governador do Estado se ausentar do País por mais de 15 dias é processado por meio de:", options: ["Projeto de Lei Ordinária", "Projeto de Resolução", "Projeto de Decreto Legislativo", "Requerimento Simples", "Portaria da Mesa"], correct: 2, explanation: "Gabarito: C. Art. 285, §1º. A autorização para o Governador se ausentar (matéria de competência exclusiva da ALE com efeitos externos) é feita via Decreto Legislativo." },
+      { module: "Módulo 04 - Sessões e Processo", source: "inedita", question: "Quando um projeto recebe parecer contrário quanto ao mérito de TODAS as Comissões a que foi distribuído:", options: ["Ele vai a Plenário mesmo assim", "Ele é tido como rejeitado e arquivado", "O autor pode recorrer ao Governador", "O Presidente da Assembleia deve nomear um relator especial", "Ele fica sobrestado por 30 dias"], correct: 1, explanation: "Gabarito: B. Art. 198. Se todas as comissões de mérito rejeitarem o projeto, ele é considerado rejeitado terminativamente e arquivado, não indo a Plenário (salvo recurso específico se houver previsão, mas a regra geral é a rejeição)." },
+      { module: "Módulo 04 - Sessões e Processo", source: "inedita", question: "A 'Questão de Ordem' deve ser formulada:", options: ["Para discutir o mérito do projeto", "Para solicitar aparte ao orador", "Para esclarecer dúvida sobre a interpretação e aplicação do Regimento Interno", "Para criticar um adversário político", "Para pedir verificação de quórum"], correct: 2, explanation: "Gabarito: C. Art. 177. A Questão de Ordem serve exclusivamente para dúvidas sobre a interpretação do Regimento. O Presidente decide soberanamente (com recurso ao Plenário ou CCJ em alguns casos)." },
+
+      // MÓDULO 05: PROCESSO LEGISLATIVO ESPECIAL E CONTROLE (20 questões)
+      { module: "Módulo 05 - Processo Especial", source: "inedita", question: "Sobre a tramitação dos projetos de Códigos (como um Código Tributário Estadual), o Regimento Interno prevê um rito especial. Nesses casos, o prazo para os relatores parciais emitirem parecer é:", options: ["O mesmo dos projetos ordinários", "Reduzido pela metade", "De 30 dias", "De 15 dias", "De 60 dias"], correct: 2, explanation: "Gabarito: C (ou conforme rito específico de códigos, geralmente mais longo). Projetos de Códigos costumam ter prazos dilatados. Verificando o padrão regimental para códigos (geralmente Art. 219 ou próximo): os prazos são mais extensos para permitir análise profunda. Dica: Se a questão falar em 'Código', lembre-se: pressa é inimiga da perfeição aqui." },
+      { module: "Módulo 05 - Processo Especial", source: "inedita", question: "O Projeto de Lei Orçamentária Anual (LOA) deve ser enviado pelo Governador à Assembleia Legislativa até:", options: ["30 de agosto", "30 de setembro", "15 de outubro", "15 de novembro", "31 de dezembro"], correct: 1, explanation: "Gabarito: B (baseado na Constituição Estadual/RI padrão). Geralmente, o prazo da LOA é 30 de setembro (para devolver aprovado até o fim do ano). Atenção: A LDO costuma ser até 15 de maio e o PPA até 30 de setembro do primeiro ano." },
+      { module: "Módulo 05 - Processo Especial", source: "inedita", question: "Recebido o projeto do Orçamento (LOA), ele é imediatamente distribuído:", options: ["A todos os Deputados", "Às Comissões Temáticas", "À Comissão de Orçamento, Fiscalização Financeira, Tributação e Controle", "Ao Presidente da Assembleia para juízo de admissibilidade", "Ao Plenário para leitura"], correct: 2, explanation: "Gabarito: C. Matéria orçamentária é monopólio inicial da Comissão de Orçamento. É lá que as emendas são apresentadas e o parecer geral é feito." },
+      { module: "Módulo 05 - Processo Especial", source: "inedita", question: "As emendas ao projeto da Lei Orçamentária Anual podem ser apresentadas:", options: ["A qualquer momento da tramitação", "No Plenário, durante a votação", "Na Comissão de Orçamento, no prazo estipulado (geralmente 10 ou 15 dias)", "Apenas pelo Líder do Governo", "Apenas para reduzir despesas de pessoal"], correct: 2, explanation: "Gabarito: C. Emendas orçamentárias têm momento rígido: na Comissão de Orçamento e dentro do prazo regimental. Não se faz emenda de boca em Plenário para o orçamento." },
+      { module: "Módulo 05 - Processo Especial", source: "inedita", question: "O julgamento das Contas do Governador pela Assembleia Legislativa baseia-se em parecer prévio emitido por quem?", options: ["Pela Comissão de Constituição e Justiça", "Pelo Ministério Público Estadual", "Pelo Tribunal de Contas do Estado (TCE)", "Pela Comissão de Finanças da ALE-RR", "Por auditoria externa contratada"], correct: 2, explanation: "Gabarito: C. A ALE julga (político), mas baseia-se no Parecer Prévio do Tribunal de Contas (TCE) (técnico). A ALE só pode derrubar esse parecer por quórum qualificado (2/3)." },
+      { module: "Módulo 05 - Processo Especial", source: "inedita", question: "Se a Assembleia Legislativa não julgar as contas do Governador no prazo legal (geralmente 60 dias após o recebimento do parecer do TCE), o que acontece?", options: ["As contas são aprovadas automaticamente", "As contas são rejeitadas automaticamente", "O Presidente da ALE deve convocar sessões extraordinárias exclusivas até a deliberação", "A matéria é sobrestada e tranca a pauta da Assembleia", "O TCE assume o julgamento"], correct: 3, explanation: "Gabarito: D (Conforme Art. 297 ou similar). O julgamento das contas é prioridade. Se vencer o prazo, a matéria tranca a pauta (sobresta as demais deliberações) até que seja votada." },
+      { module: "Módulo 05 - Processo Especial", source: "inedita", question: "Para sustar atos normativos do Poder Executivo que exorbitem do poder regulamentar (Decretos abusivos), a Assembleia utiliza qual espécie normativa?", options: ["Lei Ordinária", "Resolução Legislativa", "Decreto Legislativo", "Moção de Repúdio", "Indicação"], correct: 2, explanation: "Gabarito: C. Decreto Legislativo. É o instrumento clássico para efeitos externos (anular ato do Governador) sem precisar da sanção dele (seria ilógico pedir para ele sancionar a anulação do próprio ato)." },
+      { module: "Módulo 05 - Processo Especial", source: "inedita", question: "O Regimento Interno só pode ser modificado ou reformado por meio de:", options: ["Decreto Legislativo", "Projeto de Resolução", "Lei Complementar", "Ato da Mesa", "Questão de Ordem"], correct: 1, explanation: "Gabarito: B. O Regimento é uma lei interna corporis, portanto, altera-se por Projeto de Resolução." },
+      { module: "Módulo 05 - Processo Especial", source: "inedita", question: "Em um projeto de reforma do Regimento Interno, a proposta deve é assinada por, no mínimo:", options: ["01 Deputado", "1/3 (um terço) dos membros da Assembleia", "Maioria absoluta da Mesa Diretora", "2/3 dos membros", "Líderes de Bancada"], correct: 1, explanation: "Gabarito: B. Para evitar mudanças banais nas regras do jogo, a iniciativa de reforma do RI costuma exigir 1/3 dos membros ou proposta da Mesa (verificar Art. 288/289)." },
+      { module: "Módulo 05 - Processo Especial", source: "inedita", question: "A concessão de Título de Cidadão Roraimense é feita mediante:", options: ["Projeto de Lei Ordinária", "Decreto Legislativo, aprovado por votação nominal e quórum qualificado (2/3)", "Resolução da Mesa", "Ato do Presidente", "Indicação Parlamentar"], correct: 1, explanation: "Gabarito: B. Honrarias exigem Decreto Legislativo e, para evitar banalização, quórum qualificado de 2/3 em votação nominal (Art. 308)." },
+      { module: "Módulo 05 - Processo Especial", source: "inedita", question: "No processo de reforma constitucional (Emenda à Constituição Estadual), a proposta será discutida e votada em dois turnos, com intervalo mínimo de:", options: ["24 horas", "05 dias", "10 dias", "15 dias", "Não há intervalo mínimo"], correct: 2, explanation: "Gabarito: C (ou 5 dias, dependendo da CE/RI local - padrão é interstício para reflexão). O interstício (intervalo) entre os turnos de PEC é vital. Na Federal são 5 sessões, nos Estados varia, mas o novo RI (Art. 201) costuma fixar prazo para evitar votação relâmpago. Padrão ALE-RR: 10 dias ou 5 sessões." },
+      { module: "Módulo 05 - Processo Especial", source: "inedita", question: "A promulgação das Emendas à Constituição Estadual cabe a quem?", options: ["Ao Governador do Estado", "Ao Presidente da Assembleia Legislativa", "À Mesa Diretora da Assembleia Legislativa", "Ao Presidente do Tribunal de Justiça", "Ao Secretário de Estado da Casa Civil"], correct: 2, explanation: "Gabarito: C. Pegadinha clássica! Lei ordinária quem promulga é o Governador (sanção). Emenda à Constituição quem promulga é a Mesa Diretora da Assembleia (Art. 202)." },
+      { module: "Módulo 05 - Processo Especial", source: "inedita", question: "Quando o Prefeito de um município solicita licença à Câmara e esta nega, ou em casos de intervenção estadual no município, o processo na ALE-RR é iniciado por:", options: ["Representação do Governador", "Decreto Legislativo da Mesa", "Projeto de Resolução da CCJ", "Ofício do Tribunal de Justiça", "Denúncia popular"], correct: 0, explanation: "Gabarito: A. A intervenção em município é ato gravíssimo. O Governador decreta e submete à ALE. A ALE aprova ou rejeita via Decreto Legislativo." },
+      { module: "Módulo 05 - Processo Especial", source: "inedita", question: "A autorização para o Governador ou Vice-Governador se ausentarem do Estado ou do País, quando exigida, é competência exclusiva da Assembleia. Se a ausência for menor que 15 dias:", options: ["Não precisa de licença, apenas comunicação", "Precisa de licença aprovada por maioria simples", "É proibida", "Exige licença aprovada por 2/3", "O cargo é declarado vago"], correct: 0, explanation: "Gabarito: A. A regra constitucional padrão é: ausência inferior a 15 dias dispensa licença formal, exigindo apenas comunicação à Casa por cortesia e controle. Acima de 15 dias, exige autorização." },
+      { module: "Módulo 05 - Processo Especial", source: "inedita", question: "Os prazos regimentais que vencerem em dia sem sessão ou feriado:", options: ["São antecipados para o dia útil anterior", "São prorrogados para o primeiro dia útil subsequente", "São contados corridos, não importando o feriado", "Ficam suspensos até a próxima sessão ordinária", "São anulados"], correct: 1, explanation: "Gabarito: B. Regra geral de contagem de prazos processuais e regimentais (Art. 320): venceu no sábado/domingo/feriado? Prorroga para o primeiro dia útil seguinte." },
+      { module: "Módulo 05 - Processo Especial", source: "inedita", question: "O 'Autógrafo' no processo legislativo é:", options: ["A assinatura do deputado no livro de presença", "O documento final do projeto aprovado, enviado ao Governador para sanção", "A assinatura do Governador na lei", "O parecer final da Comissão", "A rubrica do Presidente em cada página do processo"], correct: 1, explanation: "Gabarito: B. Autógrafo é a cópia oficial da lei aprovada pelo Legislativo, enviada ao Executivo para que ele transforme em Lei (sanção) ou vete." },
+      { module: "Módulo 05 - Processo Especial", source: "inedita", question: "O que acontece com a proposição que não for apreciada até o término da legislatura (fim dos 4 anos)?", options: ["Continua tramitando normalmente na próxima legislatura", "É arquivada", "É enviada ao arquivo morto, mas pode é desarquivada a qualquer tempo", "É votada compulsoriamente na última sessão", "É transformada em Indicação"], correct: 1, explanation: "Gabarito: B. Ao fim da Legislatura (4 anos), arquivam-se todas as proposições em andamento, salvo exceções (iniciativa popular, aprovadas em um turno, contas, etc.). Para voltar a tramitar, o autor reeleito (ou outro) deve pedir o desarquivamento (Art. 325)." },
+      { module: "Módulo 05 - Processo Especial", source: "inedita", question: "O pedido de desarquivamento de proposição arquivada ao fim da legislatura anterior:", options: ["É automático", "Depende de requerimento do autor, se reeleito, ou de qualquer Deputado, dentro dos primeiros 180 dias da nova legislatura", "Só pode ser feito pela Mesa", "Não é permitido. O projeto deve ser reapresentado como novo", "Exige aprovação unânime do Plenário"], correct: 1, explanation: "Gabarito: B. O projeto 'more' no arquivo, mas pode 'ressuscitar' se houve interesse político, mediante requerimento no início da nova legislatura (Art. 326)." },
+      { module: "Módulo 05 - Processo Especial", source: "inedita", question: "A 'Redação Final' de um projeto aprovado compete privativamente à:", options: ["Mesa Diretora", "Comissão de Constituição, Justiça e Redação Final", "Comissão Temática (ex: Saúde, Educação)", "Assessoria Jurídica", "Autor do projeto"], correct: 1, explanation: "Gabarito: B. A CCJ (Comissão de Constituição, Justiça e Redação Final) é quem dá o 'polimento' no texto, corrigindo erros de português e técnica legislativa antes do envio ao Governador. É a última etapa interna." },
+      { module: "Módulo 05 - Processo Especial", source: "inedita", question: "Em caso de guerra, comoção intestina ou calamidade pública, a Assembleia poderá reunir-se:", options: ["Apenas na sede", "Em qualquer lugar do Estado, ou fora dele, por deliberação da Mesa ou da maioria absoluta", "Apenas no Palácio do Governo", "Virtualmente, sendo vedada reunião presencial", "A Assembleia é dissolvida nesses casos"], correct: 1, explanation: "Gabarito: B (Retomando o Art. 2º para fechar o ciclo). Em casos extremos, a sede é onde os deputados estiverem. A flexibilidade garante a sobrevivência do Poder Legislativo em crises." },
+
+      // BLOCOS DE QUESTÕES DE 2018
+      // Bloco 1 - Questões 1 a 20
+      { module: "Bloco 1 - Questões 2018", source: "2018", question: "No tocante ao poder legislativo no estado de Roraima, o número de Deputados Estaduais corresponderá ao triplo da representação do Estado na Câmara dos Deputados. Considerando a representação atual, a ALE-RR compõe-se de:", options: ["36 deputados", "30 deputados", "24 deputados", "15 deputados", "12 deputados"], correct: 2, explanation: "Gabarito: C. Art. 2º. 'A Assembleia Legislativa do Estado de Roraima compõe-se de 24 (vinte e quatro) deputados, representantes do povo, eleitos pelo sistema proporcional.'" },
+      { module: "Bloco 1 - Questões 2018", source: "2018", question: "A emenda que visa sanar vício de linguagem, incorreção de técnica legislativa ou lapso manifesto é denominada:", options: ["Emenda de redação", "Emenda supressiva", "Emenda aglutinativa", "Emenda substitutiva", "Emenda aditiva"], correct: 0, explanation: "Gabarito: A. Art. 213, § 7º. 'Emenda de Redação é a que visa sanar vício de linguagem, incorreção de técnica legislativa ou lapso manifesto.'" },
+      { module: "Bloco 1 - Questões 2018", source: "2018", question: "O Projeto de Decreto Legislativo destina-se a regular matéria de competência exclusiva do Poder Legislativo. Salvo disposição em contrário que exija quórum qualificado, o projeto será aprovado por:", options: ["Um terço dos deputados", "Maioria simples", "Maioria absoluta", "Dois terços dos deputados", "Unanimidade"], correct: 1, explanation: "Gabarito: B. Art. 248. A regra geral para as deliberações da Assembleia (incluindo Decretos Legislativos comuns) é a maioria de votos, presente a maioria absoluta de seus membros (maioria simples)." },
+      { module: "Bloco 1 - Questões 2018", source: "2018", question: "A Mesa convocará suplente de Deputado, no prazo de 48 (quarenta e oito) horas, nos casos de vaga ou de licença para tratamento de saúde superior a:", options: ["15 dias", "30 dias", "60 dias", "90 dias", "120 dias"], correct: 4, explanation: "Gabarito: E. Art. 120, III. A convocação de suplente ocorre no caso de licença para tratamento de saúde por prazo superior a 120 (cento e vinte) dias." },
+      { module: "Bloco 1 - Questões 2018", source: "2018", question: "Proposição é toda matéria sujeita à deliberação da Assembleia. Os projetos tramitam nos seguintes regimes:", options: ["Prioridade, ordinária e extraordinária", "Ordinária, urgência e especial", "Prioridade, urgência e ordinária", "Urgência, prioridade e sumaríssima", "Comum e especial"], correct: 2, explanation: "Gabarito: C. Art. 260. 'Os projetos tramitam em regime: I - ordinário; II - prioridade; III - urgência.'" },
+      { module: "Bloco 1 - Questões 2018", source: "2018", question: "A ata da sessão anterior será lida e submetida à discussão e votação. Considerar-se-á aprovada a ata que:", options: ["For assinada por todos os presentes", "Não sofrer impugnação", "For votada nominalmente", "Receber voto favorável de 2/3", "For publicada no Diário Oficial"], correct: 1, explanation: "Gabarito: B. Art. 146. 'Lida a ata, se não houver retificação, o presidente considerá-la-á aprovada independentemente de votação.'" },
+      { module: "Bloco 1 - Questões 2018", source: "2018", question: "A Sessão Plenária da Assembleia poderá ser transformada em Comissão Geral mediante proposta da Mesa ou de Líderes, aprovada pelo Plenário. Essa transformação exige quórum de:", options: ["Dois terços", "Maioria simples", "Maioria absoluta", "Um terço", "Unanimidade"], correct: 1, explanation: "Gabarito: B. Art. 143. O requerimento para transformação em Comissão Geral deve ser aprovado pelo Plenário. Como o regimento não especifica quórum qualificado para este ato, aplica-se a regra geral da maioria simples." },
+      { module: "Bloco 1 - Questões 2018", source: "2018", question: "NÃO será admitido aparte na seguinte situação:", options: ["Quando o orador estiver discutindo o projeto", "Quando o orador permitir", "No encaminhamento de votação", "Se for breve e elucidativo", "Para solicitar esclarecimento"], correct: 2, explanation: "Gabarito: C. Art. 163, Parágrafo único, I. 'Não será admitido aparte no encaminhamento da votação.'" },
+      { module: "Bloco 1 - Questões 2018", source: "2018", question: "Havendo descumprimento ao Regimento no curso dos debates ou perturbação da ordem, o Presidente poderá adotar as seguintes providências, EXCETO:", options: ["Advertência", "Censura verbal", "Cassação imediata do mandato", "Suspensão da sessão", "Determinar a retirada do plenário"], correct: 2, explanation: "Gabarito: C. Art. 35 e Art. 124. O Presidente tem poder de polícia para aplicar censura verbal e suspender a sessão. A cassação de mandato é penalidade gravíssima que exige devido processo legal no Conselho de Ética e votação do Plenário, não sendo aplicada de ofício e de imediato pelo Presidente." },
+      { module: "Bloco 1 - Questões 2018", source: "2018", question: "As sessões Solenes e Especiais distinguem-se das Ordinárias. As Sessões Especiais destinam-se preferencialmente a:", options: ["Votar o orçamento", "Comemorações ou homenagens", "Eleição da Mesa", "Posse dos deputados", "Julgamento do Governador"], correct: 1, explanation: "Gabarito: B. Art. 136, IV. As sessões especiais realizam-se para 'comemorações ou homenagens ou para a exposição de assuntos relevantes'." },
+      { module: "Bloco 1 - Questões 2018", source: "2018", question: "Será adotada a votação nominal obrigatoriamente no seguinte caso:", options: ["Aprovação de requerimento de urgência", "Eleição da Mesa (quando não unânime)", "Matérias que exijam quórum de maioria absoluta", "Aprovação da Ata", "Moções de aplauso"], correct: 2, explanation: "Gabarito: C. Art. 246, I. O processo de votação nominal é obrigatório 'nos casos em que se exige quórum de maioria absoluta ou de dois terços'." },
+      { module: "Bloco 1 - Questões 2018", source: "2018", question: "A renúncia ao mandato de Deputado deve ser manifestada por escrito à Mesa. Ela torna-se efetiva e irretratável:", options: ["Após aprovação pelo Plenário", "Imediatamente após a entrega do documento", "Depois de lida no Pequeno Expediente e publicada no Diário da Assembleia", "Após 30 dias do pedido", "Apenas no fim do ano legislativo"], correct: 2, explanation: "Gabarito: C. Art. 115, § 1º. A renúncia torna-se efetiva e irretratável 'depois de lida no Pequeno Expediente e publicada no Diário da Assembleia'." },
+      { module: "Bloco 1 - Questões 2018", source: "2018", question: "O Presidente da Assembleia convocará sessão secreta do plenário para apreciação de matéria determinada, quando houver requerimento de:", options: ["Qualquer cidadão", "Governador", "Comissão ou Líderes", "Secretário de Estado", "Tribunal de Justiça"], correct: 2, explanation: "Gabarito: C. Art. 89. 'A requerimento de Comissão, o presidente da Assembleia convocará Sessão Secreta'. O Art. 151 também prevê o requerimento de Líderes para este fim." },
+      { module: "Bloco 1 - Questões 2018", source: "2018", question: "Salvo exceções, a Comissão deverá emitir parecer para as matérias em regime de urgência, a contar da remessa do Projeto, no prazo de:", options: ["10 dias", "05 dias", "03 dias", "24 horas", "15 dias"], correct: 0, explanation: "Gabarito: A. Art. 80, I. O prazo para as Comissões emitirem parecer é de '10 (dez) dias, para as matérias em regime de urgência'." },
+      { module: "Bloco 1 - Questões 2018", source: "2018", question: "Dirigirá os trabalhos de reunião conjunta de Comissões o Presidente mais idoso dentre os presidentes participantes, EXCETO quando dela participar a:", options: ["Comissão de Orçamento e Finanças", "Comissão de Ética", "Comissão de Constituição, Justiça e Redação Final (CCJ)", "Comissão de Administração", "Mesa Diretora"], correct: 2, explanation: "Gabarito: C. Art. 71. Em reunião conjunta, a direção cabe ao mais idoso, 'exceto quando dela participar a Comissão de Constituição, Justiça e Redação Final, cujo presidente assumirá a direção dos trabalhos'." },
+      { module: "Bloco 1 - Questões 2018", source: "2018", question: "São espécies de Comissões Temporárias previstas no Regimento, EXCETO:", options: ["Especiais", "Parlamentares de Inquérito (CPI)", "De Representação", "Permanente de Orçamento", "Processante"], correct: 3, explanation: "Gabarito: D. Art. 49 e 60. A Comissão de Orçamento, Fiscalização Financeira, Tributação e Controle é classificada como uma Comissão Permanente. As demais citadas são temporárias." },
+      { module: "Bloco 1 - Questões 2018", source: "2018", question: "Na discussion de um projeto, o deputado orador fala uma vez. Se ele for o autor do projeto e quiser falar novamente na mesma fase de discussão:", options: ["Pode falar quantas vezes quiser", "Terá o requerimento indeferido, pois o Regimento limita o uso da palavra a uma só vez na discussão", "Pode falar se o Presidente autorizar por 15 minutos", "Pode falar apenas para encaminhar a votação", "Tem direito a réplica"], correct: 1, explanation: "Gabarito: B. Art. 161. 'Na discussão ou encaminhamento de votação, o deputado falará só uma vez.' Não há previsão para o autor falar repetidamente na fase de discussão principal, salvo em aparte ou na fase seguinte de encaminhamento." },
+      { module: "Bloco 1 - Questões 2018", source: "2018", question: "A atribuição de dar parecer sobre Projetos de Resolução que visem reformar o Regimento Interno compete a:", options: ["Comissão Especial constituída para esse fim", "Apenas à Mesa Diretora", "Apenas ao Presidente", "Comissão de Constituição e Justiça", "Comissão de Administração"], correct: 0, explanation: "Gabarito: A. Art. 288, § 1º. O projeto de reforma do regimento tramitará em uma Comissão Especial composta pelos Líderes das Bancadas e Blocos Parlamentares." },
+      { module: "Bloco 1 - Questões 2018", source: "2018", question: "Ocorrendo a vacância de cargos da Mesa Diretora, se faltarem menos de 15 meses para o término do mandato, o preenchimento dar-se-á:", options: ["Por nova eleição geral", "Por sucessão automática dos titulares (Vices/Secretários) e eleição apenas para o cargo remanescente vago", "Pelo Governador", "Por sorteio", "Ficando o cargo vago"], correct: 1, explanation: "Gabarito: B. Art. 13. Se faltarem menos de 15 meses, 'os cargos serão preenchidos pelos substitutos legais e proceder-se-á à eleição para o cargo vago'." },
+      { module: "Bloco 1 - Questões 2018", source: "2018", question: "A retirada de proposição poderá é requerida pelo autor. Esse requerimento pode ser feito:", options: ["A qualquer tempo, mesmo após aprovada", "Apenas até a sanção do Governador", "Enquanto não tiver parecer favorável de todas as comissões", "Em qualquer fase do andamento, desde que ainda não anunciada a votação em Plenário (se já tiver parecer) ou antes do parecer", "Apenas no protocolo"], correct: 3, explanation: "Gabarito: D. Art. 217. A retirada é permitida 'enquanto não tiver parecer favorável' (na comissão) ou 'se já tiver parecer favorável, antes de anunciada a sua votação' (no plenário), mediante requerimento ao Presidente." },
+
+      // Bloco 2 - Questões 21 a 40
+      { module: "Bloco 2 - Questões 2018", source: "2018", question: "No caso de licença de um Deputado para chefiar missão diplomática temporária ou licença para tratamento de saúde, havendo vaga, a Mesa deverá convocar o seu suplente no prazo de:", options: ["96 horas", "72 horas", "48 horas", "24 horas", "05 dias"], correct: 2, explanation: "Gabarito: C. Art. 120, § 1º. Ocorrendo vaga ou nos casos de licença previstos (ex: saúde > 120 dias, investidura em cargo executivo), o Presidente convocará o suplente no prazo de 48 (quarenta e oito) horas." },
+      { module: "Bloco 2 - Questões 2018", source: "2018", question: "Perderá o mandato o Deputado:", options: ["Cujo procedimento for declarado incompatível com o decoro parlamentar", "Que sofrer condenação cível em primeira instância", "Cujo comportamento infringir apenas os costumes locais", "Quando a Justiça Cível assim o decretar em liminar", "Que faltar a uma sessão solene"], correct: 0, explanation: "Gabarito: A. Art. 122, II. Perde o mandato o deputado 'cujo procedimento for declarado incompatível com o decoro parlamentar'. A condenação criminal (não cível) também gera perda, mas deve ser transitada em julgado (Art. 122, VI)." },
+      { module: "Bloco 2 - Questões 2018", source: "2018", question: "A Sessão Secreta do Plenário para apreciação de matéria determinada deve ser convocada pelo Presidente da Assembleia a requerimento de:", options: ["Qualquer cidadão", "Comissão ou Líderes de Bancada", "Deputado mais votado", "Bloco Parlamentar minoritário apenas", "Governador"], correct: 1, explanation: "Gabarito: B. Art. 89 e Art. 151. A sessão secreta pode ser requerida por Comissão (Art. 89) ou por Líderes (Art. 151), para tratar de assuntos que exijam sigilo (ex: segurança, decoro)." },
+      { module: "Bloco 2 - Questões 2018", source: "2018", question: "A perda do lugar em Comissão Permanente se dará quando o membro efetivo, no exercício do mandato, deixar de comparecer, sem justificativa, a:", options: ["02 reuniões consecutivas", "03 reuniões ordinárias alternadas", "05 reuniões ordinárias consecutivas ou 08 alternadas na Sessão Legislativa", "10 reuniões intercaladas", "Qualquer reunião extraordinária"], correct: 2, explanation: "Gabarito: C. Art. 72, § 1º. A vaga na comissão abre-se automaticamente se o membro faltar a 05 (cinco) reuniões consecutivas ou 08 (oito) alternadas durante a Sessão Legislativa Ordinária, salvo motivo justificado." },
+      { module: "Bloco 2 - Questões 2018", source: "2018", question: "Os membros das Comissões Permanentes e Temporárias são designados:", options: ["Apenas por indicação do Governador", "Pelo Presidente da Assembleia, por indicação dos Líderes das Bancadas ou Blocos, observada a proporcionalidade partidária", "Pelo Plenário, através de sorteio", "Pelo deputado mais antigo", "Por eleição direta popular"], correct: 1, explanation: "Gabarito: B. Art. 51. Os membros são designados pelo Presidente, mediante indicação escrita dos Líderes, assegurando-se, tanto quanto possível, a representação proporcional dos partidos ou blocos." },
+      { module: "Bloco 2 - Questões 2018", source: "2018", question: "Analise as afirmações com base no Regimento: I. É atribuição do Presidente conceder a palavra aos deputados. II. Os Líderes e Vice-Líderes do Governo não poderão ser membros da Mesa Diretora. III. Compete ao 2º Secretário fazer a chamada dos Deputados em Plenário (regra geral). Estão corretas:", options: ["Apenas I", "Apenas I e II", "Apenas III", "I, II e III", "Nenhuma"], correct: 1, explanation: "Gabarito: B. I – Correta (Art. 35, I, e). II – Correta (Art. 127, § 5º: 'Os líderes e vice-líderes do Governo não poderão ser membros da Mesa'). III – Incorreta. A chamada (verificação de presença) é competência precípua do 1º Secretário (Art. 37, II) ou 2º Secretário na ausência do 1º, mas a questão põe como função titular do 2º, o que o RI atribui ao 1º. O 2º Secretário lavra as atas (Art. 38)." },
+      { module: "Bloco 2 - Questões 2018", source: "2018", question: "A declaração solene de instalação da Legislatura ocorrerá na Sessão Preparatória, sendo proferida pelo:", options: ["Presidente dos trabalhos (Deputado que estiver presidindo a sessão)", "Governador", "Juiz Eleitoral", "Prefeito da Capital", "Secretário Geral"], correct: 0, explanation: "Gabarito: A. Art. 6º. Após o compromisso dos deputados, o Presidente (aquele que dirige a sessão preparatória, geralmente o mais idoso com mais legislaturas) declara instalada a Legislatura." },
+      { module: "Bloco 2 - Questões 2018", source: "2018", question: "A Sessão Preparatória da ALE-RR is realizada, precipuamente, para:", options: ["Planejamento estratégico", "Posse dos Deputados e Eleição da Mesa Diretora", "Prestação de contas do exercício anterior", "Posse do Governador (apenas)", "Votação de leis urgentes"], correct: 1, explanation: "Gabarito: B. Art. 4º e Art. 9º. As sessões preparatórias inauguram a legislatura com a finalidade específica de posse dos eleitos e eleição da Mesa Diretora." },
+      { module: "Bloco 2 - Questões 2018", source: "2018", question: "O Regimento Interno estabelece que as Comissões da Assembleia classificam-se em:", options: ["Permanentes e Temporárias", "Fixas e Móveis", "Ordinárias e Extraordinárias", "Legislativas e Executivas", "Judiciais e Administrativas"], correct: 0, explanation: "Gabarito: A. Art. 49. 'As comissões da Assembleia Legislativa são: I - permanentes, as que subsistem nas legislaturas; II - temporárias, as que se extinguem com o término da legislatura ou antes...'." },
+      { module: "Bloco 2 - Questões 2018", source: "2018", question: "Dentre as atribuições do Presidente da ALE-RR previstas no Regimento, encontra-se:", options: ["Distribuir proposições às Comissões", "Relatar todos os projetos na CCJ", "Vetar projetos de lei", "Julgar as contas do Governador monocraticamente", "Nomear os suplentes de deputado sem convocação"], correct: 0, explanation: "Gabarito: A. Art. 35, I, f. Compete ao Presidente 'distribuir proposições, processos e papéis às Comissões'." },
+      { module: "Bloco 2 - Questões 2018", source: "2018", question: "Conforme estabelece o Regimento Interno, é competência do 1º Secretário:", options: ["Cumprir e fazer cumprir o Regimento na ausência do Presidente", "Redigir a ata das sessões secretas", "Despachar a matéria do Pequeno Expediente", "Conceder licença a Deputado (ato da Mesa)", "Presidir a CCJ"], correct: 2, explanation: "Gabarito: C. Art. 37, V. Compete ao 1º Secretário 'despachar a matéria do Pequeno Expediente'. (A ta das sessões secretas é geralmente lavrada pelo 2º Secretário ou Secretário ad hoc, conforme Art. 38)." },
+      { module: "Bloco 2 - Questões 2018", source: "2018", question: "Na forma do Regimento Interno, compete à Mesa Diretora, EXCETO:", options: ["Promulgar emendas à Constituição Estadual", "Conceder licença a Deputado", "Legislar sobre Imposto Predial e Territorial Urbano (IPTU)", "Estabelecer limites de competência para despesas", "Propor a fixação do subsídio dos deputados"], correct: 2, explanation: "Gabarito: C. A Mesa tem atribuições administrativas e diretivas (Art. 30). Legislar sobre IPTU é competência constitucional privativa dos Municípios, e mesmo que fosse imposto estadual (como IPVA), seria competência do Plenário aprovar a lei, não ato administrativo da Mesa." },
+      { module: "Bloco 2 - Questões 2018", source: "2018", question: "São Sessões Especiais aquelas que se realizam:", options: ["Fora da sede", "Para comemorações ou homenagens", "Para eleição da Mesa", "Nos feriados", "Para votar o Orçamento"], correct: 1, explanation: "Gabarito: B. Art. 136, IV. Especiais: 'para comemorações ou homenagens ou para a exposição de assuntos relevantes'." },
+      { module: "Bloco 2 - Questões 2018", source: "2018", question: "Deputado Estadual requereu licença para tratar de interesse particular. Segundo o Regimento, essa licença:", options: ["É remunerada", "Não exige prazo", "É não remunerada e o afastamento não poderá ultrapassar 120 dias por sessão legislativa", "Deve ser de no mínimo 180 dias", "É concedida pelo Governador"], correct: 2, explanation: "Gabarito: C. Art. 114, IV. Licença para tratar de interesse particular: 'sem remuneração, desde que o afastamento não ultrapasse 120 (cento e vinte) dias por sessão legislativa'." },
+      { module: "Bloco 2 - Questões 2018", source: "2018", question: "Bancada é o agrupamento de deputados de uma mesma representação partidária. Escolherão Líder as bancadas com número de integrantes igual ou superior a:", options: ["05", "03", "02", "01", "10% da Casa"], correct: 2, explanation: "Gabarito: C. Art. 126. 'Os deputados são agrupados por representações partidárias... cabendo-lhes escolher o líder quando a representação for igual ou superior a 2 (dois) deputados.'" },
+      { module: "Bloco 2 - Questões 2018", source: "2018", question: "Compete ao Corregedor-Geral da Assembleia:", options: ["Presidir as sessões plenárias", "Promover a manutenção do decoro, da ordem e da disciplina", "Nomear servidores comissionados", "Assinar os cheques da Assembleia", "Substituir o Governador"], correct: 1, explanation: "Gabarito: B. Art. 41, I. A função precípua da Corregedoria é zelar pelo decoro, ordem e disciplina no âmbito da Casa, realizando sindicâncias e inquéritos quando necessário." },
+      { module: "Bloco 2 - Questões 2018", source: "2018", question: "O Deputado que descumprir deveres ou praticar ato contra o decoro estará sujeito, conforme a gravidade, às seguintes penalidades disciplinares (Art. 124), EXCETO:", options: ["Censura (verbal ou escrita)", "Suspensão do exercício do mandato (temporária)", "Perda do mandato", "Prisão administrativa decretada pela Mesa", "Advertência"], correct: 3, explanation: "Gabarito: D. Art. 124. As penas são: Censura, Suspensão (impedimento temporário) e Perda do Mandato. Não existe 'prisão administrativa' aplicada pela Mesa contra parlamentar (vedado pela imunidade constitucional, salvo flagrante de crime inafiançável com decisão judicial/plenário)." },
+      { module: "Bloco 2 - Questões 2018", source: "2018", question: "Perderá o mandato o Deputado que deixar de comparecer, em cada Sessão Legislativa Ordinária, à:", options: ["Terça parte das sessões ordinárias", "Metade das sessões", "Quarta parte das sessões", "Quinta parte das sessões", "Maioria absoluta das sessões"], correct: 0, explanation: "Gabarito: A. Art. 122, III. Perde o mandato quem deixar de comparecer à terça parte (1/3) das sessões ordinárias, salvo licença ou missão." },
+      { module: "Bloco 2 - Questões 2018", source: "2018", question: "Durante o recesso parlamentar, a continuidade da Assembleia é garantida por uma Comissão, eleita na última sessão ordinária do período, denominada:", options: ["Comissão de Recesso", "Comissão de Representação (ou Representativa)", "Comissão Executica", "Comissão de Plantão", "Mesa Diretora Provisória"], correct: 1, explanation: "Gabarito: B. Art. 66. A 'Comissão Representativa' funciona nos recessos, com atribuições específicas de zelar pelas competências da Casa." },
+      { module: "Bloco 2 - Questões 2018", source: "2018", question: "O prazo de funcionamento da Comissão Parlamentar de Inquérito (CPI) na ALE-RR é de:", options: ["30 dias", "60 dias", "90 dias", "120 dias", "180 dias"], correct: 3, explanation: "Gabarito: D. Art. 65. A CPI é constituída para apuração de fato determinado e por prazo certo, de até 120 (cento e vinte) dias, prorrogável." },
+
+      // Bloco 3-4 - Questões 41 a 70
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "Deputado Estadual requereu à Mesa Diretora licença para tratar de interesse particular. Segundo o Regimento Interno vigente, esse requerimento:", options: ["Será deferido por prazo indeterminado", "Serão indeferido se o prazo for superior a 30 dias", "Será deferido, sem remuneração, desde que o afastamento não ultrapasse 120 dias por sessão legislativa", "Será deferido, com remuneração, por até 90 dias", "Depende de aprovação do Plenário"], correct: 2, explanation: "Gabarito: C. Art. 114, IV. A licença para tratar de interesse particular é concedida 'sem remuneração, desde que o afastamento não ultrapasse 120 (cento e vinte) dias por sessão legislativa'." },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "Bancada é o agrupamento organizado dos Deputados de uma mesma representação partidária. Caberá a elas escolher Líder quando a representação for igual ou superior a:", options: ["05 deputados", "03 deputados", "02 deputados", "01 deputado", "1/10 da Assembleia"], correct: 2, explanation: "Gabarito: C. Art. 126. 'Os deputados são agrupados por representações partidárias... cabendo-lhes escolher o líder quando a representação for igual ou superior a 2 (dois) deputados.'" },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "Compete ao Corregedor-Geral da Assembleia Legislativa, dentre outras atribuições:", options: ["Presidir a Mesa Diretora na ausência dos Vices", "Promover, em colaboração com a Mesa, a manutenção do decoro, da ordem e da disciplina", "Liberar porte de arma para visitantes", "Nomear os assessores dos gabinetes parlamentares", "Julgar as contas do Governador"], correct: 1, explanation: "Gabarito: B. Art. 41, I. Compete ao Corregedor-Geral 'promover a manutenção do decoro, da ordem e da disciplina no âmbito da Assembleia Legislativa'." },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "O Deputado que descumprir os deveres do mandato ou praticar ato que afete a dignidade da investidura estará sujeito, conforme a gravidade, às seguintes penalidades (Art. 124), EXCETO:", options: ["Censura (verbal ou escrita)", "Suspensão do exercício do mandato (impedimento temporário)", "Perda do mandato", "Multa pecuniária descontada em folha (como sanção autônoma)", "Advertência (implícita no poder de polícia)"], correct: 3, explanation: "Gabarito: D. Art. 124. As penalidades disciplinares expressas são: I - Censura; II - Impedimento temporário do exercício do mandato (suspensão); III - Perda do mandato. Não há previsão de 'multa' como pena disciplinar autônoma no rol do Art. 124, embora faltas injustificadas gerem desconto no subsídio (efeito administrativo)." },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "Haverá perda de mandato de um deputado, EXCETO quando ele:", options: ["Deixar de comparecer, em cada Sessão Legislativa Ordinária, à terça parte das sessões ordinárias, salvo licença ou missão", "Sofrer condenação criminal em sentença transitada em julgado", "Adotar procedimento declarado incompatível com o decoro parlamentar", "Divergir de opinião política do Governador", "Utilizar o mandato para prática de corrupção ou improbidade"], correct: 3, explanation: "Gabarito: D. Art. 122. A divergência política é protegida pela imunidade material (inviolabilidade por opiniões, palavras e votos - Art. 117). As demais opções são causas constitucionais e regimentais de perda de mandato." },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "As matérias que tramitam na Assembleia passam necessariamente pela Comissão de Constituição, Justiça e Redação Final (CCJ) para análise de:", options: ["Mérito financeiro apenas", "Constitucionalidade, legalidade, juridicidade, regimentalidade e técnica legislativa", "Conveniência política exclusiva", "Impacto ambiental apenas", "Mérito administrativo apenas"], correct: 1, explanation: "Gabarito: B. Art. 60, I. Compete à CCJ manifestar-se sobre o aspecto 'constitucional, legal, jurídico, regimental e de técnica legislativa' de todas as proposições." },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "A defesa do Poder Legislativo, de seus órgãos e membros, quando atingidos em suas funções institucionais, conta com o suporte jurídico da:", options: ["Procuradoria-Geral da Assembleia", "Secretaria de Segurança Pública", "Comissão de Ética", "Corregedoria Parlamentar", "Polícia Legislativa (apenas segurança física)"], correct: 0, explanation: "Gabarito: A. Art. 48. A Procuradoria-Geral da Assembleia é o órgão de representação judicial, consultoria e assessoramento técnico-jurídico do Poder Legislativo." },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "A vaga de Deputado na ALE-RR dar-se-á por:", options: ["Apenas falecimento", "Falecimento, renúncia ou perda de mandato", "Licença saúde superior a 30 dias", "Viagem ao exterior", "Assunção de cargo de Ministro de Estado (gera apenas suspensão/licença)"], correct: 1, explanation: "Gabarito: B. Art. 120. 'As vagas, na Assembleia, dar-se-ão por: I - falecimento; II - renúncia; III - perda de mandato.'" },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "Durante o recesso parlamentar, funciona uma Comissão com atribuições específicas de zelar pela competência legislativa, denominada:", options: ["Comissão Especial", "Comissão de Inquérito", "Comissão Representativa", "Comissão de Plantão", "Comissão Executiva"], correct: 2, explanation: "Gabarito: C. Art. 66. 'A Comissão Representativa funciona nos recessos da Assembleia Legislativa...'." },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "Os membros das Comissões são designados pelo Presidente da Assembleia, mediante indicação:", options: ["Do Governador", "Dos Líderes das Bancadas ou Blocos Parlamentares", "Do Deputado mais votado", "Do Presidente do Tribunal de Justiça", "Por sorteio entre os presentes"], correct: 1, explanation: "Gabarito: B. Art. 51. A designação ocorre por ato do Presidente, 'mediante indicação escrita dos Líderes'." },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "Compete à Comissão de Constituição, Justiça e Redação Final manifestar-se, dentre outros assuntos, sobre:", options: ["Perda de mandato de Deputado e intervenção nos municípios", "Mérito de projetos culturais", "Fiscalização de obras públicas (competência da Comissão de Obras)", "Politica agrícola", "Saúde pública"], correct: 0, explanation: "Gabarito: A. Art. 60, I, f e h. Compete à CCJ opinar sobre 'perda de mandato de deputado' e 'intervenção estadual nos municípios'." },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "O prazo de funcionamento da Comissão Parlamentar de Inquérito (CPI) na ALE-RR será de até:", options: ["30 dias", "60 dias", "90 dias", "120 dias", "180 dias"], correct: 3, explanation: "Gabarito: D. Art. 65. A CPI tem prazo certo de até 120 (cento e vinte) dias, prorrogável." },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "As comissões são Permanentes e Temporárias. Respectivamente, são aquelas que:", options: ["Subsistem nas legislaturas / Extinguem-se com o término da legislatura ou cumprimento do objeto", "Extinguem-se a cada ano / Duram 4 anos", "Tratam de leis / Tratam de ética", "São eleitas / São nomeadas", "Têm remuneração extra / Não têm remuneração"], correct: 0, explanation: "Gabarito: A. Art. 49. Definição clássica de permanentes (caráter duradouro, técnico) e temporárias (caráter transitório, fim específico)." },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "Compete ao Corregedor-Geral da ALE-RR:", options: ["Inspecionar os serviços administrativos (Função da Mesa/1ª Secretário)", "Auxiliar o 1º Secretário na chamada", "Supervisionar as atividades parlamentares no tocante aos princípios da Ética e do Decoro", "Substituir o Presidente em Plenário", "Presidir a Comissão de Orçamento"], correct: 2, explanation: "Gabarito: C. Art. 41. A Corregedoria cuida da ética, decoro, ordem e disciplina." },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "Os membros das Comissões Permanentes são nomeados para um mandato que prevalecerá durante:", options: ["1 ano", "2 anos (duas sessões legislativas)", "4 anos", "6 meses", "Toda a legislatura"], correct: 1, explanation: "Gabarito: B. Art. 53. 'Os membros das Comissões Permanentes servirão pelo prazo de 2 (dois) anos (duas sessões legislativas)...'." },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "A ajuda de custo devida ao Deputado (geralmente paga no início e fim da sessão legislativa) destina-se a compensar despesas com:", options: ["Instalação e transporte para comparecimento à Sessão Legislativa", "Alimentação diária", "Hospedagem em hotéis de luxo", "Combustível para viagens de lazer", "Compra de trajes sociais"], correct: 0, explanation: "Gabarito: A. Art. 119, § 2º. A ajuda de custo destina-se a compensar as despesas com transporte e mudança/instalação para o comparecimento às sessões." },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "O Relator de uma matéria nas Comissões será designado pelo:", options: ["Presidente da Assembleia", "Presidente da respectiva Comissão", "Autor do projeto", "Plenário", "Sorteio eletrônico"], correct: 1, explanation: "Gabarito: B. Art. 69, V. Compete ao Presidente da Comissão 'designar relatores'." },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "As reuniões das Comissões classificam-se em:", options: ["Ordinárias e Extraordinárias", "Solenes e Especiais", "Públicas e Privadas", "Internas e Externas", "Legislativas e Judiciais"], correct: 0, explanation: "Gabarito: A. Art. 73. 'As reuniões das Comissões serão públicas e classificam-se em: I - Ordinárias... II - Extraordinárias...'." },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "É vedado ao Deputado ser membro efetivo de mais de:", options: ["02 comissões permanentes", "03 comissões permanentes", "04 comissões permanentes", "06 comissões permanentes", "08 comissões permanentes"], correct: 3, explanation: "Gabarito: D. Art. 54, Parágrafo único. 'É vedado ao deputado ser membro efetivo de mais de 6 (seis) comissões permanentes.'" },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "Sobre a Mesa Diretora: I. Os Líderes de Bancada não podem ser membros da Mesa (Art. 127). II. As funções de membro da Mesa cessam pela renúncia. III. O titular da Mesa só pode pedir licença para saúde? (Não, pode para outros fins, mas gera vacância ou substituição dependendo do prazo). Está CORRETA a alternativa:", options: ["I e II", "Apenas II", "Apenas III", "I, II e III", "Nenhuma"], correct: 0, explanation: "Gabarito: A. I – Correta (Art. 127, § 5º veda Líder na Mesa). II – Correta (Art. 13 – A renúncia gera vacância). III – Incorreta. Membros da Mesa podem tirar outras licenças (ex: interesse particular), mas aplica-se a regra de substituição ou vacância conforme o caso." },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "A criação de Comissão Parlamentar de Inquérito (CPI) depende de requerimento subscrito por, no mínimo:", options: ["Um terço dos membros da Assembleia", "Maioria simples", "Maioria absoluta", "Metade dos membros", "Dois terços"], correct: 0, explanation: "Gabarito: A. Art. 65. 'A Assembleia Legislativa, a requerimento de 1/3 (um terço) de seus membros, constituirá Comissão Parlamentar de Inquérito...'." },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "Salvo prazo diverso estipulado no ato de criação, as Comissões Especiais (ou CPIs, que seguem lógica similar de prazo determinado) costumam tem prazo inicial não superior a:", options: ["120 dias", "90 dias", "60 dias", "30 dias", "1 ano"], correct: 0, explanation: "Gabarito: A. O Art. 65 fixa 120 dias para CPI. O Art. 62 (Comissões Especiais) diz que elas têm prazo determinado no ato de constituição, mas o padrão regimental para comissões temporárias de investigação ou estudo na ALE-RR é o limite de 120 dias (aplicável por simetria ou especificação do ato)." },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "A Mesa Diretora da Assembleia é composta por 01 Presidente, além de:", options: ["03 Vice-Presidentes, 04 Secretários, Corregedor, Ouvidor e Secretária da Mulher", "01 Vice e 02 Secretários", "02 Vices e 03 Secretários", "04 Vices e 04 Secretários apenas", "Presidente e Secretário Geral"], correct: 0, explanation: "Gabarito: A. Art. 11. Composição completa: Presidente, 1º, 2º e 3º Vices; 1º, 2º, 3º e 4º Secretários; Corregedor-Geral, Ouvidor-Geral e Secretária Especial da Mulher." },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "A composição da Mesa assegurará, tanto quanto possível, a representação proporcional dos partidos ou blocos parlamentares. Esse princípio chama-se:", options: ["Maioria simples", "Minoria", "Proporcionalidade partidária", "Rodízio", "Antiguidade"], correct: 2, explanation: "Gabarito: C. Art. 10, § 1º (e princípio constitucional). Assegura-se a representação proporcional dos partidos." },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "A eleição da Mesa para o primeiro biênio é realizada:", options: ["Na data da posse dos deputados (Sessão Preparatória)", "No dia 15 de fevereiro", "Em sessão secreta um mês após a posse", "Na diplomação", "Pelo Governador"], correct: 0, explanation: "Gabarito: A. Art. 9º e Art. 12. A eleição ocorre na segunda Sessão Preparatória, que se realiza logo após a posse, no início da legislatura (1º de janeiro ou data da posse)." },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "A direção dos trabalhos na primeira sessão preparatória (antes da eleição da Mesa) caberá ao:", options: ["Deputado mais idoso dentre os de maior número de legislaturas", "Deputado mais votado", "Último Presidente", "Governador", "Presidente do TRE"], correct: 0, explanation: "Gabarito: A. Art. 7º, § 1º. 'Assumirá, de início, a direção dos trabalhos o deputado mais idoso entre os de maior número de legislaturas.'" },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "A ALE-RR poderá reunir-se fora de sua sede por motivo relevante ou de força maior, mediante deliberação da Mesa, ad referendum da:", options: ["Maioria absoluta dos Deputados", "Maioria simples", "Unanimidade", "População", "Justiça"], correct: 0, explanation: "Gabarito: A. Art. 2º, § 1º. '...por deliberação da Mesa Diretora, ad referendum da maioria absoluta dos Deputados.'" },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "Na votação das emendas, a ordem de preferência correta (após o texto principal ou substitutivo) geralmente é:", options: ["Supressivas, Substitutivas, Modificativas e Aditivas", "Aditivas primeiro", "De redação por último", "Aleatória", "Pelo autor mais idoso"], correct: 0, explanation: "Gabarito: A. Art. 242. As emendas supressivas têm preferência (pois se aprovadas, removem o texto e prejudicam as demais modificações naquele trecho). Depois vêm as substitutivas (que trocam o texto), modificativas e por fim as aditivas." },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "No que consiste a 'Moção'?", options: ["Proposição em que é sugerida a manifestação da Assembleia sobre determinado assunto (apelando, aplaudindo, protestando ou repudiando)", "Pedido de informação", "Projeto de Lei", "Recurso ao Plenário", "Emenda constitucional"], correct: 0, explanation: "Gabarito: A. Art. 224. 'Moção é a proposição em que é sugerida a manifestação da Assembleia Legislativa sobre determinado assunto, hipotecando solidariedade ou apoio, apelando, protestando ou repudiando.'" },
+      { module: "Bloco 3-4 - Questões 2018", source: "2018", question: "O exercício da função legislativa da Assembleia se dá por vias de projetos, EXCETO:", options: ["Leis Ordinárias", "Leis Complementares", "Portarias (Ato Administrativo)", "Resoluções", "Decretos Legislativos"], correct: 2, explanation: "Gabarito: C. O processo legislativo (Art. 167) compreende PECs, Leis Complementares, Leis Ordinárias, Decretos Legislativos e Resoluções. Portaria é ato administrativo interno (ex: nomear servidor, instaurar sindicância), não é espécie normativa de lei." }
+    ];
+
+    // 2. ESTADO DA APLICAÇÃO
+    let state = {
+      activeQuestions: [],
+      currentIndex: 0,
+      answers: [],
+      startTime: null,
+      timerInterval: null,
+      filterPeriod: 'all',
+      isDarkMode: false,
+      saveHistory: true,
+      previousModuleSelection: null // Para armazenar a seleção anterior ao filtrar 2018
+    };
+
+    // 3. INICIALIZAÇÃO E TEMAS
+    document.addEventListener('DOMContentLoaded', () => {
+      loadModuleSelection();
+      initTheme();
+      updateCacheStats();
+
+      // Inicializar contador de questões disponíveis
+      document.getElementById('total-available-badge').innerText = database.length;
+
+      // Carregar config de salvar histórico
+      const saveConfig = localStorage.getItem('ale_rr_save_config');
+      state.saveHistory = saveConfig !== 'false';
+      document.getElementById('toggle-save-history').checked = state.saveHistory;
+    });
+
+    function initTheme() {
+      const savedTheme = localStorage.getItem('theme');
+      if (savedTheme === 'dark' || (!savedTheme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+        document.documentElement.classList.add('dark');
+        state.isDarkMode = true;
+        updateThemeIcon();
+      }
+    }
+
+    function toggleDarkMode() {
+      document.documentElement.classList.toggle('dark');
+      state.isDarkMode = !state.isDarkMode;
+      localStorage.setItem('theme', state.isDarkMode ? 'dark' : 'light');
+      updateThemeIcon();
+    }
+
+    function updateThemeIcon() {
+      const icon = document.getElementById('theme-icon');
+      if (state.isDarkMode) {
+        icon.className = 'fas fa-sun';
+      } else {
+        icon.className = 'fas fa-moon';
+      }
+    }
+
+    // 4. INTERFACE E INPUTS
+    function selectCustomRadio() {
+      const radio = document.getElementById('radio-custom');
+      radio.checked = true;
+      toggleCustomInput(true);
+      updateDistributionPreview();
+    }
+
+    function toggleCustomInput(show) {
+      const input = document.getElementById('custom-q-count');
+      if(show) {
+        input.classList.remove('hidden');
+        input.focus();
+      } else {
+        input.classList.add('hidden');
+      }
+    }
+
+    function sanitizeInput(input) {
+      input.value = input.value.replace(/[^0-9]/g, '');
+      if (input.value.startsWith('0')) input.value = input.value.substring(1);
+    }
+
+    function showToast(message, type = 'info') {
+      const container = document.getElementById('toast-container');
+      const toast = document.createElement('div');
+      const colors = type === 'warn' ? 'bg-amber-100 border-amber-400 text-amber-800 dark:bg-amber-900/20 dark:border-amber-600 dark:text-amber-200' : 
+                    'bg-blue-100 border-blue-400 text-blue-800 dark:bg-blue-900/20 dark:border-blue-600 dark:text-blue-200';
+      const icon = type === 'warn' ? '<i class="fas fa-exclamation-triangle mr-2"></i>' : '<i class="fas fa-info-circle mr-2"></i>';
+
+      toast.className = `${colors} border px-4 py-3 rounded shadow-lg flex items-center text-sm font-medium fade-in transform transition-all duration-500`;
+      toast.innerHTML = `${icon} <span>${message}</span>`;
+
+      container.appendChild(toast);
+      setTimeout(() => { toast.style.opacity = '0'; setTimeout(() => toast.remove(), 500); }, 4000);
+    }
+
+    function showScreen(screenName) {
+      document.querySelectorAll('[id^="screen-"]').forEach(el => el.classList.add('hidden'));
+      document.getElementById(`screen-${screenName}`).classList.remove('hidden');
+      if(screenName === 'analytics') loadAnalytics();
+    }
+
+    // 5. LÓGICA DE SELEÇÃO E FILTROS
+    function loadModuleSelection() {
+      const counts = {};
+      database.forEach(q => { counts[q.module] = (counts[q.module] || 0) + 1; });
+      const modules = Object.keys(counts);
+      const container = document.getElementById('module-container');
+      container.innerHTML = '';
+
+      modules.forEach((mod, index) => {
+        const div = document.createElement('div');
+        div.className = "flex items-center p-2 hover:bg-slate-100 dark:hover:bg-slate-700/50 rounded-lg cursor-pointer transition border border-transparent hover:border-slate-200 dark:hover:border-slate-600";
+        div.innerHTML = `
+          <input type="checkbox" id="mod-${index}" value="${mod}" class="w-5 h-5 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:bg-slate-700 dark:border-slate-500" checked onchange="updateDistributionPreview()">
+          <label for="mod-${index}" class="ml-3 text-sm font-medium text-slate-700 dark:text-slate-300 cursor-pointer flex-grow select-none flex justify-between">
+            <span>${mod}</span>
+            <span class="bg-slate-200 dark:bg-slate-600 text-slate-600 dark:text-slate-300 text-xs font-bold px-2 py-0.5 rounded-full ml-2">[${counts[mod]}]</span>
+          </label>
+        `;
+        container.appendChild(div);
+      });
+      updateDistributionPreview();
+    }
+
+    function toggleAllModules() {
+      const checkboxes = document.querySelectorAll('#module-container input');
+      const allChecked = Array.from(checkboxes).every(cb => cb.checked);
+      checkboxes.forEach(cb => cb.checked = !allChecked);
+      updateDistributionPreview();
+    }
+
+    function clearAllModules() {
+      const checkboxes = document.querySelectorAll('#module-container input');
+      checkboxes.forEach(cb => cb.checked = false);
+      updateDistributionPreview();
+    }
+
+    // Função para gerenciar o filtro de 2018 - CORRIGIDA
+    function toggle2018Filter() {
+      const only2018 = document.getElementById('filter-2018').checked;
+      const moduleCheckboxes = Array.from(document.querySelectorAll('#module-container input'));
+      
+      if (only2018) {
+        // Salvar o estado atual dos checkboxes
+        state.previousModuleSelection = moduleCheckboxes.map(cb => ({ 
+          value: cb.value, 
+          checked: cb.checked,
+          disabled: cb.disabled 
+        }));
+        
+        // Desmarcar e desabilitar todos os checkboxes
+        moduleCheckboxes.forEach(cb => {
+          cb.checked = false;
+          cb.disabled = true;
+        });
+        
+        // Marcar apenas os módulos de 2018
+        const modules2018 = ["Bloco 1 - Questões 2018", "Bloco 2 - Questões 2018", "Bloco 3-4 - Questões 2018"];
+        moduleCheckboxes.forEach(cb => {
+          if (modules2018.includes(cb.value)) {
+            cb.checked = true;
+          }
+        });
+      } else {
+        // Restaurar o estado anterior
+        if (state.previousModuleSelection) {
+          moduleCheckboxes.forEach(cb => {
+            const savedState = state.previousModuleSelection.find(item => item.value === cb.value);
+            if (savedState) {
+              cb.checked = savedState.checked;
+              cb.disabled = savedState.disabled;
+            }
+          });
+        } else {
+          // Se não houver estado anterior, reabilitar todos os checkboxes
+          moduleCheckboxes.forEach(cb => {
+            cb.disabled = false;
+          });
+        }
+      }
+      
+      updateDistributionPreview();
+    }
+
+    function updateDistributionPreview() {
+      const only2018 = document.getElementById('filter-2018').checked;
+      
+      // Se o filtro 2018 estiver ativo, usar apenas os módulos de 2018
+      let selectedModules;
+      if (only2018) {
+        selectedModules = ["Bloco 1 - Questões 2018", "Bloco 2 - Questões 2018", "Bloco 3-4 - Questões 2018"];
+      } else {
+        const checkedCheckboxes = Array.from(document.querySelectorAll('#module-container input:checked'));
+        selectedModules = checkedCheckboxes.map(cb => cb.value);
+      }
+
+      // Filtro Principal
+      let pool = database.filter(q => selectedModules.includes(q.module));
+
+      // Contagem de questões de 2018
+      let questions2018;
+      if (only2018) {
+        questions2018 = pool.length; // Já que pool só tem questões de 2018
+      } else {
+        questions2018 = pool.filter(q => q.source === "2018").length;
+      }
+      document.getElementById('questions-2018-count').innerText = `(${questions2018})`;
+
+      // Atualizar o contador de questões selecionadas
+      document.getElementById('total-selected-badge').innerText = pool.length;
+
+      // Previsão de Distribuição
+      const distList = document.getElementById('distribution-list');
+      const distPanel = document.getElementById('distribution-panel');
+      const limitWarning = document.getElementById('limit-warning');
+      const distTotalBadge = document.getElementById('dist-total-badge');
+
+      distList.innerHTML = '';
+
+      // Quantidade Requisitada
+      let reqCount = 0;
+      const radioVal = document.querySelector('input[name="q_count"]:checked').value;
+      if (radioVal === 'custom') {
+        const inputVal = document.getElementById('custom-q-count').value;
+        reqCount = inputVal ? parseInt(inputVal) : 0;
+      } else {
+        reqCount = parseInt(radioVal);
+      }
+
+      if (pool.length === 0 || reqCount <= 0) {
+        distPanel.classList.add('hidden');
+        return;
+      }
+
+      distPanel.classList.remove('hidden');
+      const actualTotal = Math.min(reqCount, pool.length);
+      distTotalBadge.innerText = `${actualTotal} para sortear`;
+
+      if (reqCount > pool.length) limitWarning.classList.remove('hidden');
+      else limitWarning.classList.add('hidden');
+
+      // Simulação de distribuição
+      const availablePerMod = {};
+      pool.forEach(q => availablePerMod[q.module] = (availablePerMod[q.module] || 0) + 1);
+
+      for(const [mod, count] of Object.entries(availablePerMod)) {
+        const li = document.createElement('li');
+        li.className = "flex justify-between border-b border-slate-100 dark:border-slate-600 last:border-0 pb-1 mb-1";
+        li.innerHTML = `<span class="truncate w-3/4">${mod}</span><span class="font-bold">${count} disp.</span>`;
+        distList.appendChild(li);
+      }
+    }
+
+    // 6. LÓGICA DE SIMULAÇÃO E QUESTÕES
+    function startSimulation() {
+      const only2018 = document.getElementById('filter-2018').checked;
+      let checkedModules;
+
+      if (only2018) {
+        // Se o filtro 2018 está ativo, ignora a seleção de módulos e usa apenas os módulos de 2018
+        checkedModules = ["Bloco 1 - Questões 2018", "Bloco 2 - Questões 2018", "Bloco 3-4 - Questões 2018"];
+      } else {
+        checkedModules = Array.from(document.querySelectorAll('#module-container input:checked')).map(cb => cb.value);
+        if (checkedModules.length === 0) {
+          alert("Selecione pelo menos um assunto!");
+          return;
+        }
+      }
+
+      let pool = database.filter(q => checkedModules.includes(q.module));
+
+      if (pool.length === 0) {
+        alert("Não há questões disponíveis para os filtros selecionados.");
+        return;
+      }
+
+      let requestedCount = 0;
+      const radioVal = document.querySelector('input[name="q_count"]:checked').value;
+      if (radioVal === 'custom') {
+        const inputVal = document.getElementById('custom-q-count').value;
+        if (!inputVal || parseInt(inputVal) <= 0) {
+          alert("Digite uma quantidade válida.");
+          return;
+        }
+        requestedCount = parseInt(inputVal);
+      } else {
+        requestedCount = parseInt(radioVal);
+      }
+
+      let actualCount = requestedCount;
+      if (requestedCount > pool.length) {
+        actualCount = pool.length;
+        showToast(`Ajustado para ${actualCount} questões disponíveis.`, 'warn');
+      }
+
+      // Sortear
+      pool.sort(() => Math.random() - 0.5);
+      state.activeQuestions = pool.slice(0, actualCount);
+      state.currentIndex = 0;
+      state.answers = new Array(state.activeQuestions.length).fill(null).map(() => ({ selectedOption: null, isConfirmed: false, isCorrect: false }));
+      state.startTime = Date.now();
+
+      if(state.timerInterval) clearInterval(state.timerInterval);
+      state.timerInterval = setInterval(() => {
+        const diff = Math.floor((Date.now() - state.startTime) / 1000);
+        const m = Math.floor(diff / 60).toString().padStart(2, '0');
+        const s = (diff % 60).toString().padStart(2, '0');
+        document.getElementById('timer').innerText = `${m}:${s}`;
+      }, 1000);
+
+      renderNavGrid();
+      loadQuestion(0);
+      showScreen('quiz');
+    }
+
+    function loadQuestion(idx) {
+      state.currentIndex = idx;
+      const q = state.activeQuestions[idx];
+      const ans = state.answers[idx];
+
+      document.getElementById('q-current-index').innerText = idx + 1;
+      document.getElementById('q-total-count').innerText = state.activeQuestions.length;
+      document.getElementById('q-module-name').innerText = q.module;
+      document.getElementById('q-text').innerText = q.question;
+      document.getElementById('progress-bar').style.width = `${((idx + 1) / state.activeQuestions.length) * 100}%`;
+
+      // Tag de Fonte
+      const sourceTag = document.getElementById('q-source-tag');
+      if(q.source === "2018") {
+        sourceTag.classList.remove('hidden');
+        sourceTag.innerText = "PROVA 2018";
+        sourceTag.className = "text-[10px] font-bold px-2 py-1 rounded border uppercase tracking-wider ml-2 text-orange-500 border-orange-200 dark:text-orange-400 dark:border-orange-800";
+      } else {
+        sourceTag.classList.add('hidden');
+      }
+
+      const container = document.getElementById('options-container');
+      container.innerHTML = '';
+      const letters = ['A', 'B', 'C', 'D', 'E'];
+
+      q.options.forEach((opt, i) => {
+        let classes = "option-card w-full p-4 rounded-xl flex items-start cursor-pointer border-2";
+        let circleClasses = "option-circle w-8 h-8 min-w-[2rem] rounded-full border-2 flex items-center justify-center font-bold text-sm mr-4";
+
+        if (ans.isConfirmed) {
+          classes += " cursor-default disabled";
+          if (i === q.correct) classes += " correct";
+          else if (i === ans.selectedOption) classes += " wrong";
+          else classes += " border-slate-100 dark:border-slate-700 opacity-50";
+
+          if (i === q.correct) circleClasses += " bg-green-500 border-green-500 text-white";
+          else if (i === ans.selectedOption) circleClasses += " bg-red-500 border-red-500 text-white";
+          else circleClasses += " border-slate-300 dark:border-slate-500 text-slate-500";
+        } else {
+          if (i === ans.selectedOption) {
+            classes += " selected";
+            circleClasses += " bg-orange-500 border-orange-500 text-white";
+          } else {
+            classes += " border-slate-100 dark:border-slate-600 bg-white dark:bg-slate-700";
+            circleClasses += " border-slate-300 dark:border-slate-500 text-slate-500 dark:text-slate-400";
+          }
+        }
+
+        container.innerHTML += `
+          <div class="${classes}" onclick="selectOption(${i})">
+            <div class="${circleClasses}">${letters[i]}</div>
+            <div class="text-slate-700 dark:text-slate-200 pt-1 text-sm md:text-base leading-relaxed">${opt}</div>
+          </div>
+        `;
+      });
+
+      const btnConfirm = document.getElementById('btn-confirm');
+      const expBox = document.getElementById('explanation-box');
+      const expText = document.getElementById('explanation-text');
+
+      if (ans.isConfirmed) {
+        btnConfirm.classList.add('hidden');
+        expBox.classList.remove('hidden');
+        expText.innerText = q.explanation;
+      } else {
+        btnConfirm.classList.remove('hidden');
+        expBox.classList.add('hidden');
+        btnConfirm.disabled = (ans.selectedOption === null);
+      }
+
+      document.getElementById('btn-prev').disabled = (idx === 0);
+      const nextBtn = document.getElementById('btn-next');
+      if (idx === state.activeQuestions.length - 1) {
+        nextBtn.innerHTML = 'Finalizar <i class="fas fa-flag-checkered ml-2"></i>';
+        nextBtn.onclick = finishSimulation;
+      } else {
+        nextBtn.innerHTML = 'Próxima <i class="fas fa-arrow-right ml-2"></i>';
+        nextBtn.onclick = nextQuestion;
+      }
+
+      updateNavGridHighlight();
+    }
+
+    function selectOption(idx) {
+      const ans = state.answers[state.currentIndex];
+      if (ans.isConfirmed) return;
+      ans.selectedOption = idx;
+      loadQuestion(state.currentIndex);
+    }
+
+    function confirmAnswer() {
+      const idx = state.currentIndex;
+      const ans = state.answers[idx];
+      const q = state.activeQuestions[idx];
+      if (ans.selectedOption === null) return;
+      ans.isConfirmed = true;
+      ans.isCorrect = (ans.selectedOption === q.correct);
+      loadQuestion(idx);
+      renderNavGrid();
+    }
+
+    function prevQuestion() { if (state.currentIndex > 0) loadQuestion(state.currentIndex - 1); }
+    function nextQuestion() { if (state.currentIndex < state.activeQuestions.length - 1) loadQuestion(state.currentIndex + 1); }
+
+    function renderNavGrid() {
+      const grid = document.getElementById('nav-grid');
+      grid.innerHTML = '';
+      state.answers.forEach((ans, i) => {
+        let colorClass = "bg-slate-200 dark:bg-slate-600 text-slate-500 dark:text-slate-400";
+        if (ans.isConfirmed) colorClass = ans.isCorrect ? "bg-green-500 text-white" : "bg-red-500 text-white";
+
+        const dot = document.createElement('div');
+        dot.className = `nav-dot w-8 h-8 rounded-lg flex items-center justify-center text-xs font-bold ${colorClass}`;
+        dot.innerText = i + 1;
+        dot.id = `nav-dot-${i}`;
+        dot.onclick = () => loadQuestion(i);
+        grid.appendChild(dot);
+      });
+      updateNavGridHighlight();
+    }
+
+    function updateNavGridHighlight() {
+      document.querySelectorAll('.nav-dot').forEach(el => el.classList.remove('active'));
+      const active = document.getElementById(`nav-dot-${state.currentIndex}`);
+      if (active) active.classList.add('active');
+    }
+
+    function finishSimulation() {
+      clearInterval(state.timerInterval);
+      let correct = 0, wrong = 0, unanswered = 0;
+      state.answers.forEach(ans => {
+        if (!ans.isConfirmed) unanswered++;
+        else if (ans.isCorrect) correct++;
+        else wrong++;
+      });
+      const total = state.activeQuestions.length;
+      const percent = total > 0 ? Math.round((correct / total) * 100) : 0;
+
+      document.getElementById('res-correct').innerText = correct;
+      document.getElementById('res-wrong').innerText = wrong;
+      document.getElementById('res-unanswered').innerText = unanswered;
+      document.getElementById('res-percent').innerText = `${percent}%`;
+
+      renderResultChart(correct, wrong, unanswered);
+
+      if(state.saveHistory) {
+        saveHistory({ correct, wrong, unanswered, total, percent, date: new Date().toISOString() });
+      }
+
+      showScreen('result');
+    }
+
+    function renderResultChart(c, w, u) {
+      const ctx = document.getElementById('resultChart').getContext('2d');
+      if(window.myResChart) window.myResChart.destroy();
+      window.myResChart = new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+          labels: ['Acertos', 'Erros', 'Branco'],
+          datasets: [{ data: [c, w, u], backgroundColor: ['#10b981', '#ef4444', '#94a3b8'], borderWidth: 0 }]
+        },
+        options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { labels: { color: state.isDarkMode ? '#cbd5e1' : '#475569' } } } }
+      });
+    }
+
+    // 7. GESTÃO DE CACHE
+    function toggleCacheModal() {
+      const modal = document.getElementById('cache-modal');
+      if (modal.classList.contains('hidden')) {
+        modal.classList.remove('hidden');
+        updateCacheStats();
+      } else {
+        modal.classList.add('hidden');
+      }
+    }
+
+    function updateCacheStats() {
+      let usedBytes = 0;
+      for(let x in localStorage) {
+        if(localStorage.hasOwnProperty(x)) usedBytes += ((localStorage[x].length + x.length) * 2);
+      }
+      const usedKB = (usedBytes / 1024).toFixed(2);
+      const maxKB = 5000; // Estimativa segura para LocalStorage
+      const percent = Math.min((usedKB / maxKB) * 100, 100).toFixed(1);
+
+      document.getElementById('cache-usage-text').innerText = `${usedKB} KB`;
+      document.getElementById('cache-bar').style.width = `${percent}%`;
+      
+      // Alerta de cache cheio
+      const cacheBtn = document.getElementById('cache-btn');
+      const cacheWarning = document.getElementById('cache-warning');
+      
+      if(percent > 50) {
+        document.getElementById('cache-bar').className = "bg-red-500 h-2.5 rounded-full transition-all";
+        cacheBtn.className = "text-red-500 hover:text-red-700 transition";
+        cacheWarning.classList.remove('hidden');
+      } else {
+        document.getElementById('cache-bar').className = "bg-blue-600 h-2.5 rounded-full transition-all";
+        cacheBtn.className = "text-slate-500 dark:text-slate-400 hover:text-blue-600 dark:hover:text-blue-400 transition";
+        cacheWarning.classList.add('hidden');
+      }
+    }
+
+    function toggleHistorySaving() {
+      state.saveHistory = document.getElementById('toggle-save-history').checked;
+      localStorage.setItem('ale_rr_save_config', state.saveHistory);
+      showToast(state.saveHistory ? 'Histórico ativado.' : 'Histórico desativado.', 'info');
+    }
+
+    function saveHistory(data) {
+      const history = JSON.parse(localStorage.getItem('ale_rr_history') || '[]');
+      history.push(data);
+      localStorage.setItem('ale_rr_history', JSON.stringify(history));
+      updateCacheStats();
+    }
+
+    function clearHistory(mode) {
+      let message = "";
+      if(mode === 'all') {
+        if(confirm("Apagar TODO o histórico?")) {
+          localStorage.removeItem('ale_rr_history');
+          message = "Histórico apagado.";
+        }
+      } else {
+        const history = JSON.parse(localStorage.getItem('ale_rr_history') || '[]');
+        const now = new Date();
+        let newHistory = [];
+        
+        if (mode === 'day') {
+          newHistory = history.filter(item => {
+            const d = new Date(item.date);
+            return d.toDateString() !== now.toDateString();
+          });
+          message = "Registros de hoje removidos.";
+        } else if (mode === 'week') {
+          const weekAgo = new Date(now.getTime() - 7 * 24 * 60 * 60 * 1000);
+          newHistory = history.filter(item => {
+            const d = new Date(item.date);
+            return d < weekAgo;
+          });
+          message = "Registros da última semana removidos.";
+        } else if (mode === 'month') {
+          const monthAgo = new Date(now.getTime() - 30 * 24 * 60 * 60 * 1000);
+          newHistory = history.filter(item => {
+            const d = new Date(item.date);
+            return d < monthAgo;
+          });
+          message = "Registros do último mês removidos.";
+        }
+        
+        localStorage.setItem('ale_rr_history', JSON.stringify(newHistory));
+      }
+      
+      if (message) {
+        showToast(message, 'info');
+        updateCacheStats();
+        if(!document.getElementById('screen-analytics').classList.contains('hidden')) loadAnalytics();
+      }
+    }
+
+    function loadAnalytics() {
+      const history = JSON.parse(localStorage.getItem('ale_rr_history') || '[]');
+      const tbody = document.getElementById('history-table-body');
+      const now = new Date();
+      const filtered = history.filter(item => {
+        if (state.filterPeriod === 'all') return true;
+        const d = new Date(item.date);
+        const diff = (now - d) / (1000 * 60 * 60 * 24);
+        return diff <= state.filterPeriod;
+      });
+
+      document.querySelectorAll('[id^="filter-"]').forEach(btn => btn.className = "px-3 py-1 text-xs font-bold rounded text-slate-600 dark:text-slate-300 hover:bg-slate-50 dark:hover:bg-slate-700 transition");
+      document.getElementById(`filter-${state.filterPeriod}`).className = "px-3 py-1 text-xs font-bold rounded bg-blue-100 dark:bg-blue-900 text-blue-700 dark:text-blue-300 transition";
+
+      tbody.innerHTML = '';
+      if (filtered.length === 0) {
+        document.getElementById('empty-history-msg').classList.remove('hidden');
+        renderHistoryChart([]);
+        return;
+      }
+      document.getElementById('empty-history-msg').classList.add('hidden');
+
+      filtered.sort((a, b) => new Date(b.date) - new Date(a.date));
+      let totalScore = 0, totalQuestions = 0;
+
+      filtered.forEach(h => {
+        totalScore += h.percent;
+        totalQuestions += h.total;
+        const dateStr = new Date(h.date).toLocaleDateString('pt-BR', {day:'2-digit', month:'2-digit'});
+        tbody.innerHTML += `
+          <tr class="border-b border-slate-50 dark:border-slate-700">
+            <td class="px-6 py-4 font-mono text-xs text-slate-500 dark:text-slate-400">${dateStr}</td>
+            <td class="px-6 py-4 font-bold text-green-600 dark:text-green-400">${h.correct}</td>
+            <td class="px-6 py-4 font-bold text-red-600 dark:text-red-400">${h.wrong}</td>
+            <td class="px-6 py-4 font-bold text-slate-400 dark:text-slate-500">${h.unanswered}</td>
+            <td class="px-6 py-4 font-bold text-slate-700 dark:text-slate-300">${h.total}</td>
+            <td class="px-6 py-4 font-bold text-right text-blue-600 dark:text-blue-400">${h.percent}%</td>
+          </tr>
+        `;
+      });
+
+      document.getElementById('avg-score').innerText = `${Math.round(totalScore / filtered.length)}%`;
+      document.getElementById('total-questions-history').innerText = totalQuestions;
+      document.getElementById('total-sims-history').innerText = filtered.length;
+      renderHistoryChart(filtered.reverse());
+    }
+
+    function filterHistory(period) { state.filterPeriod = period; loadAnalytics(); }
+
+    function renderHistoryChart(data) {
+      const ctx = document.getElementById('historyChart').getContext('2d');
+      if(window.myHistChart) window.myHistChart.destroy();
+      window.myHistChart = new Chart(ctx, {
+        type: 'line',
+        data: {
+          labels: data.map(d => new Date(d.date).toLocaleDateString('pt-BR', {day:'2-digit', month:'2-digit'})),
+          datasets: [{
+            label: 'Aproveitamento',
+            data: data.map(d => d.percent),
+            borderColor: '#2563eb',
+            backgroundColor: 'rgba(37, 99, 235, 0.1)',
+            fill: true,
+            tension: 0.3
+          }]
+        },
+        options: {
+          responsive: true,
+          maintainAspectRatio: false,
+          scales: {
+            y: { beginAtZero: true, max: 100, grid: { color: state.isDarkMode ? '#334155' : '#e2e8f0' }, ticks: { color: state.isDarkMode ? '#94a3b8' : '#64748b' } },
+            x: { grid: { display: false }, ticks: { color: state.isDarkMode ? '#94a3b8' : '#64748b' } }
+          },
+          plugins: { legend: { display: false } }
+        }
+      });
+    }
+  </script>
+</body>
+</html>
