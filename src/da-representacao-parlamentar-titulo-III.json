@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "De acordo com o Regimento Interno da ALE-RR, o exercício do mandato do deputado se inicia:",
+    "alternativas": {
+      "A": "Com a diplomação pela Justiça Eleitoral.",
+      "B": "Com a eleição.",
+      "C": "Com a posse.",
+      "D": "Na primeira sessão ordinária de fevereiro.",
+      "E": "Com a publicação do resultado no Diário Oficial."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 107 é claro ao estabelecer que o exercício do mandato se inicia com a posse."
+  },
+  {
+    "id": 2,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "São direitos do deputado, uma vez empossado, EXCETO:",
+    "alternativas": {
+      "A": "Integrar o Plenário e as Comissões, votar e ser votado.",
+      "B": "Usar da palavra, pedindo-a previamente ao presidente.",
+      "C": "Examinar documentos existentes no arquivo.",
+      "D": "Presidir os trabalhos da Assembleia quando estiver sendo discutido assunto de seu interesse pessoal.",
+      "E": "Requisitar das autoridades providências para garantia de suas imunidades."
+    },
+    "resposta": "D",
+    "explicacao": "O Art. 108, §1º proíbe expressamente que o deputado presida os trabalhos da Assembleia ou de Comissão quando se estiver discutindo ou votando assunto de seu interesse pessoal."
+  },
+  {
+    "id": 3,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "O deputado que se desvincular de seu partido perde o direito de exercer cargo ou função destinados à sua Bancada. Contudo, há exceções onde o cargo é mantido. Quais são elas?",
+    "alternativas": {
+      "A": "Liderança do Governo e Presidência de Comissão Permanente.",
+      "B": "Mesa Diretora, Comissão de Ética Parlamentar ou Comissão de Representação.",
+      "C": "Comissão de Constituição e Justiça e Ouvidoria.",
+      "D": "Vice-liderança e Corregedoria.",
+      "E": "Não há exceções, perde-se todos os cargos automaticamente."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme o Art. 109, o deputado mantém o cargo se for membro da Mesa Diretora, da Comissão de Ética Parlamentar ou de Comissão de Representação."
+  },
+  {
+    "id": 4,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "A renúncia ao mandato de deputado deve ser manifestada por escrito ao Presidente da Assembleia. Quando ela se torna efetiva e irretratável?",
+    "alternativas": {
+      "A": "No momento do protocolo.",
+      "B": "Após aprovação do Plenário.",
+      "C": "Depois de lida em Sessão.",
+      "D": "Após publicação no Diário Oficial.",
+      "E": "24 horas após a entrega."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 111 estabelece que a renúncia se tornará efetiva e irretratável depois de lida em Sessão."
+  },
+  {
+    "id": 5,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "A perda do mandato será decidida por maioria absoluta dos deputados (votação em Plenário) nos casos de:",
+    "alternativas": {
+      "A": "Falta a um terço das reuniões ordinárias.",
+      "B": "Suspensão dos direitos políticos.",
+      "C": "Decretação pela Justiça Eleitoral.",
+      "D": "Infração às proibições constitucionais ou quebra de decoro parlamentar.",
+      "E": "Renúncia tácita."
+    },
+    "resposta": "D",
+    "explicacao": "O Art. 113, §1º determina que a perda será decidida pela maioria absoluta (Plenário) nos casos dos incisos I (proibições constitucionais), II (quebra de decoro) e VI (condenação criminal)."
+  },
+  {
+    "id": 6,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "Nos casos de perda de direitos políticos ou faltas excessivas (deixar de comparecer à terça parte das reuniões), quem declara a perda do mandato?",
+    "alternativas": {
+      "A": "O Plenário, por votação secreta.",
+      "B": "A Mesa Diretora, de ofício ou por provocação.",
+      "C": "A Comissão de Constituição e Justiça.",
+      "D": "O Presidente da Assembleia, monocraticamente.",
+      "E": "O Corregedor-Geral."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 113, §2º estabelece que, nesses casos (incisos III, IV e V), a perda será declarada pela Mesa, assegurada ampla defesa."
+  },
+  {
+    "id": 7,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "O deputado poderá licenciar-se para tratar de interesse particular, sem remuneração. Qual é o limite de prazo para este afastamento por Sessão Legislativa Ordinária?",
+    "alternativas": {
+      "A": "90 dias.",
+      "B": "120 dias.",
+      "C": "60 dias.",
+      "D": "180 dias.",
+      "E": "30 dias."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 114, IV, permite a licença para interesse particular desde que o afastamento não ultrapasse 120 dias por Sessão Legislativa Ordinária."
+  },
+  {
+    "id": 8,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "Sobre a licença-maternidade para deputadas, é correto afirmar:",
+    "alternativas": {
+      "A": "É de 90 dias, improrrogáveis.",
+      "B": "É de 120 dias, podendo ser prorrogada por mais 60 dias.",
+      "C": "Implica na perda do subsídio durante a prorrogação.",
+      "D": "O suplente é convocado imediatamente, qualquer que seja o prazo.",
+      "E": "Só pode ser concedida após o parto, nunca antes."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 114, §6º fixa 120 dias e o §11 permite a prorrogação por mais 60 dias, totalizando até 180 dias, sem perda de subsídio."
+  },
+  {
+    "id": 9,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "Em caso de adoção de criança de até 1 (um) ano de idade, qual o período de licença concedido ao parlamentar?",
+    "alternativas": {
+      "A": "30 dias.",
+      "B": "60 dias.",
+      "C": "90 dias.",
+      "D": "120 dias.",
+      "E": "5 dias."
+    },
+    "resposta": "D",
+    "explicacao": "O Art. 114, §7º determina que no caso de adoção de criança de até 1 ano, o período de licença será de 120 dias."
+  },
+  {
+    "id": 10,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "Para obtenção de licença para tratamento de saúde, é exigido:",
+    "alternativas": {
+      "A": "Atestado de médico particular.",
+      "B": "Autodeclaração do deputado.",
+      "C": "Laudo de inspeção firmado por 03 médicos integrantes da Junta Médica do Estado.",
+      "D": "Aprovação do Plenário.",
+      "E": "Perícia do INSS."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 115, Parágrafo único, exige laudo de inspeção de saúde firmado por 03 médicos integrantes da Junta Médica do Estado."
+  },
+  {
+    "id": 11,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "Ao se afastar para ser investido no cargo de Secretário de Estado, o deputado:",
+    "alternativas": {
+      "A": "Perde o mandato automaticamente.",
+      "B": "Deve renunciar ao mandato.",
+      "C": "Pode optar pela remuneração do mandato parlamentar.",
+      "D": "Acumula os dois salários.",
+      "E": "Não precisa comunicar à Mesa."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 116, Parágrafo único, prevê que no caso de afastamento para cargos no Executivo (Ministro, Secretário), o deputado poderá optar pela remuneração do mandato."
+  },
+  {
+    "id": 12,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "Desde a expedição do diploma, os membros da Assembleia Legislativa não poderão ser presos, salvo:",
+    "alternativas": {
+      "A": "Por ordem judicial escrita e fundamentada.",
+      "B": "Em flagrante de crime inafiançável.",
+      "C": "Em caso de crime contra a administração pública.",
+      "D": "Se condenados em primeira instância.",
+      "E": "Por determinação de CPI."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 117, §2º reproduz a norma constitucional: não poderão ser presos, salvo em flagrante de crime inafiançável."
+  },
+  {
+    "id": 13,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "Ocorrendo a prisão em flagrante de um deputado, os autos devem ser remetidos à Assembleia em 24 horas. Qual comissão deve dar parecer prévio sobre o relaxamento ou não da prisão?",
+    "alternativas": {
+      "A": "Comissão de Ética.",
+      "B": "Comissão de Segurança Pública.",
+      "C": "Comissão de Constituição, Justiça e Redação.",
+      "D": "Comissão Representativa.",
+      "E": "Mesa Diretora."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 117, §3º atribui à Comissão de Constituição, Justiça e Redação a competência para oferecer parecer prévio sobre a prisão."
+  },
+  {
+    "id": 14,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "Recebida denúncia contra deputado por crime após a diplomação, a Assembleia pode sustar o andamento da ação. Essa iniciativa cabe a:",
+    "alternativas": {
+      "A": "Qualquer cidadão.",
+      "B": "Partido político representado na Assembleia.",
+      "C": "Ao próprio deputado acusado.",
+      "D": "Ao Presidente da Assembleia.",
+      "E": "À Mesa Diretora."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 118, §1º define que a iniciativa para sustar o processo é de partido político representado na Assembleia Legislativa."
+  },
+  {
+    "id": 15,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "Sobre a remuneração dos parlamentares, o deputado que deixar de comparecer à sessão ordinária sem justificativa:",
+    "alternativas": {
+      "A": "Recebe apenas uma advertência.",
+      "B": "Tem desconto de 1/30 (um trinta avos) do subsídio.",
+      "C": "Perde todo o subsídio do mês.",
+      "D": "Perde o valor da Verba Indenizatória.",
+      "E": "Não sofre desconto se comparecer às comissões."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 119, §4º estabelece que o parlamentar que deixar de comparecer ou não votar deixará de receber 1/30 do subsídio por ausência."
+  },
+  {
+    "id": 16,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "A convocação de suplente de deputado é obrigatória nos casos de vaga, investidura em cargo executivo ou licença saúde superior a:",
+    "alternativas": {
+      "A": "30 dias.",
+      "B": "60 dias.",
+      "C": "90 dias.",
+      "D": "120 dias.",
+      "E": "15 dias."
+    },
+    "resposta": "D",
+    "explicacao": "O Art. 120, III, determina a convocação em caso de licença para tratamento de saúde por prazo superior a 120 dias."
+  },
+  {
+    "id": 17,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "O suplente de deputado, quando convocado em caráter de substituição (temporário):",
+    "alternativas": {
+      "A": "Tem plenos poderes, inclusive para ser eleito Presidente da Mesa.",
+      "B": "Não pode votar em projetos de lei complementar.",
+      "C": "Não poderá ser eleito para cargos da Mesa ou compor Comissão Representativa.",
+      "D": "Não recebe subsídio.",
+      "E": "Só pode integrar comissões temporárias."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 121 veda ao suplente em substituição ser eleito para cargos da Mesa ou compor Comissão Representativa."
+  },
+  {
+    "id": 18,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "Constituem penalidades por infração ao decoro parlamentar, EXCETO:",
+    "alternativas": {
+      "A": "Censura.",
+      "B": "Impedimento temporário do exercício do mandato.",
+      "C": "Perda do mandato.",
+      "D": "Suspensão do subsídio sem afastamento.",
+      "E": "Censura verbal ou escrita."
+    },
+    "resposta": "D",
+    "explicacao": "O Art. 122, §1º lista as penalidades: censura, impedimento temporário e perda do mandato. Não há previsão de multa ou suspensão de subsídio isolada."
+  },
+  {
+    "id": 19,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "A censura verbal é aplicada pelo Presidente ao deputado que:",
+    "alternativas": {
+      "A": "Usar expressões atentatórias ao decoro parlamentar em discurso.",
+      "B": "Praticar ofensas físicas.",
+      "C": "Perturbar a ordem ou o andamento regimental da Sessão.",
+      "D": "Revelar conteúdo de sessões secretas.",
+      "E": "Reincidir em faltas disciplinares."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 124, §1º prevê a censura verbal para quem perturbar a ordem (inciso II). O uso de expressões atentatórias ao decoro (opção A) enseja censura escrita (Art. 124, §2º, II)."
+  },
+  {
+    "id": 20,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "A penalidade de impedimento temporário do exercício do mandato (não excedente a 30 dias) é aplicada:",
+    "alternativas": {
+      "A": "Pelo Presidente da Assembleia.",
+      "B": "Pela Mesa Diretora.",
+      "C": "Pelo Conselho de Ética.",
+      "D": "Pelo Plenário, em votação aberta e maioria absoluta.",
+      "E": "Pelo Corregedor-Geral."
+    },
+    "resposta": "D",
+    "explicacao": "O Art. 125, Parágrafo único, determina que a penalidade de impedimento temporário será aplicada pelo Plenário, em votação aberta e por maioria absoluta."
+  },
+  {
+    "id": 21,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "Considera-se 'Bancada' o agrupamento de deputados de uma mesma representação partidária. Para escolher um líder, a representação deve ser:",
+    "alternativas": {
+      "A": "De qualquer número (basta 1 deputado).",
+      "B": "Igual ou superior a 2 deputados.",
+      "C": "Superior a 3 deputados.",
+      "D": "Maior que 5 deputados.",
+      "E": "A maioria do partido."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 126 define bancada como agrupamento partidário, cabendo-lhes escolher líder quando a representação for igual ou superior a 2 deputados."
+  },
+  {
+    "id": 22,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "Se a Bancada não indicar o Líder no prazo regimental, quem será considerado líder?",
+    "alternativas": {
+      "A": "O deputado mais votado da legenda.",
+      "B": "Ninguém (a bancada fica acéfala).",
+      "C": "O deputado mais idoso.",
+      "D": "O Presidente da Assembleia escolhe.",
+      "E": "O líder anterior continua no cargo."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 127, §3º estabelece que, enquanto não for feita a indicação, considerar-se-á líder o deputado mais idoso."
+  },
+  {
+    "id": 23,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "Sobre o Líder do Governo:",
+    "alternativas": {
+      "A": "É eleito pelos deputados da base aliada.",
+      "B": "É indicado pelo Governador através de ofício à Mesa.",
+      "C": "Deve ser necessariamente do mesmo partido do Governador.",
+      "D": "Tem mandato de 2 anos fixos.",
+      "E": "Pode acumular com cargo na Mesa Diretora."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 127, §6º define que haverá líder do Governo se o governador do Estado o indicar através de ofício à Mesa."
+  },
+  {
+    "id": 24,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "É vedado aos Líderes e Vice-Líderes do Governo:",
+    "alternativas": {
+      "A": "Integrar comissões permanentes.",
+      "B": "Encaminhar votações.",
+      "C": "Serem membros da Mesa Diretora.",
+      "D": "Participar do Colégio de Líderes.",
+      "E": "Apresentar emendas."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 127, §5º proíbe que líderes e vice-líderes do Governo sejam membros da Mesa Diretora."
+  },
+  {
+    "id": 25,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "Cabe ao Líder, dentre outras atribuições:",
+    "alternativas": {
+      "A": "Votar duas vezes em caso de empate.",
+      "B": "Presidir a sessão na ausência da Mesa.",
+      "C": "Encaminhar a votação de qualquer proposição para orientar sua Bancada.",
+      "D": "Vetar projetos de lei da sua bancada.",
+      "E": "Conceder licenças aos seus liderados."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 128, I, lista como atribuição do líder encaminhar a votação de qualquer proposição para orientar sua Bancada."
+  },
+  {
+    "id": 26,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "O Bloco Parlamentar é a união de bancadas sob liderança comum. Para constituir um Bloco, é necessário um mínimo de:",
+    "alternativas": {
+      "A": "2 membros.",
+      "B": "3 membros.",
+      "C": "5 membros.",
+      "D": "1/3 da Assembleia.",
+      "E": "2 partidos diferentes."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 131, §1º veda a constituição de Bloco integrado por menos de 03 membros da Assembleia."
+  },
+  {
+    "id": 27,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "Quando bancadas se unem em um Bloco Parlamentar, o que acontece com as lideranças das bancadas originais?",
+    "alternativas": {
+      "A": "Continuam com todas as prerrogativas.",
+      "B": "Têm suspensas suas atribuições e prerrogativas regimentais.",
+      "C": "Passam a atuar como vice-líderes do Bloco automaticamente.",
+      "D": "O Bloco passa a ter múltiplos líderes com voz ativa.",
+      "E": "São extintas definitivamente."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 131, §6º determina que as Lideranças das Bancadas coligadas em Bloco Parlamentar têm suspensas suas atribuições e prerrogativas regimentais."
+  },
+  {
+    "id": 28,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "A existência do Bloco Parlamentar prevalece por qual período?",
+    "alternativas": {
+      "A": "Por toda a legislatura (4 anos).",
+      "B": "Por Sessão Legislativa Ordinária.",
+      "C": "Por 2 anos.",
+      "D": "Apenas durante as votações.",
+      "E": "Até que um partido decida sair."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 131, §7º define que o Bloco Parlamentar tem existência por Sessão Legislativa Ordinária, prevalecendo na convocação extraordinária."
+  },
+  {
+    "id": 29,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "Qual prerrogativa é dada ao Líder para tratar de assunto relevante e urgente ou responder a crítica?",
+    "alternativas": {
+      "A": "Interromper qualquer orador a qualquer momento.",
+      "B": "Usar da palavra pelo tempo que o presidente prefixar (salvo em votações de PEC/Veto).",
+      "C": "Convocar sessão extraordinária sozinho.",
+      "D": "Requisitar tempo de televisão.",
+      "E": "Falar por tempo ilimitado."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 130 faculta ao líder usar da palavra pelo tempo que o presidente prefixar, salvo quando houver matéria de PEC, veto ou projeto em discussão."
+  },
+  {
+    "id": 30,
+    "titulo": "Título III - Representação Parlamentar",
+    "enunciado": "A censura escrita será imposta pela Mesa ao deputado que:",
+    "alternativas": {
+      "A": "Faltar a uma sessão.",
+      "B": "Chegar atrasado sistematicamente.",
+      "C": "Reincidir em faltas puníveis com censura verbal ou usar expressões atentatórias ao decoro.",
+      "D": "Revelar segredo de justiça.",
+      "E": "Criticar o Governo."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 124, §2º determina censura escrita para reincidência das hipóteses de censura verbal ou uso de expressões atentatórias ao decoro parlamentar."
+  }
+]

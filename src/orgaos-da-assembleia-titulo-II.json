@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "A Mesa Diretora é o órgão de direção dos trabalhos legislativos e administrativos. Assinale a alternativa que apresenta a composição correta e completa da Mesa Diretora da ALE-RR, conforme o Art. 23 do Regimento Interno:",
+    "alternativas": {
+      "A": "Presidente, 2 Vice-Presidentes e 3 Secretários.",
+      "B": "Presidente, 3 Vice-Presidentes, 4 Secretários, Corregedor-Geral, Ouvidor-Geral e Secretária Especial da Mulher.",
+      "C": "Presidente, 1º e 2º Vice-Presidentes, e quatro Secretários.",
+      "D": "Presidente, Vice-Presidente, 1º Secretário e 2º Secretário.",
+      "E": "Colégio de Líderes e Mesa Diretora unificados em um único órgão."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 23 estabelece a composição: 01 presidente, 03 vice-presidentes, 04 secretários, 01 corregedor-geral, 01 ouvidor-geral e 01 secretária Especial da Mulher."
+  },
+  {
+    "id": 2,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "Na ausência eventual do Presidente e de todos os Vice-Presidentes para iniciar a Sessão, quem deverá assumir a presidência dos trabalhos?",
+    "alternativas": {
+      "A": "O 1º Secretário.",
+      "B": "O Líder do Governo.",
+      "C": "O Corregedor-Geral.",
+      "D": "O parlamentar mais votado presente.",
+      "E": "O parlamentar mais idoso dentre os presentes (na ausência de todos os membros da Mesa)."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme o Art. 40, os secretários substituirão o presidente na falta ou impedimento dos vice-presidentes. A regra do mais idoso (Art. 23, parágrafo único) aplica-se na ausência de todos os membros da Mesa."
+  },
+  {
+    "id": 3,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "Um membro da Mesa Diretora solicitou licença para tratar de interesse particular. Qual é o prazo máximo dessa licença e qual a consequência para o seu mandato de deputado?",
+    "alternativas": {
+      "A": "30 dias, perdendo a remuneração do mandato.",
+      "B": "90 dias, com suspensão das atividades parlamentares.",
+      "C": "60 dias, prorrogável por igual período, mantendo as atividades parlamentares.",
+      "D": "120 dias improrrogáveis.",
+      "E": "Não é permitida licença para interesse particular para membros da Mesa."
+    },
+    "resposta": "C",
+    "explicacao": "De acordo com o Art. 27, §§ 2º e 3º, a licença pode ser de 60 dias, prorrogada por igual período, e em nada afetará o exercício do mandato de deputado, que continuará mantendo suas atividades parlamentares."
+  },
+  {
+    "id": 4,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "Compete privativamente à Mesa Diretora propor ao Plenário projeto de resolução sobre diversas matérias. Dentre as opções abaixo, qual NÃO é competência privativa da Mesa?",
+    "alternativas": {
+      "A": "Dispor sobre o Regimento Interno e suas alterações.",
+      "B": "Fixar a remuneração dos servidores da Assembleia.",
+      "C": "Propor ação de inconstitucionalidade.",
+      "D": "Declarar a perda de mandato de deputado nos casos previstos na Constituição Estadual.",
+      "E": "Sancionar leis ordinárias aprovadas pelo Plenário."
+    },
+    "resposta": "E",
+    "explicacao": "A sanção de leis é competência do Poder Executivo (Governador). As demais opções constam no Art. 30 (ex: incisos V, VI, III e VII)."
+  },
+  {
+    "id": 5,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "O Presidente da Assembleia possui diversas atribuições. Em relação ao seu direito de voto nas sessões plenárias, é correto afirmar:",
+    "alternativas": {
+      "A": "O Presidente nunca vota.",
+      "B": "O Presidente vota em todas as matérias para compor quórum.",
+      "C": "O Presidente vota apenas em escrutínio secreto.",
+      "D": "O Presidente vota em escrutínio secreto ou ostensivo, sendo seu voto critério de desempate nas votações ostensivas.",
+      "E": "O Presidente só vota em matérias constitucionais."
+    },
+    "resposta": "D",
+    "explicacao": "Conforme o Art. 35, inciso XVII, compete ao Presidente votar em escrutínio secreto ou ostensivo, sendo seu voto considerado como critério de desempate nas votações ostensivas."
+  },
+  {
+    "id": 6,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "Qual membro da Mesa Diretora tem a competência específica de inspecionar e superintender os serviços administrativos da Assembleia e fazer a chamada dos deputados?",
+    "alternativas": {
+      "A": "O 2º Vice-Presidente.",
+      "B": "O 1º Secretário.",
+      "C": "O 2º Secretário.",
+      "D": "O Corregedor-Geral.",
+      "E": "O Ouvidor-Geral."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 37 define as competências do 1º Secretário, que incluem inspecionar serviços administrativos (inciso I) e fazer a chamada dos deputados (inciso III)."
+  },
+  {
+    "id": 7,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "À Corregedoria Parlamentar compete promover a manutenção do decoro, da ordem e da disciplina. O Corregedor-Geral tem assento e direito a voto nas reuniões da Mesa Diretora?",
+    "alternativas": {
+      "A": "Sim, tem assento e direito a voto.",
+      "B": "Tem assento, mas apenas direito a voz.",
+      "C": "Não participa das reuniões da Mesa.",
+      "D": "Participa apenas quando convocado.",
+      "E": "Vota apenas em casos de empate."
+    },
+    "resposta": "A",
+    "explicacao": "O Art. 42 estabelece que a Corregedoria é composta por 1 corregedor-geral eleito, com assento e direito a voto nas reuniões da Mesa Diretora."
+  },
+  {
+    "id": 8,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "A Secretaria Especial da Mulher tem como uma de suas competências coordenar qual estrutura específica de atendimento?",
+    "alternativas": {
+      "A": "A Escola do Legislativo.",
+      "B": "O Procon Assembleia.",
+      "C": "O Centro Humanizado de Atendimento à Mulher (CHAME).",
+      "D": "A Procuradoria Geral do Estado.",
+      "E": "A Comissão de Direitos Humanos."
+    },
+    "resposta": "C",
+    "explicacao": "Conforme o Art. 47, inciso I, compete à Secretaria Especial da Mulher coordenar o Centro Humanizado de Atendimento à Mulher (CHAME)."
+  },
+  {
+    "id": 9,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "As Comissões Permanentes da ALE-RR têm seus membros nomeados por um período de:",
+    "alternativas": {
+      "A": "1 ano.",
+      "B": "2 anos.",
+      "C": "4 anos (toda a legislatura).",
+      "D": "6 meses (semestralmente).",
+      "E": "Tempo indeterminado."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 53 estabelece que a nomeação prevalecerá pelo prazo de 02 (dois) anos."
+  },
+  {
+    "id": 10,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "Qual é o número máximo de membros efetivos nas Comissões Permanentes e em quantas comissões, no máximo, um deputado pode ser membro efetivo?",
+    "alternativas": {
+      "A": "Máximo 5 membros; até 3 comissões.",
+      "B": "Máximo 7 membros; até 6 comissões.",
+      "C": "Máximo 9 membros; até 5 comissões.",
+      "D": "Máximo 3 membros; até 2 comissões.",
+      "E": "Máximo 11 membros; ilimitado."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 54 define que são constituídas de no máximo 07 membros e o parágrafo único veda ser efetivo em mais de 06 comissões."
+  },
+  {
+    "id": 11,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "Dentre as competências das Comissões Permanentes, a quem cabe especificamente opinar sobre o aspecto jurídico, constitucional e legal das proposições?",
+    "alternativas": {
+      "A": "Comissão de Orçamento, Fiscalização Financeira, Tributação e Controle.",
+      "B": "Comissão de Administração e Serviços Públicos.",
+      "C": "Comissão de Constituição, Justiça e Redação Final.",
+      "D": "Comissão de Ética Parlamentar.",
+      "E": "Mesa Diretora."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 60, I, 'a', atribui à Comissão de Constituição, Justiça e Redação Final a análise do aspecto jurídico, constitucional, regimental e legal."
+  },
+  {
+    "id": 12,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "Um deputado membro efetivo de uma Comissão deixa de comparecer a 05 reuniões consecutivas sem justificativa. Qual a consequência prevista no Regimento?",
+    "alternativas": {
+      "A": "Advertência verbal pelo Presidente da Comissão.",
+      "B": "Suspensão do direito de voto na Comissão.",
+      "C": "Perda do lugar na Comissão.",
+      "D": "Perda do mandato parlamentar.",
+      "E": "Multa descontada do subsídio."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 72, §1º estabelece a perda do lugar para quem deixar de comparecer a 05 reuniões consecutivas ou 08 alternadas, salvo motivo de força maior."
+  },
+  {
+    "id": 13,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "Para a criação de uma Comissão Parlamentar de Inquérito (CPI), é necessário o requerimento de:",
+    "alternativas": {
+      "A": "Maioria absoluta dos membros.",
+      "B": "2/3 dos membros.",
+      "C": "1/3 dos membros da Assembleia.",
+      "D": "Líderes de pelo menos 3 partidos.",
+      "E": "Qualquer deputado, sujeito à aprovação do Plenário."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 65 determina que a Assembleia constituirá CPI a requerimento de 1/3 de seus membros."
+  },
+  {
+    "id": 14,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "Qual é o prazo de funcionamento de uma CPI e qual o limite máximo de CPIs funcionando simultaneamente?",
+    "alternativas": {
+      "A": "90 dias; máximo de 3 CPIs.",
+      "B": "120 dias; máximo de 5 CPIs.",
+      "C": "180 dias; máximo de 2 CPIs.",
+      "D": "60 dias; sem limite.",
+      "E": "Até o fim da legislatura; máximo de 4 CPIs."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 65 fixa o prazo em 120 dias, e o §5º do mesmo artigo limita o funcionamento simultâneo a 05 CPIs."
+  },
+  {
+    "id": 15,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "Durante o recesso parlamentar, quem representa a Assembleia e delibera sobre assuntos de urgência?",
+    "alternativas": {
+      "A": "A Mesa Diretora.",
+      "B": "O Presidente da Assembleia sozinho.",
+      "C": "A Comissão Representativa.",
+      "D": "O Colégio de Líderes.",
+      "E": "A Comissão de Constituição e Justiça."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 66 institui a Comissão Representativa para atuar durante o recesso."
+  },
+  {
+    "id": 16,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "Sobre a presidência das Comissões, em caso de reunião conjunta de duas ou mais comissões, quem dirigirá os trabalhos?",
+    "alternativas": {
+      "A": "O Presidente da Assembleia sempre.",
+      "B": "O presidente mais idoso entre os presidentes das comissões participantes, salvo se a CCJ participar.",
+      "C": "Sempre o presidente da Comissão de Finanças.",
+      "D": "Os presidentes se revezam a cada hora.",
+      "E": "O autor da proposição em debate."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 71 define que dirige os trabalhos o presidente mais idoso, exceto quando participar a Comissão de Constituição, Justiça e Redação Final, cujo presidente assumirá a direção."
+  },
+  {
+    "id": 17,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "Qual o prazo regimental ordinário (sem urgência ou prioridade) para uma Comissão emitir parecer sobre um projeto?",
+    "alternativas": {
+      "A": "10 dias.",
+      "B": "12 dias.",
+      "C": "15 dias.",
+      "D": "18 dias.",
+      "E": "20 dias."
+    },
+    "resposta": "D",
+    "explicacao": "O Art. 80, III estipula o prazo de 18 dias para matérias em regime de tramitação ordinária."
+  },
+  {
+    "id": 18,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "Se um membro da Comissão pedir 'vista' de um parecer, por quanto tempo ela será concedida?",
+    "alternativas": {
+      "A": "48 horas.",
+      "B": "24 horas, comum aos membros, vedada renovação.",
+      "C": "72 horas, individualmente.",
+      "D": "5 dias úteis.",
+      "E": "Até a próxima reunião ordinária."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 86, parágrafo único, define a vista por 24 horas, comum aos membros da Comissão e vedada a renovação."
+  },
+  {
+    "id": 19,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "Quando uma proposição é incluída na Ordem do Dia sem parecer das comissões (por esgotamento de prazo), o que acontece?",
+    "alternativas": {
+      "A": "Ela é arquivada.",
+      "B": "Volta para a comissão obrigatoriamente.",
+      "C": "O Presidente designa relator para emitir parecer oral em Plenário.",
+      "D": "É votada sem parecer.",
+      "E": "O autor deve retirar a proposição."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 96, §1º estabelece que o presidente designará relator que, no prazo de 24 horas (na prática, em plenário), emitirá parecer oral."
+  },
+  {
+    "id": 20,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "O parecer de uma Comissão compreende três partes. São elas:",
+    "alternativas": {
+      "A": "Introdução, Desenvolvimento e Conclusão.",
+      "B": "Ementa, Dispositivo e Justificativa.",
+      "C": "Relatório, Voto do Relator e Parecer da Comissão.",
+      "D": "Análise Constitucional, Análise Financeira e Voto.",
+      "E": "Preliminar, Mérito e Encaminhamento."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 93, §1º lista as partes: I- relatório; II- voto do relator; III- parecer da Comissão."
+  },
+  {
+    "id": 21,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "Se o parecer do relator for rejeitado na Comissão, qual o procedimento correto?",
+    "alternativas": {
+      "A": "A matéria é arquivada.",
+      "B": "O Presidente da Comissão designa novo relator para emitir parecer do ponto de vista vencedor.",
+      "C": "O relator original deve refazer o parecer imediatamente.",
+      "D": "A matéria vai ao Plenário com parecer contrário.",
+      "E": "Convoca-se o autor para defender o projeto."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 85, §2º determina que se o parecer for rejeitado, o presidente designará novo relator, que emitirá parecer do ponto de vista vencedor em 2 dias."
+  },
+  {
+    "id": 22,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "A Procuradoria-Geral da Assembleia Legislativa tem função essencial. O Procurador-Geral deve ser nomeado dentre:",
+    "alternativas": {
+      "A": "Deputados formados em Direito.",
+      "B": "Advogados indicados pela OAB.",
+      "C": "Membros estáveis da carreira ou advogados com mais de 10 anos de atividade.",
+      "D": "Juízes aposentados.",
+      "E": "Promotores de Justiça cedidos."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 286, §3º (Título IX, mas referenciado nas competências de apoio à Mesa no Art. 25 e 105 do Título II) especifica que o procurador-geral é escolhido dentre membros estáveis da carreira ou advogados com mais de 10 anos de efetiva atividade."
+  },
+  {
+    "id": 23,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "As Comissões podem realizar audiências públicas em regiões do Estado. Para convocar tal reunião, a antecedência mínima deve ser de:",
+    "alternativas": {
+      "A": "24 horas.",
+      "B": "48 horas.",
+      "C": "05 dias.",
+      "D": "10 dias.",
+      "E": "15 dias."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 73, §4º determina a antecedência mínima de 05 dias para reunião de Comissão destinada a audiência pública em região do Estado."
+  },
+  {
+    "id": 24,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "O Ouvidor-Geral e o Corregedor-Geral são eleitos para compor a Mesa. Sobre a participação deles nas reuniões da Mesa:",
+    "alternativas": {
+      "A": "Participam apenas como ouvintes.",
+      "B": "Não participam das reuniões.",
+      "C": "Têm assento e direito a voto.",
+      "D": "Têm direito a voz, mas não a voto.",
+      "E": "Votam apenas em assuntos administrativos."
+    },
+    "resposta": "C",
+    "explicacao": "Tanto o Art. 42 (Corregedor) quanto o Art. 44 (Ouvidor) garantem assento e direito a voto nas reuniões da Mesa."
+  },
+  {
+    "id": 25,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "Quando um projeto de lei recebe parecer contrário quanto ao mérito de TODAS as comissões a que foi distribuído, o que ocorre?",
+    "alternativas": {
+      "A": "Vai a Plenário obrigatoriamente.",
+      "B": "O autor pode recorrer à Mesa.",
+      "C": "É tido como rejeitado e arquivado.",
+      "D": "Fica sobrestado por 30 dias.",
+      "E": "É devolvido ao autor para correções."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 198 (citado aqui por conexão com o poder terminativo das comissões no Título II) estabelece que projetos com parecer contrário de todas as comissões serão tidos como rejeitados."
+  },
+  {
+    "id": 26,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "A Comissão de Tomada de Contas tem a competência específica de:",
+    "alternativas": {
+      "A": "Aprovar o orçamento anual.",
+      "B": "Fiscalizar obras públicas.",
+      "C": "Tomar as contas do Governador e apreciar as contas do Tribunal de Contas.",
+      "D": "Julgar os deputados por quebra de decoro.",
+      "E": "Organizar concursos públicos."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 59, II e Art. 60, VI atribuem à Comissão de Tomada de Contas a função de tomar as contas do Governador e apreciar as do Tribunal de Contas."
+  },
+  {
+    "id": 27,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "Os atos da Mesa Diretora que regulam matéria administrativa são numerados anualmente e assinados por:",
+    "alternativas": {
+      "A": "Presidente apenas.",
+      "B": "Presidente e 1º Secretário.",
+      "C": "Presidente, 1º e 2º Secretários.",
+      "D": "Todos os membros da Mesa.",
+      "E": "Presidente e Corregedor."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 28 determina que os atos serão assinados pelo presidente em conjunto com o 1º e o 2º secretários."
+  },
+  {
+    "id": 28,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "A Consultoria Legislativa é organizada em núcleos temáticos. Seus integrantes são admitidos mediante:",
+    "alternativas": {
+      "A": "Indicação dos deputados.",
+      "B": "Livre nomeação da Mesa.",
+      "C": "Concurso público de provas e títulos.",
+      "D": "Seleção curricular simplificada.",
+      "E": "Eleição interna."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 104 define que os integrantes da Consultoria Legislativa são admitidos mediante concurso público de provas e títulos."
+  },
+  {
+    "id": 29,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "Sobre o prazo para funcionamento das Comissões Especiais (Temporárias), o Regimento estabelece que é de:",
+    "alternativas": {
+      "A": "30 dias improrrogáveis.",
+      "B": "Até 60 dias, prorrogável por igual período.",
+      "C": "90 dias sem prorrogação.",
+      "D": "120 dias, igual à CPI.",
+      "E": "Indeterminado, até a conclusão do objeto."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 63, §1º fixa o prazo em até 60 dias, podendo ser prorrogado por igual período."
+  },
+  {
+    "id": 30,
+    "titulo": "Título II - Órgãos da Assembleia",
+    "enunciado": "Se, no prazo fixado, as Lideranças não indicarem os nomes para compor as Comissões Permanentes, quem fará a designação de ofício?",
+    "alternativas": {
+      "A": "O Plenário por votação.",
+      "B": "O Presidente da Assembleia.",
+      "C": "A Comissão de Constituição e Justiça.",
+      "D": "O 1º Secretário.",
+      "E": "O Corregedor-Geral."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 53, parágrafo único, determina que o presidente fará, de ofício, a designação se as Lideranças não comunicarem os nomes no prazo."
+  }
+]

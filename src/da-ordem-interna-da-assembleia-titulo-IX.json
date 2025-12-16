@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "A Procuradoria-Geral da Assembleia Legislativa é a instituição responsável por:",
+    "alternativas": {
+      "A": "Policiar o recinto do Plenário.",
+      "B": "Representar judicial e extrajudicialmente a Assembleia, a Mesa e seus membros em razão da função.",
+      "C": "Julgar as contas do Governador.",
+      "D": "Administrar os serviços de limpeza e copa.",
+      "E": "Nomear os deputados suplentes."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 286 define a Procuradoria como a instituição que representa judicial e extrajudicialmente a Assembleia, Mesa, Comissões e membros em razão do exercício de suas funções."
+  },
+  {
+    "id": 2,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "A atividade de consultoria e assessoria jurídica do Poder Legislativo Estadual cabe:",
+    "alternativas": {
+      "A": "A qualquer advogado contratado.",
+      "B": "Ao Ministério Público.",
+      "C": "Com exclusividade, à Procuradoria-Geral da Assembleia Legislativa.",
+      "D": "À Defensoria Pública.",
+      "E": "Ao Tribunal de Justiça."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 286 estabelece que cabe à Procuradoria, com exclusividade, as atividades de consultoria e assessoria jurídica do Poder Legislativo."
+  },
+  {
+    "id": 3,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "A Procuradoria-Geral da Assembleia deve atuar na defesa:",
+    "alternativas": {
+      "A": "Dos interesses privados dos deputados.",
+      "B": "Das ações partidárias.",
+      "C": "Da independência, autonomia e funcionamento do Poder Legislativo.",
+      "D": "Das políticas do Governador.",
+      "E": "Das decisões judiciais contra a Casa."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 286, §1º determina a atuação na defesa da independência, autonomia e funcionamento do Poder Legislativo e do livre exercício do mandato."
+  },
+  {
+    "id": 4,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "Sobre a emissão de parecer jurídico em proposições legislativas em trâmite, a Procuradoria-Geral:",
+    "alternativas": {
+      "A": "É obrigada a emitir em todos os projetos.",
+      "B": "É proibida de emitir.",
+      "C": "Emitirá parecer quando solicitada.",
+      "D": "Só emite em PECs.",
+      "E": "Só emite se houver veto."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 286, §2º afirma que a Procuradoria, quando solicitada, emitirá parecer jurídico nas proposições legislativas."
+  },
+  {
+    "id": 5,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "O cargo de Procurador-Geral da Assembleia é de livre nomeação e exoneração pelo:",
+    "alternativas": {
+      "A": "Plenário.",
+      "B": "Governador.",
+      "C": "Presidente da Assembleia Legislativa.",
+      "D": "Corregedor-Geral.",
+      "E": "Colégio de Líderes."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 286, §3º define que o procurador-geral é de livre nomeação e exoneração pelo presidente da Assembleia Legislativa."
+  },
+  {
+    "id": 6,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "Para ser nomeado Procurador-Geral, se o escolhido não for membro estável da carreira, deve ser advogado com regular inscrição na OAB e ter:",
+    "alternativas": {
+      "A": "Mais de 5 anos de atividade.",
+      "B": "Mais de 10 anos de efetiva atividade profissional.",
+      "C": "Doutorado em Direito.",
+      "D": "Aprovação prévia em sabatina.",
+      "E": "Idade mínima de 35 anos."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 286, §3º exige, para não integrantes da carreira, inscrição na OAB e mais de 10 (dez) anos de efetiva atividade profissional."
+  },
+  {
+    "id": 7,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "Quem substitui o Procurador-Geral em suas ausências ou impedimentos?",
+    "alternativas": {
+      "A": "O advogado mais antigo.",
+      "B": "O Procurador-Geral Adjunto.",
+      "C": "O Diretor Administrativo.",
+      "D": "O 1º Secretário.",
+      "E": "Um deputado advogado."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 286, §4º estabelece que o procurador-geral será substituído pelo procurador-geral adjunto."
+  },
+  {
+    "id": 8,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "O Procurador-Geral Adjunto é escolhido dentre:",
+    "alternativas": {
+      "A": "Advogados externos.",
+      "B": "Qualquer servidor da casa.",
+      "C": "Os membros estáveis da carreira.",
+      "D": "Indicação da OAB.",
+      "E": "Deputados licenciados."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 286, §4º especifica que o adjunto é escolhido dentre os membros estáveis da carreira."
+  },
+  {
+    "id": 9,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "Para a Procuradoria impetrar mandado de segurança visando a garantia de prerrogativas institucionais, é necessária:",
+    "alternativas": {
+      "A": "Autorização do Plenário.",
+      "B": "Autorização da presidência.",
+      "C": "Decisão judicial prévia.",
+      "D": "Aprovação da CCJ.",
+      "E": "Solicitação de 1/3 dos deputados."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 286, §5º determina que a impetração ocorre mediante autorização da presidência."
+  },
+  {
+    "id": 10,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "A organização da carreira da Procuradoria-Geral será feita por Lei, cuja iniciativa é:",
+    "alternativas": {
+      "A": "Do Governador.",
+      "B": "De iniciativa popular.",
+      "C": "Da Mesa Diretora.",
+      "D": "Do próprio Procurador-Geral.",
+      "E": "Da Comissão de Finanças."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 286, §6º estabelece que Lei de iniciativa da Mesa Diretora organizará a Procuradoria-Geral."
+  },
+  {
+    "id": 11,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "O ingresso na carreira de procurador da Assembleia Legislativa se dá mediante:",
+    "alternativas": {
+      "A": "Nomeação livre.",
+      "B": "Contratação temporária.",
+      "C": "Concurso público de provas e títulos.",
+      "D": "Eleição interna.",
+      "E": "Indicação partidária."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 286, §6º prevê o ingresso mediante concurso público de provas e títulos."
+  },
+  {
+    "id": 12,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "O policiamento do Palácio Antônio Martins compete privativamente:",
+    "alternativas": {
+      "A": "À Polícia Militar.",
+      "B": "À Secretaria de Segurança Pública.",
+      "C": "À Mesa Diretora.",
+      "D": "Ao Governador.",
+      "E": "À Polícia Federal."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 287 define que o policiamento compete, privativamente, à Mesa Diretora."
+  },
+  {
+    "id": 13,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "Sobre a intervenção de outro Poder no policiamento interno da Assembleia:",
+    "alternativas": {
+      "A": "É permitida em casos graves.",
+      "B": "É vedada, a competência é privativa da Mesa.",
+      "C": "Depende de autorização do Governador.",
+      "D": "É automática em flagrantes.",
+      "E": "É permitida se a PM solicitar."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 287 afirma: 'sem intervenção de qualquer outro Poder'."
+  },
+  {
+    "id": 14,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "A Mesa Diretora poderá requisitar efetivo de qual corporação para o policiamento?",
+    "alternativas": {
+      "A": "Polícia Civil.",
+      "B": "Guarda Municipal.",
+      "C": "Polícia Militar.",
+      "D": "Exército Brasileiro.",
+      "E": "Polícia Rodoviária Federal."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 287, §1º prevê a requisição de efetivo da Polícia Militar, que será posto à disposição da Assembleia."
+  },
+  {
+    "id": 15,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "Regra geral, sobre o porte de armas nas dependências da Assembleia:",
+    "alternativas": {
+      "A": "É livre para todos.",
+      "B": "É permitido para deputados.",
+      "C": "É vedado a qualquer pessoa, exceto aos policiais militares em serviço na Casa.",
+      "D": "É permitido para visitantes cadastrados.",
+      "E": "É permitido apenas com autorização judicial."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 287, §2º veda o porte a qualquer pessoa, exceto policiais militares em serviço na Casa."
+  },
+  {
+    "id": 16,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "Autoridades que, em razão da atividade, portem arma, ao visitarem a Assembleia devem:",
+    "alternativas": {
+      "A": "Entrar armadas livremente.",
+      "B": "Esconder a arma.",
+      "C": "Ser encaminhadas ao órgão policial para depositá-la.",
+      "D": "Deixar a arma no carro.",
+      "E": "Pedir autorização ao Presidente."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 287, §3º determina que serão encaminhadas ao órgão policial para depositá-la enquanto estiverem nas dependências."
+  },
+  {
+    "id": 17,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "As providências necessárias às ações policiais no âmbito do Legislativo serão tomadas por qual órgão interno?",
+    "alternativas": {
+      "A": "Pela CCJ.",
+      "B": "Pela Casa Militar.",
+      "C": "Pelo Cerimonial.",
+      "D": "Pela Portaria.",
+      "E": "Pelo Protocolo."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 287, §4º atribui à Casa Militar a tomada de providências em conformidade com atos da Mesa."
+  },
+  {
+    "id": 18,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "Se um deputado cometer, dentro do edifício da Assembleia, excesso digno de repressão, a Mesa:",
+    "alternativas": {
+      "A": "Prende o deputado.",
+      "B": "Expulsa o deputado.",
+      "C": "Expõe o fato à Assembleia para decisão.",
+      "D": "Chama a Polícia Civil.",
+      "E": "Arquiva o caso."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 288 estabelece que a Mesa exporá o fato à Assembleia para que esta determine o que lhe parecer conveniente."
+  },
+  {
+    "id": 19,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "A sessão em que a Assembleia delibera sobre o excesso cometido por deputado no recinto deve ser:",
+    "alternativas": {
+      "A": "Pública.",
+      "B": "Ordinária.",
+      "C": "Secreta.",
+      "D": "Solene.",
+      "E": "Itinerante."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 288 determina que a deliberação ocorrerá em Sessão Secreta."
+  },
+  {
+    "id": 20,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "Os serviços administrativos da Assembleia são dirigidos pela:",
+    "alternativas": {
+      "A": "Presidência.",
+      "B": "Mesa Diretora.",
+      "C": "Diretoria Geral.",
+      "D": "Comissão de Administração.",
+      "E": "Procuradoria."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 289 afirma que os serviços administrativos são dirigidos pela Mesa."
+  },
+  {
+    "id": 21,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "Os regulamentos especiais dos serviços administrativos devem ser aprovados pelo:",
+    "alternativas": {
+      "A": "Presidente.",
+      "B": "1º Secretário.",
+      "C": "Plenário.",
+      "D": "Governador.",
+      "E": "Tribunal de Contas."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 289 define que os regulamentos especiais são aprovados pelo Plenário."
+  },
+  {
+    "id": 22,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "Para submeter ao Plenário proposição que modifique os serviços administrativos, é necessário parecer conclusivo da Mesa e ouvida de qual comissão?",
+    "alternativas": {
+      "A": "Comissão de Finanças.",
+      "B": "Comissão de Constituição, Justiça e Redação Final.",
+      "C": "Comissão de Administração.",
+      "D": "Comissão de Obras.",
+      "E": "Comissão Mista."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 289, §2º exige a oitiva da Comissão de Constituição, Justiça e Redação Final."
+  },
+  {
+    "id": 23,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "A quem compete informar os órgãos locais sobre as normas regimentais relativas à segurança e porte de arma no âmbito da ALE-RR?",
+    "alternativas": {
+      "A": "Ao Presidente.",
+      "B": "À Chefia da Casa Militar.",
+      "C": "Ao 1º Secretário.",
+      "D": "À Procuradoria.",
+      "E": "Ao Governador."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 287, §5º determina que os órgãos locais serão informados pela chefia da Casa Militar."
+  },
+  {
+    "id": 24,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "A Procuradoria-Geral da Assembleia é composta por advogados concursados denominados:",
+    "alternativas": {
+      "A": "Consultores Jurídicos.",
+      "B": "Assessores Técnicos.",
+      "C": "Procuradores.",
+      "D": "Advogados Públicos.",
+      "E": "Defensores Legislativos."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 286, §3º cita 'advogados concursados denominados procuradores'."
+  },
+  {
+    "id": 25,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "Quem nomeia o Procurador-Geral Adjunto?",
+    "alternativas": {
+      "A": "O Plenário.",
+      "B": "O Procurador-Geral.",
+      "C": "O Presidente da Assembleia, mediante indicação do procurador-geral.",
+      "D": "A Mesa Diretora.",
+      "E": "O Governador."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 286, §4º determina a nomeação pelo presidente da Assembleia, mediante indicação do procurador-geral."
+  },
+  {
+    "id": 26,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "O efetivo da Polícia Militar requisitado para a Assembleia ficará à disposição de quem?",
+    "alternativas": {
+      "A": "Do Governador.",
+      "B": "Da Secretaria de Segurança.",
+      "C": "Da Assembleia (sob comando da Mesa).",
+      "D": "Do público.",
+      "E": "Dos deputados individualmente."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 287, §1º diz que o efetivo será posto à inteira disposição da Assembleia."
+  },
+  {
+    "id": 27,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "Os regulamentos dos serviços administrativos são considerados:",
+    "alternativas": {
+      "A": "Leis Ordinárias.",
+      "B": "Partes integrantes do Regimento Interno.",
+      "C": "Atos discricionários.",
+      "D": "Sugestões.",
+      "E": "Normas externas."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 289 afirma que os regulamentos são considerados partes integrantes deste Regimento."
+  },
+  {
+    "id": 28,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "A Mesa Diretora expõe à Assembleia excessos cometidos por deputado. Quem decide a punição ou providência?",
+    "alternativas": {
+      "A": "A própria Mesa.",
+      "B": "O Presidente.",
+      "C": "A Assembleia (Plenário).",
+      "D": "O Judiciário.",
+      "E": "A Polícia."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 288 diz: 'para que esta (a Assembleia) determine o que lhe parecer conveniente'."
+  },
+  {
+    "id": 29,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "A advocacia da Assembleia Legislativa em juízo é exclusiva de qual órgão?",
+    "alternativas": {
+      "A": "Mesa Diretora.",
+      "B": "Escritórios terceirizados.",
+      "C": "Procuradoria Geral do Estado (PGE).",
+      "D": "Procuradoria-Geral da Assembleia Legislativa.",
+      "E": "Consultoria Legislativa."
+    },
+    "resposta": "D",
+    "explicacao": "O Art. 286 atribui à Procuradoria a representação judicial com exclusividade."
+  },
+  {
+    "id": 30,
+    "titulo": "Título IX - Ordem Interna",
+    "enunciado": "A Mesa Diretora pode expedir, em relação aos serviços administrativos:",
+    "alternativas": {
+      "A": "Leis complementares.",
+      "B": "Decretos do Executivo.",
+      "C": "Normas ou instruções complementares necessárias.",
+      "D": "Sentenças.",
+      "E": "Emendas Constitucionais."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 289 autoriza a Mesa a expedir normas ou instruções complementares necessárias."
+  }
+]
