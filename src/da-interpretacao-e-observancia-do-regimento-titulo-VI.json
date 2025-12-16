@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "Segundo o Regimento Interno, todas as dúvidas sobre a interpretação e aplicação do Regimento constituir-se-ão em:",
+    "alternativas": {
+      "A": "Recurso ao Plenário.",
+      "B": "Questão de Ordem.",
+      "C": "Reclamação Administrativa.",
+      "D": "Mandado de Segurança Interno.",
+      "E": "Parecer da Comissão de Constituição e Justiça."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 177 define que todas as dúvidas sobre a interpretação e aplicação deste Regimento constituir-se-ão em questão de ordem."
+  },
+  {
+    "id": 2,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "Quem tem a competência para resolver definitivamente as questões de ordem claramente formuladas?",
+    "alternativas": {
+      "A": "A Comissão de Constituição e Justiça (CCJ).",
+      "B": "O Plenário, por votação.",
+      "C": "O Presidente da Assembleia.",
+      "D": "O 1º Secretário.",
+      "E": "O Procurador-Geral da Assembleia."
+    },
+    "resposta": "C",
+    "explicacao": "Conforme o Art. 177, §1º, todas as questões de ordem claramente formuladas serão resolvidas definitivamente pelo presidente da Assembleia."
+  },
+  {
+    "id": 3,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "Qual é o tempo máximo que um deputado dispõe para formular uma questão de ordem?",
+    "alternativas": {
+      "A": "1 minuto.",
+      "B": "2 minutos.",
+      "C": "3 minutos.",
+      "D": "5 minutos.",
+      "E": "10 minutos."
+    },
+    "resposta": "D",
+    "explicacao": "O Art. 177, §2º determina que nenhum deputado poderá exceder o prazo de 5 (cinco) minutos para formular uma questão de ordem."
+  },
+  {
+    "id": 4,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "Em qualquer fase da Sessão, o deputado pode pedir a palavra 'pela ordem' para reclamar a observância de disposição regimental, EXCETO:",
+    "alternativas": {
+      "A": "Durante o Expediente.",
+      "B": "Durante a Explicação Pessoal.",
+      "C": "No intervalo entre discursos.",
+      "D": "No momento das votações.",
+      "E": "Durante a leitura da ata."
+    },
+    "resposta": "D",
+    "explicacao": "O Art. 177, §4º permite falar 'pela ordem' em qualquer fase, exceto no momento das votações."
+  },
+  {
+    "id": 5,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "Se um deputado quiser recorrer da decisão da Presidência sobre uma questão de ordem para o Plenário, qual é o efeito desse recurso, via de regra?",
+    "alternativas": {
+      "A": "Efeito suspensivo imediato.",
+      "B": "Sem efeito suspensivo.",
+      "C": "Efeito devolutivo e suspensivo.",
+      "D": "Efeito retroativo.",
+      "E": "Anula a sessão até decisão final."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 177, §7º estabelece que o recurso para o Plenário é, via de regra, sem efeito suspensivo."
+  },
+  {
+    "id": 6,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "Para que o recurso contra decisão de questão de ordem tenha efeito suspensivo, é necessário:",
+    "alternativas": {
+      "A": "Decisão monocrática do Presidente.",
+      "B": "Parecer favorável da CCJ.",
+      "C": "Requerimento do deputado com apoio de 1/3 dos presentes e decisão do Plenário.",
+      "D": "Solicitação de qualquer líder partidário.",
+      "E": "Que a questão envolva matéria constitucional."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 177, §9º determina que o deputado, com apoio de 1/3 dos presentes, poderá requerer que o Plenário decida, de imediato, sobre o efeito suspensivo."
+  },
+  {
+    "id": 7,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "Ao recorrer da decisão da Presidência em questão de ordem, quem deve ser ouvida antes da submissão ao Plenário?",
+    "alternativas": {
+      "A": "A Mesa Diretora.",
+      "B": "A Comissão de Constituição, Justiça e Redação Final.",
+      "C": "A Procuradoria da Assembleia.",
+      "D": "O Colégio de Líderes.",
+      "E": "A Comissão de Ética."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 177, §7º exige a oitiva da Comissão de Constituição, Justiça e Redação Final."
+  },
+  {
+    "id": 8,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "Qual é o prazo máximo para a Comissão de Constituição, Justiça e Redação Final se pronunciar sobre o recurso de questão de ordem?",
+    "alternativas": {
+      "A": "24 horas.",
+      "B": "1 sessão.",
+      "C": "3 sessões.",
+      "D": "5 dias.",
+      "E": "10 dias."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 177, §7º define o prazo máximo de 03 (três) sessões para a Comissão se pronunciar."
+  },
+  {
+    "id": 9,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "O deputado que quiser comentar, criticar ou protestar contra a decisão de uma questão de ordem poderá fazê-lo:",
+    "alternativas": {
+      "A": "Imediatamente após a decisão.",
+      "B": "Durante a Ordem do Dia da mesma sessão.",
+      "C": "Na Sessão seguinte, tendo preferência no Expediente.",
+      "D": "Apenas por escrito, via ofício.",
+      "E": "Nas Explicações Pessoais da mesma sessão."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 177, §6º prevê que o comentário/protesto será feito na Sessão seguinte, tendo preferência para uso da palavra, durante 10 minutos, à hora do Expediente."
+  },
+  {
+    "id": 10,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "O Presidente pode cassar a palavra do deputado que pediu 'pela ordem' se:",
+    "alternativas": {
+      "A": "O deputado exceder 1 minuto.",
+      "B": "O deputado não indicar desde logo o artigo do Regimento que está sendo desobedecido.",
+      "C": "O Presidente discordar do mérito.",
+      "D": "O deputado for da oposição.",
+      "E": "Houver tumulto no plenário."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 178 permite cassar a palavra se o orador não indicar desde logo o artigo do Regimento que está sendo desobedecido."
+  },
+  {
+    "id": 11,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "O projeto de resolução para modificar ou reformar o Regimento Interno pode ser de iniciativa:",
+    "alternativas": {
+      "A": "De qualquer deputado individualmente.",
+      "B": "Do Governador do Estado.",
+      "C": "Da Mesa ou de Comissão Especial para esse fim criada.",
+      "D": "De iniciativa popular.",
+      "E": "Do Presidente do Tribunal de Justiça."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 179 define a iniciativa: da Mesa ou de Comissão Especial para esse fim criada (da qual deverá fazer parte um membro da Mesa)."
+  },
+  {
+    "id": 12,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "O projeto de reforma do Regimento, após publicado, deve permanecer em pauta para recebimento de emendas durante:",
+    "alternativas": {
+      "A": "1 sessão.",
+      "B": "3 sessões.",
+      "C": "5 sessões.",
+      "D": "10 sessões.",
+      "E": "15 dias."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 179, §1º estabelece que o projeto permanecerá em pauta durante o prazo de 03 (três) sessões para o recebimento de emendas."
+  },
+  {
+    "id": 13,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "Qual o quórum necessário para a aprovação de projeto de resolução que modifique o Regimento Interno?",
+    "alternativas": {
+      "A": "Maioria simples em turno único.",
+      "B": "Maioria absoluta em turno único.",
+      "C": "2/3 dos membros em turno único.",
+      "D": "Maioria absoluta em cada um dos 2 turnos.",
+      "E": "Unanimidade."
+    },
+    "resposta": "D",
+    "explicacao": "O Art. 180, §1º exige aprovação em 2 (dois) turnos, sendo o quórum de maioria absoluta em cada turno."
+  },
+  {
+    "id": 14,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "Após o prazo de pauta para emendas ao projeto de reforma do Regimento, a Mesa terá qual prazo para emitir parecer conclusivo?",
+    "alternativas": {
+      "A": "3 dias.",
+      "B": "5 dias.",
+      "C": "10 dias.",
+      "D": "15 dias.",
+      "E": "20 dias."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 180 estabelece que a Mesa terá o prazo de 10 (dez) dias para apresentar parecer conclusivo às emendas e ao projeto."
+  },
+  {
+    "id": 15,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "Se durante a discussão do projeto de reforma do Regimento forem apresentadas novas emendas, qual o prazo para a Mesa emitir parecer sobre elas?",
+    "alternativas": {
+      "A": "24 horas.",
+      "B": "2 dias.",
+      "C": "3 dias.",
+      "D": "5 dias.",
+      "E": "10 dias."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 180, §2º define o prazo de 3 (três) dias para a Mesa emitir parecer sobre emendas apresentadas durante a discussão."
+  },
+  {
+    "id": 16,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "A quem compete a redação final do projeto de reforma do Regimento Interno?",
+    "alternativas": {
+      "A": "À Comissão de Constituição e Justiça.",
+      "B": "À Comissão de Redação.",
+      "C": "À Mesa da Assembleia.",
+      "D": "Ao autor do projeto.",
+      "E": "Ao Diretor Legislativo."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 181 determina que a redação do vencido e a redação final competem à Mesa da Assembleia."
+  },
+  {
+    "id": 17,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "Sobre as atas das sessões ordinárias e extraordinárias, o Regimento prevê a lavratura de:",
+    "alternativas": {
+      "A": "Apenas uma ata sucinta.",
+      "B": "Duas atas: uma em minúcias (para publicação) e outra sucinta (para leitura).",
+      "C": "Duas atas idênticas para arquivos diferentes.",
+      "D": "Uma ata digital e uma física.",
+      "E": "Apenas ata taquigráfica."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 182 prevê duas atas: I- uma, em minúcias, para o Diário Oficial; II- outra, em relato sucinto, para ser lida e aprovada."
+  },
+  {
+    "id": 18,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "Documentos oficiais apresentados durante a sessão:",
+    "alternativas": {
+      "A": "São lidos na íntegra na ata sucinta.",
+      "B": "Não constam na ata.",
+      "C": "Serão resumidos na ata sucinta e transcritos na destinada à publicação.",
+      "D": "São apenas arquivados.",
+      "E": "São publicados em anexo separado."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 182, §1º diz que os documentos oficiais serão resumidos na ata sucinta e transcritos na destinada à publicação."
+  },
+  {
+    "id": 19,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "Documentos apresentados por deputado durante seu discurso constarão da ata?",
+    "alternativas": {
+      "A": "Sempre, automaticamente.",
+      "B": "Nunca.",
+      "C": "Apenas se lidos da Tribuna ou aprovados através de requerimento (permissão da Mesa).",
+      "D": "Apenas se o deputado pagar a publicação.",
+      "E": "Apenas se for líder partidário."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 182, §3º estabelece que não constarão sem permissão da Mesa, salvo quando lidos da Tribuna ou aprovados através de requerimento."
+  },
+  {
+    "id": 20,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "A ata de Sessão Secreta possui rito diferenciado. Ela deve ser aprovada:",
+    "alternativas": {
+      "A": "Na sessão seguinte.",
+      "B": "Antes do encerramento da própria Sessão.",
+      "C": "Pela Mesa Diretora posteriormente.",
+      "D": "Apenas pelo Presidente.",
+      "E": "Não se lavra ata de sessão secreta."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 183 determina que a ata de Sessão Secreta será aprovada pelo Plenário antes do encerramento da Sessão."
+  },
+  {
+    "id": 21,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "Quem é responsável por redigir a ata da Sessão Secreta?",
+    "alternativas": {
+      "A": "Um taquígrafo juramentado.",
+      "B": "O Diretor Geral.",
+      "C": "O 1º Secretário.",
+      "D": "O Presidente.",
+      "E": "O Corregedor."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 183 atribui a redação da ata de Sessão Secreta ao 1º Secretário."
+  },
+  {
+    "id": 22,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "Após aprovada, a ata da Sessão Secreta é:",
+    "alternativas": {
+      "A": "Publicada no Diário Oficial.",
+      "B": "Entregue aos líderes.",
+      "C": "Fechada com lacre em invólucro datado e rubricado por 02 secretários.",
+      "D": "Destruída.",
+      "E": "Arquivada em pasta comum."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 183 estabelece que a ata é fechada com lacre em invólucro datado e rubricado por 02 (dois) secretários."
+  },
+  {
+    "id": 23,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "A ata da última Sessão Ordinária ou Extraordinária de uma legislatura ou período:",
+    "alternativas": {
+      "A": "Fica para a próxima legislatura aprovar.",
+      "B": "É aprovada ad referendum pela Mesa.",
+      "C": "Será lavrada e submetida à apreciação do Plenário antes de encerrados os trabalhos.",
+      "D": "Não precisa ser aprovada.",
+      "E": "É aprovada pela Comissão Representativa."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 184 exige que a ata da última sessão seja lavrada e submetida à apreciação antes de encerrados os trabalhos."
+  },
+  {
+    "id": 24,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "Qual o quórum para aprovar a ata da última sessão antes do encerramento?",
+    "alternativas": {
+      "A": "Maioria absoluta.",
+      "B": "1/3 dos membros.",
+      "C": "Qualquer número de deputados.",
+      "D": "Maioria simples.",
+      "E": "Presença total."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 184 especifica: \"presente qualquer número de deputados\"."
+  },
+  {
+    "id": 25,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "Sobre a Comissão Especial criada para reformar o Regimento Interno, é obrigatório que:",
+    "alternativas": {
+      "A": "Seja presidida pelo Presidente da Assembleia.",
+      "B": "Tenha 10 membros.",
+      "C": "Dela faça parte um membro da Mesa.",
+      "D": "Seja composta apenas por juristas.",
+      "E": "Seja a mesma que a CCJ."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 179 exige que da Comissão Especial \"deverá fazer parte um membro da Mesa\"."
+  },
+  {
+    "id": 26,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "As decisões sobre questão de ordem possuem um tratamento administrativo específico para consulta futura. Elas serão:",
+    "alternativas": {
+      "A": "Publicadas apenas em ata.",
+      "B": "Esquecidas ao fim da legislatura.",
+      "C": "Registradas e indexadas em livro especial.",
+      "D": "Enviadas ao arquivo morto.",
+      "E": "Gravadas em áudio apenas."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 177, §10 determina que as decisões serão registradas e indexadas em livro especial a que se dará divulgação."
+  },
+  {
+    "id": 27,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "Se as questões de ordem registradas indicarem necessidade de mudança normativa, a Mesa:",
+    "alternativas": {
+      "A": "Deve ignorar.",
+      "B": "Elaborará projeto de resolução propondo as alterações regimentais.",
+      "C": "Pode alterar o regimento por ato simples.",
+      "D": "Deve consultar o Judiciário.",
+      "E": "Deve aguardar a próxima legislatura."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 177, §11 estabelece que a Mesa elaborará projeto de resolução propondo, se for o caso, as alterações regimentais."
+  },
+  {
+    "id": 28,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "Documentos não oficiais citados na sessão:",
+    "alternativas": {
+      "A": "São proibidos.",
+      "B": "São transcritos na íntegra.",
+      "C": "São indicados na ata destinada à publicação com declaração de objeto.",
+      "D": "São lidos na ata sucinta.",
+      "E": "Não podem ser mencionados."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 182, §2º diz que o documento não oficial será indicado na ata destinada à publicação, com a declaração do seu objeto."
+  },
+  {
+    "id": 29,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "Durante a discussão de uma questão de ordem, se o deputado exceder o tempo de 5 minutos, o Presidente:",
+    "alternativas": {
+      "A": "Deve conceder mais 5 minutos.",
+      "B": "Pode cassar a palavra.",
+      "C": "Deve suspender a sessão.",
+      "D": "Deve submeter ao Plenário.",
+      "E": "Não pode fazer nada."
+    },
+    "resposta": "B",
+    "explicacao": "Interpretação combinada do Art. 177, §2º (limite de 5 min) e Art. 35, I, 'f' (poder do presidente de retirar a palavra). O Art. 178 também reforça que o presidente pode cassar a palavra se não houver citação do artigo."
+  },
+  {
+    "id": 30,
+    "titulo": "Título VI - Interpretação e Observância do Regimento",
+    "enunciado": "Sobre uma mesma questão de ordem, cada deputado poderá falar:",
+    "alternativas": {
+      "A": "Quantas vezes quiser.",
+      "B": "Duas vezes (encaminhamento e réplica).",
+      "C": "Somente uma vez.",
+      "D": "Apenas se for o autor.",
+      "E": "Apenas se for líder."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 177, §5º estabelece que sobre uma mesma questão de ordem cada deputado poderá falar somente uma vez."
+  }
+]
