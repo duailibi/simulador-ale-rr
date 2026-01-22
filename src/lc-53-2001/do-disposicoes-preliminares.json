@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "Qual é o objeto da Lei Complementar nº 53/2001?",
+    "alternativas": {
+      "A": "Instituir o regime jurídico dos servidores públicos civis do Estado de Roraima, excetuadas as categorias que, por disposição constitucional, são regidas por regime próprio.",
+      "B": "Regular o regime de previdência dos servidores públicos estaduais.",
+      "C": "Estabelecer o plano de carreira dos servidores do Poder Executivo.",
+      "D": "Disciplinar o processo administrativo disciplinar dos servidores.",
+      "E": "Regular a acumulação de cargos públicos no Estado de Roraima."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 1º, esta Lei Complementar institui o regime jurídico dos servidores públicos civis do Estado de Roraima, excetuadas as categorias que, por disposição constitucional, são regidas por regime próprio."
+  },
+  {
+    "id": 2,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "Para os efeitos da Lei Complementar nº 53/2001, como é definido o servidor público?",
+    "alternativas": {
+      "A": "Pessoa que presta serviços ao Estado sem vínculo empregatício.",
+      "B": "Pessoa legalmente investida em cargo público.",
+      "C": "Empregado público regido pela CLT.",
+      "D": "Agente político eleito ou nomeado.",
+      "E": "Estagiário ou bolsista vinculado ao Estado."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme art. 2º, servidor é a pessoa legalmente investida em cargo público."
+  },
+  {
+    "id": 3,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "Segundo a Lei Complementar nº 53/2001, o que se entende por cargo público?",
+    "alternativas": {
+      "A": "A função temporária exercida por servidor comissionado.",
+      "B": "O emprego público criado por decreto governamental.",
+      "C": "O conjunto de atribuições e responsabilidades previstas na estrutura organizacional que devem ser cometidas a um servidor.",
+      "D": "O posto de trabalho ocupado por servidor estável.",
+      "E": "A designação para exercer atividade de confiança."
+    },
+    "resposta": "C",
+    "explicacao": "Conforme art. 3º, cargo público é o conjunto de atribuições e responsabilidades previstas na estrutura organizacional que devem ser cometidas a um servidor."
+  },
+  {
+    "id": 4,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "Como são criados os cargos públicos, de acordo com o art. 3º, parágrafo único, da Lei Complementar nº 53/2001?",
+    "alternativas": {
+      "A": "Por decreto do Governador do Estado.",
+      "B": "Por portaria do Secretário de Administração.",
+      "C": "Por lei, com denominação própria e vencimento pago pelos cofres públicos.",
+      "D": "Por resolução da Assembleia Legislativa.",
+      "E": "Por ato administrativo do Chefe do Poder Executivo."
+    },
+    "resposta": "C",
+    "explicacao": "Conforme art. 3º, parágrafo único, os cargos públicos são criados por lei, com denominação própria e vencimento pago pelos cofres públicos."
+  },
+  {
+    "id": 5,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "Segundo o art. 3º, parágrafo único, os cargos públicos são acessíveis a:",
+    "alternativas": {
+      "A": "Apenas brasileiros natos.",
+      "B": "Todos os brasileiros e aos estrangeiros, na forma da lei, que preencham os requisitos estabelecidos na legislação pertinente.",
+      "C": "Apenas brasileiros maiores de 18 anos.",
+      "D": "Exclusivamente a servidores concursados.",
+      "E": "Apenas a pessoas com ensino superior completo."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme art. 3º, parágrafo único, os cargos e funções públicas são acessíveis a todos os brasileiros e aos estrangeiros, na forma da lei, que preencham os requisitos estabelecidos na legislação pertinente."
+  },
+  {
+    "id": 6,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "De acordo com o art. 4º da Lei Complementar nº 53/2001, como se regula a prestação de serviços gratuitos?",
+    "alternativas": {
+      "A": "É permitida mediante autorização do Governador.",
+      "B": "É proibida, salvo os casos previstos em lei.",
+      "C": "É permitida para servidores públicos voluntários.",
+      "D": "É proibida, sem exceções.",
+      "E": "É permitida desde que o servidor concorde."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme art. 4º, é proibida a prestação de serviços gratuitos, salvo os casos previstos em lei."
+  },
+  {
+    "id": 7,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "A Lei Complementar nº 53/2001 aplica-se a:",
+    "alternativas": {
+      "A": "Servidores públicos civis e militares do Estado de Roraima.",
+      "B": "Servidores públicos civis do Estado de Roraima, excetuadas as categorias com regime próprio constitucional.",
+      "C": "Todos os servidores públicos da administração direta e indireta do Estado de Roraima.",
+      "D": "Apenas servidores do Poder Executivo estadual.",
+      "E": "Servidores públicos federais lotados em Roraima."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme art. 1º, a lei institui o regime jurídico dos servidores públicos civis do Estado de Roraima, excetuadas as categorias que, por disposição constitucional, são regidas por regime próprio."
+  },
+  {
+    "id": 8,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "O que se entende por 'provimento efetivo' conforme mencionado no art. 3º, parágrafo único?",
+    "alternativas": {
+      "A": "Provimento por meio de concurso público.",
+      "B": "Provimento por meio de nomeação para cargo em comissão.",
+      "C": "Provimento por meio de contrato temporário.",
+      "D": "Provimento por meio de designação para função de confiança.",
+      "E": "Provimento por meio de eleição."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 3º, parágrafo único, os cargos são criados para provimento efetivo (via concurso público) ou em comissão."
+  },
+  {
+    "id": 9,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "Segundo a Lei Complementar nº 53/2001, a definição de cargo público inclui:",
+    "alternativas": {
+      "A": "Apenas as atribuições, sem menção a responsabilidades.",
+      "B": "Apenas as responsabilidades, sem menção a atribuições.",
+      "C": "O conjunto de atribuições e responsabilidades previstas na estrutura organizacional.",
+      "D": "Apenas a denominação e o vencimento.",
+      "E": "Apenas a forma de provimento."
+    },
+    "resposta": "C",
+    "explicacao": "Conforme art. 3º, cargo público é o conjunto de atribuições e responsabilidades previstas na estrutura organizacional que devem ser cometidas a um servidor."
+  },
+  {
+    "id": 10,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "A proibição de prestação de serviços gratuitos, conforme art. 4º, tem como exceção:",
+    "alternativas": {
+      "A": "Os casos previstos em lei.",
+      "B": "Os serviços prestados por estagiários.",
+      "C": "Os serviços voluntários autorizados pelo gestor.",
+      "D": "Os serviços prestados por servidores aposentados.",
+      "E": "Os serviços prestados por menores aprendizes."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 4º, é proibida a prestação de serviços gratuitos, salvo os casos previstos em lei."
+  },
+  {
+    "id": 11,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "A acessibilidade aos cargos públicos, conforme art. 3º, parágrafo único, é garantida:",
+    "alternativas": {
+      "A": "Apenas a brasileiros natos.",
+      "B": "A todos os brasileiros e estrangeiros, na forma da lei.",
+      "C": "Apenas a maiores de 21 anos.",
+      "D": "Apenas a portadores de diploma de ensino superior.",
+      "E": "Apenas a pessoas sem antecedentes criminais."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme art. 3º, parágrafo único, os cargos e funções públicas são acessíveis a todos os brasileiros e aos estrangeiros, na forma da lei."
+  },
+  {
+    "id": 12,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "O vencimento dos cargos públicos, conforme art. 3º, parágrafo único, é pago por:",
+    "alternativas": {
+      "A": "Recursos de convênios federais.",
+      "B": "Cofres públicos.",
+      "C": "Verbas particulares dos gestores.",
+      "D": "Fundos especiais criados por lei.",
+      "E": "Doações de entidades privadas."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme art. 3º, parágrafo único, os cargos são criados com vencimento pago pelos cofres públicos."
+  },
+  {
+    "id": 13,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "A expressão 'legalmente investida' contida no art. 2º refere-se a:",
+    "alternativas": {
+      "A": "Investimento financeiro do servidor no cargo.",
+      "B": "Nomeação ou designação conforme procedimento legal.",
+      "C": "Posse em cargo por indicação política.",
+      "D": "Contratação por tempo determinado.",
+      "E": "Exercício de função sem formalidade."
+    },
+    "resposta": "B",
+    "explicacao": "O termo 'legalmente investida' refere-se à investidura regular em cargo público, por meio de nomeação ou designação conforme procedimento legal estabelecido."
+  },
+  {
+    "id": 14,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "As categorias de servidores que são regidas por regime próprio, conforme art. 1º, são aquelas:",
+    "alternativas": {
+      "A": "Definidas por lei ordinária estadual.",
+      "B": "Previstas em disposição constitucional.",
+      "C": "Criadas por decreto do Governador.",
+      "D": "Estabelecidas por portaria ministerial.",
+      "E": "Reguladas por convenção coletiva."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme art. 1º, são excetuadas as categorias que, por disposição constitucional, são regidas por regime próprio."
+  },
+  {
+    "id": 15,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "A Lei Complementar nº 53/2001 tem como finalidade principal:",
+    "alternativas": {
+      "A": "Regulamentar a estrutura organizacional do Estado.",
+      "B": "Instituir o regime jurídico dos servidores públicos civis do Estado de Roraima.",
+      "C": "Criar cargos públicos no âmbito estadual.",
+      "D": "Estabelecer o código de ética dos servidores.",
+      "E": "Disciplinar a reforma administrativa do Estado."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme art. 1º, a lei institui o regime jurídico dos servidores públicos civis do Estado de Roraima."
+  },
+  {
+    "id": 16,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "O art. 3º, parágrafo único, estabelece que os cargos públicos podem ter provimento:",
+    "alternativas": {
+      "A": "Apenas efetivo.",
+      "B": "Apenas em comissão.",
+      "C": "Efetivo ou em comissão.",
+      "D": "Apenas temporário.",
+      "E": "Efetivo, comissão ou temporário."
+    },
+    "resposta": "C",
+    "explicacao": "Conforme art. 3º, parágrafo único, os cargos são criados para provimento efetivo ou em comissão."
+  },
+  {
+    "id": 17,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "A expressão 'na forma da lei' contida no art. 3º, parágrafo único, refere-se a:",
+    "alternativas": {
+      "A": "Apenas à lei complementar federal.",
+      "B": "À legislação que estabelece condições para acesso de estrangeiros.",
+      "C": "Aos regulamentos internos dos órgãos.",
+      "D": "Aos decretos do Governador.",
+      "E": "Às portarias ministeriais."
+    },
+    "resposta": "B",
+    "explicacao": "A expressão 'na forma da lei' refere-se à legislação que estabelece condições para acesso de brasileiros e estrangeiros aos cargos públicos."
+  },
+  {
+    "id": 18,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "A proibição de serviços gratuitos visa:",
+    "alternativas": {
+      "A": "Evitar a exploração de mão de obra e garantir a remuneração justa.",
+      "B": "Impedir a contratação de servidores temporários.",
+      "C": "Restringir a atuação de voluntários no serviço público.",
+      "D": "Criar exceções para serviços comunitários.",
+      "E": "Facilitar a terceirização de serviços."
+    },
+    "resposta": "A",
+    "explicacao": "A proibição visa evitar a exploração de mão de obra e garantir que o serviço público seja prestado por servidores devidamente remunerados, salvo exceções legais."
+  },
+  {
+    "id": 19,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "O art. 2º da Lei Complementar nº 53/2001 define servidor como pessoa legalmente investida em cargo público. Isso exclui:",
+    "alternativas": {
+      "A": "Servidores temporários.",
+      "B": "Empregados públicos celetistas.",
+      "C": "Agentes políticos.",
+      "D": "Estagiários.",
+      "E": "Todas as alternativas anteriores."
+    },
+    "resposta": "E",
+    "explicacao": "A definição abrange apenas servidores investidos em cargo público, excluindo servidores temporários, celetistas, agent políticos, estagiários e outros que não se enquadrem na conceituação de cargo público."
+  },
+  {
+    "id": 20,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "A denominação própria do cargo público, conforme art. 3º, parágrafo único, é estabelecida:",
+    "alternativas": {
+      "A": "Pela lei que o cria.",
+      "B": "Pelo decreto de regulamentação.",
+      "C": "Pela portaria do órgão.",
+      "D": "Pelo regulamento de carreira.",
+      "E": "Pelo edital de concurso público."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 3º, parágrafo único, os cargos são criados por lei, com denominação própria."
+  }
+]

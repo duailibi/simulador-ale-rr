@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "titulo": "Título IV - Do Regime Disciplinar",
+    "enunciado": "De acordo com o art. 109, são deveres fundamentais do servidor, EXCETO:",
+    "alternativas": {
+      "A": "Ser assíduo e pontual ao serviço.",
+      "B": "Exercer com zelo e dedicação as atribuições legais e regulamentares.",
+      "C": "Cumprir as ordens superiores, exceto quando manifestamente ilegais.",
+      "D": "Valer-se do cargo para lograr proveito pessoal ou de outrem.",
+      "E": "Zelar pela economia do material e pela conservação do patrimônio público."
+    },
+    "resposta": "D",
+    "explicacao": "Conforme art. 109, são deveres do servidor os incisos I a XII. O ato de valer-se do cargo para lograr proveito pessoal ou de outrem é proibição (art. 110, inciso XII), não dever."
+  },
+  {
+    "id": 2,
+    "titulo": "Título IV - Do Regime Disciplinar",
+    "enunciado": "Segundo o art. 110, ao servidor é proibido, EXCETO:",
+    "alternativas": {
+      "A": "Ausentar-se do serviço durante o expediente, sem prévia autorização do chefe imediato.",
+      "B": "Recusar fé a documentos públicos.",
+      "C": "Guardar sigilo sobre assunto da repartição.",
+      "D": "Manter sob sua chefia imediata cônjuge, companheiro ou parente até o segundo grau civil.",
+      "E": "Receber propina, comissão, presente ou vantagem de qualquer espécie, em razão de suas atribuições."
+    },
+    "resposta": "C",
+    "explicacao": "Conforme art. 110, são proibições os incisos I a XXII. Guardar sigilo sobre assunto da repartição é dever (art. 109, inciso XII), não proibição."
+  },
+  {
+    "id": 3,
+    "titulo": "Título IV - Do Regime Disciplinar",
+    "enunciado": "Conforme a Lei Complementar n. 355/2025, que alterou o art. 110, considera-se assédio moral a conduta praticada por meio da repetição deliberada de gestos, palavras e/ou comportamentos que exponham o servidor a situações humilhantes e constrangedoras, com o objetivo de:",
+    "alternativas": {
+      "A": "Excluí-lo das suas funções ou desestabilizá-lo emocionalmente, deteriorando o ambiente profissional.",
+      "B": "Promover seu crescimento profissional por meio de feedbacks constantes.",
+      "C": "Garantir o cumprimento das normas disciplinares.",
+      "D": "Proteger a instituição de possíveis riscos legais.",
+      "E": "Assegurar a eficiência do serviço público."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 110, parágrafo único, inciso I, acrescido pela Lei Complementar n. 355/2025, considera-se assédio moral a conduta praticada com o objetivo de excluir o servidor das suas funções ou desestabilizá-lo emocionalmente, deteriorando o ambiente profissional."
+  },
+  {
+    "id": 4,
+    "titulo": "Título IV - Do Regime Disciplinar",
+    "enunciado": "Nos termos do art. 111, é vedada a acumulação remunerada de cargos públicos, excetuadas as hipóteses previstas em dispositivos constitucionais. Essa proibição estende-se a:",
+    "alternativas": {
+      "A": "Cargos, empregos e funções em autarquias, empresas e fundações públicas, sociedades de economia mista mantidas pelo Poder Público Estadual.",
+      "B": "Apenas cargos públicos efetivos.",
+      "C": "Apenas cargos em comissão.",
+      "D": "Apenas funções de confiança.",
+      "E": "Apenas cargos públicos municipais."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 111, § 1º, a proibição de acumular estende-se a cargos, empregos e funções em autarquias, empresas e fundações públicas, sociedades de economia mista mantidas pelo Poder Público Estadual."
+  },
+  {
+    "id": 5,
+    "titulo": "Título IV - Do Regime Disciplinar",
+    "enunciado": "De acordo com o art. 112, o servidor não poderá exercer mais de um cargo em comissão, exceto no caso previsto no parágrafo único do art. 9º. Poderá, no entanto, ser remunerado pela participação em:",
+    "alternativas": {
+      "A": "Conselhos de administração e fiscal das empresas públicas e sociedades de economia mista, suas subsidiárias e controladas, bem como quaisquer empresas ou entidades em que o Estado direta ou indiretamente detenha participação no capital social.",
+      "B": "Órgãos de deliberação coletiva de entidades sindicais.",
+      "C": "Comissões temporárias de estudos.",
+      "D": "Grupos de trabalho internos da administração.",
+      "E": "Comitês de ética e conduta."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 112, parágrafo único, o disposto não se aplica à remuneração devida pela participação em conselhos de administração e fiscal das empresas públicas e sociedades de economia mista, suas subsidiárias e controladas, bem como quaisquer empresas ou entidades em que o Estado direta ou indiretamente detenha participação no capital social."
+  },
+  {
+    "id": 6,
+    "titulo": "Título IV - Do Regime Disciplinar",
+    "enunciado": "Segundo o art. 114, o servidor responde civil, penal e administrativamente pelo exercício irregular de suas atribuições. Essas responsabilidades:",
+    "alternativas": {
+      "A": "Podem ser cumuladas, sendo independentes entre si.",
+      "B": "São alternativas, cabendo ao servidor escolher qual enfrentar.",
+      "C": "São exclusivas, ou seja, se responsabilizado civilmente, não pode sê-lo penalmente.",
+      "D": "São subsidiárias, começando pela administrativa.",
+      "E": "São solidárias entre o servidor e o Estado."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 118, as sanções civis, penais e administrativas poderão cumular-se, sendo independentes entre si."
+  },
+  {
+    "id": 7,
+    "titulo": "Título IV - Do Regime Disciplinar",
+    "enunciado": "Conforme o art. 115, § 1º, a indenização de prejuízo dolosamente causado ao erário somente será liquidada na forma prevista no art. 42:",
+    "alternativas": {
+      "A": "Na falta de outros bens que assegurem a execução do débito pela via judicial.",
+      "B": "Independentemente da existência de outros bens.",
+      "C": "Após o esgotamento das vias penais.",
+      "D": "Somente se o servidor for estável.",
+      "E": "Apenas se o valor não exceder a remuneração do servidor."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 115, § 1º, a indenização de prejuízo dolosamente causado ao erário somente será liquidada na forma prevista no art. 42, na falta de outros bens que assegurem a execução do débito pela via judicial."
+  },
+  {
+    "id": 8,
+    "titulo": "Título IV - Do Regime Disciplinar",
+    "enunciado": "De acordo com o art. 120, são penalidades disciplinares, EXCETO:",
+    "alternativas": {
+      "A": "Advertência.",
+      "B": "Suspensão.",
+      "C": "Cassação de aposentadoria ou disponibilidade.",
+      "D": "Demissão.",
+      "E": "Reversão."
+    },
+    "resposta": "E",
+    "explicacao": "Conforme art. 120, as penalidades disciplinares são: I - advertência; II - suspensão; III - cassação de aposentadoria ou disponibilidade; IV - destituição de cargo em comissão; V - destituição de função comissionada; e VI - demissão. Reversão é forma de provimento (art. 8º, IV)."
+  },
+  {
+    "id": 9,
+    "titulo": "Título IV - Do Regime Disciplinar",
+    "enunciado": "Nos termos do art. 122, a advertência será aplicada por escrito, nos casos de violação de proibição constante do art. 110, incisos I a VIII e XI, e de inobservância de dever funcional previsto em lei, regulamentação ou norma interna:",
+    "alternativas": {
+      "A": "Que não justifique imposição de penalidade mais grave.",
+      "B": "Independentemente da gravidade da infração.",
+      "C": "Somente se o servidor for estável.",
+      "D": "Apenas após processo administrativo disciplinar.",
+      "E": "Exclusivamente por autoridade superior ao chefe imediato."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 122, a advertência será aplicada por escrito, nos casos de violação de proibição constante do art. 110, incisos I a VIII e XI, e de inobservância de dever funcional previsto em lei, regulamentação ou norma interna, que não justifique imposição de penalidade mais grave."
+  },
+  {
+    "id": 10,
+    "titulo": "Título IV - Do Regime Disciplinar",
+    "enunciado": "De acordo com o art. 123, a suspensão será aplicada em caso de reincidência das faltas punidas com advertência e de violação das demais proibições que não tipifiquem infração sujeita à penalidade de demissão, não podendo exceder de:",
+    "alternativas": {
+      "A": "30 dias.",
+      "B": "60 dias.",
+      "C": "90 dias.",
+      "D": "120 dias.",
+      "E": "180 dias."
+    },
+    "resposta": "C",
+    "explicacao": "Conforme art. 123, a suspensão não pode exceder de noventa dias."
+  },
+  {
+    "id": 11,
+    "titulo": "Título IV - Do Regime Disciplinar",
+    "enunciado": "Segundo o art. 123, § 2º, quando houver conveniência para o serviço, a penalidade de suspensão poderá ser convertida em multa, na base de:",
+    "alternativas": {
+      "A": "Cinquenta por cento por dia de vencimento ou remuneração.",
+      "B": "Cem por cento por dia de vencimento ou remuneração.",
+      "C": "Vinte e cinco por cento por dia de vencimento ou remuneração.",
+      "D": "Dez por cento por dia de vencimento ou remuneração.",
+      "E": "Setenta e cinco por cento por dia de vencimento ou remuneração."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 123, § 2º, quando houver conveniência para o serviço, a penalidade de suspensão poderá ser convertida em multa, na base de cinquenta por cento por dia de vencimento ou remuneração."
+  },
+  {
+    "id": 12,
+    "titulo": "Título IV - Do Regime Disciplinar",
+    "enunciado": "De acordo com o art. 125, as penalidades de advertência e de suspensão terão seus registros cancelados, após o decurso de:",
+    "alternativas": {
+      "A": "2 e 4 anos de efetivo exercício, respectivamente.",
+      "B": "3 e 5 anos de efetivo exercício, respectivamente.",
+      "C": "1 e 3 anos de efetivo exercício, respectivamente.",
+      "D": "4 e 6 anos de efetivo exercício, respectivamente.",
+      "E": "5 e 10 anos de efetivo exercício, respectivamente."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme art. 125, as penalidades de advertência e de suspensão terão seus registros cancelados, após o decurso de três e cinco anos de efetivo exercício, respectivamente."
+  },
+  {
+    "id": 13,
+    "titulo": "Título IV - Do Regime Disciplinar",
+    "enunciado": "Nos termos do art. 126, a demissão será aplicada nos seguintes casos, EXCETO:",
+    "alternativas": {
+      "A": "Crime contra a administração pública.",
+      "B": "Abandono de cargo.",
+      "C": "Inassiduidade habitual.",
+      "D": "Advertência por falta leve.",
+      "E": "Acumulação ilegal de cargos, empregos ou funções públicas."
+    },
+    "resposta": "D",
+    "explicacao": "Conforme art. 126, a demissão será aplicada nos casos dos incisos I a XIII. A advertência por falta leve não é causa de demissão."
+  },
+  {
+    "id": 14,
+    "titulo": "Título IV - Do Regime Disciplinar",
+    "enunciado": "De acordo com o art. 127, detectada a qualquer tempo a acumulação ilegal de cargos, empregos ou funções públicas, a autoridade notificará o servidor para apresentar opção no prazo improrrogável de:",
+    "alternativas": {
+      "A": "5 dias.",
+      "B": "10 dias.",
+      "C": "15 dias.",
+      "D": "20 dias.",
+      "E": "30 dias."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme art. 127, a autoridade notificará o servidor para apresentar opção no prazo improrrogável de dez dias, contados da data da ciência."
+  },
+  {
+    "id": 15,
+    "titulo": "Título IV - Do Regime Disciplinar",
+    "enunciado": "Segundo o art. 127, § 7º, o prazo para a conclusão do processo administrativo disciplinar submetido ao rito sumário não excederá:",
+    "alternativas": {
+      "A": "30 dias, admitida prorrogação por até 15 dias.",
+      "B": "45 dias, admitida prorrogação por até 30 dias.",
+      "C": "60 dias, admitida prorrogação por até 30 dias.",
+      "D": "90 dias, admitida prorrogação por até 30 dias.",
+      "E": "120 dias, sem prorrogação."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 127, § 7º, o prazo para a conclusão do processo administrativo disciplinar submetido ao rito sumário não excederá trinta dias, contados da data de publicação do ato que constituir a comissão, admitidos a sua prorrogação por até quinze dias."
+  },
+  {
+    "id": 16,
+    "titulo": "Título IV - Do Regime Disciplinar",
+    "enunciado": "Nos termos do art. 132, configura abandono de cargo a ausência intencional do servidor ao serviço por mais de:",
+    "alternativas": {
+      "A": "15 dias consecutivos.",
+      "B": "30 dias consecutivos.",
+      "C": "45 dias consecutivos.",
+      "D": "60 dias consecutivos.",
+      "E": "90 dias consecutivos."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme art. 132, configura abandono de cargo a ausência intencional do servidor ao serviço por mais de trinta dias consecutivos."
+  },
+  {
+    "id": 17,
+    "titulo": "Título IV - Do Regime Disciplinar",
+    "enunciado": "De acordo com o art. 133, entende-se por inassiduidade habitual a falta ao serviço, sem causa justificada, por:",
+    "alternativas": {
+      "A": "30 dias, interpoladamente, durante o período de 12 meses.",
+      "B": "45 dias, interpoladamente, durante o período de 12 meses.",
+      "C": "60 dias, interpoladamente, durante o período de 12 meses.",
+      "D": "75 dias, interpoladamente, durante o período de 12 meses.",
+      "E": "90 dias, interpoladamente, durante o período de 12 meses."
+    },
+    "resposta": "C",
+    "explicacao": "Conforme art. 133, entende-se por inassiduidade habitual a falta ao serviço, sem causa justificada, por sessenta dias, interpoladamente, durante o período de doze meses."
+  },
+  {
+    "id": 18,
+    "titulo": "Título IV - Do Regime Disciplinar",
+    "enunciado": "Segundo o art. 135, as penalidades disciplinares serão aplicadas pelo chefe da repartição e outras autoridades na forma dos respectivos regimentos ou regulamentos, nos casos de:",
+    "alternativas": {
+      "A": "Advertência ou de suspensão de até 30 dias.",
+      "B": "Advertência ou de suspensão de até 60 dias.",
+      "C": "Suspensão superior a 30 dias.",
+      "D": "Demissão e cassação de aposentadoria.",
+      "E": "Destituição de cargo em comissão."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 135, inciso III, pelo chefe da repartição e outras autoridades na forma dos respectivos regimentos ou regulamentos, nos casos de advertência ou de suspensão de até trinta dias."
+  },
+  {
+    "id": 19,
+    "titulo": "Título IV - Do Regime Disciplinar",
+    "enunciado": "De acordo com o art. 136, a ação disciplinar prescreverá em cinco anos, quanto às infrações puníveis com:",
+    "alternativas": {
+      "A": "Demissão, cassação de aposentadoria ou disponibilidade e destituição de cargo em comissão.",
+      "B": "Suspensão.",
+      "C": "Advertência.",
+      "D": "Multa.",
+      "E": "Destituição de função comissionada."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 136, inciso I, a ação disciplinar prescreverá em cinco anos, quanto às infrações puníveis com demissão, cassação de aposentadoria ou disponibilidade e destituição de cargo em comissão."
+  },
+  {
+    "id": 20,
+    "titulo": "Título IV - Do Regime Disciplinar",
+    "enunciado": "Nos termos do art. 136, § 3º, a abertura de sindicância ou a instauração de processo disciplinar:",
+    "alternativas": {
+      "A": "Interrompe a prescrição, até a decisão final proferida por autoridade competente.",
+      "B": "Suspende a prescrição, retomando o prazo após a decisão.",
+      "C": "Não afeta o curso da prescrição.",
+      "D": "Prorroga a prescrição por igual período.",
+      "E": "Extingue a prescrição definitivamente."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 136, § 3º, a abertura de sindicância ou a instauração de processo disciplinar interrompe a prescrição, até a decisão final proferida por autoridade competente."
+  }
+]

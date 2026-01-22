@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "titulo": "Título VI - Dos Benefícios Sociais",
+    "enunciado": "De acordo com o art. 177, o que o Estado assegurará ao servidor e seus dependentes?",
+    "alternativas": {
+      "A": "Os direitos previdenciários previstos na legislação específica.",
+      "B": "A assistência médica integral e gratuita.",
+      "C": "A educação básica para os dependentes.",
+      "D": "A moradia funcional.",
+      "E": "O transporte gratuito para o servidor e dependentes."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 177, o Estado assegurará ao servidor e seus dependentes os direitos previdenciários previstos na legislação específica."
+  },
+  {
+    "id": 2,
+    "titulo": "Título VI - Dos Benefícios Sociais",
+    "enunciado": "Segundo o art. 178, são benefícios sociais concedidos pelo Estado ao servidor, EXCETO:",
+    "alternativas": {
+      "A": "Auxílio-natalidade.",
+      "B": "Licença para tratamento de saúde.",
+      "C": "Licença por acidente em serviço.",
+      "D": "Auxílio-moradia.",
+      "E": "Auxílio-funeral para os dependentes."
+    },
+    "resposta": "D",
+    "explicacao": "Conforme art. 178, os benefícios sociais são: I - Quanto ao servidor: a) auxílio-natalidade; b) licença para tratamento de saúde; e c) licença por acidente em serviço. § 2º Quanto ao dependente: auxílio-funeral. O auxílio-moradia não está previsto."
+  },
+  {
+    "id": 3,
+    "titulo": "Título VI - Dos Benefícios Sociais",
+    "enunciado": "De acordo com o art. 179, o auxílio natalidade é devido à servidora por motivo de nascimento de filho, em quantia equivalente a:",
+    "alternativas": {
+      "A": "Um salário mínimo nacional.",
+      "B": "O menor vencimento do serviço público estadual.",
+      "C": "A remuneração integral da servidora.",
+      "D": "Três meses de vencimento básico.",
+      "E": "O valor fixado em acordo coletivo."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme art. 179, o auxílio natalidade é devido à servidora por motivo de nascimento de filho, em quantia equivalente ao menor vencimento do serviço público estadual."
+  },
+  {
+    "id": 4,
+    "titulo": "Título VI - Dos Benefícios Sociais",
+    "enunciado": "Nos termos do art. 179, § 2°, o auxílio natalidade será pago ao cônjuge ou companheiro servidor público quando:",
+    "alternativas": {
+      "A": "A parturiente não for servidora.",
+      "B": "A parturiente for servidora mas estiver em licença.",
+      "C": "O casal for servidor público.",
+      "D": "O parto for múltiplo.",
+      "E": "O nascimento ocorrer fora do Estado."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 179, § 2°, o auxílio será pago ao cônjuge ou companheiro servidor público, quando a parturiente não for servidora."
+  },
+  {
+    "id": 5,
+    "titulo": "Título VI - Dos Benefícios Sociais",
+    "enunciado": "De acordo com o art. 180, até quantos dias de licença para tratamento de saúde o servidor fará jus à integralidade de sua remuneração?",
+    "alternativas": {
+      "A": "Até o décimo quinto dia.",
+      "B": "Até o trigésimo dia.",
+      "C": "Até o sexagésimo dia.",
+      "D": "Até o nonagésimo dia.",
+      "E": "Durante todo o período da licença."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 180, § 1°, até o décimo quinto dia de licença para tratamento de saúde, o servidor fará jus à integralidade de sua remuneração."
+  },
+  {
+    "id": 6,
+    "titulo": "Título VI - Dos Benefícios Sociais",
+    "enunciado": "Segundo o art. 180, § 2°, a partir do décimo sexto dia consecutivo, o servidor licenciado para tratamento de saúde poderá fazer jus ao auxílio-doença correspondente à integralidade dos seus vencimentos, de acordo com o previsto:",
+    "alternativas": {
+      "A": "Na legislação previdenciária estadual.",
+      "B": "Na legislação federal da Previdência Social.",
+      "C": "No regulamento interno do órgão.",
+      "D": "No plano de saúde do servidor.",
+      "E": "No acordo coletivo da categoria."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 180, § 2°, a partir do décimo sexto dia consecutivo, o servidor licenciado para tratamento de saúde poderá fazer jus ao auxílio-doença correspondente à integralidade dos seus vencimentos, de acordo com o previsto na legislação previdenciária estadual."
+  },
+  {
+    "id": 7,
+    "titulo": "Título VI - Dos Benefícios Sociais",
+    "enunciado": "Nos termos do art. 181, para licença até trinta dias, a inspeção médica será feita por:",
+    "alternativas": {
+      "A": "Médico do setor de assistência do órgão de pessoal.",
+      "B": "Junta médica oficial.",
+      "C": "Médico particular do servidor.",
+      "D": "Médico do trabalho do órgão.",
+      "E": "Perito médico do INSS."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 181, para licença até trinta dias, a inspeção será feita por médico do setor de assistência do órgão de pessoal."
+  },
+  {
+    "id": 8,
+    "titulo": "Título VI - Dos Benefícios Sociais",
+    "enunciado": "De acordo com o art. 181, § 4°, o servidor que durante o mesmo exercício atingir o limite de trinta dias de licença para tratamento de saúde, consecutivo ou não, para a concessão de nova licença, independentemente do prazo de sua duração, será submetido à inspeção por:",
+    "alternativas": {
+      "A": "Junta médica oficial.",
+      "B": "Médico do setor de assistência do órgão.",
+      "C": "Médico particular.",
+      "D": "Perito do INSS.",
+      "E": "Médico do trabalho."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 181, § 4°, o servidor que atingir o limite de trinta dias de licença para tratamento de saúde será submetido à inspeção por junta médica oficial para nova concessão."
+  },
+  {
+    "id": 9,
+    "titulo": "Título VI - Dos Benefícios Sociais",
+    "enunciado": "Segundo o art. 183, o atestado e o laudo da junta médica não se referirão ao nome ou natureza da doença, salvo quando se tratar de:",
+    "alternativas": {
+      "A": "Lesões produzidas por acidente em serviço, doença profissional ou qualquer das doenças contagiosas ou incuráveis.",
+      "B": "Doenças de tratamento prolongado.",
+      "C": "Doenças que exijam afastamento superior a 90 dias.",
+      "D": "Doenças que necessitem de tratamento especializado.",
+      "E": "Doenças que comprometam a capacidade laborativa definitivamente."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 183, o atestado e o laudo da junta médica não se referirão ao nome ou natureza da doença, salvo quando se tratar de lesões produzidas por acidente em serviço, doença profissional ou qualquer das doenças contagiosas ou incuráveis."
+  },
+  {
+    "id": 10,
+    "titulo": "Título VI - Dos Benefícios Sociais",
+    "enunciado": "De acordo com o art. 183, parágrafo único, são consideradas doenças graves, contagiosas ou incuráveis, EXCETO:",
+    "alternativas": {
+      "A": "Tuberculose ativa.",
+      "B": "Hipertensão arterial.",
+      "C": "Neoplasia maligna.",
+      "D": "Síndrome de Imunodeficiência Adquirida - AIDS.",
+      "E": "Cardiopatia grave."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme art. 183, parágrafo único, são consideradas doenças graves, contagiosas ou incuráveis: tuberculose ativa, alienação mental, esclerose múltipla, neoplasia maligna, cegueira posterior ao ingresso no serviço público, hanseníase, cardiopatia grave, doença de Parkinson, paralisia irreversível e incapacitante, espondiloartrose anquilosante, nefropatia grave, estados avançados do mal de Paget (osteíte deformante), Síndrome de Imunodeficiência Adquirida - AIDS. Hipertensão arterial não está na lista."
+  },
+  {
+    "id": 11,
+    "titulo": "Título VI - Dos Benefícios Sociais",
+    "enunciado": "Nos termos do art. 185, o servidor acidentado em serviço será licenciado com:",
+    "alternativas": {
+      "A": "Remuneração integral.",
+      "B": "Remuneração parcial de 70%.",
+      "C": "Auxílio-doença previdenciário.",
+      "D": "Remuneração apenas dos primeiros 15 dias.",
+      "E": "Sem remuneração após 30 dias."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 185, será licenciado, com remuneração integral, o servidor acidentado em serviço."
+  },
+  {
+    "id": 12,
+    "titulo": "Título VI - Dos Benefícios Sociais",
+    "enunciado": "De acordo com o art. 186, configura acidente em serviço o dano físico ou mental sofrido pelo servidor, que se relacione, mediata ou imediatamente, com as atribuições do cargo exercido. Equipara-se ao acidente em serviço o dano decorrente de:",
+    "alternativas": {
+      "A": "Agressão sofrida e não provocada pelo servidor no exercício do cargo.",
+      "B": "Doença preexistente agravada pelo trabalho.",
+      "C": "Acidente ocorrido durante viagem particular.",
+      "D": "Doenças degenerativas não relacionadas ao trabalho.",
+      "E": "Acidente durante atividade esportiva fora do horário de trabalho."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 186, parágrafo único, inciso I, equipara-se ao acidente em serviço o dano decorrente de agressão sofrida e não provocada pelo servidor no exercício do cargo."
+  },
+  {
+    "id": 13,
+    "titulo": "Título VI - Dos Benefícios Sociais",
+    "enunciado": "Segundo o art. 186, parágrafo único, inciso II, também se equipara ao acidente em serviço o dano sofrido:",
+    "alternativas": {
+      "A": "No percurso da residência para o trabalho e vice-versa.",
+      "B": "Durante intervalo para refeição fora do local de trabalho.",
+      "C": "Em deslocamento a curso de capacitação não obrigatório.",
+      "D": "Durante viagem a serviço em desvio não autorizado.",
+      "E": "Em acidente de trânsito quando o servidor era o condutor."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 186, parágrafo único, inciso II, equipara-se ao acidente em serviço o dano sofrido no percurso da residência para o trabalho e vice-versa."
+  },
+  {
+    "id": 14,
+    "titulo": "Título VI - Dos Benefícios Sociais",
+    "enunciado": "De acordo com o art. 187, o servidor acidentado em serviço que necessite de tratamento especializado poderá ser tratado em instituição privada, à conta de recursos públicos, quando:",
+    "alternativas": {
+      "A": "Inexistirem meios e recursos adequados em instituição pública.",
+      "B": "O servidor preferir tratamento particular.",
+      "C": "A instituição pública estiver lotada.",
+      "D": "O tratamento for mais rápido na instituição privada.",
+      "E": "O médico particular assim recomendar."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 187, parágrafo único, o tratamento em instituição privada constitui medida de exceção e somente será admissível quando inexistirem meios e recursos adequados em instituição pública."
+  },
+  {
+    "id": 15,
+    "titulo": "Título VI - Dos Benefícios Sociais",
+    "enunciado": "Nos termos do art. 189, o auxílio-funeral é devido à família do servidor falecido na atividade ou aposentado, em valor equivalente a:",
+    "alternativas": {
+      "A": "Um mês de remuneração ou provento.",
+      "B": "Dois meses de remuneração ou provento.",
+      "C": "Três meses de remuneração ou provento.",
+      "D": "Seis meses de remuneração ou provento.",
+      "E": "Um salário mínimo."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 189, o auxílio-funeral é devido à família do servidor falecido na atividade ou aposentado, em valor equivalente a um mês de remuneração ou provento."
+  },
+  {
+    "id": 16,
+    "titulo": "Título VI - Dos Benefícios Sociais",
+    "enunciado": "De acordo com o art. 189, § 1º, no caso de acumulação legal de cargos, o auxílio-funeral será pago:",
+    "alternativas": {
+      "A": "Somente em razão do cargo de maior remuneração.",
+      "B": "Proporcionalmente a cada cargo acumulado.",
+      "C": "Somente em razão do cargo efetivo.",
+      "D": "Em dobro, por se tratar de acumulação legal.",
+      "E": "Para cada cargo acumulado separadamente."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 189, § 1º, no caso de acumulação legal de cargos, o auxílio será pago somente em razão do cargo de maior remuneração."
+  },
+  {
+    "id": 17,
+    "titulo": "Título VI - Dos Benefícios Sociais",
+    "enunciado": "Segundo o art. 189, § 2°, o auxílio-funeral será pago no prazo de quarenta e oito horas, por meio de procedimento sumaríssimo, a:",
+    "alternativas": {
+      "A": "Pessoa da família que houver custeado o funeral.",
+      "B": "O cônjuge ou companheiro sobrevivente.",
+      "C": "O filho mais velho do servidor falecido.",
+      "D": "O responsável pelo inventário.",
+      "E": "A administração do cemitério."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 189, § 2°, o auxílio será pago no prazo de quarenta e oito horas, por meio de procedimento sumaríssimo, a pessoa da família que houver custeado o funeral."
+  },
+  {
+    "id": 18,
+    "titulo": "Título VI - Dos Benefícios Sociais",
+    "enunciado": "De acordo com o art. 190, se o funeral for custeado por terceiro, este será indenizado:",
+    "alternativas": {
+      "A": "Observado o disposto no art. 189.",
+      "B": "Com o dobro do valor do auxílio-funeral.",
+      "C": "Somente se for parente até o segundo grau.",
+      "D": "Apenas se comprovada a impossibilidade da família.",
+      "E": "Mediante processo administrativo regular."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 190, se o funeral for custeado por terceiro, este será indenizado, observado o disposto no art. anterior (art. 189)."
+  },
+  {
+    "id": 19,
+    "titulo": "Título VI - Dos Benefícios Sociais",
+    "enunciado": "Nos termos do art. 191, em caso de falecimento de servidor em serviço fora do local de trabalho, inclusive no exterior, as despesas de transporte do corpo correrão à conta de recursos do:",
+    "alternativas": {
+      "A": "Estado, autarquia ou fundação pública.",
+      "B": "Fundo de Previdência dos Servidores.",
+      "C": "Família do servidor.",
+      "D": "Seguro de vida obrigatório.",
+      "E": "Governo Federal."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 191, em caso de falecimento de servidor em serviço fora do local de trabalho, inclusive no exterior, as despesas de transporte do corpo correrão à conta de recursos do Estado, autarquia ou fundação pública."
+  },
+  {
+    "id": 20,
+    "titulo": "Título VI - Dos Benefícios Sociais",
+    "enunciado": "Segundo o art. 178, § 1°, o recebimento indevido de benefícios havidos por fraude, dolo ou má fé implicará:",
+    "alternativas": {
+      "A": "Devolução ao erário do total auferido, sem prejuízo da ação penal cabível.",
+      "B": "Aplicação de multa administrativa.",
+      "C": "Suspensão do servidor por 30 dias.",
+      "D": "Cassação do benefício sem necessidade de devolução.",
+      "E": "Processo administrativo disciplinar obrigatório."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 178, § 1°, o recebimento indevido de benefícios havidos por fraude, dolo ou má fé implicará devolução ao erário do total auferido, sem prejuízo da ação penal cabível."
+  }
+]

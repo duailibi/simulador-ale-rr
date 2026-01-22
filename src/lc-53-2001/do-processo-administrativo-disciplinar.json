@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "titulo": "Título V - Do Processo Administrativo Disciplinar",
+    "enunciado": "De acordo com o art. 137, a autoridade que tiver ciência de irregularidade no serviço público é obrigada a promover sua apuração imediata, mediante sindicância ou processo administrativo disciplinar. Quem compete supervisionar e fiscalizar o cumprimento deste dispositivo?",
+    "alternativas": {
+      "A": "O Departamento de Pessoal da Secretaria de Estado da Administração.",
+      "B": "O Ministério Público Estadual.",
+      "C": "A Corregedoria Geral do Estado.",
+      "D": "O Tribunal de Contas do Estado.",
+      "E": "A Controladoria Geral do Estado."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 137, § 1º, compete ao Departamento de Pessoal da Secretaria de Estado da Administração supervisionar e fiscalizar o cumprimento do disposto neste artigo."
+  },
+  {
+    "id": 2,
+    "titulo": "Título V - Do Processo Administrativo Disciplinar",
+    "enunciado": "Nos termos do art. 138, as denúncias sobre irregularidades serão objeto de apuração desde que contenham:",
+    "alternativas": {
+      "A": "Apenas a descrição sumária dos fatos.",
+      "B": "A identificação e o endereço do denunciante e sejam formuladas por escrito, confirmada a autenticidade.",
+      "C": "Provas documentais anexadas à denúncia.",
+      "D": "Assinatura de duas testemunhas.",
+      "E": "Requerimento formal dirigido ao Governador."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme art. 138, as denúncias sobre irregularidades serão objeto de apuração, desde que contenham a identificação e o endereço do denunciante e sejam formuladas por escrito, confirmada a autenticidade."
+  },
+  {
+    "id": 3,
+    "titulo": "Título V - Do Processo Administrativo Disciplinar",
+    "enunciado": "De acordo com o art. 139, da sindicância poderá resultar em todas as alternativas abaixo, EXCETO:",
+    "alternativas": {
+      "A": "Arquivamento do processo.",
+      "B": "Aplicação de penalidade de advertência ou suspensão de até trinta dias.",
+      "C": "Instauração de processo disciplinar.",
+      "D": "Aplicação de penalidade de demissão.",
+      "E": "Nenhuma das alternativas, todas podem resultar da sindicância."
+    },
+    "resposta": "D",
+    "explicacao": "Conforme art. 139, da sindicância poderá resultar: I - arquivamento do processo; II - aplicação de penalidade de advertência ou suspensão de até trinta dias; III - instauração de processo disciplinar. A demissão não pode ser aplicada diretamente na sindicância."
+  },
+  {
+    "id": 4,
+    "titulo": "Título V - Do Processo Administrativo Disciplinar",
+    "enunciado": "Segundo o art. 140, quando será obrigatória a instauração de processo disciplinar?",
+    "alternativas": {
+      "A": "Sempre que houver denúncia formal contra servidor.",
+      "B": "Sempre que o ilícito praticado pelo servidor ensejar a imposição de penalidade de suspensão por mais de trinta dias, de demissão, cassação de aposentadoria ou disponibilidade, ou destituição de cargo em comissão.",
+      "C": "Quando o servidor for reincidente em faltas leves.",
+      "D": "Quando o fato configurar crime contra a administração pública.",
+      "E": "Quando a sindicância não conseguir apurar os fatos."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme art. 140, sempre que o ilícito praticado pelo servidor ensejar a imposição de penalidade de suspensão por mais de trinta dias, de demissão, cassação de aposentadoria ou disponibilidade, ou destituição de cargo em comissão, será obrigatória a instauração de processo disciplinar."
+  },
+  {
+    "id": 5,
+    "titulo": "Título V - Do Processo Administrativo Disciplinar",
+    "enunciado": "Nos termos do art. 141, como medida cautelar, a autoridade instauradora do processo disciplinar poderá determinar o afastamento do servidor do exercício do cargo pelo prazo de:",
+    "alternativas": {
+      "A": "Até 30 dias, sem prejuízo da remuneração.",
+      "B": "Até 60 dias, sem prejuízo da remuneração.",
+      "C": "Até 90 dias, sem prejuízo da remuneração.",
+      "D": "Até 120 dias, com suspensão da remuneração.",
+      "E": "Indeterminado, até o julgamento final."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme art. 141, a autoridade instauradora do processo disciplinar poderá determinar o afastamento do servidor do exercício do cargo, pelo prazo de até sessenta dias, sem prejuízo da remuneração."
+  },
+  {
+    "id": 6,
+    "titulo": "Título V - Do Processo Administrativo Disciplinar",
+    "enunciado": "De acordo com o art. 142, o processo disciplinar é o instrumento destinado a apurar responsabilidade de servidor por infração praticada:",
+    "alternativas": {
+      "A": "Apenas no exercício de suas atribuições.",
+      "B": "No exercício de suas atribuições, ou que tenha relação com as atribuições do cargo em que se encontre investido.",
+      "C": "Apenas em caso de crime contra a administração pública.",
+      "D": "Quando houver dano ao erário.",
+      "E": "Exclusivamente em horário de trabalho."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme art. 142, o processo disciplinar é o instrumento destinado a apurar responsabilidade de servidor por infração praticada no exercício de suas atribuições, ou que tenha relação com as atribuições do cargo em que se encontre investido."
+  },
+  {
+    "id": 7,
+    "titulo": "Título V - Do Processo Administrativo Disciplinar",
+    "enunciado": "Segundo o art. 143, o processo disciplinar será conduzido por comissão composta de quantos servidores estáveis?",
+    "alternativas": {
+      "A": "Dois servidores estáveis.",
+      "B": "Três servidores estáveis.",
+      "C": "Cinco servidores estáveis.",
+      "D": "Um servidor estável e um representante do Ministério Público.",
+      "E": "Dois servidores estáveis e um representante sindical."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme art. 143, o processo disciplinar será conduzido por comissão composta de três servidores estáveis designados pela autoridade competente."
+  },
+  {
+    "id": 8,
+    "titulo": "Título V - Do Processo Administrativo Disciplinar",
+    "enunciado": "Nos termos do art. 143, § 2º, não poderá participar de comissão de sindicância ou de inquérito:",
+    "alternativas": {
+      "A": "Servidor com menos de 5 anos de serviço.",
+      "B": "Servidor que já tenha sido penalizado anteriormente.",
+      "C": "Cônjuge, companheiro ou parente do acusado, consanguíneo ou afim, em linha reta ou colateral, até o terceiro grau.",
+      "D": "Servidor lotado no mesmo setor do acusado.",
+      "E": "Servidor que tenha prestado depoimento na sindicância."
+    },
+    "resposta": "C",
+    "explicacao": "Conforme art. 143, § 2º, não poderá participar de comissão de sindicância ou de inquérito, cônjuge, companheiro ou parente do acusado, consanguíneo ou afim, em linha reta ou colateral, até o terceiro grau."
+  },
+  {
+    "id": 9,
+    "titulo": "Título V - Do Processo Administrativo Disciplinar",
+    "enunciado": "De acordo com o art. 145, o processo disciplinar se desenvolve nas seguintes fases:",
+    "alternativas": {
+      "A": "Instauração, sindicância e julgamento.",
+      "B": "Instauração, inquérito administrativo e julgamento.",
+      "C": "Denúncia, instrução e sentença.",
+      "D": "Representação, investigação e decisão.",
+      "E": "Auto de infração, defesa e recurso."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme art. 145, o processo disciplinar se desenvolve nas seguintes fases: I - instauração, com a publicação do ato que constituir a comissão; II - inquérito administrativo, que compreende instrução, defesa e relatório; III - julgamento."
+  },
+  {
+    "id": 10,
+    "titulo": "Título V - Do Processo Administrativo Disciplinar",
+    "enunciado": "Nos termos do art. 146, o prazo para a conclusão do processo disciplinar não excederá:",
+    "alternativas": {
+      "A": "30 dias, admitida prorrogação por igual prazo.",
+      "B": "60 dias, admitida prorrogação por igual prazo.",
+      "C": "90 dias, admitida prorrogação por 30 dias.",
+      "D": "120 dias, sem prorrogação.",
+      "E": "180 dias, admitida prorrogação por 60 dias."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme art. 146, o prazo para a conclusão do processo disciplinar não excederá sessenta dias, contados da data de publicação do ato que constituir a comissão, admitida a sua prorrogação por igual prazo."
+  },
+  {
+    "id": 11,
+    "titulo": "Título V - Do Processo Administrativo Disciplinar",
+    "enunciado": "De acordo com o art. 150, é assegurado ao servidor o direito de acompanhar o processo pessoalmente ou por intermédio de procurador, arrolar e reinquirir testemunhas, produzir provas e contraprovas e formular quesitos. Esses direitos são garantidos na fase de:",
+    "alternativas": {
+      "A": "Instauração.",
+      "B": "Inquérito administrativo.",
+      "C": "Julgamento.",
+      "D": "Recurso.",
+      "E": "Revisão."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme art. 150, esses direitos são garantidos na fase de inquérito administrativo, onde se assegura ao acusado ampla defesa."
+  },
+  {
+    "id": 12,
+    "titulo": "Título V - Do Processo Administrativo Disciplinar",
+    "enunciado": "Segundo o art. 155, § 1º, o indicado será citado para apresentar defesa escrita no prazo de:",
+    "alternativas": {
+      "A": "5 dias.",
+      "B": "10 dias.",
+      "C": "15 dias.",
+      "D": "20 dias.",
+      "E": "30 dias."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme art. 155, § 1º, o indicado será citado para apresentar defesa escrita, no prazo de dez dias."
+  },
+  {
+    "id": 13,
+    "titulo": "Título V - Do Processo Administrativo Disciplinar",
+    "enunciado": "Nos termos do art. 158, considera-se revel o indicado que, regularmente citado, não apresentar defesa no prazo legal. Nesse caso:",
+    "alternativas": {
+      "A": "Será declarada a revelia, por termo, nos autos do processo e devolverá o prazo para a defesa.",
+      "B": "O processo será arquivado automaticamente.",
+      "C": "Será designado defensor dativo automaticamente.",
+      "D": "O servidor será considerado culpado por confissão.",
+      "E": "O processo será suspenso até localização do servidor."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 158, § 1º, a revelia será declarada, por termo, nos autos do processo e devolverá o prazo para a defesa."
+  },
+  {
+    "id": 14,
+    "titulo": "Título V - Do Processo Administrativo Disciplinar",
+    "enunciado": "De acordo com o art. 161, no prazo de quantos dias, contados do recebimento do processo, a autoridade julgadora proferirá sua decisão?",
+    "alternativas": {
+      "A": "10 dias.",
+      "B": "15 dias.",
+      "C": "20 dias.",
+      "D": "30 dias.",
+      "E": "60 dias."
+    },
+    "resposta": "C",
+    "explicacao": "Conforme art. 161, no prazo de vinte dias, contados do recebimento do processo, a autoridade julgadora proferirá a sua decisão."
+  },
+  {
+    "id": 15,
+    "titulo": "Título V - Do Processo Administrativo Disciplinar",
+    "enunciado": "Nos termos do art. 163, verificada a ocorrência de vício insanável, a autoridade que determinou a instauração do processo ou outra de hierarquia superior declarará a sua nulidade e ordenará:",
+    "alternativas": {
+      "A": "O arquivamento do processo.",
+      "B": "A absolvição do servidor.",
+      "C": "A constituição de outra comissão para instauração de novo processo.",
+      "D": "O envio do processo ao Ministério Público.",
+      "E": "A aplicação de penalidade administrativa ao responsável pelo vício."
+    },
+    "resposta": "C",
+    "explicacao": "Conforme art. 163, verificada a ocorrência de vício insanável, a autoridade declarará a sua nulidade, total ou parcial, e ordenará, no mesmo ato, a constituição de outra comissão para instauração de novo processo."
+  },
+  {
+    "id": 16,
+    "titulo": "Título V - Do Processo Administrativo Disciplinar",
+    "enunciado": "De acordo com o art. 165, quando a infração estiver capitulada como crime, o processo disciplinar será remetido ao Ministério Público para instauração da ação penal, ficando:",
+    "alternativas": {
+      "A": "Arquivado na repartição.",
+      "B": "Suspenso até decisão da Justiça.",
+      "C": "Transladado na repartição.",
+      "D": "Encaminhado à Corregedoria.",
+      "E": "Julgado pela autoridade administrativa."
+    },
+    "resposta": "C",
+    "explicacao": "Conforme art. 165, quando a infração estiver capitulada como crime, o processo disciplinar será remetido ao Ministério Público para instauração da ação penal, ficando transladado na repartição."
+  },
+  {
+    "id": 17,
+    "titulo": "Título V - Do Processo Administrativo Disciplinar",
+    "enunciado": "Segundo o art. 168, o processo disciplinar poderá ser revisto, a qualquer tempo, a pedido ou de ofício, quando:",
+    "alternativas": {
+      "A": "Se aduzirem fatos novos ou circunstâncias suscetíveis de justificar a inocência do punido ou a inadequação da penalidade aplicada.",
+      "B": "O servidor demonstrar arrependimento.",
+      "C": "Decorrerem 5 anos da aplicação da penalidade.",
+      "D": "O servidor for promovido.",
+      "E": "Houver mudança na legislação aplicável."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 168, o processo disciplinar poderá ser revisto, a qualquer tempo, a pedido ou de ofício, quando se aduzirem fatos novos ou circunstâncias suscetíveis de justificar a inocência do punido ou a inadequação da penalidade aplicada."
+  },
+  {
+    "id": 18,
+    "titulo": "Título V - Do Processo Administrativo Disciplinar",
+    "enunciado": "Nos termos do art. 170, o que NÃO constitui fundamento para a revisão do processo disciplinar?",
+    "alternativas": {
+      "A": "A simples alegação de injustiça da penalidade.",
+      "B": "Elementos novos, ainda não apreciados no processo originário.",
+      "C": "Fatos desconhecidos à época do julgamento.",
+      "D": "Circunstâncias que justifiquem a inocência do punido.",
+      "E": "Provas que demonstrem erro na aplicação da lei."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 170, a simples alegação de injustiça da penalidade não constitui fundamento para a revisão, que requer elementos novos, ainda não apreciados no processo originário."
+  },
+  {
+    "id": 19,
+    "titulo": "Título V - Do Processo Administrativo Disciplinar",
+    "enunciado": "De acordo com o art. 173, a comissão revisora terá quantos dias para a conclusão dos trabalhos?",
+    "alternativas": {
+      "A": "30 dias.",
+      "B": "45 dias.",
+      "C": "60 dias.",
+      "D": "90 dias.",
+      "E": "120 dias."
+    },
+    "resposta": "C",
+    "explicacao": "Conforme art. 173, a comissão revisora terá sessenta dias para a conclusão dos trabalhos."
+  },
+  {
+    "id": 20,
+    "titulo": "Título V - Do Processo Administrativo Disciplinar",
+    "enunciado": "Segundo o art. 176, julgada procedente a revisão, será declarada sem efeito a penalidade aplicada, restabelecendo-se todos os direitos do servidor, exceto em relação à destituição do cargo em comissão, que será convertida em:",
+    "alternativas": {
+      "A": "Demissão.",
+      "B": "Suspensão.",
+      "C": "Advertência.",
+      "D": "Exoneração.",
+      "E": "Aposentadoria."
+    },
+    "resposta": "D",
+    "explicacao": "Conforme art. 176, julgada procedente a revisão, será declarada sem efeito a penalidade aplicada, restabelecendo-se todos os direitos do servidor, exceto em relação à destituição do cargo em comissão, que será convertida em exoneração."
+  }
+]

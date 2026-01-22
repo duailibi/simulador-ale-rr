@@ -1,0 +1,282 @@
+ [
+  {
+    "id": 1,
+    "titulo": "Título II - Do Provimento, Vacância, Remoção e Substituição",
+    "enunciado": "De acordo com o art. 5º, a investidura em cargo público depende de:",
+    "alternativas": {
+      "A": "Aprovação prévia em concurso público de provas ou de provas e títulos, ressalvadas as nomeações para cargo em comissão.",
+      "B": "Indicação política e aprovação em processo seletivo simplificado.",
+      "C": "Experiência anterior na área e indicação do chefe imediato.",
+      "D": "Aprovação em curso de formação e indicação do Governador.",
+      "E": "Análise curricular e entrevista com a comissão de seleção."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 5º, a investidura em cargo público depende de aprovação prévia em concurso público de provas ou de provas e títulos, de acordo com a natureza e a complexidade do cargo, na forma prevista em lei, ressalvadas as nomeações para cargo em comissão."
+  },
+  {
+    "id": 2,
+    "titulo": "Título II - Do Provimento, Vacância, Remoção e Substituição",
+    "enunciado": "Segundo o § 3º do art. 5º, qual é o percentual de vagas reservadas para pessoas portadoras de deficiência em concurso público?",
+    "alternativas": {
+      "A": "5% (cinco por cento).",
+      "B": "10% (dez por cento).",
+      "C": "15% (quinze por cento).",
+      "D": "20% (vinte por cento).",
+      "E": "Não há percentual definido, depende do edital."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme art. 5º, § 3º, às pessoas portadoras de deficiência é assegurado o direito de se inscrever em concurso público para provimento de cargos cujas atribuições sejam compatíveis com a deficiência, assegurando-lhes 10% (dez por cento) das vagas oferecidas no concurso."
+  },
+  {
+    "id": 3,
+    "titulo": "Título II - Do Provimento, Vacância, Remoção e Substituição",
+    "enunciado": "Qual é a idade mínima exigida para investidura em cargo público, conforme § 1º, inciso V, do art. 5º?",
+    "alternativas": {
+      "A": "16 anos.",
+      "B": "18 anos.",
+      "C": "21 anos.",
+      "D": "25 anos.",
+      "E": "Não há idade mínima definida."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme art. 5º, § 1º, inciso V, um dos requisitos básicos para investidura em cargo público é a idade mínima de dezoito anos."
+  },
+  {
+    "id": 4,
+    "titulo": "Título II - Do Provimento, Vacância, Remoção e Substituição",
+    "enunciado": "De acordo com o art. 8º, qual das alternativas abaixo NÃO é forma de provimento de cargo público?",
+    "alternativas": {
+      "A": "Nomeação.",
+      "B": "Promoção.",
+      "C": "Readaptação.",
+      "D": "Demissão.",
+      "E": "Reversão."
+    },
+    "resposta": "D",
+    "explicacao": "Conforme art. 8º, as formas de provimento de cargo público são: I - nomeação; II - promoção; III - readaptação; IV - reversão; V - aproveitamento; VI - reintegração; VII - recondução. A demissão é forma de desligamento, não de provimento."
+  },
+  {
+    "id": 5,
+    "titulo": "Título II - Do Provimento, Vacância, Remoção e Substituição",
+    "enunciado": "Segundo o art. 9º, a nomeação far-se-á em caráter efetivo quando se tratar de:",
+    "alternativas": {
+      "A": "Cargo isolado de provimento efetivo ou de carreira.",
+      "B": "Cargo em comissão vagos.",
+      "C": "Função de confiança interina.",
+      "D": "Cargo de natureza especial.",
+      "E": "Cargo temporário."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 9º, inciso I, a nomeação far-se-á em caráter efetivo, quando se tratar de cargo isolado de provimento efetivo ou de carreira."
+  },
+  {
+    "id": 6,
+    "titulo": "Título II - Do Provimento, Vacância, Remoção e Substituição",
+    "enunciado": "Nos termos do art. 10, a nomeação para cargo de carreira ou cargo isolado de provimento efetivo depende de:",
+    "alternativas": {
+      "A": "Indicação do Governador e aprovação da Assembleia Legislativa.",
+      "B": "Prévia habilitação em concurso público de provas ou de provas e títulos, obedecida a ordem de classificação e o prazo de validade.",
+      "C": "Experiência comprovada de pelo menos 5 anos na área.",
+      "D": "Aprovação em curso de formação específico.",
+      "E": "Análise de títulos e entrevista."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme art. 10, a nomeação para cargo de carreira ou cargo isolado de provimento efetivo depende de prévia habilitação em concurso público de provas ou de provas e títulos, obedecidos a ordem de classificação e o prazo de sua validade."
+  },
+  {
+    "id": 7,
+    "titulo": "Título II - Do Provimento, Vacância, Remoção e Substituição",
+    "enunciado": "De acordo com o art. 12, qual é o prazo de validade de um concurso público?",
+    "alternativas": {
+      "A": "Até 1 ano, prorrogável por mais 1 ano.",
+      "B": "Até 2 anos, prorrogável uma única vez por igual período.",
+      "C": "Até 3 anos, não prorrogável.",
+      "D": "Até 4 anos, prorrogável por mais 2 anos.",
+      "E": "O prazo é estabelecido livremente no edital."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme art. 12, o concurso público terá validade de até dois anos, podendo ser prorrogado, dentro deste prazo, uma única vez, por igual período."
+  },
+  {
+    "id": 8,
+    "titulo": "Título II - Do Provimento, Vacância, Remoção e Substituição",
+    "enunciado": "Nos termos do art. 13, § 1º, em quantos dias ocorrerá a posse contados da publicação do ato de provimento?",
+    "alternativas": {
+      "A": "15 dias.",
+      "B": "20 dias.",
+      "C": "30 dias.",
+      "D": "45 dias.",
+      "E": "60 dias."
+    },
+    "resposta": "C",
+    "explicacao": "Conforme art. 13, § 1º, a posse ocorrerá no prazo de trinta dias contados da publicação do ato de provimento."
+  },
+  {
+    "id": 9,
+    "titulo": "Título II - Do Provimento, Vacância, Remoção e Substituição",
+    "enunciado": "De acordo com o art. 14, a posse em cargo público dependerá de:",
+    "alternativas": {
+      "A": "Prévia inspeção médica oficial.",
+      "B": "Aprovação em curso de formação.",
+      "C": "Assinatura de termo de compromisso.",
+      "D": "Entrega de documentação comprobatória de experiência.",
+      "E": "Autorização do Secretário de Administração."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 14, a posse em cargo público dependerá de prévia inspeção médica oficial."
+  },
+  {
+    "id": 10,
+    "titulo": "Título II - Do Provimento, Vacância, Remoção e Substituição",
+    "enunciado": "Segundo o art. 15, § 1º, qual é o prazo para o servidor empossado em cargo público entrar em exercício?",
+    "alternativas": {
+      "A": "5 dias, contados da data da posse.",
+      "B": "10 dias, contados da data da posse.",
+      "C": "15 dias, contados da data da posse.",
+      "D": "20 dias, contados da data da posse.",
+      "E": "30 dias, contados da data da posse."
+    },
+    "resposta": "C",
+    "explicacao": "Conforme art. 15, § 1º, é de quinze dias o prazo para o servidor empossado em cargo público entrar em exercício, contados da data da posse."
+  },
+  {
+    "id": 11,
+    "titulo": "Título II - Do Provimento, Vacância, Remoção e Substituição",
+    "enunciado": "De acordo com o art. 19, qual é a duração máxima do trabalho semanal para servidores públicos?",
+    "alternativas": {
+      "A": "30 horas.",
+      "B": "36 horas.",
+      "C": "40 horas.",
+      "D": "44 horas.",
+      "E": "48 horas."
+    },
+    "resposta": "C",
+    "explicacao": "Conforme art. 19, é respeitada a duração máxima do trabalho semanal de quarenta horas."
+  },
+  {
+    "id": 12,
+    "titulo": "Título II - Do Provimento, Vacância, Remoção e Substituição",
+    "enunciado": "Segundo o art. 20, qual é o período de estágio probatório?",
+    "alternativas": {
+      "A": "1 ano.",
+      "B": "2 anos.",
+      "C": "3 anos.",
+      "D": "4 anos.",
+      "E": "5 anos."
+    },
+    "resposta": "C",
+    "explicacao": "Conforme art. 20, ao entrar em exercício, o servidor nomeado para cargo de provimento efetivo ficará sujeito a estágio probatório por período de três anos."
+  },
+  {
+    "id": 13,
+    "titulo": "Título II - Do Provimento, Vacância, Remoção e Substituição",
+    "enunciado": "De acordo com o art. 21, o servidor adquire estabilidade no serviço público ao completar:",
+    "alternativas": {
+      "A": "2 anos de efetivo exercício e aprovação em avaliação de desempenho.",
+      "B": "3 anos de efetivo exercício e aprovação em avaliação de desempenho.",
+      "C": "4 anos de efetivo exercício e aprovação em avaliação de desempenho.",
+      "D": "5 anos de efetivo exercício, independente de avaliação.",
+      "E": "10 anos de serviço público."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme art. 21, o servidor habilitado em concurso público e empossado em cargo de provimento efetivo adquirirá estabilidade no serviço público ao completar três anos de efetivo exercício e aprovação em avaliação de desempenho."
+  },
+  {
+    "id": 14,
+    "titulo": "Título II - Do Provimento, Vacância, Remoção e Substituição",
+    "enunciado": "Nos termos do art. 22, o servidor público estável só perderá o cargo nas seguintes hipóteses, EXCETO:",
+    "alternativas": {
+      "A": "Sentença judicial transitada em julgado.",
+      "B": "Processo administrativo disciplinar com ampla defesa.",
+      "C": "Procedimento de avaliação periódica de desempenho, na forma da lei complementar federal, assegurada ampla defesa.",
+      "D": "Exoneração a pedido.",
+      "E": "Nenhuma das alternativas, todas estão corretas."
+    },
+    "resposta": "D",
+    "explicacao": "Conforme art. 22, o servidor público estável só perderá o cargo: I - em virtude de sentença judicial transitada em julgado; II - mediante processo administrativo disciplinar no qual lhe seja assegurada ampla defesa; e III - mediante procedimento de avaliação periódica de desempenho, na forma da lei complementar federal, assegurada ampla defesa. A exoneração a pedido não está entre essas hipóteses."
+  },
+  {
+    "id": 15,
+    "titulo": "Título II - Do Provimento, Vacância, Remoção e Substituição",
+    "enunciado": "De acordo com o art. 23, readaptação é:",
+    "alternativas": {
+      "A": "A investidura do servidor em cargo de atribuições e responsabilidades compatíveis com a limitação que tenha sofrido em sua capacidade física ou mental verificada em inspeção médica oficial.",
+      "B": "O retorno à atividade de servidor aposentado por invalidez.",
+      "C": "A reinvestidura do servidor estável no cargo anteriormente ocupado.",
+      "D": "O retorno do servidor estável ao cargo anteriormente ocupado por inabilitação em estágio probatório.",
+      "E": "O deslocamento do servidor, a pedido ou de ofício, no âmbito do mesmo quadro."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 23, readaptação é a investidura do servidor em cargo de atribuições e responsabilidades compatíveis com a limitação que tenha sofrido em sua capacidade física ou mental verificada em inspeção médica oficial."
+  },
+  {
+    "id": 16,
+    "titulo": "Título II - Do Provimento, Vacância, Remoção e Substituição",
+    "enunciado": "Segundo o art. 31, a vacância do cargo público decorrerá de todas as hipóteses abaixo, EXCETO:",
+    "alternativas": {
+      "A": "Exoneração.",
+      "B": "Demissão.",
+      "C": "Promoção.",
+      "D": "Remoção.",
+      "E": "Aposentadoria."
+    },
+    "resposta": "D",
+    "explicacao": "Conforme art. 31, a vacância do cargo público decorrerá de: I - exoneração; II - demissão; III - promoção; IV - readaptação; V - aposentadoria; VI - posse em outro cargo inacumulável; e VII - falecimento. A remoção não é causa de vacância."
+  },
+  {
+    "id": 17,
+    "titulo": "Título II - Do Provimento, Vacância, Remoção e Substituição",
+    "enunciado": "Nos termos do art. 34, remoção é:",
+    "alternativas": {
+      "A": "O deslocamento do servidor, a pedido ou de ofício, no âmbito do mesmo quadro, com ou sem mudança de sede.",
+      "B": "A investidura em cargo de atribuições compatíveis com limitação física.",
+      "C": "O retorno do servidor aposentado à atividade.",
+      "D": "A substituição do servidor em cargo de direção ou chefia.",
+      "E": "O desligamento do servidor do cargo público."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 34, remoção é o deslocamento do servidor, a pedido ou de ofício, no âmbito do mesmo quadro, com ou sem mudança de sede."
+  },
+  {
+    "id": 18,
+    "titulo": "Título II - Do Provimento, Vacância, Remoção e Substituição",
+    "enunciado": "De acordo com o art. 35, os servidores investidos em cargo ou função de direção ou chefia e os ocupantes de cargo de natureza especial terão substitutos indicados:",
+    "alternativas": {
+      "A": "No regimento interno ou, no caso de omissão, previamente designados pelo dirigente máximo do órgão ou entidade.",
+      "B": "Pelo Governador do Estado.",
+      "C": "Pela Assembleia Legislativa.",
+      "D": "Pelo Secretário de Administração.",
+      "E": "Pelo próprio servidor, em documento formal."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 35, os servidores investidos em cargo ou função de direção ou chefia e os ocupantes de cargo de natureza especial terão substitutos indicados no regimento interno ou, no caso de omissão, previamente designados pelo dirigente máximo do órgão ou entidade."
+  },
+  {
+    "id": 19,
+    "titulo": "Título II - Do Provimento, Vacância, Remoção e Substituição",
+    "enunciado": "Segundo o art. 32, parágrafo único, a exoneração de ofício dar-se-á nas seguintes hipóteses, EXCETO:",
+    "alternativas": {
+      "A": "Quando não satisfeitas as condições do estágio probatório.",
+      "B": "Quando, tendo tomado posse, o servidor não entrar em exercício no prazo estabelecido.",
+      "C": "Por abandono de cargo.",
+      "D": "Por pedido do servidor.",
+      "E": "Nenhuma das alternativas, todas são hipóteses de exoneração de ofício."
+    },
+    "resposta": "D",
+    "explicacao": "Conforme art. 32, parágrafo único, a exoneração de ofício dar-se-á: I - quando não satisfeitas as condições do estágio probatório; e II - quando, tendo tomado posse, o servidor não entrar em exercício no prazo estabelecido. O pedido do servidor é hipótese de exoneração a pedido, não de ofício."
+  },
+  {
+    "id": 20,
+    "titulo": "Título II - Do Provimento, Vacância, Remoção e Substituição",
+    "enunciado": "De acordo com o art. 33, a exoneração de cargo em comissão e a dispensa de função de confiança dar-se-á:",
+    "alternativas": {
+      "A": "A juízo da autoridade competente ou a pedido do próprio servidor.",
+      "B": "Sempre por decisão do Governador do Estado.",
+      "C": "Após processo administrativo disciplinar.",
+      "D": "Por decisão da Assembleia Legislativa.",
+      "E": "Por determinação do Tribunal de Contas."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 33, a exoneração de cargo em comissão e a dispensa de função de confiança dar-se-á: I - a juízo da autoridade competente; e II - a pedido do próprio servidor."
+  }
+]

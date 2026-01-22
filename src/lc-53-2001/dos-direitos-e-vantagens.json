@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "titulo": "Título III - Dos Direitos e Vantagens",
+    "enunciado": "De acordo com o art. 37, o que se entende por vencimento?",
+    "alternativas": {
+      "A": "A retribuição pecuniária pelo exercício de cargo público, com valor fixado em lei.",
+      "B": "A soma do vencimento com as vantagens pecuniárias permanentes.",
+      "C": "A gratificação natalina e adicionais pagos ao servidor.",
+      "D": "O valor pago por serviços extraordinários prestados.",
+      "E": "A remuneração do cargo efetivo acrescida de vantagens eventuais."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 37, vencimento é a retribuição pecuniária pelo exercício de cargo público, com valor fixado em lei."
+  },
+  {
+    "id": 2,
+    "titulo": "Título III - Dos Direitos e Vantagens",
+    "enunciado": "Segundo o art. 38, o que é remuneração?",
+    "alternativas": {
+      "A": "O vencimento do cargo efetivo, acrescido das vantagens pecuniárias permanentes estabelecidas em lei.",
+      "B": "Apenas o vencimento básico do cargo.",
+      "C": "O valor pago por horas extras e adicionais.",
+      "D": "A gratificação natalina e o adicional de férias.",
+      "E": "A soma de todas as indenizações recebidas pelo servidor."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 38, remuneração é o vencimento do cargo efetivo, acrescido das vantagens pecuniárias permanentes estabelecidas em lei."
+  },
+  {
+    "id": 3,
+    "titulo": "Título III - Dos Direitos e Vantagens",
+    "enunciado": "De acordo com o art. 39, nenhum servidor poderá perceber, mensalmente, a título de remuneração, importância superior à soma dos valores percebidos como remuneração, em espécie, a qualquer título, no âmbito dos respectivos Poderes, por:",
+    "alternativas": {
+      "A": "Deputados Estaduais, Governador do Estado e Desembargadores.",
+      "B": "Prefeitos, Vice-Prefeitos e Secretários Municipais.",
+      "C": "Senadores, Deputados Federais e Ministros do STF.",
+      "D": "Presidente da República, Ministros e Governadores.",
+      "E": "Vereadores, Prefeitos e Secretários Estaduais."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 39, nenhum servidor poderá perceber, mensalmente, a título de remuneração, importância superior à soma dos valores percebidos como remuneração, em espécie, a qualquer título, no âmbito dos respectivos Poderes, pelos Deputados Estaduais, Governador do Estado e Desembargadores."
+  },
+  {
+    "id": 4,
+    "titulo": "Título III - Dos Direitos e Vantagens",
+    "enunciado": "Segundo o art. 40, o servidor perderá a remuneração do dia em que faltar ao serviço sem motivo justificado e a parcela de remuneração diária proporcional aos atrasos, exceto quando:",
+    "alternativas": {
+      "A": "Houver compensação de horário, até o mês subsequente ao da ocorrência.",
+      "B": "A falta for justificada por motivo de saúde.",
+      "C": "O servidor estiver em licença prêmio.",
+      "D": "A falta for decorrente de caso fortuito ou força maior.",
+      "E": "O servidor for portador de deficiência."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 40, inciso II, o servidor perderá a parcela de remuneração diária proporcional aos atrasos, ausências justificadas, ressalvadas as concessões de que trata o art. 90, e saídas antecipadas, salvo na hipótese da compensação de horário, até o mês subsequente ao da ocorrência."
+  },
+  {
+    "id": 5,
+    "titulo": "Título III - Dos Direitos e Vantagens",
+    "enunciado": "De acordo com o art. 41, sobre a remuneração ou provento do servidor, é correto afirmar que:",
+    "alternativas": {
+      "A": "Nenhum desconto incidirá, salvo por imposição legal ou mandado judicial.",
+      "B": "Podem ser descontados valores por decisão administrativa da chefia.",
+      "C": "São permitidos descontos por dívidas com fornecedores do órgão.",
+      "D": "Podem ser penhorados integralmente por dívidas trabalhistas.",
+      "E": "São imunes a qualquer tipo de desconto ou penhora."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 41, salvo por imposição legal ou mandado judicial, nenhum desconto incidirá sobre a remuneração ou provento."
+  },
+  {
+    "id": 6,
+    "titulo": "Título III - Dos Direitos e Vantagens",
+    "enunciado": "Segundo o art. 44, o vencimento, a remuneração e o provento não serão objeto de arresto, sequestro ou penhora, exceto nos casos de:",
+    "alternativas": {
+      "A": "Prestação de alimentos resultantes de decisão judicial.",
+      "B": "Dívidas com instituições financeiras.",
+      "C": "Execução fiscal por débitos com o fisco.",
+      "D": "Indenizações por danos morais ou materiais.",
+      "E": "Dividas contraídas com o próprio Estado."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 44, o vencimento, a remuneração e o provento não serão objeto de arresto, sequestro ou penhora, exceto nos casos de prestação de alimentos resultantes de decisão judicial."
+  },
+  {
+    "id": 7,
+    "titulo": "Título III - Dos Direitos e Vantagens",
+    "enunciado": "De acordo com o art. 59, a gratificação natalina corresponde a:",
+    "alternativas": {
+      "A": "Um doze avos da remuneração a que o servidor fizer jus no mês de dezembro, por mês de efetivo exercício no respectivo ano.",
+      "B": "Um décimo terceiro salário pago integralmente em dezembro.",
+      "C": "Metade da remuneração do mês de dezembro.",
+      "D": "Um salário mínimo nacional.",
+      "E": "Valor equivalente a 30 dias de vencimento básico."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 59, a gratificação natalina corresponde a um doze avos da remuneração a que o servidor fizer jus no mês de dezembro, por mês de efetivo exercício no respectivo ano."
+  },
+  {
+    "id": 8,
+    "titulo": "Título III - Dos Direitos e Vantagens",
+    "enunciado": "Segundo o art. 64, § 1º, o servidor que fizer jus aos adicionais de insalubridade e de periculosidade:",
+    "alternativas": {
+      "A": "Deverá optar por um deles.",
+      "B": "Poderá receber os dois cumulativamente.",
+      "C": "Receberá apenas o adicional de maior valor.",
+      "D": "Terá direito a um adicional único de 25%.",
+      "E": "Não poderá receber nenhum dos dois se exercer função administrativa."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 64, § 1º, o servidor que fizer jus aos adicionais de insalubridade e de periculosidade deverá optar por um deles."
+  },
+  {
+    "id": 9,
+    "titulo": "Título III - Dos Direitos e Vantagens",
+    "enunciado": "De acordo com o art. 65-A, para os profissionais em pleno exercício da atividade fim de Técnico em Radiologia, Tecnólogos em Radiologia e Médicos Radiologistas, será devido adicional de insalubridade de:",
+    "alternativas": {
+      "A": "20%.",
+      "B": "30%.",
+      "C": "40%.",
+      "D": "50%.",
+      "E": "60%."
+    },
+    "resposta": "C",
+    "explicacao": "Conforme art. 65-A, para os profissionais em pleno exercício da atividade fim de Técnico em Radiologia, Tecnólogos em Radiologia e Médicos Radiologistas, será devido adicional de insalubridade de quarenta por cento."
+  },
+  {
+    "id": 10,
+    "titulo": "Título III - Dos Direitos e Vantagens",
+    "enunciado": "Segundo o art. 70, o serviço extraordinário será remunerado com acréscimo de:",
+    "alternativas": {
+      "A": "50% em relação à hora normal de trabalho.",
+      "B": "75% em relação à hora normal de trabalho.",
+      "C": "100% em relação à hora normal de trabalho.",
+      "D": "25% em relação à hora normal de trabalho.",
+      "E": "30% em relação à hora normal de trabalho."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 70, o serviço extraordinário será remunerado com acréscimo de cinquenta por cento em relação à hora normal de trabalho."
+  },
+  {
+    "id": 11,
+    "titulo": "Título III - Dos Direitos e Vantagens",
+    "enunciado": "De acordo com o art. 74, o servidor fará jus a quantos dias de férias?",
+    "alternativas": {
+      "A": "20 dias.",
+      "B": "25 dias.",
+      "C": "30 dias.",
+      "D": "35 dias.",
+      "E": "40 dias."
+    },
+    "resposta": "C",
+    "explicacao": "Conforme art. 74, o servidor fará jus a trinta dias de férias."
+  },
+  {
+    "id": 12,
+    "titulo": "Título III - Dos Direitos e Vantagens",
+    "enunciado": "Segundo o art. 78, inciso VIII, acrescido pela Lei Complementar n. 359/2025, é garantido ao servidor o direito à:",
+    "alternativas": {
+      "A": "Licença Compensatória por Acúmulo de acervo.",
+      "B": "Licença para tratamento de saúde.",
+      "C": "Licença para capacitação.",
+      "D": "Licença para atividade política.",
+      "E": "Licença para interesse particular."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 78, inciso VIII, acrescido pela Lei Complementar n. 359/2025, é garantido ao servidor o direito à Licença Compensatória por Acúmulo de acervo."
+  },
+  {
+    "id": 13,
+    "titulo": "Título III - Dos Direitos e Vantagens",
+    "enunciado": "De acordo com o art. 80, § 2º, a licença por motivo de doença em pessoa da família será concedida sem prejuízo da remuneração do cargo efetivo, até quantos dias?",
+    "alternativas": {
+      "A": "15 dias.",
+      "B": "30 dias.",
+      "C": "60 dias.",
+      "D": "90 dias.",
+      "E": "120 dias."
+    },
+    "resposta": "C",
+    "explicacao": "Conforme art. 80, § 2º, a licença por motivo de doença em pessoa da família será concedida sem prejuízo da remuneração do cargo efetivo, até 60 dias, conforme redação dada pela Lei Complementar Estadual n. 212/2013."
+  },
+  {
+    "id": 14,
+    "titulo": "Título III - Dos Direitos e Vantagens",
+    "enunciado": "Segundo o art. 84, após cada quinquênio de exercício, o servidor poderá afastar-se do exercício do cargo efetivo, com a respectiva remuneração, por até quantos meses para capacitação?",
+    "alternativas": {
+      "A": "1 mês.",
+      "B": "2 meses.",
+      "C": "3 meses.",
+      "D": "4 meses.",
+      "E": "6 meses."
+    },
+    "resposta": "C",
+    "explicacao": "Conforme art. 84, após cada quinquênio de exercício, o servidor poderá afastar-se do exercício do cargo efetivo, com a respectiva remuneração, por até três meses, para participar de curso de capacitação profissional."
+  },
+  {
+    "id": 15,
+    "titulo": "Título III - Dos Direitos e Vantagens",
+    "enunciado": "De acordo com o art. 90, o servidor poderá ausentar-se do serviço por um dia para:",
+    "alternativas": {
+      "A": "Doação de sangue.",
+      "B": "Alistamento eleitoral.",
+      "C": "Casamento.",
+      "D": "Falecimento de parente.",
+      "E": "Tratar de interesse particular."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 90, inciso I, o servidor poderá ausentar-se do serviço por um dia para doação de sangue."
+  },
+  {
+    "id": 16,
+    "titulo": "Título III - Dos Direitos e Vantagens",
+    "enunciado": "Segundo o art. 91, § 2º, ao servidor portador de deficiência, quando comprovada a necessidade por junta médica oficial, será concedido horário especial:",
+    "alternativas": {
+      "A": "Independentemente de compensação de horário.",
+      "B": "Com compensação obrigatória de horário.",
+      "C": "Apenas se houver compatibilidade com o serviço.",
+      "D": "Somente para servidores efetivos.",
+      "E": "Apenas para cargos de nível superior."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 91, § 2º, também será concedido horário especial ao servidor portador de deficiência, quando comprovada a necessidade por junta médica oficial, independentemente de compensação de horário."
+  },
+  {
+    "id": 17,
+    "titulo": "Título III - Dos Direitos e Vantagens",
+    "enunciado": "De acordo com o art. 95, inciso VII, alínea b, a licença para tratamento da própria saúde é considerada como de efetivo exercício até o limite de:",
+    "alternativas": {
+      "A": "12 meses cumulativos.",
+      "B": "18 meses cumulativos.",
+      "C": "24 meses cumulativos.",
+      "D": "36 meses cumulativos.",
+      "E": "48 meses cumulativos."
+    },
+    "resposta": "C",
+    "explicacao": "Conforme art. 95, inciso VII, alínea b, é considerada como de efetivo exercício a licença para tratamento da própria saúde, até o limite de vinte e quatro meses cumulativos ao longo do tempo de serviço público prestado ao Estado."
+  },
+  {
+    "id": 18,
+    "titulo": "Título III - Dos Direitos e Vantagens",
+    "enunciado": "Segundo o art. 96, inciso V, é contado apenas para efeito de aposentadoria e disponibilidade:",
+    "alternativas": {
+      "A": "O tempo de serviço em atividade privada, vinculada à Previdência Social.",
+      "B": "O tempo de serviço prestado à União, Estados, Municípios e Distrito Federal.",
+      "C": "A licença para tratamento de saúde de pessoas da família.",
+      "D": "O tempo de serviço relativo a tiro de guerra.",
+      "E": "O tempo correspondente ao desempenho de mandato eletivo."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 96, inciso V, é contado apenas para efeito de aposentadoria e disponibilidade o tempo de serviço em atividade privada, vinculada à Previdência Social."
+  },
+  {
+    "id": 19,
+    "titulo": "Título III - Dos Direitos e Vantagens",
+    "enunciado": "De acordo com o art. 103, o direito de requerer prescreve em cinco anos quanto aos atos de:",
+    "alternativas": {
+      "A": "Demissão e cassação de aposentadoria ou disponibilidade, ou que afetem interesse patrimonial e créditos resultantes das relações de trabalho.",
+      "B": "Advertência e suspensão.",
+      "C": "Exoneração a pedido.",
+      "D": "Remoção a pedido.",
+      "E": "Concessão de licença para tratamento de saúde."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 103, inciso I, o direito de requerer prescreve em cinco anos, quanto aos atos de demissão e de cassação de aposentadoria ou disponibilidade, ou que afetem interesse patrimonial e créditos resultantes das relações de trabalho."
+  },
+  {
+    "id": 20,
+    "titulo": "Título III - Dos Direitos e Vantagens",
+    "enunciado": "Segundo o art. 108, os prazos estabelecidos no Capítulo VIII (Do Direito de Petição) são:",
+    "alternativas": {
+      "A": "Fatais e improrrogáveis, salvo motivo de força maior.",
+      "B": "Prorrogáveis a critério da autoridade competente.",
+      "C": "Suspensos durante as férias coletivas.",
+      "D": "Contados em dias úteis, excluindo sábados e domingos.",
+      "E": "Reduzidos pela metade para servidores com mais de 10 anos de serviço."
+    },
+    "resposta": "A",
+    "explicacao": "Conforme art. 108, são fatais e improrrogáveis os prazos estabelecidos neste Capítulo, salvo motivo de força maior."
+  }
+]
