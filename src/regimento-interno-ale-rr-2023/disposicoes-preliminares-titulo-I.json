@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "A sede da Assembleia Legislativa do Estado de Roraima é em Boa Vista. Conforme o Regimento Interno, a transferência temporária da sede para outro local exige:",
+    "alternativas": {
+      "A": "Decisão exclusiva do Presidente da Assembleia.",
+      "B": "Deliberação da Mesa, ad referendum da maioria absoluta dos deputados.",
+      "C": "Aprovação de 2/3 dos membros em votação secreta.",
+      "D": "Decreto Legislativo aprovado por maioria simples.",
+      "E": "Autorização do Governador do Estado."
+    },
+    "resposta": "B",
+    "explicacao": "De acordo com o Art. 1º, §1º, havendo motivo relevante ou de força maior, a Assembleia poderá reunir-se em outro local por deliberação da Mesa, ad referendum da maioria absoluta dos deputados."
+  },
+  {
+    "id": 2,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "Sobre a cessão das dependências da sede da Assembleia Legislativa para eventos de interesse da sociedade, quem detém a competência para decidir?",
+    "alternativas": {
+      "A": "O Plenário.",
+      "B": "A Comissão de Administração.",
+      "C": "O Primeiro Secretário.",
+      "D": "O Presidente da Mesa Diretora.",
+      "E": "O Superintendente Geral."
+    },
+    "resposta": "D",
+    "explicacao": "O Art. 1º, §2º define que as dependências poderão ser cedidas por decisão do presidente da Mesa Diretora."
+  },
+  {
+    "id": 3,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "As Sessões Legislativas Ordinárias da ALE-RR ocorrem em quais períodos anuais?",
+    "alternativas": {
+      "A": "02 de fevereiro a 17 de julho e 01 de agosto a 22 de dezembro.",
+      "B": "15 de fevereiro a 30 de junho e 01 de agosto a 22 de dezembro.",
+      "C": "01 de fevereiro a 30 de junho e 01 de agosto a 15 de dezembro.",
+      "D": "15 de fevereiro a 15 de julho e 01 de agosto a 20 de dezembro.",
+      "E": "01 de março a 30 de junho e 01 de agosto a 15 de dezembro."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme o Art. 3º, inciso I, a Assembleia reunir-se-á de 15 de fevereiro a 30 de junho e de 1º de agosto a 22 de dezembro."
+  },
+  {
+    "id": 4,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "A Sessão Legislativa Ordinária não poderá ser interrompida (recesso de julho) ou encerrada (recesso de dezembro) sem a aprovação, respectivamente, de:",
+    "alternativas": {
+      "A": "PPA e LOA.",
+      "B": "LDO e PPA.",
+      "C": "LDO e LOA.",
+      "D": "LOA e LDO.",
+      "E": "Constituição Estadual e Regimento Interno."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 3º, §2º estabelece que a Sessão não será interrompida enquanto não for aprovada a Lei de Diretrizes Orçamentárias (LDO) e a Lei Orçamentária Anual (LOA)."
+  },
+  {
+    "id": 5,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "Quando a Assembleia Legislativa é convocada extraordinariamente:",
+    "alternativas": {
+      "A": "Pode deliberar sobre qualquer assunto de interesse público.",
+      "B": "Os deputados recebem parcela indenizatória adicional.",
+      "C": "A pauta é livre, decidida pelo Colégio de Líderes.",
+      "D": "Somente deliberará sobre a matéria objeto da convocação.",
+      "E": "A sessão deve ser presidida pelo deputado mais idoso."
+    },
+    "resposta": "D",
+    "explicacao": "Segundo o Art. 3º, §3º, na convocação extraordinária, a Assembleia somente deliberará sobre a matéria objeto da convocação, sendo vedado o pagamento de parcela indenizatória."
+  },
+  {
+    "id": 6,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "A posse dos deputados estaduais, no primeiro ano da legislatura, ocorre na seguinte data e horário:",
+    "alternativas": {
+      "A": "1º de janeiro, às 10h.",
+      "B": "1º de fevereiro, às 9h.",
+      "C": "5 de janeiro, às 10h.",
+      "D": "15 de fevereiro, às 16h.",
+      "E": "6 de janeiro, às 17h."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 7º determina que a posse ocorre no dia 5 de janeiro, às 10 horas, em Sessão Preparatória."
+  },
+  {
+    "id": 7,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "Quem assume a direção dos trabalhos na primeira Sessão Preparatória, antes da eleição da Mesa?",
+    "alternativas": {
+      "A": "O deputado mais votado.",
+      "B": "O último Presidente da Assembleia.",
+      "C": "O deputado mais idoso entre os de maior número de legislaturas.",
+      "D": "O deputado mais jovem eleito.",
+      "E": "O Governador do Estado."
+    },
+    "resposta": "C",
+    "explicacao": "Conforme o Art. 7º, §1º, assume a direção o deputado mais idoso entre os de maior número de legislaturas."
+  },
+  {
+    "id": 8,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "No ato de posse, é vedado ao deputado:",
+    "alternativas": {
+      "A": "Fazer o juramento de pé.",
+      "B": "Ser empossado por procurador.",
+      "C": "Tomar posse após o dia 5 de janeiro.",
+      "D": "Usar a palavra para agradecimentos breves.",
+      "E": "Apresentar a declaração de bens posteriormente."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 8º proíbe expressamente que o compromissando apresente declaração oral ou escrita ou seja empossado por procurador no ato da posse."
+  },
+  {
+    "id": 9,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "O prazo para a posse do deputado é de 30 dias, prorrogáveis por igual período. Findo esse prazo, sem posse:",
+    "alternativas": {
+      "A": "O mandato é suspenso.",
+      "B": "Aplica-se multa.",
+      "C": "Considera-se haver renunciado ao mandato.",
+      "D": "A vaga fica em aberto até o fim do ano.",
+      "E": "O deputado perde apenas a remuneração."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 10, §2º define que se o deputado não tomar posse nos prazos previstos, considera-se haver renunciado ao mandato, convocando-se o suplente."
+  },
+  {
+    "id": 10,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "Sobre o suplente de deputado, quanto ao compromisso de posse:",
+    "alternativas": {
+      "A": "Deve prestar compromisso a cada nova convocação.",
+      "B": "É dispensado do compromisso na primeira convocação.",
+      "C": "Tendo prestado uma vez, é dispensado em convocações subsequentes.",
+      "D": "Deve prestar compromisso por escrito apenas.",
+      "E": "Só presta compromisso se assumir vaga definitiva."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 10, §3º estabelece que, tendo prestado compromisso uma vez, o suplente é dispensado de fazê-lo em convocações subsequentes."
+  },
+  {
+    "id": 11,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "Qual a composição correta da Mesa Diretora da ALE-RR?",
+    "alternativas": {
+      "A": "1 Presidente, 2 Vices, 3 Secretários.",
+      "B": "1 Presidente, 3 Vices, 4 Secretários, 1 Corregedor, 1 Ouvidor, 1 Sec. Mulher.",
+      "C": "1 Presidente, 1 Vice, 2 Secretários, 1 Corregedor.",
+      "D": "1 Presidente, 2 Vices, 4 Secretários, 1 Ouvidor.",
+      "E": "1 Presidente, 3 Vices, 3 Secretários, 1 Procurador."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 11 lista: 1 presidente, 3 vice-presidentes, 4 secretários, 1 corregedor-geral, 1 ouvidor-geral e 1 secretária especial da mulher."
+  },
+  {
+    "id": 12,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "Sobre a reeleição para cargos da Mesa Diretora na mesma legislatura, o Regimento permite:",
+    "alternativas": {
+      "A": "Reeleição indefinida.",
+      "B": "Nenhuma reeleição.",
+      "C": "Uma única reeleição ou recondução para o mesmo cargo.",
+      "D": "Reeleição apenas para cargos diferentes.",
+      "E": "Reeleição apenas para o cargo de Presidente."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 12 permite uma única reeleição ou recondução para o mesmo cargo na mesma legislatura."
+  },
+  {
+    "id": 13,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "A eleição da Mesa Diretora para o segundo biênio será realizada:",
+    "alternativas": {
+      "A": "Automaticamente em 1º de janeiro do 3º ano.",
+      "B": "Na última sessão do 1º ano.",
+      "C": "Durante a segunda Sessão Legislativa Ordinária.",
+      "D": "No dia 5 de janeiro do 3º ano.",
+      "E": "Em sessão extraordinária convocada pelo Governador."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 12, §4º determina que a eleição para o segundo biênio ocorre durante a segunda Sessão Legislativa Ordinária."
+  },
+  {
+    "id": 14,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "O mandato 'tampão' na Mesa Diretora afeta a elegibilidade futura?",
+    "alternativas": {
+      "A": "Sim, conta como mandato integral.",
+      "B": "Não será computado para fins de elegibilidade nos pleitos subsequentes.",
+      "C": "Impede a reeleição para qualquer cargo.",
+      "D": "Conta apenas se for superior a 1 ano.",
+      "E": "Depende de deliberação do Plenário."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 12, §5º dispõe que o mandato exercido em caráter tampão ou residual não será computado para fins de elegibilidade nos pleitos subsequentes."
+  },
+  {
+    "id": 15,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "A votação para eleição da Mesa Diretora é:",
+    "alternativas": {
+      "A": "Secreta e nominal.",
+      "B": "Simbólica.",
+      "C": "Ostensiva e aberta.",
+      "D": "Por aclamação.",
+      "E": "Secreta via cédula."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 13 define que a eleição far-se-á por votação ostensiva e aberta."
+  },
+  {
+    "id": 16,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "Em caso de empate na eleição da Mesa, após o segundo escrutínio, quem é eleito?",
+    "alternativas": {
+      "A": "O candidato com mais mandatos.",
+      "B": "O candidato mais idoso.",
+      "C": "O candidato do maior partido.",
+      "D": "O candidato que teve mais votos na eleição geral.",
+      "E": "Realiza-se sorteio."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 13, VIII estabelece que, persistindo o empate, considera-se eleito o candidato mais idoso."
+  },
+  {
+    "id": 17,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "Como são tratadas as candidaturas avulsas na eleição da Mesa?",
+    "alternativas": {
+      "A": "São proibidas.",
+      "B": "Só aceitas se não houver chapa.",
+      "C": "Têm precedência na eleição sobre qualquer outro lançamento.",
+      "D": "Devem ser votadas por último.",
+      "E": "Requerem apoio de 1/3 dos deputados."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 13, §1º determina que a candidatura avulsa terá precedência na eleição sobre qualquer outro lançamento."
+  },
+  {
+    "id": 18,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "Se ocorrer vaga na Mesa Diretora após 1º de novembro do segundo ano do mandato:",
+    "alternativas": {
+      "A": "Realiza-se nova eleição em 5 dias.",
+      "B": "O cargo fica vago.",
+      "C": "A Mesa designa um membro para responder pelo cargo.",
+      "D": "O Governador indica o substituto.",
+      "E": "O deputado mais idoso assume."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 17, Parágrafo único, prevê que após essa data, a Mesa designará um de seus membros para responder pelo cargo."
+  },
+  {
+    "id": 19,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "Quem deve indicar os líderes e vice-líderes das bancadas à Mesa?",
+    "alternativas": {
+      "A": "O Presidente do Partido.",
+      "B": "As bancadas partidárias.",
+      "C": "O Presidente da Assembleia.",
+      "D": "O Governador.",
+      "E": "O Colégio de Líderes."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 19 estabelece que as bancadas partidárias deverão indicar à Mesa os seus respectivos líderes e vice-líderes."
+  },
+  {
+    "id": 20,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "A posse do Governador e Vice-Governador ocorre em sessão solene no dia:",
+    "alternativas": {
+      "A": "1º de janeiro.",
+      "B": "5 de janeiro.",
+      "C": "6 de janeiro.",
+      "D": "15 de fevereiro.",
+      "E": "1º de fevereiro."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 21 fixa a data de 6 de janeiro, às 17h, para a posse do Governador."
+  },
+  {
+    "id": 21,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "Se a Mesa Diretora ainda não tiver sido eleita na data da posse do Governador, quem preside a sessão?",
+    "alternativas": {
+      "A": "O Presidente do Tribunal de Justiça.",
+      "B": "O Governador que está saindo.",
+      "C": "O deputado mais idoso entre os de maior número de legislaturas.",
+      "D": "O deputado mais votado.",
+      "E": "Um presidente ad hoc escolhido pelo plenário."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 21, §1º remete ao Art. 12, §2º, indicando que a direção será exercida pelo deputado mais idoso entre os de maior número de legislaturas."
+  },
+  {
+    "id": 22,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "Caso o Governador não compareça para a leitura da mensagem governamental na abertura da sessão legislativa:",
+    "alternativas": {
+      "A": "A sessão é cancelada.",
+      "B": "O texto é apenas publicado no Diário.",
+      "C": "Seu emissário será recebido e fará a leitura.",
+      "D": "O Presidente da Assembleia lê o texto.",
+      "E": "O Líder do Governo faz a leitura."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 22, §2º prevê que o emissário do Governador será recebido em Plenário e fará a leitura da mensagem."
+  },
+  {
+    "id": 23,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "Durante o recesso parlamentar, funciona na Assembleia:",
+    "alternativas": {
+      "A": "A Comissão de Constituição e Justiça.",
+      "B": "A Mesa Diretora com poderes plenos.",
+      "C": "A Comissão Representativa.",
+      "D": "Apenas o protocolo.",
+      "E": "O Conselho de Ética."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 3º, §4º estabelece a existência da Comissão Representativa durante o recesso."
+  },
+  {
+    "id": 24,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "Para a eleição da Mesa Diretora, qual o quórum de presença exigido?",
+    "alternativas": {
+      "A": "Qualquer número.",
+      "B": "1/3 dos membros.",
+      "C": "Maioria absoluta dos membros.",
+      "D": "2/3 dos membros.",
+      "E": "Maioria simples."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 13, IV exige a presença da maioria absoluta dos membros da Assembleia para a eleição."
+  },
+  {
+    "id": 25,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "Qual autoridade proclama empossado o Governador do Estado?",
+    "alternativas": {
+      "A": "O Presidente do Tribunal de Justiça.",
+      "B": "O Vice-Governador.",
+      "C": "O Presidente da Mesa da Assembleia.",
+      "D": "O Procurador Geral de Justiça.",
+      "E": "O ex-Governador."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 21, §8º determina que o presidente da Mesa proclamará empossado o governador."
+  },
+  {
+    "id": 26,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "A instalação da legislatura ocorre:",
+    "alternativas": {
+      "A": "Antes da posse dos deputados.",
+      "B": "No dia 1º de janeiro.",
+      "C": "Em seguida à posse da Mesa Diretora.",
+      "D": "Na primeira sessão ordinária de fevereiro.",
+      "E": "Após a posse do Governador."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 20 afirma que, em seguida à posse da Mesa, o presidente declarará instalada a legislatura."
+  },
+  {
+    "id": 27,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "Se o deputado comparecer para posse durante o recesso parlamentar (fora do prazo inicial de 5 de janeiro), ele prestará compromisso perante:",
+    "alternativas": {
+      "A": "O Plenário em convocação extraordinária.",
+      "B": "O Presidente da Assembleia.",
+      "C": "A Comissão de Constituição e Justiça.",
+      "D": "O Primeiro Secretário.",
+      "E": "Um Juiz de Direito."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 9º define que, durante o recesso, o deputado prestará compromisso perante o presidente da Assembleia."
+  },
+  {
+    "id": 28,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "Sobre a Comissão Representativa, ela é constituída:",
+    "alternativas": {
+      "A": "Na primeira sessão do ano.",
+      "B": "Na última Sessão Ordinária de cada período legislativo.",
+      "C": "Por sorteio entre os deputados.",
+      "D": "Apenas pelos membros da Mesa.",
+      "E": "Pelo Presidente e Líderes Partidários apenas."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 3º, §4º informa que a Comissão Representativa é constituída na última Sessão Ordinária de cada período legislativo."
+  },
+  {
+    "id": 29,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "As deliberações de matérias na Assembleia (regra geral) exigem:",
+    "alternativas": {
+      "A": "Maioria dos votos, presente a maioria absoluta dos membros.",
+      "B": "Maioria absoluta dos votos, presente a maioria simples.",
+      "C": "2/3 dos votos para qualquer matéria.",
+      "D": "Maioria simples, presente 1/3 dos membros.",
+      "E": "Unanimidade dos presentes."
+    },
+    "resposta": "A",
+    "explicacao": "O Art. 4º estabelece a regra geral: maioria dos votos, presente a maioria absoluta dos membros."
+  },
+  {
+    "id": 30,
+    "titulo": "Título I - Disposições Preliminares",
+    "enunciado": "O horário fixado para a posse dos deputados (10h do dia 5 de janeiro) pode ser alterado por:",
+    "alternativas": {
+      "A": "Decisão exclusiva do Presidente.",
+      "B": "Deliberação de pelo menos 1/3 dos deputados eleitos.",
+      "C": "Solicitação do Governador.",
+      "D": "Acordo de líderes na véspera.",
+      "E": "Votação da Mesa anterior."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 7º, §4º permite a alteração do horário por deliberação de pelo menos 1/3 dos deputados eleitos."
+  }
+]

@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "Conforme o Regimento Interno, a administração contábil, orçamentária, financeira, operacional e patrimonial da Assembleia Legislativa é coordenada e executada por:",
+    "alternativas": {
+      "A": "Empresa de auditoria externa contratada.",
+      "B": "Pelo Tribunal de Contas do Estado diretamente.",
+      "C": "Por órgãos próprios integrantes da estrutura dos serviços administrativos da Casa.",
+      "D": "Pela Secretaria de Estado da Fazenda.",
+      "E": "Pela Mesa Diretora sem auxílio técnico."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 300 define que a administração será coordenada e executada por órgãos próprios integrantes da estrutura dos serviços administrativos da Casa."
+  },
+  {
+    "id": 2,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "A competência para ordenar as despesas da Assembleia, dentro dos limites orçamentários, pertence originalmente ao:",
+    "alternativas": {
+      "A": "1º Secretário.",
+      "B": "Presidente da Assembleia.",
+      "C": "Diretor Geral.",
+      "D": "Corregedor Parlamentar.",
+      "E": "Relator do Orçamento."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 301 estabelece que as despesas são ordenadas pelo presidente da Assembleia."
+  },
+  {
+    "id": 3,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "A ordenação de despesas pode ser delegada. Qual é o instrumento normativo exigido para essa delegação?",
+    "alternativas": {
+      "A": "Decreto Legislativo.",
+      "B": "Portaria da Presidência.",
+      "C": "Resolução de Plenário.",
+      "D": "Ato da Mesa Diretora.",
+      "E": "Memorando Circular."
+    },
+    "resposta": "D",
+    "explicacao": "O Art. 302 prevê que a ordenação de despesa poderá ser delegada por Ato da Mesa Diretora."
+  },
+  {
+    "id": 4,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "Com que periodicidade devem ser encaminhados à Mesa Diretora os balancetes analíticos e demonstrativos da execução orçamentária?",
+    "alternativas": {
+      "A": "Semanalmente.",
+      "B": "Mensalmente.",
+      "C": "Trimestralmente.",
+      "D": "Semestralmente.",
+      "E": "Anualmente."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 303 determina o encaminhamento mensal dos balancetes à Mesa para apreciação."
+  },
+  {
+    "id": 5,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "O Presidente da Assembleia deve encaminhar a prestação de contas ao Tribunal de Contas do Estado. Qual é o prazo estabelecido?",
+    "alternativas": {
+      "A": "Até 31 de janeiro.",
+      "B": "Até o início da sessão legislativa.",
+      "C": "No mesmo prazo estabelecido para o Poder Executivo.",
+      "D": "30 dias após o encerramento do exercício.",
+      "E": "60 dias após a abertura dos trabalhos."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 304 define que o prazo é o mesmo estabelecido para o Poder Executivo."
+  },
+  {
+    "id": 6,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "Salvo disposição em contrário, como são computados os prazos assinalados em DIAS no Regimento Interno?",
+    "alternativas": {
+      "A": "Como dias úteis.",
+      "B": "Como dias corridos.",
+      "C": "Apenas em dias de sessão plenária.",
+      "D": "Excluindo sábados, domingos e feriados.",
+      "E": "Contando apenas o expediente administrativo."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 305 estabelece que os prazos assinalados em dias computar-se-ão, respectivamente, como dias corridos."
+  },
+  {
+    "id": 7,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "Quando um prazo regimental é fixado em SESSÕES, a contagem considera:",
+    "alternativas": {
+      "A": "Qualquer sessão convocada.",
+      "B": "Apenas sessões extraordinárias.",
+      "C": "Sessões Ordinárias da Assembleia efetivamente realizadas.",
+      "D": "Sessões solenes e especiais.",
+      "E": "Dias úteis de trabalho legislativo."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 305 especifica que prazos em sessões são computados por sessões Ordinárias efetivamente realizadas."
+  },
+  {
+    "id": 8,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "Na regra geral de contagem de prazos regimentais:",
+    "alternativas": {
+      "A": "Inclui-se o dia inicial e o do vencimento.",
+      "B": "Exclui-se o dia inicial e o do vencimento.",
+      "C": "Exclui-se o cômputo do dia ou Sessão inicial e inclui-se o do vencimento.",
+      "D": "Conta-se o dia inicial se for útil.",
+      "E": "O prazo começa a correr no dia da publicação."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 305, §1º determina: Exclui-se do cômputo o dia ou Sessão inicial e inclui-se o do vencimento."
+  },
+  {
+    "id": 9,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "O que ocorre com os prazos regimentais durante os períodos de recesso parlamentar, salvo disposição em contrário?",
+    "alternativas": {
+      "A": "Continuam correndo.",
+      "B": "São extintos e reiniciados depois.",
+      "C": "Ficam suspensos.",
+      "D": "Correm pela metade.",
+      "E": "São transferidos para a Comissão Representativa."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 305, §2º afirma que os prazos ficarão suspensos durante os períodos de recesso."
+  },
+  {
+    "id": 10,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "A 'Procuradoria Especial da Mulher' teve sua denominação alterada pelo novo Regimento para:",
+    "alternativas": {
+      "A": "Comissão Permanente da Mulher.",
+      "B": "Frente Parlamentar Feminina.",
+      "C": "Secretaria Especial da Mulher.",
+      "D": "Ouvidoria da Mulher.",
+      "E": "Diretoria da Mulher."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 306 determina que a Procuradoria Especial da Mulher passa a ser denominada Secretaria Especial da Mulher."
+  },
+  {
+    "id": 11,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "O patrimônio da Assembleia Legislativa é constituído de:",
+    "alternativas": {
+      "A": "Apenas bens móveis adquiridos.",
+      "B": "Apenas o prédio sede.",
+      "C": "Bens móveis e imóveis do Estado, que adquirir ou forem colocados à sua disposição.",
+      "D": "Doações de partidos políticos.",
+      "E": "Bens particulares dos deputados em uso no gabinete."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 307 define o patrimônio como bens móveis e imóveis do Estado que adquirir ou forem colocados à sua disposição."
+  },
+  {
+    "id": 12,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "O Regimento Interno proíbe expressamente dar denominação a dependências da Assembleia de:",
+    "alternativas": {
+      "A": "Datas históricas.",
+      "B": "Municípios do Estado.",
+      "C": "Pessoas vivas.",
+      "D": "Ex-parlamentares falecidos.",
+      "E": "Símbolos nacionais."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 308 veda dar denominação de pessoas vivas a qualquer das dependências da Assembleia."
+  },
+  {
+    "id": 13,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "Nos casos omissos do Regimento Interno da ALE-RR, o Presidente aplicará subsidiariamente o Regimento Interno de qual órgão?",
+    "alternativas": {
+      "A": "Senado Federal.",
+      "B": "Câmara dos Deputados.",
+      "C": "Supremo Tribunal Federal.",
+      "D": "Tribunal de Justiça de Roraima.",
+      "E": "Congresso Nacional (Regimento Comum)."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 310 determina a aplicação subsidiária do Regimento Interno da Câmara dos Deputados."
+  },
+  {
+    "id": 14,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "Durante as sessões, devem ser mantidos sobre a mesa principal dos trabalhos exemplares de algumas obras. Qual das opções abaixo NÃO consta na lista obrigatória do Art. 311?",
+    "alternativas": {
+      "A": "Bíblia.",
+      "B": "Constituição Federal.",
+      "C": "Código Civil.",
+      "D": "Constituição do Estado.",
+      "E": "Regimento Interno da Assembleia."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 311 lista Bíblia, Constituições (Federal e Estadual) e Regimento Interno. O Código Civil não é mencionado."
+  },
+  {
+    "id": 15,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "A regra de transição do Art. 309 altera a data da posse dos deputados para 1º de janeiro. Essa regra será aplicada a partir de qual legislatura?",
+    "alternativas": {
+      "A": "Imediatamente.",
+      "B": "Da 9ª legislatura.",
+      "C": "Da 11ª legislatura (posse dos eleitos para a 10ª).",
+      "D": "Da 12ª legislatura.",
+      "E": "Apenas em 2030."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 309 estabelece que a data será aplicada a partir da 11ª legislatura, sendo a posse dos deputados eleitos para a 10ª legislatura no dia 1º de janeiro."
+  },
+  {
+    "id": 16,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "Os prazos regimentais fixados por MÊS são contados:",
+    "alternativas": {
+      "A": "Em dias úteis.",
+      "B": "De data a data.",
+      "C": "Considerando o mês comercial de 30 dias.",
+      "D": "Pelo calendário civil apenas.",
+      "E": "Pelo número de sessões."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 305 define que os prazos fixados por mês são contados de data a data."
+  },
+  {
+    "id": 17,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "A aplicação subsidiária do Regimento da Câmara dos Deputados, nos casos omissos, deve considerar:",
+    "alternativas": {
+      "A": "A opinião pública.",
+      "B": "As questões de ordem decididas e registradas.",
+      "C": "O Regimento do Senado.",
+      "D": "A Lei Orgânica do DF.",
+      "E": "A jurisprudência cível."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 310, parágrafo único, estabelece que a aplicação considerará as questões de ordem decididas e registradas."
+  },
+  {
+    "id": 18,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "Quem desempenha as funções de Secretária Especial da Mulher até a próxima eleição da Mesa (regra transitória)?",
+    "alternativas": {
+      "A": "A deputada mais votada.",
+      "B": "A Procuradora Especial da Mulher em exercício na data da promulgação.",
+      "C": "A 2ª Vice-Presidente.",
+      "D": "Uma servidora nomeada.",
+      "E": "O cargo fica vago."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 306, §2º prevê que as funções serão desempenhadas pela procuradora Especial da Mulher em exercício na data da promulgação."
+  },
+  {
+    "id": 19,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "A Resolução que instituiu o Regimento Interno de 2023 entrou em vigor:",
+    "alternativas": {
+      "A": "Em 1º de janeiro de 2024.",
+      "B": "Na data de sua publicação.",
+      "C": "45 dias após a publicação.",
+      "D": "Na posse da nova Mesa.",
+      "E": "Imediatamente após a aprovação em plenário."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 312 estabelece que a Resolução entra em vigor na data de sua publicação."
+  },
+  {
+    "id": 20,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "Qual resolução anterior foi expressamente revogada pelo novo Regimento?",
+    "alternativas": {
+      "A": "A Constituição Estadual.",
+      "B": "O Código de Ética.",
+      "C": "A Resolução n. 11, de 30 de junho de 1992.",
+      "D": "A Lei Orgânica da Magistratura.",
+      "E": "O Regimento do TCE."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 313 revoga a Resolução n. 11, de 30 de junho de 1992, e suas alterações."
+  },
+  {
+    "id": 21,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "Se um prazo de 10 dias começar a correr dois dias antes do recesso parlamentar:",
+    "alternativas": {
+      "A": "O prazo termina no recesso.",
+      "B": "O prazo é zerado.",
+      "C": "Corre-se dois dias, suspende-se no recesso, e retoma a contagem depois.",
+      "D": "O prazo ignora o recesso.",
+      "E": "Conta-se em dobro."
+    },
+    "resposta": "C",
+    "explicacao": "Interpretação do Art. 305, §2º: os prazos ficam suspensos durante o recesso (pausa a contagem e retoma de onde parou)."
+  },
+  {
+    "id": 22,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "A ordenação de despesas da Assembleia Legislativa é limitada:",
+    "alternativas": {
+      "A": "Pela vontade da Mesa.",
+      "B": "Pelas disponibilidades orçamentárias consignadas no Orçamento e créditos adicionais.",
+      "C": "Pelo teto do Executivo.",
+      "D": "Pela arrecadação mensal.",
+      "E": "Pelo Fundo Partidário."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 301 estabelece os limites: disponibilidades orçamentárias consignadas no Orçamento e créditos adicionais."
+  },
+  {
+    "id": 23,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "O sistema de controle interno da administração da Assembleia é:",
+    "alternativas": {
+      "A": "Externo, feito pelo TCE apenas.",
+      "B": "Coordenado e executado por órgãos próprios integrantes da estrutura da Casa.",
+      "C": "Inexistente.",
+      "D": "Realizado por auditoria privada.",
+      "E": "Responsabilidade individual de cada deputado."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 300 define que o sistema de controle interno será coordenado e executado por órgãos próprios da estrutura da Casa."
+  },
+  {
+    "id": 24,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "A adequação da Secretaria Especial da Mulher (antiga Procuradoria) depende de:",
+    "alternativas": {
+      "A": "Lei Federal.",
+      "B": "Emenda Constitucional.",
+      "C": "Providências necessárias a serem adotadas pela Assembleia Legislativa.",
+      "D": "Decreto do Governador.",
+      "E": "Decisão judicial."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 306, §1º estabelece que a Assembleia adotará as providências necessárias à adequação."
+  },
+  {
+    "id": 25,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "Para fins de contagem de prazos em dias, utiliza-se:",
+    "alternativas": {
+      "A": "Dias úteis.",
+      "B": "Dias corridos.",
+      "C": "Dias de sessão.",
+      "D": "Dias de expediente.",
+      "E": "Dias forenses."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 305 define expressamente: dias corridos."
+  },
+  {
+    "id": 26,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "Quem tem competência para delegar a ordenação de despesas?",
+    "alternativas": {
+      "A": "O Presidente, via decreto.",
+      "B": "A Mesa Diretora, via Ato.",
+      "C": "O Plenário, via Resolução.",
+      "D": "O 1º Secretário.",
+      "E": "O Diretor Financeiro."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 302 define que a delegação ocorre por Ato da Mesa Diretora."
+  },
+  {
+    "id": 27,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "Os balancetes analíticos mensais da execução financeira servem para:",
+    "alternativas": {
+      "A": "Publicação em jornal de grande circulação apenas.",
+      "B": "Apreciação pela Mesa Diretora.",
+      "C": "Envio ao Governador.",
+      "D": "Arquivo morto.",
+      "E": "Consulta popular exclusiva."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 303 determina o encaminhamento à Mesa para apreciação."
+  },
+  {
+    "id": 28,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "Em relação à posse dos deputados em 1º de janeiro (nova regra), ela se aplica:",
+    "alternativas": {
+      "A": "Retroativamente.",
+      "B": "Aos deputados eleitos para a 10ª legislatura (vigência na 11ª).",
+      "C": "Apenas se houver reeleição.",
+      "D": "Automaticamente em qualquer ano.",
+      "E": "Aos suplentes imediatos."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 309 especifica: posse dos deputados eleitos para a 10ª legislatura no dia 1º de janeiro."
+  },
+  {
+    "id": 29,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "É permitido dar nome de pessoa viva a uma sala de comissão da Assembleia?",
+    "alternativas": {
+      "A": "Sim, se for ex-deputado.",
+      "B": "Sim, com aprovação de 2/3.",
+      "C": "Não, é vedado pelo Regimento.",
+      "D": "Sim, se a pessoa doar bens à Casa.",
+      "E": "Sim, em caráter provisório."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 308 veda dar denominação de pessoas vivas a qualquer das dependências da Assembleia."
+  },
+  {
+    "id": 30,
+    "titulo": "Título XI - Disposições Finais",
+    "enunciado": "A prestação de contas do exercício anterior da Assembleia deve ser encaminhada ao TCE:",
+    "alternativas": {
+      "A": "Pelo Presidente.",
+      "B": "Pelo 1º Secretário.",
+      "C": "Pelo Contador.",
+      "D": "Pela Comissão de Finanças.",
+      "E": "Pelo Diretor Geral."
+    },
+    "resposta": "A",
+    "explicacao": "O Art. 304 atribui essa responsabilidade ao presidente da Assembleia."
+  }
+]

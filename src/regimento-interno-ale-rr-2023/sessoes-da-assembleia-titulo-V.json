@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "As sessões ordinárias da Assembleia Legislativa de Roraima ocorrem em períodos específicos do ano. Assinale a alternativa que indica corretamente esses períodos, conforme o Regimento Interno:",
+    "alternativas": {
+      "A": "02 de fevereiro a 17 de julho e 01 de agosto a 22 de dezembro.",
+      "B": "15 de fevereiro a 30 de junho e 01 de agosto a 22 de dezembro.",
+      "C": "01 de fevereiro a 30 de junho e 01 de agosto a 15 de dezembro.",
+      "D": "15 de fevereiro a 15 de julho e 01 de agosto a 20 de dezembro.",
+      "E": "01 de março a 30 de junho e 01 de agosto a 31 de dezembro."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme o Art. 135, as sessões ordinárias serão realizadas de 15 de fevereiro a 30 de junho e de 1º de agosto a 22 de dezembro."
+  },
+  {
+    "id": 2,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "Qual é a duração regimental padrão de uma Sessão Ordinária na ALE-RR?",
+    "alternativas": {
+      "A": "2 horas.",
+      "B": "3 horas.",
+      "C": "4 horas.",
+      "D": "5 horas.",
+      "E": "Indeterminada, até esgotar a pauta."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 135 define que as sessões ordinárias terão duração de 3 (três) horas."
+  },
+  {
+    "id": 3,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "Em relação aos dias e horários, as sessões ordinárias são realizadas:",
+    "alternativas": {
+      "A": "Segundas, quartas e sextas-feiras, às 9h.",
+      "B": "Terças, quartas e quintas-feiras, às 14h.",
+      "C": "De segunda a sexta-feira, às 8h.",
+      "D": "Terças, quartas e quintas-feiras, às 9h.",
+      "E": "Terças e quartas, às 9h; quintas, às 15h."
+    },
+    "resposta": "D",
+    "explicacao": "O Art. 136, II determina que as sessões ordinárias são realizadas às terças, quartas e quintas-feiras, das 09 às 12h."
+  },
+  {
+    "id": 4,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "As sessões itinerantes são realizadas fora da sede do Poder Legislativo. Sobre elas, é correto afirmar:",
+    "alternativas": {
+      "A": "Devem ser realizadas apenas na capital.",
+      "B": "Não permitem deliberações em nenhuma hipótese.",
+      "C": "Exigem traje passeio completo ou rigor.",
+      "D": "Recomenda-se o uso de traje passeio.",
+      "E": "São convocadas exclusivamente pelo Governador."
+    },
+    "resposta": "D",
+    "explicacao": "O Art. 142, §7º recomenda o uso de traje passeio para a realização das sessões itinerantes."
+  },
+  {
+    "id": 5,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "A Sessão Legislativa Ordinária não poderá ser interrompida (recesso do meio do ano) sem a aprovação de qual matéria?",
+    "alternativas": {
+      "A": "Lei Orçamentária Anual (LOA).",
+      "B": "Plano Plurianual (PPA).",
+      "C": "Lei de Diretrizes Orçamentárias (LDO).",
+      "D": "Prestação de Contas do Governador.",
+      "E": "Reforma do Regimento Interno."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 136, §2º estabelece que a sessão não será interrompida sem a aprovação da LDO (para o recesso de julho) nem encerrada sem a aprovação da LOA (para o recesso de dezembro)."
+  },
+  {
+    "id": 6,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "As sessões ordinárias dividem-se em três partes. São elas, na ordem correta:",
+    "alternativas": {
+      "A": "Pequeno Expediente, Grande Expediente e Ordem do Dia.",
+      "B": "Expediente, Ordem do Dia e Explicação Pessoal.",
+      "C": "Leitura da Ata, Votação e Discursos.",
+      "D": "Comunicações, Pauta e Encerramento.",
+      "E": "Ordem do Dia, Expediente e Tribuna Livre."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 137 define a estrutura: I- Expediente; II- Ordem do Dia; III- Explicação Pessoal."
+  },
+  {
+    "id": 7,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "Qual é a duração destinada ao Expediente na Sessão Ordinária?",
+    "alternativas": {
+      "A": "30 minutos.",
+      "B": "60 minutos.",
+      "C": "80 minutos.",
+      "D": "90 minutos.",
+      "E": "120 minutos."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 137, I fixa a duração do Expediente em 80 (oitenta) minutos."
+  },
+  {
+    "id": 8,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "A Ordem do Dia tem duração prevista de:",
+    "alternativas": {
+      "A": "30 minutos improrrogáveis.",
+      "B": "45 minutos.",
+      "C": "60 minutos, prorrogáveis para apreciação da matéria.",
+      "D": "2 horas.",
+      "E": "O tempo que for necessário até zerar a pauta."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 137, II estabelece a duração de 60 minutos, prorrogáveis para apreciação de matéria constante da Ordem do Dia."
+  },
+  {
+    "id": 9,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "A Sessão Extraordinária destina-se exclusivamente a:",
+    "alternativas": {
+      "A": "Homenagens e comemorações.",
+      "B": "Discussão e votação da matéria constante do Ato de Convocação.",
+      "C": "Debates livres sobre política estadual.",
+      "D": "Leitura de expedientes acumulados.",
+      "E": "Posse de servidores concursados."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 140 determina que a Sessão Extraordinária será destinada exclusivamente à discussão e votação da matéria constante do Ato de Convocação."
+  },
+  {
+    "id": 10,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "O levantamento da sessão antes do prazo previsto só pode ocorrer em casos específicos. Qual das alternativas NÃO é um motivo regimental para levantar a sessão?",
+    "alternativas": {
+      "A": "Tumulto grave.",
+      "B": "Falecimento de deputado.",
+      "C": "Falecimento de Chefe de um dos Poderes.",
+      "D": "Presença de menos de 1/3 de seus membros.",
+      "E": "Ausência do Presidente da Assembleia."
+    },
+    "resposta": "E",
+    "explicacao": "A ausência do Presidente não levanta a sessão, pois ele é substituído pelos Vices ou Secretários. Os demais casos estão previstos no Art. 143."
+  },
+  {
+    "id": 11,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "Não havendo número regimental (quórum) para a abertura da Sessão no horário previsto, o Presidente:",
+    "alternativas": {
+      "A": "Cancela a sessão imediatamente.",
+      "B": "Abre a sessão com qualquer número.",
+      "C": "Poderá aguardar pelo prazo de 15 minutos.",
+      "D": "Convoca os deputados por telefone e aguarda 1 hora.",
+      "E": "Transforma a sessão em Comissão Geral."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 145 permite ao presidente aguardar, pelo prazo de 15 (quinze) minutos, que o quórum se complete."
+  },
+  {
+    "id": 12,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "Para a manutenção da ordem no Plenário, é vedado ao deputado:",
+    "alternativas": {
+      "A": "Falar da bancada.",
+      "B": "Falar de costas para a Mesa.",
+      "C": "Apartear o orador com permissão.",
+      "D": "Usar a Tribuna no Expediente.",
+      "E": "Dirigir a palavra ao Presidente."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 147, V proíbe: ao falar da bancada, o orador, em nenhuma hipótese, poderá fazê-lo de costas para a Mesa."
+  },
+  {
+    "id": 13,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "O orador que, advertido pelo Presidente por falar antirregimentalmente, insistir em falar:",
+    "alternativas": {
+      "A": "Será preso pela polícia legislativa.",
+      "B": "Terá o microfone cortado e será multado.",
+      "C": "Terá seu discurso dado por terminado pelo Presidente.",
+      "D": "Será suspenso por 3 sessões.",
+      "E": "Deverá pedir desculpas por escrito."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 147, VI estabelece que se o deputado insistir em falar, o presidente dará o seu discurso por terminado."
+  },
+  {
+    "id": 14,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "Qualquer pessoa pode assistir às sessões das galerias, desde que:",
+    "alternativas": {
+      "A": "Seja convidada por um deputado.",
+      "B": "Use terno e gravata.",
+      "C": "Esteja desarmada e guarde silêncio, sem dar sinal de aplauso ou reprovação.",
+      "D": "Se inscreva previamente na recepção.",
+      "E": "Seja maior de 21 anos."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 148 exige que a pessoa esteja desarmada e guarde silêncio, sem manifestações."
+  },
+  {
+    "id": 15,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "A convocação extraordinária da Assembleia Legislativa (recesso) pode ser feita por ato do Governador, do Presidente da Casa ou:",
+    "alternativas": {
+      "A": "A requerimento da maioria dos seus membros.",
+      "B": "A pedido do Tribunal de Justiça.",
+      "C": "Por iniciativa popular.",
+      "D": "Pelo Colégio de Líderes.",
+      "E": "Pela Comissão Representativa apenas."
+    },
+    "resposta": "A",
+    "explicacao": "O Art. 150 prevê a convocação a requerimento da maioria dos seus membros."
+  },
+  {
+    "id": 16,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "Sobre o 'aparte' durante os discursos, qual é a duração máxima permitida?",
+    "alternativas": {
+      "A": "1 minuto.",
+      "B": "2 minutos.",
+      "C": "3 minutos.",
+      "D": "5 minutos.",
+      "E": "Não há limite, depende do orador."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 163 define o aparte como breve interrupção com duração máxima de 2 (dois) minutos."
+  },
+  {
+    "id": 17,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "É permitido aparte nas seguintes situações, EXCETO:",
+    "alternativas": {
+      "A": "Durante a discussão de um projeto.",
+      "B": "Quando o orador concede.",
+      "C": "Para indagar sobre a matéria em debate.",
+      "D": "Às palavras do Presidente ou em encaminhamento de votação.",
+      "E": "Durante o Grande Expediente."
+    },
+    "resposta": "D",
+    "explicacao": "O Art. 163, Parágrafo único, veda apartes às palavras do Presidente (I) e no encaminhamento de votação (IV)."
+  },
+  {
+    "id": 18,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "Para a abertura da Sessão (Expediente), verifica-se a presença mínima de:",
+    "alternativas": {
+      "A": "Qualquer número.",
+      "B": "1/3 dos membros da Assembleia.",
+      "C": "Maioria absoluta.",
+      "D": "2/3 dos membros.",
+      "E": "Maioria simples."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 166 condiciona a abertura da sessão à presença de, no mínimo, 1/3 (um terço) dos membros."
+  },
+  {
+    "id": 19,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "Qual a frase proferida pelo Presidente ao abrir a sessão?",
+    "alternativas": {
+      "A": "Declaro abertos os trabalhos.",
+      "B": "Em nome da Lei, declaro aberta a sessão.",
+      "C": "Sob a proteção de Deus e em nome do povo roraimense, declaro aberta a presente sessão.",
+      "D": "Havendo número legal, iniciamos os trabalhos.",
+      "E": "Sob a proteção da Constituição, declaro aberta a sessão."
+    },
+    "resposta": "C",
+    "explicacao": "A frase ritualística consta no Art. 166: \"SOB A PROTEÇÃO DE DEUS E EM NOME DO POVO RORAIMENSE...\"."
+  },
+  {
+    "id": 20,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "Na discussão da ata da sessão anterior, o deputado pode falar:",
+    "alternativas": {
+      "A": "Para elogiar a redação.",
+      "B": "Para comentar os fatos ocorridos.",
+      "C": "Uma vez e durante 03 minutos, apenas para retificá-la.",
+      "D": "Por 5 minutos sobre qualquer tema.",
+      "E": "Livremente, sem prazo."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 166, §3º limita o uso da palavra na discussão da ata: uma vez, 03 minutos, apenas para retificação."
+  },
+  {
+    "id": 21,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "A Ordem do Dia poderá ser alterada ou interrompida nos seguintes casos, EXCETO:",
+    "alternativas": {
+      "A": "Para a posse de deputado.",
+      "B": "Por aprovação de requerimento de preferência.",
+      "C": "Por aprovação de requerimento de inversão de pauta.",
+      "D": "Para atender a pedido de um cidadão presente na galeria.",
+      "E": "Para retirada de proposição."
+    },
+    "resposta": "D",
+    "explicacao": "O Art. 171, §9º lista as exceções (posse, requerimentos de preferência, adiamento, etc.). Pedido de cidadão não é causa legal de interrupção."
+  },
+  {
+    "id": 22,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "O tempo destinado à Explicação Pessoal ocorre:",
+    "alternativas": {
+      "A": "Antes do Expediente.",
+      "B": "No intervalo entre o Expediente e a Ordem do Dia.",
+      "C": "Esgotada a Ordem do Dia, pelo tempo restante da Sessão.",
+      "D": "Apenas em sessões solenes.",
+      "E": "Quando o Presidente autorizar."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 174 estabelece que esgotada a Ordem do Dia, seguir-se-á a Explicação Pessoal pelo tempo restante."
+  },
+  {
+    "id": 23,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "Na fase de Explicação Pessoal, o deputado pode falar por:",
+    "alternativas": {
+      "A": "2 minutos.",
+      "B": "3 minutos.",
+      "C": "5 minutos, prorrogáveis por até igual tempo.",
+      "D": "10 minutos.",
+      "E": "15 minutos."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 174, §1º fixa o prazo em 05 minutos, prorrogáveis a critério do presidente por até igual tempo."
+  },
+  {
+    "id": 24,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "A Assembleia pode ser transformada em Comissão Geral para debate de matéria relevante. Para isso, é necessária a aprovação de:",
+    "alternativas": {
+      "A": "Maioria simples.",
+      "B": "Maioria absoluta de votos.",
+      "C": "2/3 dos votos.",
+      "D": "Unanimidade.",
+      "E": "Decisão exclusiva da Mesa."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 175, §1º exige a aprovação da maioria absoluta de votos para constituir a Comissão Geral."
+  },
+  {
+    "id": 25,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "A Sessão Secreta pode ser convocada quando a publicidade dos trabalhos puser em risco:",
+    "alternativas": {
+      "A": "A imagem política do Governador.",
+      "B": "A segurança da sociedade e do Estado ou a inviolabilidade da intimidade/honra.",
+      "C": "Interesses comerciais de empresas estatais.",
+      "D": "A tramitação rápida de projetos.",
+      "E": "O decoro parlamentar em discussões acaloradas."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 176, §1º limita a sessão secreta aos casos de risco à segurança da sociedade/Estado e inviolabilidade da intimidade/honra."
+  },
+  {
+    "id": 26,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "Durante a Ordem do Dia, a ordem de preferência das matérias é:",
+    "alternativas": {
+      "A": "Projetos de Lei Ordinária, depois PECs.",
+      "B": "Requerimentos, depois Projetos de Lei.",
+      "C": "PECs, urgências, vetos e leis orçamentárias.",
+      "D": "Vetos, depois urgências.",
+      "E": "Matérias mais antigas primeiro."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 171, §6º define a ordem: PECs, proposições em urgência, vetos, leis orçamentárias, prioridade e tramitação ordinária."
+  },
+  {
+    "id": 27,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "Se não houver quórum para votação durante a Ordem do Dia:",
+    "alternativas": {
+      "A": "O Presidente decide sozinho.",
+      "B": "A matéria é dada como aprovada.",
+      "C": "O Presidente determina a recontagem e, persistindo a falta, anuncia debate ou convida o orador a interromper.",
+      "D": "A sessão é encerrada imediatamente.",
+      "E": "Chama-se os suplentes."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 171, §5º descreve o procedimento: recontagem, anúncio de debate ou interrupção do orador até obter quórum."
+  },
+  {
+    "id": 28,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "Sobre o uso da palavra, quando mais de um deputado estiver inscrito para discussão, a prioridade é dada a:",
+    "alternativas": {
+      "A": "Ao Líder do Governo.",
+      "B": "Ao deputado mais idoso.",
+      "C": "Ao autor da proposição.",
+      "D": "Ao relator.",
+      "E": "Ao autor de emenda."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 159 define a ordem de precedência: I- ao autor da proposição; II- ao relator; III- ao autor de emenda."
+  },
+  {
+    "id": 29,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "A inscrição de oradores para o Expediente deve ser feita em livro especial até:",
+    "alternativas": {
+      "A": "O início da sessão.",
+      "B": "10 minutos antes do início da Sessão.",
+      "C": "30 minutos antes.",
+      "D": "O dia anterior.",
+      "E": "A qualquer momento."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 168 determina que as inscrições ocorrem até 10 (dez) minutos antes do início da Sessão."
+  },
+  {
+    "id": 30,
+    "titulo": "Título V - Sessões da Assembleia",
+    "enunciado": "Caso o Presidente da Assembleia não consiga manter a ordem por simples advertência, ele poderá:",
+    "alternativas": {
+      "A": "Chamar a polícia militar para prender deputados.",
+      "B": "Suspender ou levantar a Sessão.",
+      "C": "Renunciar ao cargo.",
+      "D": "Multar os bagunceiros.",
+      "E": "Apagar as luzes do plenário."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 149 autoriza o presidente a suspender ou levantar a Sessão quando não for possível manter a ordem por advertência."
+  }
+]

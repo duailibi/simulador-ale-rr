@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "A discussão é a fase dos trabalhos destinada ao debate em Plenário. Para que a discussão de uma proposição possa ser iniciada, qual é o quórum mínimo de presença exigido?",
+    "alternativas": {
+      "A": "Maioria absoluta dos deputados.",
+      "B": "1/3 (um terço) dos deputados.",
+      "C": "2/3 (dois terços) dos deputados.",
+      "D": "Maioria simples.",
+      "E": "Qualquer número."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 228, §2º determina que a discussão só poderá ser feita com a presença mínima de 1/3 (um terço) dos deputados."
+  },
+  {
+    "id": 2,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "Durante a discussão de uma matéria, o Presidente poderá solicitar ao orador que interrompa o seu discurso em situações específicas. Assinale a alternativa que NÃO apresenta uma dessas situações.",
+    "alternativas": {
+      "A": "Quando houver número legal para deliberar, procedendo-se imediatamente a votação.",
+      "B": "Para comunicação importante à Assembleia.",
+      "C": "Para conceder um aparte solicitado por outro deputado.",
+      "D": "Para votação de requerimento de prorrogação da Sessão.",
+      "E": "No caso de tumulto grave."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 230 lista os casos de interrupção obrigatória. A concessão de aparte é faculdade do orador, não motivo para o Presidente interrompê-lo compulsoriamente."
+  },
+  {
+    "id": 3,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "Na discussão de proposições, a palavra será concedida aos oradores inscritos observando-se uma ordem de preferência. Qual é a ordem correta?",
+    "alternativas": {
+      "A": "Relator, Autor, Deputados.",
+      "B": "Autor da proposição, Relatores, Autor de emenda, Deputados.",
+      "C": "Deputados da oposição, Deputados da situação, Autor.",
+      "D": "Líderes partidários, Autor, Relator.",
+      "E": "Quem se inscrever primeiro, independentemente da função."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 232, §3º estabelece a ordem: I- ao autor da proposição; II- aos relatores; III- ao autor de emenda; IV- aos deputados."
+  },
+  {
+    "id": 4,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "Qual é o tempo regimental padrão para cada deputado discutir uma proposição, salvo disposição expressa em contrário?",
+    "alternativas": {
+      "A": "3 minutos.",
+      "B": "5 minutos.",
+      "C": "10 minutos.",
+      "D": "15 minutos.",
+      "E": "20 minutos."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 233 e o Art. 234, parágrafo único, fixam o prazo em 05 (cinco) minutos, podendo falar apenas uma vez."
+  },
+  {
+    "id": 5,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "Sobre o 'aparte', é correto afirmar que:",
+    "alternativas": {
+      "A": "Pode ser feito sem permissão do orador.",
+      "B": "Tem duração máxima de 5 minutos.",
+      "C": "É permitido durante o encaminhamento de votação.",
+      "D": "Não será admitido paralelo ao discurso ou quando o orador declarar que não o permite.",
+      "E": "Não é computado no tempo do orador."
+    },
+    "resposta": "D",
+    "explicacao": "O Art. 236 define que o aparte depende de permissão e o §2º, I e IV, vedam aparte paralelo ou quando não permitido."
+  },
+  {
+    "id": 6,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "O adiamento da discussão de uma proposição pode ser requerido. Qual é o limite de prazo e quantas vezes pode ser concedido?",
+    "alternativas": {
+      "A": "Por até 10 dias, duas vezes.",
+      "B": "Por até 5 dias, por uma vez.",
+      "C": "Por 24 horas, quantas vezes for necessário.",
+      "D": "Até a próxima sessão ordinária, três vezes.",
+      "E": "Não há limite de prazo ou quantidade."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 238 permite o adiamento por uma vez, por prazo não superior a 05 (cinco) dias."
+  },
+  {
+    "id": 7,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "Nas votações ostensivas, em caso de empate, como se procede ao desempate?",
+    "alternativas": {
+      "A": "A matéria é considerada rejeitada.",
+      "B": "Realiza-se novo escrutínio na sessão seguinte.",
+      "C": "O voto do Relator tem peso duplo.",
+      "D": "O voto proferido pelo Presidente servirá como critério de desempate.",
+      "E": "Sorteio."
+    },
+    "resposta": "D",
+    "explicacao": "O Art. 240, §4º determina que, nas votações ostensivas, o voto do presidente servirá como critério de desempate."
+  },
+  {
+    "id": 8,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "Qual é o processo de votação regra geral (padrão) adotado pela Assembleia, salvo requerimento ou disposição em contrário?",
+    "alternativas": {
+      "A": "Nominal.",
+      "B": "Secreto.",
+      "C": "Simbólico.",
+      "D": "Eletrônico obrigatório.",
+      "E": "Por chamada."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 245 afirma que adotar-se-á o processo simbólico para todas as votações, salvo requerimento ou disposição em contrário."
+  },
+  {
+    "id": 9,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "A votação nominal será obrigatória em qual dos casos abaixo?",
+    "alternativas": {
+      "A": "Aprovação de moções de aplauso.",
+      "B": "Requerimentos de adiamento.",
+      "C": "Proposta de Emenda à Constituição (PEC).",
+      "D": "Indicações simples.",
+      "E": "Eleição da Mesa Diretora."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 246, IV lista a Proposta de Emenda à Constituição como caso de votação nominal obrigatória."
+  },
+  {
+    "id": 10,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "O Plenário adotará votação por escrutínio secreto para:",
+    "alternativas": {
+      "A": "Qualquer projeto de lei complementar.",
+      "B": "Votação do orçamento anual.",
+      "C": "Deliberação para escolha dos membros do Tribunal de Contas.",
+      "D": "Cassação de mandato por falta de decoro (regra geral da CF atualizada).",
+      "E": "Aprovação de contas do Governador."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 247, III estabelece o escrutínio secreto para a escolha dos membros do Tribunal de Contas."
+  },
+  {
+    "id": 11,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "O 'Destaque' é o ato de separar uma proposição para possibilitar sua votação isolada. O pedido de destaque deve ser feito:",
+    "alternativas": {
+      "A": "Após a proclamação do resultado.",
+      "B": "Antes de anunciada a votação.",
+      "C": "Durante a discussão apenas.",
+      "D": "Por escrito, com 24h de antecedência.",
+      "E": "Apenas pelo líder do governo."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 250, §4º determina que o pedido de destaque deverá ser feito antes de anunciada a votação."
+  },
+  {
+    "id": 12,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "O encaminhamento de votação é a fase onde as bancadas orientam seus membros. Qual o tempo permitido para encaminhar?",
+    "alternativas": {
+      "A": "1 minuto para líderes, 5 minutos para o autor.",
+      "B": "3 minutos para qualquer deputado.",
+      "C": "5 minutos para bancadas/líderes orientarem.",
+      "D": "10 minutos.",
+      "E": "Tempo ilimitado."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 251 prevê que a votação poderá ser encaminhada pelo prazo de 5 (cinco) minutos. (O §2º permite ao líder indicar deputado, ou falar brevemente, mas o caput fixa 5 min)."
+  },
+  {
+    "id": 13,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "Ultimada a votação, o projeto é enviado para Redação Final. Em que caso a Redação Final é dispensada?",
+    "alternativas": {
+      "A": "Sempre, para agilizar.",
+      "B": "Quando o projeto for aprovado sem emendas e não houver vício ou erro a corrigir.",
+      "C": "Nos projetos de Lei Orçamentária.",
+      "D": "Nas Propostas de Emenda à Constituição.",
+      "E": "Nunca é dispensada."
+    },
+    "resposta": "B",
+    "explicacao": "De acordo com o Art. 253, §1º e Art. 255, a redação final será dispensada se não houver vício ou erro, reproduzindo-se o texto original (ou seja, se não houve alteração que exija nova redação)."
+  },
+  {
+    "id": 14,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "Entre matérias em tramitação, algumas têm preferência. Qual a ordem correta de prioridade para discussão e votação?",
+    "alternativas": {
+      "A": "Veto > Urgência > PEC.",
+      "B": "PEC > Matéria urgente > Veto > Leis Orçamentárias.",
+      "C": "Matéria urgente > PEC > Veto.",
+      "D": "Projetos de Lei Complementar > Projetos de Lei Ordinária.",
+      "E": "A ordem de chegada no protocolo."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 258 e Art. 171 §6º estabelecem a ordem: I- PEC; II- Matéria urgente; III- Veto."
+  },
+  {
+    "id": 15,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "O regime de urgência dispensa exigências, interstícios ou formalidades regimentais. Contudo, NÃO se dispensa:",
+    "alternativas": {
+      "A": "A publicação da ordem do dia.",
+      "B": "O interstício entre turnos.",
+      "C": "O quórum para deliberação e os pareceres de Comissão (ou relator em Plenário).",
+      "D": "A leitura da ata.",
+      "E": "O uso da tribuna."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 261, §1º lista o que não se dispensa: I- quórum para deliberação; V- pareceres de Comissão ou de relator designado."
+  },
+  {
+    "id": 16,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "Aprovado o requerimento de urgência, qual o prazo para que as Comissões opinem sobre a proposição antes que ela vá à Ordem do Dia?",
+    "alternativas": {
+      "A": "24 horas.",
+      "B": "48 horas.",
+      "C": "72 horas.",
+      "D": "5 dias.",
+      "E": "Imediato."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 261, §3º, I concede o prazo de até 72 horas para que cada Comissão opine."
+  },
+  {
+    "id": 17,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "O regime de prioridade é a dispensa de exigências para inclusão na Ordem do Dia da sessão seguinte. Tramitam em prioridade, EXCETO:",
+    "alternativas": {
+      "A": "Julgamento das contas do Governador.",
+      "B": "Convocação de Secretário de Estado.",
+      "C": "Fixação de remuneração de agentes políticos.",
+      "D": "Projetos de denominação de prédios públicos.",
+      "E": "Denúncia contra Governador."
+    },
+    "resposta": "D",
+    "explicacao": "O Art. 264 lista as matérias em prioridade (contas, convocação, remuneração, denúncia). Denominação de prédios não consta no rol."
+  },
+  {
+    "id": 18,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "Recebido o veto do Governador, a Assembleia tem prazo para deliberar. Se o veto não for apreciado em 30 dias, o que acontece?",
+    "alternativas": {
+      "A": "O veto é mantido tacitamente.",
+      "B": "O veto é derrubado tacitamente.",
+      "C": "A pauta é trancada (sobrestadas as demais proposições).",
+      "D": "O Presidente decide.",
+      "E": "O projeto é arquivado."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 267 determina que se o veto não for apreciado em 30 dias, será incluído na Ordem do Dia, sobrestadas as demais proposições."
+  },
+  {
+    "id": 19,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "Para rejeitar um veto do Governador (derrubar o veto), qual o quórum necessário?",
+    "alternativas": {
+      "A": "Maioria simples.",
+      "B": "Maioria absoluta dos membros.",
+      "C": "2/3 dos presentes.",
+      "D": "3/5 dos membros.",
+      "E": "Unanimidade."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 267, §3º estabelece que o projeto ou parte vetada será considerada aprovada (veto rejeitado) se obtiver o voto da maioria absoluta dos membros."
+  },
+  {
+    "id": 20,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "O processo de votação do veto é:",
+    "alternativas": {
+      "A": "Simbólico.",
+      "B": "Secreto.",
+      "C": "Nominal.",
+      "D": "Por aclamação.",
+      "E": "Misto."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 267, §4º define que a votação do veto será feita através do processo de votação nominal."
+  },
+  {
+    "id": 21,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "Qual é o prazo para o Governador encaminhar a prestação de contas anual à Assembleia?",
+    "alternativas": {
+      "A": "Até 30 dias após a abertura da sessão legislativa.",
+      "B": "Até 60 dias após a abertura da sessão legislativa.",
+      "C": "Até 15 de abril.",
+      "D": "Até o final do primeiro semestre.",
+      "E": "Junto com a LOA."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 268 fixa o prazo de até 60 dias após a abertura da Sessão Legislativa Ordinária."
+  },
+  {
+    "id": 22,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "Se o Governador não encaminhar as contas no prazo, o que a Assembleia deve fazer?",
+    "alternativas": {
+      "A": "Aguardar mais 30 dias.",
+      "B": "Imputar crime de responsabilidade imediatamente.",
+      "C": "Uma Comissão Especial composta de 13 membros as tomará.",
+      "D": "O Tribunal de Contas intervém.",
+      "E": "O Presidente da Assembleia assume as contas."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 270 determina que, se não encaminhadas, uma Comissão Especial composta de 13 membros as tomará."
+  },
+  {
+    "id": 23,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "Os projetos de PPA, LDO e LOA são analisados pela Comissão de Finanças. Qual o prazo para a Comissão emitir parecer?",
+    "alternativas": {
+      "A": "15 dias.",
+      "B": "30 dias.",
+      "C": "45 dias.",
+      "D": "60 dias.",
+      "E": "90 dias."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 272 estabelece o prazo de 45 dias para a Comissão de Finanças receber e emitir parecer."
+  },
+  {
+    "id": 24,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "As emendas ao orçamento anual não podem incidir sobre:",
+    "alternativas": {
+      "A": "Dotação para investimentos.",
+      "B": "Dotação para publicidade.",
+      "C": "Dotação para pessoal e seus encargos, serviço da dívida e transferências constitucionais.",
+      "D": "Reserva de contingência.",
+      "E": "Despesas de custeio."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 274, II, exclui as dotações para pessoal, serviço da dívida e transferências tributárias constitucionais para Municípios."
+  },
+  {
+    "id": 25,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "Quando o Governador solicita urgência para projeto de sua iniciativa, qual o prazo para a Assembleia se manifestar antes que a pauta fique trancada?",
+    "alternativas": {
+      "A": "30 dias.",
+      "B": "40 dias.",
+      "C": "45 dias.",
+      "D": "60 dias.",
+      "E": "15 dias."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 275, §1º determina que se a Assembleia não se manifestar em até 45 dias, o projeto será incluído na Ordem do Dia, sobrestando-se as demais."
+  },
+  {
+    "id": 26,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "Projetos de Código ou Consolidação de Leis têm rito especial. Eles são votados em:",
+    "alternativas": {
+      "A": "Turno único.",
+      "B": "Dois turnos.",
+      "C": "Três turnos.",
+      "D": "Votação simbólica apenas.",
+      "E": "Comissão Geral apenas."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 279, §3º prevê discussão e votação em dois turnos para projetos de código."
+  },
+  {
+    "id": 27,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "A aprovação da indicação de Conselheiros do Tribunal de Contas ocorre por:",
+    "alternativas": {
+      "A": "Votação aberta, maioria simples.",
+      "B": "Votação secreta, maioria absoluta.",
+      "C": "Votação nominal, 2/3.",
+      "D": "Sabatina na CCJ apenas.",
+      "E": "Decreto do Presidente."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 282, Parágrafo único, define: turno único, voto da maioria absoluta, em escrutínio secreto."
+  },
+  {
+    "id": 28,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "A autorização para o Governador ausentar-se do país (por mais de 15 dias) é deliberada por:",
+    "alternativas": {
+      "A": "Lei Ordinária.",
+      "B": "Resolução.",
+      "C": "Decreto Legislativo, em votação simbólica.",
+      "D": "Votação secreta.",
+      "E": "Ato da Mesa."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 285, §§ 1º e 2º determina projeto de decreto legislativo, deliberado em discussão única, por maioria dos presentes, em votação simbólica."
+  },
+  {
+    "id": 29,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "Quando um projeto de lei entra em pauta para discussão, ele deve ter sido distribuído em avulsos com antecedência mínima de:",
+    "alternativas": {
+      "A": "1 hora.",
+      "B": "12 horas.",
+      "C": "24 horas.",
+      "D": "48 horas.",
+      "E": "5 dias."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 237, §1º exige antecedência mínima de 24 horas para distribuição dos avulsos antes da inclusão na Ordem do Dia."
+  },
+  {
+    "id": 30,
+    "titulo": "Título VIII - Debates e Deliberações",
+    "enunciado": "Se um veto parcial for rejeitado pela Assembleia, o que acontece com a parte vetada?",
+    "alternativas": {
+      "A": "É arquivada.",
+      "B": "Volta para nova discussão.",
+      "C": "É promulgada sob o mesmo número da lei original.",
+      "D": "Vira uma nova lei com novo número.",
+      "E": "Aguarda sanção do Governador novamente."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 267, §7º determina que a parte vetada será promulgada sob o mesmo número da lei original."
+  }
+]

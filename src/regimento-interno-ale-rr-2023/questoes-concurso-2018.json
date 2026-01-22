@@ -1,0 +1,982 @@
+[
+  {
+    "id": 1,
+    "titulo": "Regimento Interno 2023 - Disposições Preliminares",
+    "enunciado": "A sede da Assembleia Legislativa é em Boa Vista. Em caso de motivo relevante ou de força maior, a Assembleia poderá reunir-se em outro local. Para isso, é necessária:",
+    "alternativas": {
+      "A": "Autorização do Governador.",
+      "B": "Decisão exclusiva do Presidente.",
+      "C": "Deliberação da Mesa, ad referendum da maioria absoluta dos deputados.",
+      "D": "Aprovação de 2/3 do Plenário em votação secreta.",
+      "E": "Convocação de plebiscito popular."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 1º, §1º: A mudança temporária exige deliberação da Mesa, ad referendum da maioria absoluta dos deputados."
+  },
+  {
+    "id": 2,
+    "titulo": "Regimento Interno 2023 - Legislatura",
+    "enunciado": "As sessões legislativas ordinárias da ALE-RR ocorrem anualmente em dois períodos. São eles:",
+    "alternativas": {
+      "A": "02/02 a 17/07 e 01/08 a 22/12.",
+      "B": "15/02 a 30/06 e 01/08 a 22/12.",
+      "C": "01/02 a 15/07 e 01/08 a 15/12.",
+      "D": "15/02 a 15/07 e 01/08 a 20/12.",
+      "E": "01/03 a 30/06 e 01/08 a 31/12."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 3º, I: De 15 de fevereiro a 30 de junho e de 1º de agosto a 22 de dezembro."
+  },
+  {
+    "id": 3,
+    "titulo": "Regimento Interno 2023 - Recesso",
+    "enunciado": "A Sessão Legislativa Ordinária não será interrompida em julho sem a aprovação de qual matéria?",
+    "alternativas": {
+      "A": "Lei Orçamentária Anual (LOA).",
+      "B": "Plano Plurianual (PPA).",
+      "C": "Lei de Diretrizes Orçamentárias (LDO).",
+      "D": "Prestação de Contas do Governador.",
+      "E": "Reforma do Regimento Interno."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 3º, §2º: A Sessão Legislativa Ordinária não será interrompida enquanto não for aprovada a LDO."
+  },
+  {
+    "id": 4,
+    "titulo": "Regimento Interno 2023 - Posse",
+    "enunciado": "A posse dos deputados estaduais, no primeiro ano da legislatura, ocorre na seguinte data e horário:",
+    "alternativas": {
+      "A": "1º de janeiro, às 10h.",
+      "B": "1º de janeiro, às 15h.",
+      "C": "5 de janeiro, às 10h.",
+      "D": "15 de fevereiro, às 9h.",
+      "E": "6 de janeiro, às 17h."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 7º: A posse ocorre no dia 5 de janeiro, às 10 horas (a regra do art. 309 sobre 1º de jan aplica-se a partir da 11ª legislatura)."
+  },
+  {
+    "id": 5,
+    "titulo": "Regimento Interno 2023 - Posse/Vedações",
+    "enunciado": "No ato da posse, é vedado ao deputado:",
+    "alternativas": {
+      "A": "Fazer o juramento de pé.",
+      "B": "Ser empossado por procurador.",
+      "C": "Tomar posse após o dia 5 de janeiro.",
+      "D": "Usar a palavra para agradecimentos.",
+      "E": "Levar convidados."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 8º: O compromissando não poderá, no ato da posse, apresentar declaração oral ou escrita nem ser empossado por procurador."
+  },
+  {
+    "id": 6,
+    "titulo": "Regimento Interno 2023 - Mesa Diretora",
+    "enunciado": "Qual é a composição completa da Mesa Diretora conforme o Regimento de 2023?",
+    "alternativas": {
+      "A": "1 Presidente, 2 Vices, 3 Secretários.",
+      "B": "1 Presidente, 3 Vices, 4 Secretários, 1 Corregedor-Geral, 1 Ouvidor-Geral, 1 Secretária da Mulher.",
+      "C": "1 Presidente, 1 Vice, 1 Secretário.",
+      "D": "1 Presidente, 2 Vices, 4 Secretários.",
+      "E": "1 Presidente, 3 Vices, 4 Secretários e 1 Procurador."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 23: Presidente, 3 Vices, 4 Secretários, Corregedor-Geral, Ouvidor-Geral e Secretária Especial da Mulher."
+  },
+  {
+    "id": 7,
+    "titulo": "Regimento Interno 2023 - Reeleição Mesa",
+    "enunciado": "Sobre a reeleição para cargos da Mesa Diretora na mesma legislatura:",
+    "alternativas": {
+      "A": "É vedada.",
+      "B": "É permitida indefinidamente.",
+      "C": "É permitida uma única reeleição ou recondução para o mesmo cargo.",
+      "D": "É permitida apenas para cargos diferentes.",
+      "E": "É permitida apenas para o Presidente."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 12: Permitida uma única reeleição ou recondução para o mesmo cargo."
+  },
+  {
+    "id": 8,
+    "titulo": "Regimento Interno 2023 - Empate Mesa",
+    "enunciado": "Em caso de empate na eleição da Mesa, após o segundo escrutínio, quem é considerado eleito?",
+    "alternativas": {
+      "A": "O candidato com mais mandatos.",
+      "B": "O candidato do partido majoritário.",
+      "C": "O candidato mais idoso.",
+      "D": "Realiza-se sorteio.",
+      "E": "A eleição é anulada."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 13, VIII: Persistindo o empate, considera-se eleito o candidato mais idoso."
+  },
+  {
+    "id": 9,
+    "titulo": "Regimento Interno 2023 - Posse do Governador",
+    "enunciado": "A Sessão Solene de posse do Governador ocorre em:",
+    "alternativas": {
+      "A": "1º de janeiro.",
+      "B": "5 de janeiro.",
+      "C": "6 de janeiro, às 17h.",
+      "D": "15 de fevereiro.",
+      "E": "No dia da diplomação."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 21: Dia 6 de janeiro, às 17h."
+  },
+  {
+    "id": 10,
+    "titulo": "Regimento Interno 2023 - Vacância na Mesa",
+    "enunciado": "Se ocorrer vaga na Mesa Diretora após 1º de novembro do segundo ano do mandato, como ela é preenchida?",
+    "alternativas": {
+      "A": "Nova eleição em 5 dias.",
+      "B": "O Governador nomeia.",
+      "C": "A Mesa designa um membro para responder pelo cargo.",
+      "D": "Fica vaga.",
+      "E": "O líder partidário assume."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 17, Parágrafo único: A Mesa designará um de seus membros para responder pelo cargo."
+  },
+  {
+    "id": 11,
+    "titulo": "Regimento Interno 2023 - Competência Privativa Mesa",
+    "enunciado": "Compete privativamente à Mesa Diretora propor projeto de resolução sobre:",
+    "alternativas": {
+      "A": "Leis de diretrizes orçamentárias.",
+      "B": "Ação Popular.",
+      "C": "Organização, funcionamento e regime jurídico de pessoal da Assembleia.",
+      "D": "Decretos do Executivo.",
+      "E": "Emendas à Constituição Federal."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 30, V: Propor projeto de resolução dispondo sobre organização, funcionamento, polícia, regime jurídico de pessoal, etc."
+  },
+  {
+    "id": 12,
+    "titulo": "Regimento Interno 2023 - Voto Presidente",
+    "enunciado": "O Presidente da Assembleia vota em quais situações?",
+    "alternativas": {
+      "A": "Nunca.",
+      "B": "Sempre.",
+      "C": "Apenas para desempatar.",
+      "D": "Em escrutínio secreto ou ostensivo, sendo seu voto critério de desempate nas votações ostensivas.",
+      "E": "Apenas em matéria constitucional."
+    },
+    "resposta": "D",
+    "explicacao": "Art. 35, I, 'q': Votar em escrutínio secreto ou ostensivo, sendo seu voto considerado como critério de desempate nas votações ostensivas."
+  },
+  {
+    "id": 13,
+    "titulo": "Regimento Interno 2023 - 1º Secretário",
+    "enunciado": "É competência do 1º Secretário:",
+    "alternativas": {
+      "A": "Presidir a CCJ.",
+      "B": "Inspecionar os serviços administrativos e fazer a chamada dos deputados.",
+      "C": "Redigir a ata secreta (apenas).",
+      "D": "Decidir questões de ordem.",
+      "E": "Nomear o Procurador-Geral."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 37, I e III: Inspecionar e superintender os serviços administrativos e fazer a chamada."
+  },
+  {
+    "id": 14,
+    "titulo": "Regimento Interno 2023 - Corregedoria",
+    "enunciado": "O Corregedor-Geral participa das reuniões da Mesa Diretora?",
+    "alternativas": {
+      "A": "Não.",
+      "B": "Sim, apenas com direito a voz.",
+      "C": "Sim, com assento e direito a voto.",
+      "D": "Apenas quando convocado.",
+      "E": "Apenas em assuntos disciplinares."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 42: A Corregedoria Parlamentar é composta de 01 corregedor-geral eleito, com assento e direito a voto nas reuniões da Mesa."
+  },
+  {
+    "id": 15,
+    "titulo": "Regimento Interno 2023 - Secretária da Mulher",
+    "enunciado": "A Secretaria Especial da Mulher coordena qual órgão de atendimento?",
+    "alternativas": {
+      "A": "Procon.",
+      "B": "Delegacia da Mulher.",
+      "C": "Centro Humanizado de Atendimento à Mulher (CHAME).",
+      "D": "Escola do Legislativo.",
+      "E": "Defensoria Pública."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 47, I: Compete à Secretaria Especial da Mulher coordenar o CHAME."
+  },
+  {
+    "id": 16,
+    "titulo": "Regimento Interno 2023 - Membros Comissão",
+    "enunciado": "Qual o número máximo de membros efetivos em uma Comissão Permanente?",
+    "alternativas": {
+      "A": "3.",
+      "B": "5.",
+      "C": "7.",
+      "D": "9.",
+      "E": "11."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 54: As Comissões Permanentes são constituídas de, no máximo, 07 (sete) membros efetivos."
+  },
+  {
+    "id": 17,
+    "titulo": "Regimento Interno 2023 - Perda de Lugar Comissão",
+    "enunciado": "O deputado perde o lugar na Comissão se faltar, sem justificativa, a:",
+    "alternativas": {
+      "A": "3 reuniões consecutivas.",
+      "B": "5 reuniões consecutivas ou 8 alternadas.",
+      "C": "10 reuniões alternadas.",
+      "D": "Qualquer reunião.",
+      "E": "5 reuniões alternadas."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 72, §1º: Deixar de comparecer a 05 reuniões consecutivas ou a 08 alternadas."
+  },
+  {
+    "id": 18,
+    "titulo": "Regimento Interno 2023 - CPI Requerimento",
+    "enunciado": "Para criar uma CPI, é necessário requerimento de:",
+    "alternativas": {
+      "A": "Maioria absoluta.",
+      "B": "1/3 dos membros.",
+      "C": "2/3 dos membros.",
+      "D": "Líderes partidários.",
+      "E": "Um único deputado."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 65: A requerimento de 1/3 dos seus membros."
+  },
+  {
+    "id": 19,
+    "titulo": "Regimento Interno 2023 - Prazo CPI",
+    "enunciado": "Qual o prazo de funcionamento de uma CPI?",
+    "alternativas": {
+      "A": "60 dias.",
+      "B": "90 dias.",
+      "C": "Até 120 dias, prorrogável.",
+      "D": "180 dias.",
+      "E": "Indeterminado."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 65: No prazo de até 120 dias."
+  },
+  {
+    "id": 20,
+    "titulo": "Regimento Interno 2023 - Recesso",
+    "enunciado": "Durante o recesso, quem responde pela Assembleia?",
+    "alternativas": {
+      "A": "A Mesa Diretora.",
+      "B": "O Presidente sozinho.",
+      "C": "A Comissão Representativa.",
+      "D": "A CCJ.",
+      "E": "O Colégio de Líderes."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 66: Durante o recesso haverá Comissão Representativa."
+  },
+  {
+    "id": 21,
+    "titulo": "Regimento Interno 2023 - Prazos Parecer",
+    "enunciado": "Qual o prazo para a Comissão emitir parecer em regime de tramitação ordinária?",
+    "alternativas": {
+      "A": "10 dias.",
+      "B": "15 dias.",
+      "C": "18 dias.",
+      "D": "20 dias.",
+      "E": "30 dias."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 80, III: 18 dias para as matérias em regime de tramitação ordinária."
+  },
+  {
+    "id": 22,
+    "titulo": "Regimento Interno 2023 - Parecer Estrutura",
+    "enunciado": "O parecer escrito compõe-se de:",
+    "alternativas": {
+      "A": "Introdução e Conclusão.",
+      "B": "Relatório, Voto do Relator e Parecer da Comissão.",
+      "C": "Ementa e Texto.",
+      "D": "Justificativa e Voto.",
+      "E": "Resumo e Decisão."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 93, §1º: Relatório, voto do relator e parecer da Comissão."
+  },
+  {
+    "id": 23,
+    "titulo": "Regimento Interno 2023 - CCJ Competência",
+    "enunciado": "Cabe à Comissão de Constituição, Justiça e Redação Final opinar sobre:",
+    "alternativas": {
+      "A": "Mérito financeiro.",
+      "B": "Aspecto jurídico, constitucional, regimental e legal.",
+      "C": "Mérito administrativo apenas.",
+      "D": "Obras públicas.",
+      "E": "Saúde."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 60, I, 'a': O aspecto jurídico, constitucional, regimental e legal das proposições."
+  },
+  {
+    "id": 24,
+    "titulo": "Regimento Interno 2023 - Início Mandato",
+    "enunciado": "O exercício do mandato de deputado inicia-se com:",
+    "alternativas": {
+      "A": "A diplomação.",
+      "B": "A eleição.",
+      "C": "A posse.",
+      "D": "A primeira sessão.",
+      "E": "A publicação no diário."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 107: O exercício do mandato se inicia com a posse."
+  },
+  {
+    "id": 25,
+    "titulo": "Regimento Interno 2023 - Perda Mandato",
+    "enunciado": "Perde o mandato o deputado que faltar, em cada sessão legislativa ordinária, à:",
+    "alternativas": {
+      "A": "Quarta parte das sessões.",
+      "B": "Terça parte das reuniões ordinárias.",
+      "C": "Metade das sessões.",
+      "D": "10 sessões.",
+      "E": "5 sessões consecutivas."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 113, III: Deixar de comparecer à terça parte das reuniões ordinárias."
+  },
+  {
+    "id": 26,
+    "titulo": "Regimento Interno 2023 - Licença Interesse",
+    "enunciado": "O prazo máximo para licença de interesse particular (sem remuneração) por sessão legislativa é:",
+    "alternativas": {
+      "A": "30 dias.",
+      "B": "60 dias.",
+      "C": "90 dias.",
+      "D": "120 dias.",
+      "E": "150 dias."
+    },
+    "resposta": "D",
+    "explicacao": "Art. 114, IV: Desde que o afastamento não ultrapasse 120 dias por Sessão Legislativa Ordinária."
+  },
+  {
+    "id": 27,
+    "titulo": "Regimento Interno 2023 - Prisão",
+    "enunciado": "Desde a expedição do diploma, os membros da Assembleia não poderão ser presos, salvo:",
+    "alternativas": {
+      "A": "Por ordem judicial.",
+      "B": "Em flagrante de crime inafiançável.",
+      "C": "Por crime comum.",
+      "D": "Por crime de responsabilidade.",
+      "E": "Em processo civil."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 117, §2º: Salvo em flagrante de crime inafiançável."
+  },
+  {
+    "id": 28,
+    "titulo": "Regimento Interno 2023 - Processo Judicial",
+    "enunciado": "Recebida a denúncia contra deputado por crime após a diplomação, a Assembleia pode:",
+    "alternativas": {
+      "A": "Anular o processo.",
+      "B": "Julgar o mérito.",
+      "C": "Sustar o andamento da ação.",
+      "D": "Absolver o deputado.",
+      "E": "Ignorar."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 118, §1º: Poderá, até a decisão final, sustar o andamento da ação."
+  },
+  {
+    "id": 29,
+    "titulo": "Regimento Interno 2023 - Suplente",
+    "enunciado": "O suplente é convocado em caso de licença saúde superior a:",
+    "alternativas": {
+      "A": "30 dias.",
+      "B": "60 dias.",
+      "C": "90 dias.",
+      "D": "120 dias.",
+      "E": "15 dias."
+    },
+    "resposta": "D",
+    "explicacao": "Art. 120, III: Licença para tratamento de saúde por prazo superior a 120 dias."
+  },
+  {
+    "id": 30,
+    "titulo": "Regimento Interno 2023 - Penalidade Decoro",
+    "enunciado": "São penalidades por quebra de decoro parlamentar, EXCETO:",
+    "alternativas": {
+      "A": "Censura.",
+      "B": "Impedimento temporário do exercício do mandato.",
+      "C": "Perda do mandato.",
+      "D": "Prisão administrativa.",
+      "E": "Censura escrita."
+    },
+    "resposta": "D",
+    "explicacao": "Art. 122, §1º: As penalidades são censura, impedimento temporário e perda do mandato."
+  },
+  {
+    "id": 31,
+    "titulo": "Regimento Interno 2023 - Líder",
+    "enunciado": "Para escolher um líder, a Bancada deve ter representação igual ou superior a:",
+    "alternativas": {
+      "A": "1 deputado.",
+      "B": "2 deputados.",
+      "C": "3 deputados.",
+      "D": "5 deputados.",
+      "E": "Maioria."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 126: Quando a representação for igual ou superior a 2 (dois) deputados."
+  },
+  {
+    "id": 32,
+    "titulo": "Regimento Interno 2023 - Bloco Parlamentar",
+    "enunciado": "O Bloco Parlamentar tem existência por:",
+    "alternativas": {
+      "A": "4 anos.",
+      "B": "2 anos.",
+      "C": "Sessão Legislativa Ordinária.",
+      "D": "6 meses.",
+      "E": "Tempo indeterminado."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 131, §7º: Tem existência por Sessão Legislativa Ordinária."
+  },
+  {
+    "id": 33,
+    "titulo": "Regimento Interno 2023 - Iniciativa Popular",
+    "enunciado": "A iniciativa popular de leis exige a subscrição de no mínimo:",
+    "alternativas": {
+      "A": "1% dos eleitores.",
+      "B": "5% dos eleitores do Estado.",
+      "C": "10% dos eleitores.",
+      "D": "Maioria dos eleitores.",
+      "E": "1000 eleitores."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 132: Subscrito por, no mínimo, 05% (cinco por cento) dos eleitores."
+  },
+  {
+    "id": 34,
+    "titulo": "Regimento Interno 2023 - Audiência Pública",
+    "enunciado": "A audiência pública pode ser proposta por:",
+    "alternativas": {
+      "A": "Apenas o Presidente.",
+      "B": "Qualquer membro da comissão ou a pedido de entidade interessada.",
+      "C": "Apenas o Relator.",
+      "D": "O Governador.",
+      "E": "O Ministério Público."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 134: Mediante proposta de qualquer membro ou a pedido de entidade interessada."
+  },
+  {
+    "id": 35,
+    "titulo": "Regimento Interno 2023 - Dias Sessão",
+    "enunciado": "As sessões ordinárias ocorrem:",
+    "alternativas": {
+      "A": "Diariamente.",
+      "B": "Segundas, quartas e sextas.",
+      "C": "Terças, quartas e quintas-feiras.",
+      "D": "Apenas quartas.",
+      "E": "Terças e quintas."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 136, II: Realizadas às terças, quartas e quintas-feiras."
+  },
+  {
+    "id": 36,
+    "titulo": "Regimento Interno 2023 - Duração Sessão",
+    "enunciado": "A duração da sessão ordinária é de:",
+    "alternativas": {
+      "A": "2 horas.",
+      "B": "3 horas.",
+      "C": "4 horas.",
+      "D": "5 horas.",
+      "E": "Livre."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 135: Terão duração de 3 (três) horas."
+  },
+  {
+    "id": 37,
+    "titulo": "Regimento Interno 2023 - Expediente",
+    "enunciado": "O tempo destinado ao Expediente na sessão ordinária é de:",
+    "alternativas": {
+      "A": "30 min.",
+      "B": "60 min.",
+      "C": "80 min.",
+      "D": "90 min.",
+      "E": "120 min."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 137, I: Com duração de 80 (oitenta) minutos."
+  },
+  {
+    "id": 38,
+    "titulo": "Regimento Interno 2023 - Ordem do Dia",
+    "enunciado": "O tempo da Ordem do Dia é de:",
+    "alternativas": {
+      "A": "30 min.",
+      "B": "45 min.",
+      "C": "60 min, prorrogáveis.",
+      "D": "90 min.",
+      "E": "2 horas."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 137, II: Com duração de 60 (sessenta) minutos, prorrogáveis."
+  },
+  {
+    "id": 39,
+    "titulo": "Regimento Interno 2023 - Sessão Extraordinária",
+    "enunciado": "Na Sessão Extraordinária, a Assembleia delibera sobre:",
+    "alternativas": {
+      "A": "Qualquer assunto.",
+      "B": "Expediente e Pauta.",
+      "C": "Exclusivamente sobre a matéria objeto da convocação.",
+      "D": "Homenagens.",
+      "E": "Comunicações."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 140: Destinada exclusivamente à discussão e votação da matéria constante do Ato de Convocação."
+  },
+  {
+    "id": 40,
+    "titulo": "Regimento Interno 2023 - Quórum Abertura",
+    "enunciado": "Para abrir a sessão (Expediente), verifica-se a presença de no mínimo:",
+    "alternativas": {
+      "A": "1/3 dos membros.",
+      "B": "Maioria absoluta.",
+      "C": "Maioria simples.",
+      "D": "Qualquer número.",
+      "E": "2/3 dos membros."
+    },
+    "resposta": "A",
+    "explicacao": "Art. 166: Verificando-se a presença de, no mínimo, 1/3 (um terço) dos membros."
+  },
+  {
+    "id": 41,
+    "titulo": "Regimento Interno 2023 - Aparte",
+    "enunciado": "O tempo máximo de um aparte é:",
+    "alternativas": {
+      "A": "1 min.",
+      "B": "2 min.",
+      "C": "3 min.",
+      "D": "5 min.",
+      "E": "Livre."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 163: Duração máxima de 2 (dois) minutos."
+  },
+  {
+    "id": 42,
+    "titulo": "Regimento Interno 2023 - Explicação Pessoal",
+    "enunciado": "Na Explicação Pessoal, o deputado pode falar por:",
+    "alternativas": {
+      "A": "2 min.",
+      "B": "3 min.",
+      "C": "5 min.",
+      "D": "10 min.",
+      "E": "15 min."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 174, §1º: 05 (cinco) minutos."
+  },
+  {
+    "id": 43,
+    "titulo": "Regimento Interno 2023 - Questão de Ordem",
+    "enunciado": "O tempo para formular Questão de Ordem não pode exceder:",
+    "alternativas": {
+      "A": "2 min.",
+      "B": "3 min.",
+      "C": "5 min.",
+      "D": "10 min.",
+      "E": "Livre."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 177, §2º: Nenhum deputado poderá exceder o prazo de 5 (cinco) minutos."
+  },
+  {
+    "id": 44,
+    "titulo": "Regimento Interno 2023 - Reforma Regimento",
+    "enunciado": "A reforma do Regimento exige aprovação por quórum de:",
+    "alternativas": {
+      "A": "Maioria simples.",
+      "B": "Maioria absoluta em 2 turnos.",
+      "C": "2/3.",
+      "D": "3/5.",
+      "E": "Unanimidade."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 180, §1º: Submetido a Plenário, em 2 (dois) turnos, sendo o quórum... maioria absoluta."
+  },
+  {
+    "id": 45,
+    "titulo": "Regimento Interno 2023 - Autor da Proposição",
+    "enunciado": "Para efeitos regimentais, considera-se autor da proposição:",
+    "alternativas": {
+      "A": "Todos que assinam.",
+      "B": "O primeiro signatário.",
+      "C": "O partido.",
+      "D": "A bancada.",
+      "E": "O relator."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 188, §1º: Considera-se autor da proposição... o seu primeiro signatário."
+  },
+  {
+    "id": 46,
+    "titulo": "Regimento Interno 2023 - PEC Quórum",
+    "enunciado": "A Proposta de Emenda à Constituição é considerada aprovada se obtiver:",
+    "alternativas": {
+      "A": "Maioria simples.",
+      "B": "Maioria absoluta.",
+      "C": "3/5 dos votos em 2 turnos.",
+      "D": "2/3 dos votos.",
+      "E": "Unanimidade."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 199, §3º: 3/5 (três quintos) dos votos favoráveis... em 2 (dois) turnos."
+  },
+  {
+    "id": 47,
+    "titulo": "Regimento Interno 2023 - Lei Complementar",
+    "enunciado": "O projeto de lei complementar exige quórum de:",
+    "alternativas": {
+      "A": "Maioria simples.",
+      "B": "Maioria absoluta dos membros.",
+      "C": "3/5.",
+      "D": "2/3.",
+      "E": "Qualquer número."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 205: Voto favorável da maioria absoluta dos membros."
+  },
+  {
+    "id": 48,
+    "titulo": "Regimento Interno 2023 - Decreto Legislativo",
+    "enunciado": "O projeto de decreto legislativo destina-se a regular matérias de competência privativa do Legislativo:",
+    "alternativas": {
+      "A": "Com sanção do Governador.",
+      "B": "Prescindindo da sanção do Governador.",
+      "C": "Orçamentárias.",
+      "D": "Internas administrativas.",
+      "E": "Constitucionais."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 207: Competência privativa... prescindindo da sanção do governador."
+  },
+  {
+    "id": 49,
+    "titulo": "Regimento Interno 2023 - Requerimentos",
+    "enunciado": "Os requerimentos e indicações, em regra:",
+    "alternativas": {
+      "A": "Exigem parecer da CCJ.",
+      "B": "Exigem parecer de comissão especial.",
+      "C": "Independem de parecer das Comissões.",
+      "D": "Passam por 2 turnos.",
+      "E": "São votados secretamente."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 210: Independem de parecer das Comissões."
+  },
+  {
+    "id": 50,
+    "titulo": "Regimento Interno 2023 - Pedido de Informação",
+    "enunciado": "Encaminhado pedido de informação, se não for respondido em 30 dias, o Presidente fará reiterar. O não atendimento importa:",
+    "alternativas": {
+      "A": "Nada.",
+      "B": "Crime comum.",
+      "C": "Crime de responsabilidade.",
+      "D": "Multa.",
+      "E": "Perda do cargo."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 225, §6º: Ensejarão... aplicabilidade da legislação referente à crime de responsabilidade."
+  },
+  {
+    "id": 51,
+    "titulo": "Regimento Interno 2023 - Discussão",
+    "enunciado": "Em cada discussão, o deputado pode falar por:",
+    "alternativas": {
+      "A": "3 min.",
+      "B": "5 min.",
+      "C": "10 min.",
+      "D": "15 min.",
+      "E": "Livre."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 233: Prazo máximo de até 05 (cinco) minutos."
+  },
+  {
+    "id": 52,
+    "titulo": "Regimento Interno 2023 - Votação Padrão",
+    "enunciado": "Qual o processo de votação padrão (regra geral) na Assembleia?",
+    "alternativas": {
+      "A": "Nominal.",
+      "B": "Secreto.",
+      "C": "Simbólico.",
+      "D": "Por aclamação.",
+      "E": "Eletrônico obrigatório."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 245: Adotar-se-á o processo simbólico para todas as votações, salvo..."
+  },
+  {
+    "id": 53,
+    "titulo": "Regimento Interno 2023 - Votação Nominal",
+    "enunciado": "Adotar-se-á votação nominal em:",
+    "alternativas": {
+      "A": "Moções.",
+      "B": "Requerimentos.",
+      "C": "Proposta de Emenda à Constituição.",
+      "D": "Indicações.",
+      "E": "Atas."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 246, IV: Na Proposta de Emenda à Constituição."
+  },
+  {
+    "id": 54,
+    "titulo": "Regimento Interno 2023 - Votação Secreta",
+    "enunciado": "O Plenário adotará votação por escrutínio secreto para:",
+    "alternativas": {
+      "A": "Veto.",
+      "B": "Lei Ordinária.",
+      "C": "Deliberação para escolha dos membros do Tribunal de Contas.",
+      "D": "Orçamento.",
+      "E": "Contas do Governador."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 247, III: Deliberação para escolha dos membros do Tribunal de Contas."
+  },
+  {
+    "id": 55,
+    "titulo": "Regimento Interno 2023 - Urgência",
+    "enunciado": "O regime de urgência dispensa interstícios, mas NÃO dispensa:",
+    "alternativas": {
+      "A": "Quórum para deliberação e pareceres.",
+      "B": "Publicação.",
+      "C": "Distribuição.",
+      "D": "Discussão.",
+      "E": "Pauta."
+    },
+    "resposta": "A",
+    "explicacao": "Art. 261, §1º: Não se dispensam... I- quórum... V- pareceres."
+  },
+  {
+    "id": 56,
+    "titulo": "Regimento Interno 2023 - Veto",
+    "enunciado": "O prazo para a Assembleia apreciar o veto é de:",
+    "alternativas": {
+      "A": "15 dias.",
+      "B": "30 dias.",
+      "C": "45 dias.",
+      "D": "60 dias.",
+      "E": "90 dias."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 267: Se o veto não for apreciado pelo Plenário no prazo de 30 (trinta) dias..."
+  },
+  {
+    "id": 57,
+    "titulo": "Regimento Interno 2023 - Rejeição Veto",
+    "enunciado": "Para rejeitar o veto, é necessário o voto da:",
+    "alternativas": {
+      "A": "Maioria simples.",
+      "B": "Maioria absoluta.",
+      "C": "2/3.",
+      "D": "3/5.",
+      "E": "Unanimidade."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 267, §3º: Se obtiver o voto da maioria absoluta dos membros."
+  },
+  {
+    "id": 58,
+    "titulo": "Regimento Interno 2023 - Contas Gov",
+    "enunciado": "O prazo para o Governador enviar a prestação de contas é:",
+    "alternativas": {
+      "A": "30 dias após abertura da sessão legislativa.",
+      "B": "60 dias após abertura da sessão legislativa.",
+      "C": "90 dias.",
+      "D": "15 de abril.",
+      "E": "15 de maio."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 268: Até 60 (sessenta) dias após a abertura da Sessão Legislativa Ordinária."
+  },
+  {
+    "id": 59,
+    "titulo": "Regimento Interno 2023 - Orçamento",
+    "enunciado": "O projeto de lei do orçamento será encaminhado à Comissão de Finanças para receber parecer em:",
+    "alternativas": {
+      "A": "30 dias.",
+      "B": "45 dias.",
+      "C": "60 dias.",
+      "D": "15 dias.",
+      "E": "20 dias."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 272: No prazo de 45 (quarenta e cinco) dias, receber parecer."
+  },
+  {
+    "id": 60,
+    "titulo": "Regimento Interno 2023 - Código",
+    "enunciado": "Projetos de Código são votados em:",
+    "alternativas": {
+      "A": "1 turno.",
+      "B": "2 turnos.",
+      "C": "3 turnos.",
+      "D": "Sessão secreta.",
+      "E": "Comissão Geral."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 279, §3º: Discussão e votação em dois turnos."
+  },
+  {
+    "id": 61,
+    "titulo": "Regimento Interno 2023 - Procurador-Geral",
+    "enunciado": "O Procurador-Geral da Assembleia é nomeado pelo:",
+    "alternativas": {
+      "A": "Governador.",
+      "B": "Plenário.",
+      "C": "Presidente da Assembleia Legislativa.",
+      "D": "Mesa Diretora.",
+      "E": "Concurso."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 286, §3º: De livre nomeação... pelo presidente da Assembleia."
+  },
+  {
+    "id": 62,
+    "titulo": "Regimento Interno 2023 - Polícia Interna",
+    "enunciado": "O policiamento da Assembleia compete privativamente à:",
+    "alternativas": {
+      "A": "PM.",
+      "B": "Polícia Civil.",
+      "C": "Mesa Diretora.",
+      "D": "Presidência.",
+      "E": "Secretaria de Segurança."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 287: Compete, privativamente... à Mesa Diretora."
+  },
+  {
+    "id": 63,
+    "titulo": "Regimento Interno 2023 - Armas",
+    "enunciado": "É vedado portar armas na Assembleia, exceto:",
+    "alternativas": {
+      "A": "Deputados.",
+      "B": "Visitantes VIP.",
+      "C": "Policiais militares em serviço na Casa.",
+      "D": "Seguranças privados.",
+      "E": "Jornalistas."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 287, §2º: Exceto aos policiais militares em serviço na Casa."
+  },
+  {
+    "id": 64,
+    "titulo": "Regimento Interno 2023 - Convocação Secretário",
+    "enunciado": "A convocação de Secretário de Estado depende de deliberação da:",
+    "alternativas": {
+      "A": "Mesa.",
+      "B": "Liderança.",
+      "C": "Maioria da respectiva composição plenária.",
+      "D": "1/3 dos membros.",
+      "E": "Presidência."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 291, §1º: Deliberação da maioria da respectiva composição plenária."
+  },
+  {
+    "id": 65,
+    "titulo": "Regimento Interno 2023 - Tempo Secretário",
+    "enunciado": "O tempo inicial de fala do Secretário convocado no Plenário é de:",
+    "alternativas": {
+      "A": "15 min.",
+      "B": "20 min.",
+      "C": "30 min.",
+      "D": "60 min.",
+      "E": "Livre."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 293, §1º: Poderá falar por até 30 (trinta) minutos."
+  },
+  {
+    "id": 66,
+    "titulo": "Regimento Interno 2023 - Imprensa",
+    "enunciado": "O credenciamento de imprensa é feito junto à:",
+    "alternativas": {
+      "A": "Presidência.",
+      "B": "1ª Secretaria.",
+      "C": "Portaria.",
+      "D": "Comissão de Comunicação.",
+      "E": "Diretoria Geral."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 295: Junto à 1ª Secretaria."
+  },
+  {
+    "id": 67,
+    "titulo": "Regimento Interno 2023 - Ordenação Despesa",
+    "enunciado": "As despesas da Assembleia são ordenadas pelo:",
+    "alternativas": {
+      "A": "1º Secretário.",
+      "B": "Diretor Financeiro.",
+      "C": "Presidente da Assembleia.",
+      "D": "Mesa.",
+      "E": "Tesoureiro."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 301: São ordenadas pelo presidente da Assembleia."
+  },
+  {
+    "id": 68,
+    "titulo": "Regimento Interno 2023 - Contagem Dias",
+    "enunciado": "Prazos em dias no Regimento contam-se como:",
+    "alternativas": {
+      "A": "Úteis.",
+      "B": "Corridos.",
+      "C": "De sessão.",
+      "D": "Forenses.",
+      "E": "Comerciais."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 305: Computar-se-ão... como dias corridos."
+  },
+  {
+    "id": 69,
+    "titulo": "Regimento Interno 2023 - Recesso",
+    "enunciado": "Durante o recesso parlamentar, os prazos regimentais:",
+    "alternativas": {
+      "A": "Correm normalmente.",
+      "B": "São extintos.",
+      "C": "Ficam suspensos.",
+      "D": "Dobram.",
+      "E": "São ignorados."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 305, §2º: Ficarão suspensos durante os períodos de recesso."
+  },
+  {
+    "id": 70,
+    "titulo": "Regimento Interno 2023 - Casos Omissos",
+    "enunciado": "Nos casos omissos, o Presidente aplicará o Regimento Interno da:",
+    "alternativas": {
+      "A": "Câmara dos Deputados.",
+      "B": "Senado Federal.",
+      "C": "STF.",
+      "D": "Congresso.",
+      "E": "Justiça Federal."
+    },
+    "resposta": "A",
+    "explicacao": "Art. 310: Aplicará o Regimento Interno da Câmara dos Deputados."
+  }
+]

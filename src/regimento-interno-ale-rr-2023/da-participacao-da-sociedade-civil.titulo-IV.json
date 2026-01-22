@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "A iniciativa popular de leis é um instrumento fundamental de democracia direta. Na ALE-RR, esse direito pode ser exercido pela apresentação de projeto de lei ou proposta de emenda à Constituição subscrito por, no mínimo:",
+    "alternativas": {
+      "A": "1% dos eleitores do Estado.",
+      "B": "5% dos eleitores do Estado.",
+      "C": "10% dos eleitores do Estado.",
+      "D": "1/3 dos eleitores da Capital.",
+      "E": "Maioria absoluta dos cidadãos roraimenses."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme o Art. 132, a iniciativa popular deve ser subscrita por, no mínimo, 5% (cinco por cento) dos eleitores do Estado de Roraima."
+  },
+  {
+    "id": 2,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "Para que um projeto de iniciativa popular seja válido, as assinaturas devem cumprir requisitos específicos. Além do nome completo e legível, é exigido:",
+    "alternativas": {
+      "A": "O número do CPF.",
+      "B": "O endereço residencial completo.",
+      "C": "Dados identificadores do Título Eleitoral.",
+      "D": "O reconhecimento de firma em cartório.",
+      "E": "A digital do polegar direito."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 132, I exige que a assinatura seja acompanhada de nome completo e legível e dados identificadores de seu Título Eleitoral."
+  },
+  {
+    "id": 3,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "Como devem ser organizadas as listas de assinaturas para um projeto de lei de iniciativa popular na ALE-RR?",
+    "alternativas": {
+      "A": "Por ordem alfabética geral.",
+      "B": "Por zonas eleitorais apenas.",
+      "C": "Aleatoriamente.",
+      "D": "Por municípios e distritos administrativos ou judiciários.",
+      "E": "Por data de nascimento dos subscritores."
+    },
+    "resposta": "D",
+    "explicacao": "O Art. 132, II determina que as listas serão organizadas por municípios e distritos administrativos ou judiciários."
+  },
+  {
+    "id": 4,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "Após ser protocolada e encaminhada ao Presidente da Assembleia, quem é o responsável por verificar se foram cumpridas as exigências das assinaturas na iniciativa popular?",
+    "alternativas": {
+      "A": "A Comissão de Constituição e Justiça.",
+      "B": "O Tribunal Regional Eleitoral (TRE).",
+      "C": "A Procuradoria da Assembleia.",
+      "D": "O Instituto de Identificação.",
+      "E": "A Mesa Diretora."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 132, III estabelece que o Presidente enviará a proposição ao Tribunal Regional Eleitoral para verificar se foram cumpridas as exigências."
+  },
+  {
+    "id": 5,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "Sobre a tramitação da proposição de iniciativa popular, o Regimento Interno determina que:",
+    "alternativas": {
+      "A": "Terá tramitação prioritária sobre todas as outras.",
+      "B": "Terá a mesma tramitação das demais, integrando sua numeração geral.",
+      "C": "Vai direto a Plenário, sem passar por comissões.",
+      "D": "Só pode ser votada em sessões extraordinárias.",
+      "E": "Tramita em segredo de justiça."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 132, IV afirma que a proposição de iniciativa popular terá a mesma tramitação das demais, integrando sua numeração geral."
+  },
+  {
+    "id": 6,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "Durante a discussão de um projeto de iniciativa popular em Plenário, a Assembleia transformar-se-á em:",
+    "alternativas": {
+      "A": "Sessão Solene.",
+      "B": "Comissão Geral.",
+      "C": "Sessão Secreta.",
+      "D": "Comissão Representativa.",
+      "E": "Audiência Pública."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 132, V determina que durante as discussões em Plenário, a Assembleia transformar-se-á em Comissão Geral."
+  },
+  {
+    "id": 7,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "Quem tem o direito de usar a palavra para debater a proposição de iniciativa popular durante a Comissão Geral?",
+    "alternativas": {
+      "A": "Apenas os deputados.",
+      "B": "Qualquer eleitor presente.",
+      "C": "O primeiro signatário ou quem for indicado quando de sua apresentação.",
+      "D": "O Presidente do TRE.",
+      "E": "O Governador do Estado."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 132, V permite que use da palavra o primeiro signatário ou quem for indicado quando de sua apresentação."
+  },
+  {
+    "id": 8,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "Qual é o prazo concedido ao representante da iniciativa popular para debater a proposição na Comissão Geral?",
+    "alternativas": {
+      "A": "10 minutos.",
+      "B": "15 minutos.",
+      "C": "20 minutos.",
+      "D": "30 minutos.",
+      "E": "1 hora."
+    },
+    "resposta": "C",
+    "explicacao": "Conforme o Art. 132, V, o prazo para uso da palavra é de 20 (vinte) minutos."
+  },
+  {
+    "id": 9,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "As petições, reclamações ou representações populares podem ser dirigidas contra:",
+    "alternativas": {
+      "A": "Apenas empresas privadas.",
+      "B": "Vizinhos e particulares.",
+      "C": "Atos ou omissão de autoridades e entidades públicas.",
+      "D": "Decisões judiciais transitadas em julgado.",
+      "E": "Leis federais apenas."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 133 especifica que as petições são contra atos ou omissão das autoridades e entidades públicas."
+  },
+  {
+    "id": 10,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "Quais órgãos da Assembleia podem examinar as petições populares, dependendo do caso?",
+    "alternativas": {
+      "A": "Apenas a Ouvidoria.",
+      "B": "Apenas a Mesa Diretora.",
+      "C": "As Comissões, a Mesa Diretora ou a Corregedoria-Geral.",
+      "D": "Apenas o Presidente.",
+      "E": "O Plenário exclusivamente."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 133 lista: Comissões, Mesa Diretora ou, se for o caso, a Corregedoria-Geral."
+  },
+  {
+    "id": 11,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "Para que uma petição popular seja examinada, ela deve cumprir requisitos. Um deles é:",
+    "alternativas": {
+      "A": "Ser verbal.",
+      "B": "Ser anônima.",
+      "C": "Ser encaminhada por escrito e assinada.",
+      "D": "Ser protocolada por advogado.",
+      "E": "Conter firma reconhecida."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 133, I exige que a petição seja encaminhada por escrito e assinada."
+  },
+  {
+    "id": 12,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "Além de ser escrita e assinada, qual a outra condição fundamental para o recebimento de uma petição popular?",
+    "alternativas": {
+      "A": "Conter provas irrefutáveis.",
+      "B": "Ser matéria de competência da Assembleia Legislativa.",
+      "C": "Ter o apoio de um deputado.",
+      "D": "Pagar taxa de protocolo.",
+      "E": "Ser de interesse privado do peticionante."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 133, II exige que seja matéria de competência da Assembleia Legislativa."
+  },
+  {
+    "id": 13,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "Quem tem competência para realizar reuniões de audiência pública na ALE-RR?",
+    "alternativas": {
+      "A": "Apenas a Mesa Diretora.",
+      "B": "Apenas a Comissão de Constituição e Justiça.",
+      "C": "Cada Comissão.",
+      "D": "O Governador.",
+      "E": "O Ouvidor-Geral."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 134 estabelece que cada Comissão poderá realizar reunião de audiência pública."
+  },
+  {
+    "id": 14,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "As audiências públicas destinam-se a:",
+    "alternativas": {
+      "A": "Julgar autoridades.",
+      "B": "Votar leis secretas.",
+      "C": "Instruir matéria legislativa em trâmite ou tratar de assuntos de interesse público.",
+      "D": "Eleger membros da Mesa.",
+      "E": "Receber denúncias anônimas."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 134 define a finalidade: instruir matéria legislativa em trâmite, bem como tratar de assuntos de interesse público relevante."
+  },
+  {
+    "id": 15,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "A audiência pública pode ser proposta por membro da Comissão ou:",
+    "alternativas": {
+      "A": "A pedido de entidade interessada.",
+      "B": "Por ordem judicial.",
+      "C": "Pelo Ministério Público obrigatoriamente.",
+      "D": "Por abaixo-assinado de 100 pessoas.",
+      "E": "Pela imprensa."
+    },
+    "resposta": "A",
+    "explicacao": "O Art. 134 prevê que pode ocorrer mediante proposta de qualquer membro ou a pedido de entidade interessada."
+  },
+  {
+    "id": 16,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "Quem expede os convites para as autoridades e pessoas interessadas participarem da audiência pública?",
+    "alternativas": {
+      "A": "O Presidente da Assembleia.",
+      "B": "O Primeiro Secretário.",
+      "C": "O Presidente da Comissão.",
+      "D": "O autor da proposta de audiência.",
+      "E": "A Assessoria de Comunicação."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 134, §1º define que cabe ao presidente da Comissão expedir os convites."
+  },
+  {
+    "id": 17,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "Na hipótese de haver defensores e opositores relativamente à matéria em audiência pública, como a Comissão deve proceder?",
+    "alternativas": {
+      "A": "Ouvir apenas a maioria.",
+      "B": "Proceder de forma que possibilite a audiência das diversas correntes de opinião.",
+      "C": "Cancelar a audiência para evitar tumulto.",
+      "D": "Ouvir primeiro os defensores e dispensar os opositores.",
+      "E": "Realizar sorteio para escolher um lado."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 134, §2º determina que a Comissão procederá de forma que possibilite a audiência das diversas correntes de opinião."
+  },
+  {
+    "id": 18,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "Durante a audiência pública, o convidado deve limitar-se:",
+    "alternativas": {
+      "A": "A elogiar a Comissão.",
+      "B": "Ao tempo de 1 hora livre.",
+      "C": "Ao tema ou questão em debate.",
+      "D": "A ler documentos oficiais.",
+      "E": "A responder perguntas dos jornalistas."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 134, §3º exige que o convidado deverá limitar-se ao tema ou questão em debate."
+  },
+  {
+    "id": 19,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "Quem determina o tempo disponível para o convidado falar na audiência pública?",
+    "alternativas": {
+      "A": "O Regimento Interno (fixo em 10 min).",
+      "B": "O próprio convidado.",
+      "C": "O Presidente da reunião.",
+      "D": "O Plenário.",
+      "E": "O Relator da matéria."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 134, §3º estabelece que o tempo é determinado pelo presidente da reunião."
+  },
+  {
+    "id": 20,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "Caso o expositor em audiência pública se desvie do assunto ou perturbe a ordem, o presidente poderá:",
+    "alternativas": {
+      "A": "Apenas adverti-lo.",
+      "B": "Prendê-lo em flagrante.",
+      "C": "Cassar-lhe a palavra ou determinar sua retirada do recinto.",
+      "D": "Multá-lo.",
+      "E": "Suspender a audiência indefinidamente."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 134, §4º prevê que ser-lhe-á cassada a palavra ou determinar-se-á sua retirada do recinto."
+  },
+  {
+    "id": 21,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "Sobre o registro das audiências públicas:",
+    "alternativas": {
+      "A": "Não há registro formal.",
+      "B": "Lavra-se ata da reunião.",
+      "C": "Apenas gravação de áudio é permitida.",
+      "D": "O registro é sigiloso.",
+      "E": "É feito um relatório verbal ao Plenário."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 134, §5º determina que da reunião de audiência pública lavrar-se-á ata."
+  },
+  {
+    "id": 22,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "Onde ficam arquivados os pronunciamentos escritos e documentos apresentados em uma audiência pública?",
+    "alternativas": {
+      "A": "No Arquivo Geral do Estado.",
+      "B": "No âmbito da Comissão.",
+      "C": "Na Mesa Diretora.",
+      "D": "No gabinete do deputado que presidiu.",
+      "E": "São devolvidos aos participantes."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 134, §5º afirma que se arquivam, no âmbito da Comissão, os pronunciamentos escritos e documentos."
+  },
+  {
+    "id": 23,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "A iniciativa popular pode propor:",
+    "alternativas": {
+      "A": "Apenas projetos de lei ordinária.",
+      "B": "Apenas emendas à Constituição.",
+      "C": "Projetos de lei ou propostas de emenda à Constituição.",
+      "D": "Projetos de Resolução e Decreto Legislativo.",
+      "E": "Medidas Provisórias Estaduais."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 132 menciona expressamente a apresentação de projeto de lei ou proposta de emenda à Constituição."
+  },
+  {
+    "id": 24,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "Se um cidadão envia uma petição sobre um problema de briga de vizinhos (direito civil privado) para a Assembleia:",
+    "alternativas": {
+      "A": "A Assembleia deve mediar o conflito.",
+      "B": "A petição será aceita pela Comissão de Direitos Humanos.",
+      "C": "A petição não será examinada pois não é matéria de competência da Assembleia.",
+      "D": "O Presidente encaminhará ao síndico.",
+      "E": "Será transformada em projeto de lei."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 133, II condiciona o exame da petição a ser matéria de competência da Assembleia Legislativa."
+  },
+  {
+    "id": 25,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "Qual autoridade encaminha a proposição de iniciativa popular ao TRE?",
+    "alternativas": {
+      "A": "O Primeiro Secretário.",
+      "B": "O Presidente da Assembleia.",
+      "C": "O autor da proposta.",
+      "D": "O Procurador Geral.",
+      "E": "O líder da Oposição."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 132, III estabelece que a proposição será encaminhada ao presidente da Assembleia, que a enviará ao Tribunal Regional Eleitoral."
+  },
+  {
+    "id": 26,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "Na iniciativa popular, o nome completo e dados do título eleitoral são exigidos de:",
+    "alternativas": {
+      "A": "Apenas do primeiro signatário.",
+      "B": "Dos organizadores da lista.",
+      "C": "De cada eleitor que assinar.",
+      "D": "De 1% dos assinantes por amostragem.",
+      "E": "Apenas se houver dúvida."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 132, I exige que a assinatura de CADA eleitor deverá ser acompanhada de nome completo e dados identificadores."
+  },
+  {
+    "id": 27,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "Uma reclamação popular contra autoridade pública pode ser examinada pela Corregedoria-Geral?",
+    "alternativas": {
+      "A": "Não, a Corregedoria só cuida de deputados.",
+      "B": "Sim, se for o caso.",
+      "C": "Apenas se a autoridade for deputado.",
+      "D": "Não, é competência exclusiva do Plenário.",
+      "E": "Sim, mas sem poder de decisão."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 133 prevê explicitamente que a petição será examinada pelas Comissões, pela Mesa Diretora ou, SE FOR O CASO, pela Corregedoria-Geral."
+  },
+  {
+    "id": 28,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "A numeração de um projeto de lei de iniciativa popular:",
+    "alternativas": {
+      "A": "É apartada, com a sigla PLIP.",
+      "B": "Inicia sempre com o número 1000.",
+      "C": "Integra a numeração geral das demais proposições.",
+      "D": "Não recebe número, apenas nome.",
+      "E": "Segue a numeração do TRE."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 132, IV afirma que integrará sua numeração geral."
+  },
+  {
+    "id": 29,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "Se uma entidade da sociedade civil quiser discutir um tema relevante na Assembleia, ela pode:",
+    "alternativas": {
+      "A": "Invadir o Plenário.",
+      "B": "Pedir a realização de uma audiência pública à Comissão pertinente.",
+      "C": "Exigir uma Comissão Geral.",
+      "D": "Convocar os deputados para ir à sua sede.",
+      "E": "Propor um decreto legislativo."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 134 permite a audiência pública a pedido de entidade interessada."
+  },
+  {
+    "id": 30,
+    "titulo": "Título IV - Participação da Sociedade Civil",
+    "enunciado": "Em uma audiência pública sobre a construção de uma obra polêmica, o presidente da comissão convida apenas os engenheiros favoráveis à obra. Essa conduta:",
+    "alternativas": {
+      "A": "Está correta, pois o presidente decide quem fala.",
+      "B": "Viola o Regimento, que exige a possibilidade de audiência das diversas correntes de opinião.",
+      "C": "É permitida se a obra for do governo.",
+      "D": "Depende de votação prévia.",
+      "E": "É válida se não houver opositores inscritos."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 134, §2º determina que, havendo defensores e opositores, a Comissão procederá de forma que possibilite a audiência das diversas correntes de opinião."
+  }
+]
