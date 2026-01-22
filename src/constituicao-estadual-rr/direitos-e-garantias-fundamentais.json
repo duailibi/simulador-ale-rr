@@ -1,0 +1,282 @@
+[
+  {
+    "id": 21,
+    "titulo": "Título II - Direitos e Garantias Fundamentais",
+    "enunciado": "De acordo com o Art. 4º, todos são iguais perante a Lei:",
+    "alternativas": {
+      "A": "Nos termos da Constituição Federal.",
+      "B": "Nos termos da legislação estadual.",
+      "C": "Nos termos das leis municipais.",
+      "D": "Nos termos dos tratados internacionais.",
+      "E": "Nos termos da Declaração Universal dos Direitos Humanos."
+    },
+    "resposta": "A",
+    "explicacao": "Art. 4º: 'Todos são iguais perante a Lei, nos termos da Constituição Federal'."
+  },
+  {
+    "id": 22,
+    "titulo": "Título II - Direitos e Garantias Fundamentais",
+    "enunciado": "Segundo o Art. 5º, são direitos sociais, EXCETO:",
+    "alternativas": {
+      "A": "Educação.",
+      "B": "Saúde.",
+      "C": "Trabalho.",
+      "D": "Propriedade.",
+      "E": "Lazer."
+    },
+    "resposta": "D",
+    "explicacao": "Art. 5º: 'São direitos sociais: a educação, a saúde, o trabalho, o lazer, a segurança, a previdência social, a proteção à maternidade e à infância, a assistência aos desamparados, na forma do disposto na Constituição Federal'. A propriedade é um direito individual, não social, nesse contexto."
+  },
+  {
+    "id": 23,
+    "titulo": "Título II - Direitos e Garantias Fundamentais",
+    "enunciado": "Conforme o Art. 5º, os direitos sociais são garantidos:",
+    "alternativas": {
+      "A": "Na forma do disposto na Constituição Federal.",
+      "B": "Na forma do disposto na legislação estadual.",
+      "C": "Na forma do disposto nos tratados internacionais.",
+      "D": "Na forma do disposto na Declaração dos Direitos do Homem.",
+      "E": "Na forma do disposto na legislação municipal."
+    },
+    "resposta": "A",
+    "explicacao": "Art. 5º: '... na forma do disposto na Constituição Federal'."
+  },
+  {
+    "id": 24,
+    "titulo": "Título II - Direitos e Garantias Fundamentais",
+    "enunciado": "Entre os direitos sociais elencados no Art. 5º, inclui-se:",
+    "alternativas": {
+      "A": "A liberdade de expressão.",
+      "B": "A inviolabilidade do domicílio.",
+      "C": "A segurança.",
+      "D": "O direito de propriedade.",
+      "E": "O direito de votar."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 5º: 'São direitos sociais: ... a segurança ...'."
+  },
+  {
+    "id": 25,
+    "titulo": "Título II - Direitos e Garantias Fundamentais",
+    "enunciado": "O Art. 5º assegura a proteção à maternidade e à infância como:",
+    "alternativas": {
+      "A": "Direito individual.",
+      "B": "Direito social.",
+      "C": "Direito político.",
+      "D": "Garantia processual.",
+      "E": "Direito coletivo."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 5º inclui 'a proteção à maternidade e à infância' na lista de direitos sociais."
+  },
+  {
+    "id": 26,
+    "titulo": "Título II - Direitos e Garantias Fundamentais",
+    "enunciado": "A assistência aos desamparados, conforme Art. 5º, é um direito:",
+    "alternativas": {
+      "A": "Individual.",
+      "B": "Social.",
+      "C": "Político.",
+      "D": "Difuso.",
+      "E": "Transindividual."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 5º inclui 'a assistência aos desamparados' na lista de direitos sociais."
+  },
+  {
+    "id": 27,
+    "titulo": "Título II - Direitos e Garantias Fundamentais",
+    "enunciado": "O Art. 4º da Constituição de Roraima estabelece a igualdade perante a Lei. Essa igualdade deve ser interpretada:",
+    "alternativas": {
+      "A": "Restritivamente.",
+      "B": "Amplamente.",
+      "C": "Nos termos da Constituição Federal.",
+      "D": "Nos termos da legislação estadual.",
+      "E": "Nos termos da jurisprudência."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 4º: 'Todos são iguais perante a Lei, nos termos da Constituição Federal'."
+  },
+  {
+    "id": 28,
+    "titulo": "Título II - Direitos e Garantias Fundamentais",
+    "enunciado": "De acordo com o Art. 5º, a previdência social é um direito:",
+    "alternativas": {
+      "A": "Individual.",
+      "B": "Social.",
+      "C": "Político.",
+      "D": "Coletivo.",
+      "E": "Transindividual."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 5º inclui 'a previdência social' na lista de direitos sociais."
+  },
+  {
+    "id": 29,
+    "titulo": "Título II - Direitos e Garantias Fundamentais",
+    "enunciado": "O Art. 5º não inclui explicitamente entre os direitos sociais:",
+    "alternativas": {
+      "A": "A educação.",
+      "B": "A saúde.",
+      "C": "A moradia.",
+      "D": "O trabalho.",
+      "E": "O lazer."
+    },
+    "resposta": "C",
+    "explicacao": "O Art. 5º elenca: educação, saúde, trabalho, lazer, segurança, previdência social, proteção à maternidade e à infância, assistência aos desamparados. A moradia, embora seja um direito social na Constituição Federal, não está expressamente listada no Art. 5º da Constituição Estadual."
+  },
+  {
+    "id": 30,
+    "titulo": "Título II - Direitos e Garantias Fundamentais",
+    "enunciado": "A proteção à infância, conforme Art. 5º, é um direito social que visa:",
+    "alternativas": {
+      "A": "Garantir o trabalho infantil.",
+      "B": "Proteger crianças e adolescentes.",
+      "C": "Garantir a punição de menores.",
+      "D": "Restringir direitos das crianças.",
+      "E": "Delegar a proteção exclusivamente à família."
+    },
+    "resposta": "B",
+    "explicacao": "A proteção à infância, como direito social, tem por objetivo proteger crianças e adolescentes, conforme princípios constitucionais."
+  },
+  {
+    "id": 31,
+    "titulo": "Título II - Direitos e Garantias Fundamentais",
+    "enunciado": "A igualdade perante a Lei, prevista no Art. 4º, é um princípio que:",
+    "alternativas": {
+      "A": "Permite discriminações arbitrárias.",
+      "B": "Proíbe discriminações injustificadas.",
+      "C": "Apenas se aplica a brasileiros natos.",
+      "D": "Não se aplica a estrangeiros.",
+      "E": "Depende de regulamentação municipal."
+    },
+    "resposta": "B",
+    "explicacao": "A igualdade perante a Lei é um princípio fundamental que proíbe discriminações arbitrárias e garante tratamento isonômico a todos."
+  },
+  {
+    "id": 32,
+    "titulo": "Título II - Direitos e Garantias Fundamentais",
+    "enunciado": "Conforme Art. 5º, o lazer é um direito:",
+    "alternativas": {
+      "A": "Social.",
+      "B": "Individual.",
+      "C": "Político.",
+      "D": "Coletivo.",
+      "E": "Difuso."
+    },
+    "resposta": "A",
+    "explicacao": "Art. 5º inclui 'o lazer' na lista de direitos sociais."
+  },
+  {
+    "id": 33,
+    "titulo": "Título II - Direitos e Garantias Fundamentais",
+    "enunciado": "A assistência aos desamparados, como direito social, deve ser prestada:",
+    "alternativas": {
+      "A": "Apenas por instituições privadas.",
+      "B": "Na forma da Constituição Federal.",
+      "C": "Exclusivamente pelo Estado de Roraima.",
+      "D": "Somente em situações de calamidade.",
+      "E": "Apenas para residentes no estado há mais de 5 anos."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 5º estabelece que os direitos sociais são garantidos 'na forma do disposto na Constituição Federal'."
+  },
+  {
+    "id": 34,
+    "titulo": "Título II - Direitos e Garantias Fundamentais",
+    "enunciado": "O Art. 5º da Constituição de Roraima trata especificamente de:",
+    "alternativas": {
+      "A": "Direitos e deveres individuais e coletivos.",
+      "B": "Direitos sociais.",
+      "C": "Direitos políticos.",
+      "D": "Direitos dos servidores públicos.",
+      "E": "Direitos dos consumidores."
+    },
+    "resposta": "B",
+    "explicacao": "O Art. 5º está sob o Capítulo II (Dos Direitos Sociais) do Título II."
+  },
+  {
+    "id": 35,
+    "titulo": "Título II - Direitos e Garantias Fundamentais",
+    "enunciado": "A segurança, como direito social previsto no Art. 5º, refere-se à:",
+    "alternativas": {
+      "A": "Segurança pública em geral.",
+      "B": "Segurança nacional.",
+      "C": "Segurança do trabalho.",
+      "D": "Segurança jurídica.",
+      "E": "Segurança social."
+    },
+    "resposta": "A",
+    "explicacao": "No contexto dos direitos sociais, a segurança abrange a segurança pública, proteção da pessoa e do patrimônio, dentro do conceito de bem-estar social."
+  },
+  {
+    "id": 36,
+    "titulo": "Título II - Direitos e Garantias Fundamentais",
+    "enunciado": "O Art. 4º estabelece que todos são iguais perante a Lei. Esse princípio se aplica:",
+    "alternativas": {
+      "A": "Apenas aos brasileiros.",
+      "B": "A todos, sem distinção.",
+      "C": "Apenas aos residentes no estado.",
+      "D": "Aos maiores de 18 anos.",
+      "E": "Aos que possuem capacidade civil."
+    },
+    "resposta": "B",
+    "explicacao": "A igualdade perante a Lei é um princípio universal que se aplica a todas as pessoas, sem distinção de qualquer natureza."
+  },
+  {
+    "id": 37,
+    "titulo": "Título II - Direitos e Garantias Fundamentais",
+    "enunciado": "A proteção à maternidade, como direito social, visa:",
+    "alternativas": {
+      "A": "Restringir o trabalho feminino.",
+      "B": "Garantir direitos às gestantes e mães.",
+      "C": "Controlar a natalidade.",
+      "D": "Punir a mãe solteira.",
+      "E": "Delegar à família toda a responsabilidade."
+    },
+    "resposta": "B",
+    "explicacao": "A proteção à maternidade assegura direitos e condições especiais às gestantes e mães, como licença-maternidade, assistência médica, etc."
+  },
+  {
+    "id": 38,
+    "titulo": "Título II - Direitos e Garantias Fundamentais",
+    "enunciado": "O Art. 5º, ao elencar direitos sociais, remete sua regulamentação e garantia à:",
+    "alternativas": {
+      "A": "Constituição Federal.",
+      "B": "Leis estaduais.",
+      "C": "Leis municipais.",
+      "D": "Tratados internacionais.",
+      "E": "Jurisprudência do STF."
+    },
+    "resposta": "A",
+    "explicacao": "Art. 5º: '... na forma do disposto na Constituição Federal'."
+  },
+  {
+    "id": 39,
+    "titulo": "Título II - Direitos e Garantias Fundamentais",
+    "enunciado": "A educação, como direito social previsto no Art. 5º, é:",
+    "alternativas": {
+      "A": "Um direito apenas dos adultos.",
+      "B": "Um direito de todos e dever do Estado.",
+      "C": "Um direito apenas dos brasileiros.",
+      "D": "Um direito não exigível judicialmente.",
+      "E": "Um direito restrito ao ensino fundamental."
+    },
+    "resposta": "B",
+    "explicacao": "A educação é um direito social de todos e dever do Estado, conforme princípios constitucionais."
+  },
+  {
+    "id": 40,
+    "titulo": "Título II - Direitos e Garantias Fundamentais",
+    "enunciado": "O Art. 4º, ao estabelecer a igualdade perante a Lei, fundamenta-se:",
+    "alternativas": {
+      "A": "Na soberania popular.",
+      "B": "Nos termos da Constituição Federal.",
+      "C": "Na autonomia estadual.",
+      "D": "Na separação dos Poderes.",
+      "E": "Na dignidade da pessoa humana."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 4º: '... nos termos da Constituição Federal'."
+  }
+]

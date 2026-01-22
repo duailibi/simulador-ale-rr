@@ -1,0 +1,282 @@
+[
+  {
+    "id": 61,
+    "titulo": "Título IV, Capítulo I - Poder Legislativo",
+    "enunciado": "Conforme o Art. 30, o Poder Legislativo é exercido pela:",
+    "alternativas": {
+      "A": "Câmara Municipal.",
+      "B": "Assembleia Legislativa.",
+      "C": "Câmara dos Deputados.",
+      "D": "Congresso Nacional.",
+      "E": "Tribunal de Contas."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 30: 'O Poder Legislativo é exercido pela Assembleia Legislativa, constituída de Deputados eleitos e investidos na forma da legislação federal (...)'."
+  },
+  {
+    "id": 62,
+    "titulo": "Título IV, Capítulo I - Poder Legislativo",
+    "enunciado": "De acordo com o Art. 30, §1º, o número de Deputados Estaduais corresponderá ao:",
+    "alternativas": {
+      "A": "Dobro da representação do Estado na Câmara dos Deputados.",
+      "B": "Triplo da representação do Estado na Câmara dos Deputados.",
+      "C": "Quádruplo da representação do Estado no Senado Federal.",
+      "D": "Mesmo número de Deputados Federais.",
+      "E": "Número fixo de 24 deputados."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 30, §1º: 'O número de Deputados Estaduais corresponderá ao triplo da representação do Estado na Câmara dos Deputados (...)'."
+  },
+  {
+    "id": 63,
+    "titulo": "Título IV, Capítulo I - Poder Legislativo",
+    "enunciado": "Conforme o Art. 30, §2º, a Assembleia Legislativa reunir-se-á anualmente na Capital do Estado de 15 de fevereiro a 30 de junho e de:",
+    "alternativas": {
+      "A": "1º de julho a 30 de novembro.",
+      "B": "1º de agosto a 22 de dezembro.",
+      "C": "1º de setembro a 15 de dezembro.",
+      "D": "1º de outubro a 20 de dezembro.",
+      "E": "1º de novembro a 31 de dezembro."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 30, §2º: 'A Assembleia Legislativa reunir-se-á, anualmente, na Capital do Estado, de 15 de fevereiro a 30 de junho e de 1º de agosto a 22 de dezembro.'"
+  },
+  {
+    "id": 64,
+    "titulo": "Título IV, Capítulo I - Poder Legislativo",
+    "enunciado": "Segundo o Art. 30, §8º, o subsídio dos Deputados Estaduais será fixado por lei de iniciativa da Assembleia Legislativa, na razão de, no máximo, que percentual do subsídio dos Deputados Federais?",
+    "alternativas": {
+      "A": "60%",
+      "B": "70%",
+      "C": "75%",
+      "D": "80%",
+      "E": "90%"
+    },
+    "resposta": "C",
+    "explicacao": "Art. 30, §8º: 'O subsídio dos Deputados Estaduais será fixado por lei de iniciativa da Assembleia Legislativa, na razão de, no máximo, 75% (setenta e cinco por cento) daquele estabelecido, em espécie, para os Deputados Federais (...)'."
+  },
+  {
+    "id": 65,
+    "titulo": "Título IV, Capítulo I - Poder Legislativo",
+    "enunciado": "Conforme o Art. 31, §2º, as Comissões Parlamentares de Inquérito serão criadas a requerimento de:",
+    "alternativas": {
+      "A": "1/10 dos membros da Assembleia.",
+      "B": "1/4 dos membros da Assembleia.",
+      "C": "1/3 dos membros da Assembleia.",
+      "D": "Maioria absoluta dos membros.",
+      "E": "Apenas do Presidente da Assembleia."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 31, §2º: '(...) serão criadas a requerimento de 1/3 (um terço) dos membros da Assembleia Legislativa (...)'."
+  },
+  {
+    "id": 66,
+    "titulo": "Título IV, Capítulo I - Poder Legislativo",
+    "enunciado": "De acordo com o Art. 32, é competência da Assembleia Legislativa, com sanção do Governador, dispor sobre todas as matérias de competência do Estado, EXCETO:",
+    "alternativas": {
+      "A": "Sistema tributário, arrecadação e distribuição de rendas.",
+      "B": "Criação e extinção de Secretarias de Estado.",
+      "C": "Prestação de garantias pelo Estado.",
+      "D": "Nomeação de Desembargadores.",
+      "E": "Criação, incorporação, fusão e desmembramento de Municípios."
+    },
+    "resposta": "D",
+    "explicacao": "Os incisos I a XI do Art. 32 listam as competências da Assembleia. A nomeação de Desembargadores é competência do Governador com aprovação da Assembleia, mas não está entre as matérias dispostas diretamente pela Assembleia com sanção do Governador conforme este artigo."
+  },
+  {
+    "id": 67,
+    "titulo": "Título IV, Capítulo I - Poder Legislativo",
+    "enunciado": "Conforme o Art. 33, é competência exclusiva da Assembleia Legislativa:",
+    "alternativas": {
+      "A": "Nomear Secretários de Estado.",
+      "B": "Exonerar servidores públicos.",
+      "C": "Julgar as contas do Tribunal de Contas do Estado.",
+      "D": "Expedir decretos regulamentares.",
+      "E": "Comandar a Polícia Militar."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 33, III: 'julgar as contas do Tribunal de Contas do Estado, do Tribunal de Justiça, do Ministério Público e da Defensoria Pública, após parecer prévio do tribunal de contas (...)'."
+  },
+  {
+    "id": 68,
+    "titulo": "Título IV, Capítulo I - Poder Legislativo",
+    "enunciado": "Segundo o Art. 33, VI, a Assembleia Legislativa deve autorizar, previamente, alienação e cessão de bens imóveis do Estado com área superior a:",
+    "alternativas": {
+      "A": "1.000m² se urbanos e 500ha se rurais.",
+      "B": "2.000m² se urbanos e 1.000ha se rurais.",
+      "C": "3.000m² se urbanos e 2.500ha se rurais.",
+      "D": "5.000m² se urbanos e 3.000ha se rurais.",
+      "E": "10.000m² se urbanos e 5.000ha se rurais."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 33, VI: 'autorizar, previamente, alienação e cessão, a título oneroso ou não, de bens imóveis do Estado com área superior a 3.000m2, se urbanos, e a 2.500ha, se rurais'."
+  },
+  {
+    "id": 69,
+    "titulo": "Título IV, Capítulo I - Poder Legislativo",
+    "enunciado": "Conforme o Art. 34, os Deputados são invioláveis, civil e penalmente, por quaisquer de suas:",
+    "alternativas": {
+      "A": "Opiniões, palavras e votos.",
+      "B": "Atos administrativos.",
+      "C": "Decisões judiciais.",
+      "D": "Contratos particulares.",
+      "E": "Relações familiares."
+    },
+    "resposta": "A",
+    "explicacao": "Art. 34: 'Os Deputados são invioláveis, civil e penalmente, por quaisquer de suas opiniões, palavras e votos.'"
+  },
+  {
+    "id": 70,
+    "titulo": "Título IV, Capítulo I - Poder Legislativo",
+    "enunciado": "De acordo com o Art. 34, §2º, desde a expedição do diploma, os membros da Assembleia Legislativa não poderão ser presos, salvo:",
+    "alternativas": {
+      "A": "Em flagrante de crime inafiançável.",
+      "B": "Por crime de responsabilidade.",
+      "C": "Por desacato à autoridade.",
+      "D": "Por sonegação fiscal.",
+      "E": "Por qualquer infração penal."
+    },
+    "resposta": "A",
+    "explicacao": "Art. 34, §2º: 'Desde a expedição do diploma, os membros da Assembleia Legislativa não poderão ser presos, salvo em flagrante de crime inafiançável (...)'."
+  },
+  {
+    "id": 71,
+    "titulo": "Título IV, Capítulo I - Poder Legislativo",
+    "enunciado": "Conforme o Art. 35, os Deputados não poderão, desde a expedição do diploma:",
+    "alternativas": {
+      "A": "Firmar contrato com pessoa jurídica de direito público, salvo com cláusulas uniformes.",
+      "B": "Exercer profissão liberal.",
+      "C": "Participar de sociedades comerciais.",
+      "D": "Receber herança.",
+      "E": "Comprar imóveis."
+    },
+    "resposta": "A",
+    "explicacao": "Art. 35, I, a: 'firmar ou manter contrato com pessoa jurídica de Direito público, autarquias, empresa pública, sociedade de economia mista ou empresa concessionária de serviços públicos, salvo quando o contrato obedecer a cláusulas uniformes'."
+  },
+  {
+    "id": 72,
+    "titulo": "Título IV, Capítulo I - Poder Legislativo",
+    "enunciado": "Segundo o Art. 36, perderá o mandato o Deputado cujo procedimento for declarado:",
+    "alternativas": {
+      "A": "Compatível com o decoro parlamentar.",
+      "B": "Incompatível com o decoro parlamentar.",
+      "C": "Adequado às normas regimentais.",
+      "D": "Em conformidade com a legislação.",
+      "E": "Aprovado pela maioria dos pares."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 36, II: 'cujo procedimento for declarado incompatível com o decoro parlamentar'."
+  },
+  {
+    "id": 73,
+    "titulo": "Título IV, Capítulo I - Poder Legislativo",
+    "enunciado": "Conforme o Art. 37, não perderá o mandato o Deputado licenciado pela Assembleia Legislativa por motivo de doença ou para tratar de interesse particular, desde que o afastamento não ultrapasse:",
+    "alternativas": {
+      "A": "60 dias por sessão legislativa.",
+      "B": "90 dias por sessão legislativa.",
+      "C": "120 dias por sessão legislativa.",
+      "D": "180 dias por sessão legislativa.",
+      "E": "240 dias por sessão legislativa."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 37, II: 'licenciado pela Assembleia Legislativa por motivo de doença ou para tratar, sem remuneração, de interesse particular, desde que, neste caso, o afastamento não ultrapasse 120 (cento e vinte) dias por sessão legislativa'."
+  },
+  {
+    "id": 74,
+    "titulo": "Título IV, Capítulo I - Poder Legislativo",
+    "enunciado": "De acordo com o Art. 39, a Constituição poderá ser emendada mediante proposta de, no mínimo, que fração dos membros da Assembleia Legislativa?",
+    "alternativas": {
+      "A": "1/5",
+      "B": "1/4",
+      "C": "1/3",
+      "D": "Maioria absoluta",
+      "E": "2/3"
+    },
+    "resposta": "C",
+    "explicacao": "Art. 39, I: 'de 1/3 (um terço), no mínimo, dos membros da Assembleia Legislativa'."
+  },
+  {
+    "id": 75,
+    "titulo": "Título IV, Capítulo I - Poder Legislativo",
+    "enunciado": "Conforme o Art. 39, §2º, a proposta de emenda à Constituição será considerada aprovada quando obtiver, em duas votações, o voto favorável de:",
+    "alternativas": {
+      "A": "Maioria simples dos presentes.",
+      "B": "Maioria absoluta dos membros.",
+      "C": "3/5 dos membros da Assembleia.",
+      "D": "2/3 dos membros da Assembleia.",
+      "E": "3/4 dos membros da Assembleia."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 39, §2º: 'A proposta será discutida e votada em dois turnos, considerando-se aprovada quando obtiver em ambas as votações, o voto favorável de 3/5 (três quintos) dos membros da Assembleia Legislativa.'"
+  },
+  {
+    "id": 76,
+    "titulo": "Título IV, Capítulo I - Poder Legislativo",
+    "enunciado": "Segundo o Art. 40, as Leis Complementares serão aprovadas pelo voto favorável da:",
+    "alternativas": {
+      "A": "Maioria simples dos presentes.",
+      "B": "Maioria absoluta dos membros, em turno único.",
+      "C": "3/5 dos membros, em dois turnos.",
+      "D": "2/3 dos membros, em turno único.",
+      "E": "Unanimidade dos membros."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 40: 'As Leis Complementares serão aprovadas pelo voto favorável da maioria absoluta dos membros da assembleia legislativa, em turno único (...)'."
+  },
+  {
+    "id": 77,
+    "titulo": "Título IV, Capítulo I - Poder Legislativo",
+    "enunciado": "Conforme o Art. 43, §5º, o veto do Governador será apreciado em sessão única, dentro de quantos dias a contar de seu recebimento?",
+    "alternativas": {
+      "A": "15 dias",
+      "B": "30 dias",
+      "C": "45 dias",
+      "D": "60 dias",
+      "E": "90 dias"
+    },
+    "resposta": "B",
+    "explicacao": "Art. 43, §5º: 'O veto será apreciado em sessão única, dentro de trinta dias, a contar de seu recebimento (...)'."
+  },
+  {
+    "id": 78,
+    "titulo": "Título IV, Capítulo I - Poder Legislativo",
+    "enunciado": "De acordo com o Art. 45, a Procuradoria Geral da Assembleia Legislativa representa judicial e extrajudicialmente a Assembleia Legislativa, bem como:",
+    "alternativas": {
+      "A": "O Governador do Estado.",
+      "B": "O Tribunal de Justiça.",
+      "C": "A Mesa Diretora, as Comissões e seus Membros.",
+      "D": "Os Secretários de Estado.",
+      "E": "O Ministério Público."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 45: '(...) bem como a Mesa Diretora, as Comissões e os seus Membros em razão do exercício de suas funções institucionais (...)'."
+  },
+  {
+    "id": 79,
+    "titulo": "Título IV, Capítulo I - Poder Legislativo",
+    "enunciado": "Conforme o Art. 46, o Tribunal de Contas é integrado por quantos Conselheiros?",
+    "alternativas": {
+      "A": "3",
+      "B": "5",
+      "C": "7",
+      "D": "9",
+      "E": "11"
+    },
+    "resposta": "C",
+    "explicacao": "Art. 46: 'O Tribunal de Contas, integrado por 7, (sete) Conselheiros, tem sede na Capital (...)'."
+  },
+  {
+    "id": 80,
+    "titulo": "Título IV, Capítulo I - Poder Legislativo",
+    "enunciado": "Segundo o Art. 46, §2º, os Conselheiros do Tribunal de Contas do Estado serão escolhidos:",
+    "alternativas": {
+      "A": "Apenas pelo Governador.",
+      "B": "Apenas pela Assembleia Legislativa.",
+      "C": "3 pelo Governador e 4 pela Assembleia.",
+      "D": "4 pelo Governador e 3 pela Assembleia.",
+      "E": "Todos por concurso público."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 46, §2º: 'I- 03 (três) pelo Governador do Estado, com aprovação da Assembleia Legislativa (...); II - 04 (quatro) escolhidos pela Assembleia Legislativa.'"
+  }
+]

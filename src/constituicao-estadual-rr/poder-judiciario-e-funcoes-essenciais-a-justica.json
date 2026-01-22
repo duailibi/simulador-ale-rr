@@ -1,0 +1,282 @@
+[
+  {
+    "id": 101,
+    "titulo": "Título IV, Capítulo III - Poder Judiciário e Funções Essenciais à Justiça",
+    "enunciado": "Conforme o Art. 68, são órgãos do Poder Judiciário, EXCETO:",
+    "alternativas": {
+      "A": "Tribunal de Justiça.",
+      "B": "Tribunais do Júri.",
+      "C": "Juízes de Direito e Juízes Substitutos.",
+      "D": "Ministério Público.",
+      "E": "Justiça Militar."
+    },
+    "resposta": "D",
+    "explicacao": "Art. 68 lista os órgãos do Poder Judiciário nos incisos I a VII. O Ministério Público é função essencial à justiça, mas não é órgão do Poder Judiciário."
+  },
+  {
+    "id": 102,
+    "titulo": "Título IV, Capítulo III - Poder Judiciário e Funções Essenciais à Justiça",
+    "enunciado": "De acordo com o Art. 69, ao Poder Judiciário é assegurada:",
+    "alternativas": {
+      "A": "Autonomia política e legislativa.",
+      "B": "Autonomia administrativa e financeira.",
+      "C": "Subordinação ao Poder Executivo.",
+      "D": "Dependência orçamentária do Legislativo.",
+      "E": "Controle direto pelo Tribunal de Contas."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 69: 'Ao Poder Judiciário é assegurada autonomia administrativa e financeira.'"
+  },
+  {
+    "id": 103,
+    "titulo": "Título IV, Capítulo III - Poder Judiciário e Funções Essenciais à Justiça",
+    "enunciado": "Conforme o Art. 70, §1º, é obrigatória a inclusão no orçamento das entidades de direito público de verba necessária ao pagamento de débitos oriundos de sentenças transitadas em julgado, constantes de precatórios judiciários apresentados até:",
+    "alternativas": {
+      "A": "1º de janeiro.",
+      "B": "1º de março.",
+      "C": "1º de maio.",
+      "D": "1º de julho.",
+      "E": "1º de outubro."
+    },
+    "resposta": "D",
+    "explicacao": "Art. 70, §1º: '(...) constantes de precatórios judiciários, apresentados até 1° de julho (...)'."
+  },
+  {
+    "id": 104,
+    "titulo": "Título IV, Capítulo III - Poder Judiciário e Funções Essenciais à Justiça",
+    "enunciado": "Segundo o Art. 72, os Juízes gozam das seguintes garantias, EXCETO:",
+    "alternativas": {
+      "A": "Vitaliciedade.",
+      "B": "Inamovibilidade.",
+      "C": "Irredutibilidade de vencimentos.",
+      "D": "Imunidade parlamentar.",
+      "E": "Todas são garantias dos Juízes."
+    },
+    "resposta": "D",
+    "explicacao": "Art. 72: 'Os Juízes gozam das seguintes garantias: I - vitaliciedade; II - inamovibilidade; III - irredutibilidade de vencimentos'. Imunidade parlamentar é garantia de deputados, não de juízes."
+  },
+  {
+    "id": 105,
+    "titulo": "Título IV, Capítulo III - Poder Judiciário e Funções Essenciais à Justiça",
+    "enunciado": "Conforme o Art. 73, é vedado aos Juízes, EXCETO:",
+    "alternativas": {
+      "A": "Exercer outro cargo ou função, salvo um de magistério.",
+      "B": "Receber custas ou participação em processos.",
+      "C": "Dedicar-se à atividade político-partidária.",
+      "D": "Publicar livros jurídicos.",
+      "E": "Todas são vedações."
+    },
+    "resposta": "D",
+    "explicacao": "Art. 73: 'Aos Juízes é vedado: I - exercer, ainda que em disponibilidade, outro cargo ou função, salvo um de magistério; II - receber, a qualquer título ou pretexto, custas ou participação em processos; III - dedicar-se à atividade político-partidária.' Publicar livros não é vedado."
+  },
+  {
+    "id": 106,
+    "titulo": "Título IV, Capítulo III - Poder Judiciário e Funções Essenciais à Justiça",
+    "enunciado": "De acordo com o Art. 75, o Tribunal de Justiça compõe-se de, no mínimo:",
+    "alternativas": {
+      "A": "5 Desembargadores.",
+      "B": "7 Desembargadores.",
+      "C": "9 Desembargadores.",
+      "D": "11 Desembargadores.",
+      "E": "13 Desembargadores."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 75: 'O Tribunal de Justiça, com sede na Capital e jurisdição em todo o território do Estado compõe-se de, no mínimo 7 (sete) Desembargadores (...)'."
+  },
+  {
+    "id": 107,
+    "titulo": "Título IV, Capítulo III - Poder Judiciário e Funções Essenciais à Justiça",
+    "enunciado": "Conforme o Art. 75, §1º, um quinto das vagas do Tribunal de Justiça será composto de membros do Ministério Público e de advogados com mais de:",
+    "alternativas": {
+      "A": "5 anos de carreira ou atividade.",
+      "B": "8 anos de carreira ou atividade.",
+      "C": "10 anos de carreira ou atividade.",
+      "D": "12 anos de carreira ou atividade.",
+      "E": "15 anos de carreira ou atividade."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 75, §1º: 'Um quinto das vagas do Tribunal de Justiça será composto de membros do Ministério Público, com mais de 10 (dez) anos de carreira, e de advogados de notório saber jurídico e de reputação ilibada, com mais de 10 (dez) anos de efetiva atividade profissional (...)'."
+  },
+  {
+    "id": 108,
+    "titulo": "Título IV, Capítulo III - Poder Judiciário e Funções Essenciais à Justiça",
+    "enunciado": "Segundo o Art. 77, compete ao Tribunal de Justiça do Estado, EXCETO:",
+    "alternativas": {
+      "A": "Eleger seus órgãos diretivos.",
+      "B": "Elaborar seu Regimento Interno.",
+      "C": "Organizar sua secretaria e serviços auxiliares.",
+      "D": "Nomear o Procurador-Geral de Justiça.",
+      "E": "Processar e julgar originariamente nos crimes comuns o Vice-Governador."
+    },
+    "resposta": "D",
+    "explicacao": "Os incisos I a X do Art. 77 listam as competências. A nomeação do Procurador-Geral de Justiça é competência do Governador (Art. 62, II)."
+  },
+  {
+    "id": 109,
+    "titulo": "Título IV, Capítulo III - Poder Judiciário e Funções Essenciais à Justiça",
+    "enunciado": "Conforme o Art. 78, somente pelo voto da maioria absoluta de seus membros poderá o Tribunal declarar a inconstitucionalidade de:",
+    "alternativas": {
+      "A": "Lei ou ato normativo estadual ou municipal.",
+      "B": "Lei federal.",
+      "C": "Constituição Federal.",
+      "D": "Tratados internacionais.",
+      "E": "Lei complementar federal."
+    },
+    "resposta": "A",
+    "explicacao": "Art. 78: 'Somente pelo voto da maioria absoluta de seus membros ou dos membros do respectivo órgão especial poderá o Tribunal declarar a inconstitucionalidade de Lei ou de ato normativo estadual ou municipal.'"
+  },
+  {
+    "id": 110,
+    "titulo": "Título IV, Capítulo III - Poder Judiciário e Funções Essenciais à Justiça",
+    "enunciado": "De acordo com o Art. 79, têm legitimidade para propor ação direta de inconstitucionalidade, EXCETO:",
+    "alternativas": {
+      "A": "Governador do Estado.",
+      "B": "Mesa da Assembleia Legislativa.",
+      "C": "Procurador-Geral de Justiça.",
+      "D": "Prefeitos e Mesas das Câmaras Municipais.",
+      "E": "Qualquer cidadão."
+    },
+    "resposta": "E",
+    "explicacao": "Art. 79 lista os legitimados nos incisos I a VIII. 'Qualquer cidadão' não está incluído; há previsão de iniciativa popular para emenda constitucional, mas não para ADI."
+  },
+  {
+    "id": 111,
+    "titulo": "Título IV, Capítulo III - Poder Judiciário e Funções Essenciais à Justiça",
+    "enunciado": "Conforme o Art. 80, em cada Comarca funcionará pelo menos um Tribunal do Júri, com competência para julgar os crimes dolosos contra:",
+    "alternativas": {
+      "A": "A vida.",
+      "B": "O patrimônio.",
+      "C": "A administração pública.",
+      "D": "A honra.",
+      "E": "A fé pública."
+    },
+    "resposta": "A",
+    "explicacao": "Art. 80: 'Em cada Comarca funcionará pelo menos um Tribunal do Júri, com competência para julgar os crimes dolosos contra a vida (...)'."
+  },
+  {
+    "id": 112,
+    "titulo": "Título IV, Capítulo III - Poder Judiciário e Funções Essenciais à Justiça",
+    "enunciado": "Segundo o Art. 87, o Ministério Público é instituição permanente e essencial à função jurisdicional do Estado, incumbindo-lhe a defesa, EXCETO:",
+    "alternativas": {
+      "A": "Da ordem jurídica.",
+      "B": "Do regime democrático.",
+      "C": "Dos interesses sociais individuais e indisponíveis.",
+      "D": "Dos interesses políticos partidários.",
+      "E": "Todas são incumbências."
+    },
+    "resposta": "D",
+    "explicacao": "Art. 87: 'O Ministério Público é instituição permanente e essencial à função jurisdicional do Estado, incumbindo-lhe a defesa da ordem jurídica, do regime democrático e dos interesses sociais individuais e indisponíveis.' Interesses políticos partidários não são incumbência do MP."
+  },
+  {
+    "id": 113,
+    "titulo": "Título IV, Capítulo III - Poder Judiciário e Funções Essenciais à Justiça",
+    "enunciado": "Conforme o Art. 88, ao Ministério Público é assegurada autonomia:",
+    "alternativas": {
+      "A": "Administrativa, financeira e funcional.",
+      "B": "Política, legislativa e judiciária.",
+      "C": "Tributária e orçamentária.",
+      "D": "Penal e processual.",
+      "E": "Executiva e normativa."
+    },
+    "resposta": "A",
+    "explicacao": "Art. 88: 'Ao Ministério Público é assegurada autonomia administrativa, financeira e funcional (...)'."
+  },
+  {
+    "id": 114,
+    "titulo": "Título IV, Capítulo III - Poder Judiciário e Funções Essenciais à Justiça",
+    "enunciado": "De acordo com o Art. 89, o Ministério Público tem por chefe o Procurador-Geral de Justiça, nomeado pelo Governador do Estado dentre integrantes da carreira, indicados em lista tríplice, para mandato de:",
+    "alternativas": {
+      "A": "1 ano.",
+      "B": "2 anos.",
+      "C": "3 anos.",
+      "D": "4 anos.",
+      "E": "5 anos."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 89: 'O Ministério Público tem por chefe o Procurador-Geral de Justiça, nomeado pelo Governador do Estado dentre integrantes da carreira, indicados em lista tríplice, mediante eleição, para mandato de 2 (dois) anos (...)'."
+  },
+  {
+    "id": 115,
+    "titulo": "Título IV, Capítulo III - Poder Judiciário e Funções Essenciais à Justiça",
+    "enunciado": "Conforme o Art. 90, o ingresso na carreira do Ministério Público se fará no cargo inicial de:",
+    "alternativas": {
+      "A": "Promotor de Justiça.",
+      "B": "Promotor de Justiça Substituto.",
+      "C": "Procurador de Justiça.",
+      "D": "Procurador-Geral de Justiça.",
+      "E": "Promotor-Geral."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 90: 'O Ministério Público será organizado em carreira, cujo ingresso se fará no cargo inicial de Promotor de Justiça Substituto, através de concurso público de provas e títulos (...)'."
+  },
+  {
+    "id": 116,
+    "titulo": "Título IV, Capítulo III - Poder Judiciário e Funções Essenciais à Justiça",
+    "enunciado": "Segundo o Art. 98, é vedado aos membros do Ministério Público, EXCETO:",
+    "alternativas": {
+      "A": "Receber honorários, percentagens ou custas processuais.",
+      "B": "Exercer a advocacia, ainda que em disponibilidade.",
+      "C": "Participar de sociedade comercial, na forma da lei.",
+      "D": "Exercer atividade político-partidária, salvo exceções previstas em lei.",
+      "E": "Publicar artigos científicos."
+    },
+    "resposta": "E",
+    "explicacao": "Art. 98 lista as vedações nos incisos I a V. Publicar artigos científicos não é vedado."
+  },
+  {
+    "id": 117,
+    "titulo": "Título IV, Capítulo III - Poder Judiciário e Funções Essenciais à Justiça",
+    "enunciado": "Conforme o Art. 101, a Procuradoria-Geral do Estado é a instituição que representa o Estado, judicial e extrajudicialmente, bem como:",
+    "alternativas": {
+      "A": "Os Secretários de Estado em razão de suas atividades.",
+      "B": "Os Deputados Estaduais.",
+      "C": "Os Juízes do Tribunal de Justiça.",
+      "D": "Os membros do Ministério Público.",
+      "E": "Os Defensores Públicos."
+    },
+    "resposta": "A",
+    "explicacao": "Art. 101: 'A Procuradoria-Geral do Estado é a instituição que representa o Estado, bem como os Secretários de Estado em razão de suas atividades, judicial e extrajudicialmente (...)'."
+  },
+  {
+    "id": 118,
+    "titulo": "Título IV, Capítulo III - Poder Judiciário e Funções Essenciais à Justiça",
+    "enunciado": "De acordo com o Art. 102, a Defensoria Pública é instituição permanente, essencial à função jurisdicional do Estado, incumbindo-lhe fundamentalmente:",
+    "alternativas": {
+      "A": "A orientação jurídica, a promoção dos direitos humanos e a defesa dos direitos dos necessitados.",
+      "B": "A acusação penal e a defesa da sociedade.",
+      "C": "A representação judicial do Estado.",
+      "D": "A consultoria jurídica do Poder Executivo.",
+      "E": "A fiscalização da aplicação da lei."
+    },
+    "resposta": "A",
+    "explicacao": "Art. 102: 'A Defensoria Pública é instituição permanente, essencial à função jurisdicional do Estado, incumbindo-lhe, como expressão e instrumento do regime democrático, fundamentalmente, a orientação jurídica, a promoção dos direitos humanos e a defesa, em todos os graus, judicial e extrajudicial, dos direitos individuais e coletivos, de forma integral e gratuita, aos necessitados (...)'."
+  },
+  {
+    "id": 119,
+    "titulo": "Título IV, Capítulo III - Poder Judiciário e Funções Essenciais à Justiça",
+    "enunciado": "Conforme o Art. 103, a Defensoria Pública é dirigida pelo Defensor Público-Geral, nomeado pelo Chefe do Poder Executivo Estadual dentre os integrantes da carreira, indicado em lista tríplice, para período de:",
+    "alternativas": {
+      "A": "01 ano.",
+      "B": "02 anos.",
+      "C": "03 anos.",
+      "D": "04 anos.",
+      "E": "05 anos."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 103: 'A Defensoria Pública é dirigida pelo Defensor Público- Geral, nomeado pelo Chefe do Poder Executivo Estadual dentre os integrantes da carreira, indicado em lista tríplice, mediante eleição dentre os seus membros, (...) para período de 02 (dois) anos (...)'."
+  },
+  {
+    "id": 120,
+    "titulo": "Título IV, Capítulo III - Poder Judiciário e Funções Essenciais à Justiça",
+    "enunciado": "Segundo o Art. 74, a Magistratura Estadual terá seu regime jurídico estabelecido no Estatuto da Magistratura, instituído por:",
+    "alternativas": {
+      "A": "Lei Complementar Federal.",
+      "B": "Lei Ordinária Estadual.",
+      "C": "Lei Complementar Estadual.",
+      "D": "Decreto do Governador.",
+      "E": "Regimento Interno do Tribunal de Justiça."
+    },
+    "resposta": "A",
+    "explicacao": "Art. 74: 'A Magistratura Estadual terá seu regime jurídico estabelecido no Estatuto da Magistratura, instituído por Lei Complementar Federal.'"
+  }
+]

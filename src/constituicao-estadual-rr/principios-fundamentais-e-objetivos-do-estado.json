@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "titulo": "Título I - Princípios Fundamentais e Objetivos do Estado",
+    "enunciado": "De acordo com o Art. 1º da Constituição de Roraima, o Estado constitui-se em:",
+    "alternativas": {
+      "A": "Unidade autônoma da República Federativa do Brasil.",
+      "B": "Unidade inseparável da República Federativa do Brasil.",
+      "C": "Unidade independente da República Federativa do Brasil.",
+      "D": "Unidade soberana da República Federativa do Brasil.",
+      "E": "Unidade federativa da República Federativa do Brasil."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme Art. 1º: 'O Estado de Roraima, Unidade inseparável da República Federativa do Brasil, formado pela união indissolúvel de seus Municípios, constitui-se em Estado Membro da Federação Brasileira (...)'."
+  },
+  {
+    "id": 2,
+    "titulo": "Título I - Princípios Fundamentais e Objetivos do Estado",
+    "enunciado": "Segundo o Art. 2º, os Poderes do Estado são:",
+    "alternativas": {
+      "A": "Subordinados entre si.",
+      "B": "Independentes e harmônicos entre si.",
+      "C": "Concentrados no Executivo.",
+      "D": "Delegáveis entre si.",
+      "E": "Independem da Constituição Federal."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 2º: 'São Poderes do Estado, independentes e harmônicos entre si, o Legislativo, o Executivo e o Judiciário'."
+  },
+  {
+    "id": 3,
+    "titulo": "Título I - Princípios Fundamentais e Objetivos do Estado",
+    "enunciado": "De acordo com o Art. 3º, constituem objetivos fundamentais do Estado de Roraima, EXCETO:",
+    "alternativas": {
+      "A": "Construir uma sociedade livre, justa e solidária.",
+      "B": "Garantir o desenvolvimento regional, objetivando o bem comum.",
+      "C": "Incentivar o intercâmbio socioeconômico, cultural, político e ambiental no âmbito dos Estados da Amazônia Legal.",
+      "D": "Promover o bem geral de todos os habitantes roraimenses, proporcionando os meios necessários à produção agropecuária, agroindustrial, agroflorestal e ao agronegócio.",
+      "E": "Estabelecer a supremacia do Poder Executivo sobre os demais."
+    },
+    "resposta": "E",
+    "explicacao": "Os objetivos estão previstos nos incisos I a VI do Art. 3º. A supremacia de um Poder não é objetivo, violando o princípio da independência e harmonia (Art. 2º)."
+  },
+  {
+    "id": 4,
+    "titulo": "Título I - Princípios Fundamentais e Objetivos do Estado",
+    "enunciado": "O Art. 3º-A estabelece princípios a serem observados nas atividades produtivas no território estadual. Qual NÃO é um desses princípios?",
+    "alternativas": {
+      "A": "Da dignidade da pessoa humana.",
+      "B": "Da função social da propriedade.",
+      "C": "Do meio ambiente ecologicamente equilibrado.",
+      "D": "Da razoabilidade e da proporcionalidade.",
+      "E": "Da supremacia do interesse público sobre o privado."
+    },
+    "resposta": "E",
+    "explicacao": "Os princípios estão listados nos incisos I a V do Art. 3º-A. A 'supremacia do interesse público' não consta expressamente, embora possa ser correlata a outros princípios."
+  },
+  {
+    "id": 5,
+    "titulo": "Título I - Princípios Fundamentais e Objetivos do Estado",
+    "enunciado": "Conforme o Art. 3º-B, são declaradas de utilidade pública e de interesse social as atividades de produção nas áreas de preservação permanente destinadas, especialmente, a:",
+    "alternativas": {
+      "A": "Agroindústria de larga escala.",
+      "B": "Mineradoras e madeireiras.",
+      "C": "Agricultura familiar, rizicultura e piscicultura.",
+      "D": "Pecuária extensiva.",
+      "E": "Cultivo de soja e milho."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 3º-B: '(...) especialmente a agricultura familiar, a rizicultura e a piscicultura (...)'."
+  },
+  {
+    "id": 6,
+    "titulo": "Título I - Princípios Fundamentais e Objetivos do Estado",
+    "enunciado": "O Art. 3º estabelece que um dos objetivos do Estado é construir uma base econômica capaz de gerar desenvolvimento, promovendo a produção e preservando:",
+    "alternativas": {
+      "A": "A soberania nacional.",
+      "B": "O equilíbrio ambiental.",
+      "C": "A supremacia do agronegócio.",
+      "D": "A autonomia dos municípios.",
+      "E": "A centralização de renda."
+    },
+    "resposta": "B",
+    "explicacao": "Conforme inciso V do Art. 3º: '(...) promovendo a produção e preservando o equilíbrio ambiental (...)'."
+  },
+  {
+    "id": 7,
+    "titulo": "Título I - Princípios Fundamentais e Objetivos do Estado",
+    "enunciado": "Segundo o Art. 3º, o Estado deve definir as microrregiões prioritárias para produção de alimentos de acordo com:",
+    "alternativas": {
+      "A": "As demandas do mercado internacional.",
+      "B": "As vocações naturais do Estado.",
+      "C": "Os interesses dos grandes produtores.",
+      "D": "As diretrizes exclusivas da União.",
+      "E": "A disponibilidade de mão de obra."
+    },
+    "resposta": "B",
+    "explicacao": "Inciso VI do Art. 3º: 'definir as microrregiões prioritárias para produção de alimentos e demais explorações, de acordo com as vocações naturais do Estado'."
+  },
+  {
+    "id": 8,
+    "titulo": "Título I - Princípios Fundamentais e Objetivos do Estado",
+    "enunciado": "O Art. 3º-A, inciso V, determina que nas atividades produtivas deve-se observar os princípios gerais da ordem econômica previstos no art. 170 da:",
+    "alternativas": {
+      "A": "Constituição Estadual de Roraima.",
+      "B": "Constituição Federal de 1988.",
+      "C": "Lei de Diretrizes Orçamentárias.",
+      "D": "Código Tributário Nacional.",
+      "E": "Lei de Responsabilidade Fiscal."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 3º-A, V: 'gerais da ordem econômica, previstos no art. 170 da Constituição Federal de 1988'."
+  },
+  {
+    "id": 9,
+    "titulo": "Título I - Princípios Fundamentais e Objetivos do Estado",
+    "enunciado": "De acordo com o Art. 2º, parágrafo único, é vedado a qualquer dos Poderes delegar atribuições, salvo:",
+    "alternativas": {
+      "A": "Em caso de emergência.",
+      "B": "Nas exceções previstas na Constituição Estadual.",
+      "C": "Com autorização do Governador.",
+      "D": "Por decisão do Tribunal de Justiça.",
+      "E": "Quando houver convênio com a União."
+    },
+    "resposta": "B",
+    "explicacao": "Parágrafo único do Art. 2º: 'Salvo exceções previstas nesta Constituição, é vedado a qualquer um dos Poderes delegar atribuições (...)'."
+  },
+  {
+    "id": 10,
+    "titulo": "Título I - Princípios Fundamentais e Objetivos do Estado",
+    "enunciado": "O Art. 1º estabelece que o Estado de Roraima é regido, nas suas relações nacionais, pelos princípios:",
+    "alternativas": {
+      "A": "Da sua soberania estadual e da supremacia dos direitos coletivos.",
+      "B": "Da sua autonomia estadual e da prevalência dos direitos humanos.",
+      "C": "Da sua independência estadual e da supremacia do interesse público.",
+      "D": "Da sua autossuficiência estadual e da primazia da lei.",
+      "E": "Da sua submissão à União e da proteção ambiental."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 1º: '(...) regido, nas suas relações nacionais, pelos princípios da sua autonomia estadual e da prevalência dos direitos humanos'."
+  },
+  {
+    "id": 11,
+    "titulo": "Título I - Princípios Fundamentais e Objetivos do Estado",
+    "enunciado": "Conforme o Art. 3º-B, as atividades de produção em áreas de preservação permanente são consideradas indispensáveis ao:",
+    "alternativas": {
+      "A": "Desenvolvimento industrial.",
+      "B": "Crescimento urbano.",
+      "C": "Desenvolvimento econômico-social.",
+      "D": "Incremento das exportações.",
+      "E": "Equilíbrio fiscal."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 3º-B: '(...) que se reputam indispensáveis ao desenvolvimento econômico-social (...)'."
+  },
+  {
+    "id": 12,
+    "titulo": "Título I - Princípios Fundamentais e Objetivos do Estado",
+    "enunciado": "O Art. 3º-A estabelece, entre outros, o princípio:",
+    "alternativas": {
+      "A": "Da supremacia do Poder Executivo.",
+      "B": "Da irretroatividade da lei.",
+      "C": "Da razoabilidade e da proporcionalidade.",
+      "D": "Da separação dos Poderes.",
+      "E": "Da legalidade estrita."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 3º-A, IV: 'da razoabilidade e da proporcionalidade'."
+  },
+  {
+    "id": 13,
+    "titulo": "Título I - Princípios Fundamentais e Objetivos do Estado",
+    "enunciado": "No Art. 3º, a promoção do bem geral de todos os habitantes roraimenses visa proporcionar meios necessários à produção, EXCETO:",
+    "alternativas": {
+      "A": "Agropecuária.",
+      "B": "Agroindustrial.",
+      "C": "Agroflorestal.",
+      "D": "Agronegócio.",
+      "E": "Mineração."
+    },
+    "resposta": "E",
+    "explicacao": "Inciso IV do Art. 3º menciona 'produção agropecuária, agroindustrial, agroflorestal e ao agronegócio'. Mineração não está incluída."
+  },
+  {
+    "id": 14,
+    "titulo": "Título I - Princípios Fundamentais e Objetivos do Estado",
+    "enunciado": "O Art. 2º, parágrafo único, também veda a quem for investido na função de um dos Poderes exercer a função de outro, exceto:",
+    "alternativas": {
+      "A": "Em caso de licença.",
+      "B": "Nas exceções previstas na Constituição.",
+      "C": "Com permissão da Assembleia Legislativa.",
+      "D": "Por delegação do Governador.",
+      "E": "Quando autorizado pelo Tribunal de Justiça."
+    },
+    "resposta": "B",
+    "explicacao": "Parágrafo único do Art. 2º: '(...) defeso a quem for investido na função de um deles exercer a de outro'."
+  },
+  {
+    "id": 15,
+    "titulo": "Título I - Princípios Fundamentais e Objetivos do Estado",
+    "enunciado": "O incentivo ao intercâmbio socioeconômico, cultural, político e ambiental, previsto no Art. 3º, deve ocorrer no âmbito dos Estados da:",
+    "alternativas": {
+      "A": "Amazônia Internacional.",
+      "B": "Amazônia Brasileira.",
+      "C": "Amazônia Legal.",
+      "D": "Região Norte.",
+      "E": "Bacia do Rio Amazonas."
+    },
+    "resposta": "C",
+    "explicacao": "Inciso III do Art. 3º: 'incentivar o intercâmbio socioeconômico, cultural, político e ambiental, no âmbito dos Estados da Amazônia Legal'."
+  },
+  {
+    "id": 16,
+    "titulo": "Título I - Princípios Fundamentais e Objetivos do Estado",
+    "enunciado": "O Art. 3º-B considera as peculiaridades regionais para declarar de utilidade pública e interesse social as atividades de produção em áreas de preservação permanente. Isso visa atender especialmente:",
+    "alternativas": {
+      "A": "Grandes corporações.",
+      "B": "Empresas estrangeiras.",
+      "C": "Atividades de larga escala.",
+      "D": "Agricultura familiar, rizicultura e piscicultura.",
+      "E": "Extrativismo mineral."
+    },
+    "resposta": "D",
+    "explicacao": "Art. 3º-B: '(...) especialmente a agricultura familiar, a rizicultura e a piscicultura (...)'."
+  },
+  {
+    "id": 17,
+    "titulo": "Título I - Princípios Fundamentais e Objetivos do Estado",
+    "enunciado": "O Art. 3º-A, inciso II, refere-se ao princípio:",
+    "alternativas": {
+      "A": "Da dignidade da pessoa humana.",
+      "B": "Da função social da propriedade.",
+      "C": "Do meio ambiente ecologicamente equilibrado.",
+      "D": "Da razoabilidade e proporcionalidade.",
+      "E": "Da ordem econômica."
+    },
+    "resposta": "B",
+    "explicacao": "Art. 3º-A, II: 'da função social da propriedade'."
+  },
+  {
+    "id": 18,
+    "titulo": "Título I - Princípios Fundamentais e Objetivos do Estado",
+    "enunciado": "Conforme o Art. 1º, o Estado de Roraima é formado pela união indissolúvel de seus:",
+    "alternativas": {
+      "A": "Estados.",
+      "B": "Territórios.",
+      "C": "Municípios.",
+      "D": "Regiões.",
+      "E": "Distritos."
+    },
+    "resposta": "C",
+    "explicacao": "Art. 1º: 'formado pela união indissolúvel de seus Municípios'."
+  },
+  {
+    "id": 19,
+    "titulo": "Título I - Princípios Fundamentais e Objetivos do Estado",
+    "enunciado": "O Art. 3º, inciso V, menciona a ocupação e exploração racional do solo e dos recursos naturais localizados em seu território, com vistas a:",
+    "alternativas": {
+      "A": "Maximizar os lucros do setor privado.",
+      "B": "Promover a produção e preservar o equilíbrio ambiental.",
+      "C": "Centralizar a administração dos recursos.",
+      "D": "Garantir a soberania sobre os recursos.",
+      "E": "Atrair investidores estrangeiros."
+    },
+    "resposta": "B",
+    "explicacao": "Inciso V do Art. 3º: 'construir uma base econômica capaz de gerar desenvolvimento, promovendo a produção e preservando o equilíbrio ambiental, com a ocupação e exploração racional do solo e dos recursos naturais (...)'."
+  },
+  {
+    "id": 20,
+    "titulo": "Título I - Princípios Fundamentais e Objetivos do Estado",
+    "enunciado": "O Art. 3º-A, inciso I, estabelece o princípio:",
+    "alternativas": {
+      "A": "Da legalidade.",
+      "B": "Da impessoalidade.",
+      "C": "Da moralidade.",
+      "D": "Da dignidade da pessoa humana.",
+      "E": "Da publicidade."
+    },
+    "resposta": "D",
+    "explicacao": "Art. 3º-A, I: 'da dignidade da pessoa humana'."
+  }
+]
