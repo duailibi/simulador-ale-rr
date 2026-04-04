@@ -1,0 +1,424 @@
+{
+  "questoes": [
+    {
+      "id": 1,
+      "assunto": "Princípios da LGPD",
+      "enunciado": "A LGPD (Lei 13.709/2018) estabelece que o tratamento de dados pessoais deve observar a boa-fé e os seguintes princípios, EXCETO:",
+      "alternativas": {
+        "A": "Finalidade",
+        "B": "Necessidade",
+        "C": "Livre acesso (aos dados pelos titulares)",
+        "D": "Comercialização irrestrita",
+        "E": "Transparência"
+      },
+      "resposta_correta": "D",
+      "explicacao": "A comercialização irrestrita de dados pessoais não é um princípio da LGPD. Os princípios expressos no art. 6º incluem finalidade, adequação, necessidade, livre acesso, qualidade, transparência, segurança, prevenção, não discriminação e prestação de contas."
+    },
+    {
+      "id": 2,
+      "assunto": "Dados pessoais sensíveis",
+      "enunciado": "Segundo a LGPD, o tratamento de dados pessoais sensíveis (como origem racial, convicção religiosa, saúde) só poderá ocorrer em hipóteses específicas. Qual das alternativas NÃO é autorizada como base legal para tratamento de dados sensíveis?",
+      "alternativas": {
+        "A": "Consentimento específico e destacado do titular",
+        "B": "Exercício regular de direitos em processo judicial",
+        "C": "Garantia da prevenção à fraude e proteção do crédito",
+        "D": "Estudos por órgão de pesquisa (garantia de anonimização)",
+        "E": "Proteção da vida ou da incolumidade física do titular"
+      },
+      "resposta_correta": "C",
+      "explicacao": "A proteção ao crédito (art. 7º, inciso V) é base legal para dados pessoais comuns, mas não para dados sensíveis. Dados sensíveis têm regime mais restrito (art. 11). As demais hipóteses estão previstas no art. 11, II."
+    },
+    {
+      "id": 3,
+      "assunto": "Autoridade Nacional de Proteção de Dados (ANPD)",
+      "enunciado": "A Autoridade Nacional de Proteção de Dados (ANPD) é órgão da administração pública federal responsável por zelar pela aplicação da LGPD. Entre suas competências NÃO se inclui:",
+      "alternativas": {
+        "A": "Aplicar sanções administrativas",
+        "B": "Editar regulamentos e procedimentos sobre proteção de dados",
+        "C": "Julgar recursos de decisões sobre direito de petição de titulares",
+        "D": "Determinar ao controlador a realização de relatório de impacto",
+        "E": "Elaborar súmulas com efeito vinculante para todos os órgãos públicos estaduais"
+      },
+      "resposta_correta": "E",
+      "explicacao": "A ANPD não possui poder para editar súmulas com efeito vinculante geral. Suas competências estão no art. 55-J da LGPD: fiscalizar, aplicar sanções, orientar, editar regulamentos, etc. Súmulas vinculantes são típicas do STF."
+    },
+    {
+      "id": 4,
+      "assunto": "Encarregado (DPO)",
+      "enunciado": "O encarregado pelo tratamento de dados pessoais (Data Protection Officer - DPO) tem como função, nos termos da LGPD:",
+      "alternativas": {
+        "A": "Responsabilizar-se pessoalmente por qualquer vazamento de dados",
+        "B": "Atuar como canal de comunicação entre o controlador, titulares e ANPD",
+        "C": "Substituir o controlador nas decisões sobre compartilhamento internacional",
+        "D": "Impor multas administrativas aos funcionários descuidados",
+        "E": "Impedir qualquer transferência internacional de dados"
+      },
+      "resposta_correta": "B",
+      "explicacao": "Art. 41 da LGPD: o encarregado é indicado pelo controlador e atua como canal de comunicação com os titulares e com a ANPD, além de receber reclamações e orientar os funcionários. Não responde pessoalmente por danos (a responsabilidade é do controlador/operador)."
+    },
+    {
+      "id": 5,
+      "assunto": "Bases legais para tratamento",
+      "enunciado": "O tratamento de dados pessoais realizado para o cumprimento de obrigação legal pelo controlador:",
+      "alternativas": {
+        "A": "Depende sempre de consentimento expresso",
+        "B": "Dispensa o consentimento do titular, desde que haja previsão legal",
+        "C": "É vedado pela LGPD",
+        "D": "Só pode ser feito mediante autorização judicial",
+        "E": "Exige contrato específico entre as partes"
+      },
+      "resposta_correta": "B",
+      "explicacao": "Art. 7º, II da LGPD: o tratamento pode ser realizado para cumprimento de obrigação legal ou regulatória pelo controlador, sendo uma base legal independente de consentimento."
+    },
+    {
+      "id": 6,
+      "assunto": "Direitos do titular (portabilidade)",
+      "enunciado": "O titular dos dados tem direito à confirmação da existência de tratamento, acesso aos dados, correção e portabilidade. A portabilidade de dados pessoais, segundo a LGPD:",
+      "alternativas": {
+        "A": "Deve ser realizada em formato estruturado, de uso comum e leitura automática",
+        "B": "É limitada apenas a dados sensíveis",
+        "C": "Pode ser recusada por qualquer motivo pelo controlador",
+        "D": "Depende obrigatoriamente de nova autorização judicial",
+        "E": "Só se aplica a empresas públicas"
+      },
+      "resposta_correta": "A",
+      "explicacao": "Art. 18, VI: portabilidade dos dados a outro fornecedor de serviço ou produto, mediante requisição, em formato estruturado, de uso comum e leitura automática, observados os segredos comercial e industrial."
+    },
+    {
+      "id": 7,
+      "assunto": "Definições (controlador)",
+      "enunciado": "A LGPD define que o agente de tratamento responsável pela coleta e tomada de decisões referentes ao tratamento é o:",
+      "alternativas": {
+        "A": "Operador",
+        "B": "Encarregado",
+        "C": "Controlador",
+        "D": "Auditor",
+        "E": "Titular"
+      },
+      "resposta_correta": "C",
+      "explicacao": "Art. 5º, VI: controlador é a pessoa natural ou jurídica a quem competem as decisões referentes ao tratamento de dados pessoais. Operador (inciso VII) realiza o tratamento em nome do controlador."
+    },
+    {
+      "id": 8,
+      "assunto": "Consentimento",
+      "enunciado": "Sobre o consentimento do titular, a LGPD exige que:",
+      "alternativas": {
+        "A": "Seja sempre por escrito e com firma reconhecida",
+        "B": "Seja fornecido de forma gratuita, mas pode ser revogado apenas judicialmente",
+        "C": "Deve ser inequívoco, livre e informado, podendo ser revogado a qualquer momento",
+        "D": "Não se aplica a crianças e adolescentes",
+        "E": "Basta cláusula geral em contrato de adesão"
+      },
+      "resposta_correta": "C",
+      "explicacao": "Art. 8º: o consentimento deve ser fornecido por escrito ou por outro meio que demonstre a manifestação livre, informada e inequívoca, podendo ser revogado a qualquer momento mediante manifestação expressa."
+    },
+    {
+      "id": 9,
+      "assunto": "Sanções administrativas",
+      "enunciado": "A ANPD pode aplicar sanções administrativas, como advertência, multa simples e multa diária. O valor máximo da multa por infração à LGPD é:",
+      "alternativas": {
+        "A": "R$ 50.000,00 por infração",
+        "B": "2% do faturamento do grupo econômico no Brasil no último exercício, limitado a R$ 50 milhões",
+        "C": "5% do faturamento mundial, sem limite",
+        "D": "R$ 10 milhões fixos",
+        "E": "10% do faturamento estadual"
+      },
+      "resposta_correta": "B",
+      "explicacao": "Art. 52, §2º: multa simples de até 2% do faturamento do grupo econômico no Brasil no último exercício, limitada a R$ 50.000.000,00 por infração."
+    },
+    {
+      "id": 10,
+      "assunto": "Transferência internacional de dados",
+      "enunciado": "A transferência internacional de dados pessoais somente é permitida pela LGPD quando:",
+      "alternativas": {
+        "A": "O país estrangeiro assegura grau de proteção adequado (avaliado pela ANPD)",
+        "B": "Houver consentimento específico do titular",
+        "C": "Necessária para cooperação jurídica internacional",
+        "D": "Todas as alternativas estão corretas (adequação, consentimento, cláusulas contratuais, etc.)",
+        "E": "Apenas mediante autorização do Poder Judiciário"
+      },
+      "resposta_correta": "D",
+      "explicacao": "Art. 33: a transferência internacional é permitida mediante nível de proteção adequado, cláusulas contratuais específicas, normas corporativas, consentimento específico, ou outras hipóteses do art. 33 (cooperação internacional, execução de políticas públicas, etc.). Todas as alternativas A, B e C são válidas."
+    },
+    {
+      "id": 11,
+      "assunto": "Dados de crianças e adolescentes",
+      "enunciado": "Sobre os dados pessoais de crianças e adolescentes, a LGPD determina que seu tratamento deve ser realizado:",
+      "alternativas": {
+        "A": "Com o consentimento específico e em destaque dado por pelo menos um dos pais ou responsável legal",
+        "B": "Somente mediante autorização judicial",
+        "C": "É vedado qualquer tipo de tratamento",
+        "D": "Pode ser feito sem consentimento, desde que para fins comerciais",
+        "E": "Apenas por escolas públicas"
+      },
+      "resposta_correta": "A",
+      "explicacao": "Art. 14: o tratamento de dados pessoais de crianças e adolescentes deve ser realizado em seu melhor interesse, com consentimento específico e destacado de um dos pais ou responsável legal."
+    },
+    {
+      "id": 12,
+      "assunto": "Relatório de Impacto (RIPD)",
+      "enunciado": "O relatório de impacto à proteção de dados pessoais (RIPD) é exigido quando:",
+      "alternativas": {
+        "A": "O tratamento envolver dados anonimizados",
+        "B": "O controlador utiliza dados de fontes públicas",
+        "C": "O tratamento representar riscos elevados à garantia dos titulares, a critério da ANPD",
+        "D": "Sempre, independentemente da situação",
+        "E": "Apenas para dados sensíveis de saúde"
+      },
+      "resposta_correta": "C",
+      "explicacao": "Art. 38: a ANPD pode determinar que o controlador elabore relatório de impacto para tratamento de dados, especialmente quando houver alto risco aos direitos dos titulares."
+    },
+    {
+      "id": 13,
+      "assunto": "Responsabilidade civil",
+      "enunciado": "De acordo com a LGPD, o agente de tratamento que causar danos materiais, morais ou individuais em razão de violação responde:",
+      "alternativas": {
+        "A": "Objetivamente, salvo se comprovar que não realizou o tratamento",
+        "B": "Subjetivamente, apenas com dolo",
+        "C": "Nunca responde solidariamente",
+        "D": "Exclusivamente na esfera administrativa",
+        "E": "Apenas o operador responde"
+      },
+      "resposta_correta": "A",
+      "explicacao": "Art. 42: o controlador e o operador respondem solidariamente pelos danos causados, com responsabilidade objetiva (independente de culpa), salvo nas exceções legais."
+    },
+    {
+      "id": 14,
+      "assunto": "Proteção do crédito",
+      "enunciado": "A hipótese de tratamento de dados para 'proteção do crédito' é uma base legal prevista no art. 7º. Neste caso:",
+      "alternativas": {
+        "A": "O titular perde o direito de acesso",
+        "B": "O consentimento é sempre obrigatório",
+        "C": "Pode ser utilizado inclusive para dados sensíveis",
+        "D": "Não depende de consentimento, mas deve haver comunicação prévia",
+        "E": "É vedado pela LGPD"
+      },
+      "resposta_correta": "D",
+      "explicacao": "Art. 7º, inciso V: proteção do crédito, incluindo o disposto no CDC. Não depende de consentimento, mas o controlador deve observar os direitos do titular, como acesso e transparência."
+    },
+    {
+      "id": 15,
+      "assunto": "Segurança e comunicação de incidentes",
+      "enunciado": "Qual das seguintes condutas configura violação à LGPD referente à segurança de dados?",
+      "alternativas": {
+        "A": "Utilizar criptografia nos dados armazenados",
+        "B": "Adotar medidas de segurança técnicas e administrativas para proteger dados pessoais",
+        "C": "Manter registro de operações de tratamento de dados",
+        "D": "Deixar de comunicar a ANPD e o titular em caso de incidente de segurança com risco relevante",
+        "E": "Nomear encarregado (DPO)"
+      },
+      "resposta_correta": "D",
+      "explicacao": "Art. 48: o controlador deve comunicar à ANPD e ao titular a ocorrência de incidente de segurança que possa acarretar risco ou dano relevante. A omissão constitui infração."
+    },
+    {
+      "id": 16,
+      "assunto": "Exceções de aplicação da LGPD",
+      "enunciado": "A LGPD se aplica a operações de tratamento realizadas por pessoa natural para fins exclusivamente particulares e não econômicos?",
+      "alternativas": {
+        "A": "Sim, integralmente",
+        "B": "Sim, apenas para dados sensíveis",
+        "C": "Não, pois é exceção prevista no art. 4º, inciso I",
+        "D": "Sim, mas só para microempresas",
+        "E": "Depende de decisão da ANPD"
+      },
+      "resposta_correta": "C",
+      "explicacao": "Art. 4º, I: a LGPD não se aplica ao tratamento de dados pessoais realizado por pessoa natural para fins exclusivamente particulares e não econômicos."
+    },
+    {
+      "id": 17,
+      "assunto": "Direito de oposição",
+      "enunciado": "O direito do titular à oposição ao tratamento de dados ocorre quando:",
+      "alternativas": {
+        "A": "O tratamento viola qualquer disposição legal",
+        "B": "O tratamento é baseado no consentimento e este foi revogado",
+        "C": "O tratamento é para fins de marketing, caso em que o titular pode se opor a qualquer momento",
+        "D": "Todas as anteriores",
+        "E": "Apenas quando houver determinação judicial"
+      },
+      "resposta_correta": "C",
+      "explicacao": "Art. 18, §2º: o titular pode se opor ao tratamento realizado com base no consentimento, bem como nas hipóteses de legítimo interesse, especialmente para marketing direto. A oposição deve ser acatada pelo controlador."
+    },
+    {
+      "id": 18,
+      "assunto": "Eliminação de dados",
+      "enunciado": "Segundo a LGPD, a eliminação dos dados pessoais tratados com base no consentimento é direito do titular, devendo ocorrer:",
+      "alternativas": {
+        "A": "Após 1 ano da revogação",
+        "B": "Imediatamente mediante requisição, exceto nas hipóteses de conservação previstas em lei",
+        "C": "Apenas com autorização judicial",
+        "D": "Após decisão do encarregado",
+        "E": "Somente se houver pedido formal por escrito com firma"
+      },
+      "resposta_correta": "B",
+      "explicacao": "Art. 18, IV: o titular tem direito à eliminação dos dados pessoais tratados com o consentimento, exceto nas hipóteses de conservação previstas no art. 16 (cumprimento de obrigação legal, etc.)."
+    },
+    {
+      "id": 19,
+      "assunto": "Definição de dado sensível",
+      "enunciado": "A definição de 'dado pessoal sensível' inclui informação sobre:",
+      "alternativas": {
+        "A": "Nome e CPF",
+        "B": "Endereço de e-mail corporativo",
+        "C": "Convicção religiosa, filiação sindical e dados genéticos",
+        "D": "Preferências de consumo",
+        "E": "Número de telefone comercial"
+      },
+      "resposta_correta": "C",
+      "explicacao": "Art. 5º, II: dado pessoal sensível é aquele sobre origem racial ou étnica, convicção religiosa, opinião política, filiação sindical, dados genéticos, biométricos, relativos à saúde ou vida sexual."
+    },
+    {
+      "id": 20,
+      "assunto": "Princípio da necessidade",
+      "enunciado": "A respeito dos princípios da LGPD, a 'necessidade' significa que:",
+      "alternativas": {
+        "A": "O tratamento deve ser limitado ao mínimo necessário para atingir as finalidades",
+        "B": "Os dados devem ser coletados independentemente da finalidade",
+        "C": "O controlador pode coletar tudo o que desejar",
+        "D": "É vedada a anonimização",
+        "E": "O consentimento é irrelevante"
+      },
+      "resposta_correta": "A",
+      "explicacao": "Art. 6º, III: necessidade – o tratamento deve ser limitado ao mínimo necessário para a realização de suas finalidades, com abrangência dos dados pertinentes e proporcionais."
+    },
+    {
+      "id": 21,
+      "assunto": "Processo administrativo na ANPD",
+      "enunciado": "A LGPD estabelece que o prazo para a ANPD processar e julgar infrações de natureza leve é de, no máximo:",
+      "alternativas": {
+        "A": "30 dias",
+        "B": "6 meses",
+        "C": "1 ano",
+        "D": "2 anos",
+        "E": "Não há prazo"
+      },
+      "resposta_correta": "D",
+      "explicacao": "Art. 52, §7º: o processo administrativo para aplicação de sanção deverá observar o prazo máximo de 2 anos a contar da notificação do agente para a decisão final."
+    },
+    {
+      "id": 22,
+      "assunto": "Compartilhamento com setor público",
+      "enunciado": "No compartilhamento de dados com o setor público, a LGPD prevê que:",
+      "alternativas": {
+        "A": "É sempre vedado",
+        "B": "Deve obedecer ao princípio da finalidade e ser comunicado ao titular sempre",
+        "C": "O compartilhamento é livre, independente de fundamento",
+        "D": "Depende exclusivamente de autorização judicial",
+        "E": "Só pode ocorrer mediante licitação"
+      },
+      "resposta_correta": "B",
+      "explicacao": "Arts. 23 e 26: o compartilhamento com entes públicos deve observar finalidades específicas e previsão legal, além de garantir transparência sempre que possível."
+    },
+    {
+      "id": 23,
+      "assunto": "Definições (operador)",
+      "enunciado": "A figura do 'operador' de dados na LGPD é aquele que:",
+      "alternativas": {
+        "A": "Define as finalidades do tratamento",
+        "B": "Realiza o tratamento de dados em nome do controlador",
+        "C": "Fiscaliza o cumprimento da lei",
+        "D": "É sempre pessoa jurídica estrangeira",
+        "E": "Tem responsabilidade exclusiva perante o titular"
+      },
+      "resposta_correta": "B",
+      "explicacao": "Art. 5º, VII: operador é a pessoa natural ou jurídica que realiza o tratamento de dados em nome do controlador."
+    },
+    {
+      "id": 24,
+      "assunto": "Anonimização",
+      "enunciado": "A anonimização dos dados, segundo a LGPD, é definida como:",
+      "alternativas": {
+        "A": "Utilização de meios técnicos razoáveis para tornar o dado não associável a uma pessoa específica",
+        "B": "Transformar dados em linguagem cifrada",
+        "C": "Eliminar qualquer possibilidade de reversão",
+        "D": "Substituir nomes por códigos",
+        "E": "Tornar público todos os dados"
+      },
+      "resposta_correta": "A",
+      "explicacao": "Art. 5º, XI: anonimização é a utilização de meios técnicos razoáveis e disponíveis no momento do tratamento, por meio dos quais um dado perde a possibilidade de associação, direta ou indireta, a um indivíduo."
+    },
+    {
+      "id": 25,
+      "assunto": "Portabilidade e segredo industrial",
+      "enunciado": "Caso o titular solicite a portabilidade de seus dados, o controlador deve:",
+      "alternativas": {
+        "A": "Fornecer em até 15 dias",
+        "B": "Recusar se houver segredo de negócio",
+        "C": "Fornecer os dados mediante requisição, mesmo que indiretamente possa revelar segredo industrial, desde que não comprometa a proteção",
+        "D": "Ignorar o pedido se for empresa de pequeno porte",
+        "E": "Cobrar taxa elevada"
+      },
+      "resposta_correta": "C",
+      "explicacao": "Art. 18, §7º: a portabilidade pode implicar segredos comerciais, devendo o controlador fornecer os dados, resguardados os segredos, de forma transparente e não onerosa."
+    },
+    {
+      "id": 26,
+      "assunto": "Multa diária (astreintes)",
+      "enunciado": "A ANPD pode aplicar sanção de advertência e multa diária. A multa diária tem limite máximo de:",
+      "alternativas": {
+        "A": "R$ 1.000,00 por dia",
+        "B": "R$ 50.000,00 por dia",
+        "C": "R$ 2.000.000,00 no total",
+        "D": "1% do faturamento",
+        "E": "Não há previsão de multa diária"
+      },
+      "resposta_correta": "B",
+      "explicacao": "Art. 52, §6º: a multa diária (astreintes) observará o limite total de R$ 50.000.000,00, mas o valor por dia é fixado pela ANPD em cada caso."
+    },
+    {
+      "id": 27,
+      "assunto": "Petição à ANPD",
+      "enunciado": "O direito de petição do titular perante a ANPD pode ser exercido para:",
+      "alternativas": {
+        "A": "Denunciar tratamento irregular",
+        "B": "Solicitar medidas preventivas",
+        "C": "Reclamar contra controlador",
+        "D": "Todas as alternativas",
+        "E": "Apenas para pedido de indenização"
+      },
+      "resposta_correta": "D",
+      "explicacao": "Art. 18, §1º: o titular pode formular petição à ANPD contra controlador ou operador, inclusive para solicitar medidas corretivas, reclamações e fiscalização."
+    },
+    {
+      "id": 28,
+      "assunto": "Registro de operações de tratamento",
+      "enunciado": "A LGPD estabelece que os controladores devem manter registro das operações de tratamento, especialmente quando baseado em legítimo interesse. Esse registro deve ser:",
+      "alternativas": {
+        "A": "Mantido em sigilo absoluto",
+        "B": "Disponibilizado à ANPD mediante solicitação",
+        "C": "Publicado na internet",
+        "D": "Exigido apenas para dados sensíveis",
+        "E": "Opcional"
+      },
+      "resposta_correta": "B",
+      "explicacao": "Art. 37: o controlador deve manter registro das operações de tratamento, que ficará disponível à ANPD e aos titulares mediante procedimento adequado."
+    },
+    {
+      "id": 29,
+      "assunto": "Conservação de dados",
+      "enunciado": "Sobre o término do tratamento de dados pessoais, a LGPD exige a eliminação ou anonimização quando os dados não forem mais necessários. Exceção legítima ocorre quando:",
+      "alternativas": {
+        "A": "O controlador quiser manter para uso próprio",
+        "B": "Houver necessidade de conservação para cumprimento de obrigação legal",
+        "C": "O titular se opuser",
+        "D": "O operador discordar",
+        "E": "A ANPD autorizar o descarte"
+      },
+      "resposta_correta": "B",
+      "explicacao": "Art. 16: os dados poderão ser conservados para cumprimento de obrigação legal ou regulatória, estudo por órgão de pesquisa, transferência a terceiro (com consentimento) e uso exclusivo do controlador desde que anonimizado."
+    },
+    {
+      "id": 30,
+      "assunto": "Segurança pública e defesa nacional",
+      "enunciado": "A LGPD determina que o tratamento de dados pessoais para fins de segurança pública e defesa nacional:",
+      "alternativas": {
+        "A": "Segue integralmente todas as regras da lei",
+        "B": "É regulado por legislação específica e pode ter procedimentos simplificados",
+        "C": "É vedado",
+        "D": "Depende de autorização judicial individual",
+        "E": "Não se aplica a órgãos de inteligência"
+      },
+      "resposta_correta": "B",
+      "explicacao": "Art. 4º, §1º: o tratamento para fins exclusivos de segurança pública, defesa nacional, segurança do Estado e atividades de investigação rege-se por legislação específica, que deve observar os princípios gerais da LGPD."
+    }
+  ]
+}
